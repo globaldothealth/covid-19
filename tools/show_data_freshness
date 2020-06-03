@@ -1,0 +1,41 @@
+#!/usr/bin/python3
+
+import json
+import os
+import sys
+
+sys.path.append("scripts")
+import data_util
+
+SELF_DIR = os.path.dirname(os.path.realpath(__file__))
+
+COUNTRIES_DIR = os.path.join(SELF_DIR, "..", "c")
+
+COUNTRY_FILES = [f for f in os.listdir(COUNTRIES_DIR) if f.endswith(".json")]
+
+if len(COUNTRY_FILES) == 0:
+    print("I haven't found any data in " + COUNTRIES_DIR + ", aborting.")
+    sys.exit(1)
+
+LATEST_DATE_TO_COUNTRY_LAST_UPDATED_THEN = {}
+
+for country_file in COUNTRY_FILES:
+    code = country_file.replace(".json", "")
+    with open(os.path.join(COUNTRIES_DIR, country_file)) as f:
+        data = json.loads(f.read())
+        f.close()
+    latest_date = ""
+    for date in data:
+        if date > latest_date:
+            latest_date = date
+    if latest_date not in LATEST_DATE_TO_COUNTRY_LAST_UPDATED_THEN:
+        LATEST_DATE_TO_COUNTRY_LAST_UPDATED_THEN[latest_date] = [code]
+    else:
+        LATEST_DATE_TO_COUNTRY_LAST_UPDATED_THEN[latest_date].append(code)
+
+COUNTRIES = data_util.get_all_countries()
+for date in sorted(LATEST_DATE_TO_COUNTRY_LAST_UPDATED_THEN.keys(),
+                   reverse=True):
+    print(date + ": " + ", ".join(
+        [COUNTRIES[c] for c in \
+         LATEST_DATE_TO_COUNTRY_LAST_UPDATED_THEN[date]]))
