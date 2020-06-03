@@ -49,7 +49,6 @@ def country_code_from_name(name):
         return name
     if name.lower() in COUNTRIES_NAME_TO_ISO:
         return COUNTRIES_NAME_TO_ISO[name.lower()]
-    print("WARNING: I don't know about country '" + name + "'")
 
 
 def build_case_count_table_from_line_list(in_data):

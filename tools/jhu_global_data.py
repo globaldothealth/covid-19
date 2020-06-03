@@ -8,6 +8,34 @@ import json
 import pandas as pd
 import requests
 
+from tools import data_util
+
+def code_for_nonstandard_country_name(name):
+    if "Brunei" in name:
+        return "BN"
+    if "Burma" in name:
+        return "MM"
+    if "Congo" in name:
+        if "Brazzaville" in name:
+            return "CG"
+        if "Kinshasa" in name:
+            return "CD"
+    if "Czechia" in name:
+        return "CZ"
+    if "Laos" in name:
+        return "LA"
+    if "Syria" in name:
+        return "SY"
+    if "Taiwan" in name:
+        return "TW"
+    if "Korea" in name and "South" in name:
+        return "KR"
+    if "United States" in name and "America" in name:
+        return "US"
+    if "West Bank" in name and "Gaza" in name:
+        return "PS"
+    return None
+
 
 # Returns whether the operation was successful.
 def main(outfile):
@@ -49,10 +77,17 @@ def main(outfile):
         lambda x: 'United States of America' if x == 'US' else x)
     features = []
     for i, row in counts.iterrows():
+        name = row['Country_Region']
+        code = data_util.country_code_from_name(name)
+        if not code:
+            code = code_for_nonstandard_country_name(name)
+        if not code:
+            print("I couldn't find country '" + name + "', please fix me.")
+            sys.exit(1)
         entry = {
             'attributes': {
                 'cum_conf': row['Confirmed'],
-                'ADM0_NAME': row['Country_Region'],
+                'code': code,
             },
             'centroid': {
                 "x" : row['Long_'],
