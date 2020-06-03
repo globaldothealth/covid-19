@@ -1,0 +1,24 @@
+#!/usr/bin/python3
+
+import glob
+import os
+
+from tools import generate_full_data
+
+SELF_DIR = os.path.dirname(os.path.realpath(__file__))
+
+def clean():
+    for daily in glob.glob("d/*.json"):
+        os.remove(daily)
+    for country in glob.glob("c/*.json"):
+        os.remove(country)
+
+def update():
+    generate_full_data.generate_data(
+        os.path.join(SELF_DIR, "d"),
+        os.path.join(SELF_DIR, "c"),
+        overwrite=True, quiet=False)
+
+if __name__ == "__main__":
+    clean()
+    update()

@@ -11,7 +11,7 @@ import sys
 from datetime import datetime, timedelta
 from shutil import copyfile
 
-import data_util
+from tools import data_util
 
 LAT_LNG_DECIMAL_PLACES = 4
 

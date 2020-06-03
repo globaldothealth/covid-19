@@ -16,9 +16,9 @@ import pandas as pd
 pd.options.mode.chained_assignment = None
 import requests
 
-import data_util
-import functions
-import split
+from tools import data_util
+from tools import functions
+from tools import split
 
 JHU_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv"
 
@@ -121,7 +121,7 @@ def prepare_latest_data(countries_out_dir, overwrite=True, quiet=False):
     if not quiet:
         print("Extracting location info...")
     functions.compile_location_info(df.to_dict("records"),
-                                    "app/location_info_world.data",
+                                    "location_info_world.data",
                                     quiet=quiet)
     df = df.rename(columns={"date_confirmation": "date"})
     df = df.drop(["city", "province", "latitude", "longitude"], axis=1)
@@ -165,7 +165,7 @@ def prepare_jhu_data(outfile, read_from_file, quiet=False):
     generate_geo_ids(df, "Lat", "Long_", quiet=quiet)
 
     functions.compile_location_info(df.to_dict("records"),
-        "app/location_info_us.data",
+        "location_info_us.data",
         keys=["Country_Region", "Province_State", "Admin2"],
         quiet=quiet)
 
@@ -223,11 +223,11 @@ def generate_data(dailies_out_dir, countries_out_dir, jhu=False, input_jhu="",
                                   quiet=quiet)
 
     # Concatenate location info for the US and elsewhere
-    os.system("rm -f app/location_info.data")
-    os.system("cat app/location_info_world.data app/location_info_us.data > "
-              "app/location_info.data")
-    os.remove("app/location_info_world.data")
-    os.remove("app/location_info_us.data")
+    os.system("rm -f location_info.data")
+    os.system("cat location_info_world.data location_info_us.data > "
+              "location_info.data")
+    os.remove("location_info_world.data")
+    os.remove("location_info_us.data")
 
 
 if __name__ == "__main__":

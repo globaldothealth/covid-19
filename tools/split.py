@@ -4,7 +4,7 @@ import json
 import os
 import multiprocessing
 
-import data_util
+from tools import data_util
 
 def normalize_date(date):
     """Returns a normalized string representation of a date string."""

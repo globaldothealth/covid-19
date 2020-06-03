@@ -3,12 +3,11 @@ import os
 import pandas
 import sys
 
-sys.path.append("scripts")
-import generate_full_data
-import jhu_global_data
+from tools import generate_full_data
+from tools import jhu_global_data
 
 # The file that contains mappings from country names to ISO codes.
-COUNTRY_DATA_FILE = "app/countries.data"
+COUNTRY_DATA_FILE = "../common/countries.data"
 
 # The directories (inside app/) where JSON files for country-specific and
 # day-specific data are expected to reside.
