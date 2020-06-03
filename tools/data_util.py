@@ -73,7 +73,7 @@ def build_case_count_table_from_line_list(in_data):
 
 # Returns whether we were able to get the necessary data
 def retrieve_generable_data(out_dir, should_overwrite=False, quiet=False):
-    import scrape_total_count
+    from tools import scrape_total_count
 
     success = True
     out_path = os.path.join(out_dir, "latestCounts.json")
