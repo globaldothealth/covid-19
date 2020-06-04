@@ -509,8 +509,6 @@
 51.9239|4.3371:Rotterdam,South Holland,NL
 33.2506|44.4828:Rusafa, Baghdad,,IQ
 42.5439|1.5752:,,AD
-28.6147|77.2091:,Delhi,IN
-17.802|79.06:,Telangana,IN
 50.6583|14.0417:Usti nad Labem,Usti nad Labem,CZ
 64.1618|-21.6642:,Capital Region,IS
 48.3|25.9333:Chernivtsi,,UA
@@ -607,6 +605,7 @@
 53.5466|10.0207:,Hamburg,DE
 26.9|75.8:Jaipur,Rajasthan,IN
 27.18|78.02:Agra,Uttar Pradesh,IN
+17.802|79.06:,Telangana,IN
 52.523|13.577:Marzahn-Hellersdorf,Berlin,DE
 52.445|13.385:Templehof-Schoeneberg,Berlin,DE
 52.442|13.453:Neukoelln,Berlin,DE
@@ -1065,7 +1064,6 @@
 50.6471|4.6586:,,BE
 31.8256|117.2001:Shushan District, Hefei City,Anhui,CN
 31.8954|117.3384:Yaohai District, Hefei City,Anhui,CN
-10.4567|76.404:,Kerala,IN
 30.0311|91.1095:Lhasa City,Tibet,CN
 34.5102|136.3764:,Mie,JP
 35.255|135.4426:,Kyoto Prefecture,JP
@@ -1341,7 +1339,6 @@
 43.6617|126.6818:Fengman District, Jilin City,Jilin,CN
 27.7267|108.7685:Jiangkou County, Tongren City,Guizhou,CN
 35.0999|112.3926:Jiyuan City,Henan,CN
-12.3|75.09:Kanjangad District Hospital,Kerala,IN
 43.8648|125.1516:Luyuan District, Changchun City,Jilin,CN
 26.5493|106.7187:Nanming District, Guiyang City,Guizhou,CN
 1.3373|103.7373:Jurong East,,SG
@@ -1711,7 +1708,9 @@
 31.95|5.3167:Ouargla,Ouargla,DZ
 -22.57|17.0836:Windhoek,,NA
 6.4934|3.7207:Lekki,Lagos,NG
+6.229|6.9399:,Anambra,NG
 9.6155|8.1024:,,NG
+5.4567|7.5245:,Abia,NG
 13.4833|7.1:Maradi,Maradi Region,NE
 7.3964|3.9167:Ibadan,Oyo,NG
 12.6167|3.55:Dioundiou,,NE
@@ -1727,14 +1726,469 @@
 -17.9333|25.8333:Victoria Falls,Matabeleland North,ZW
 -17.85|31.05:Harare,Harare,ZW
 9.6645|2.3403:,,BJ
-6.229|6.9399:,Anambra,NG
 7.9159|36.8262:Jimma,Oromia,ET
 -3.5405|39.8782:,Nairobi, Mombasa or Kilifi,KE
 -4.0401|39.7127:,Mombasa, Nairobi or Nyandarua,KE
 -1.1952|36.9331:,Nairobi, Mombasa or Homabay,KE
 10.4518|40.7305:Gewane,Afar,ET
-5.4567|7.5245:,Abia,NG
+18.9402|72.8348:Mumbai,Maharashtra,IN
+19.2|72.9667:Thane,Maharashtra,IN
+18.25|73.4333:Raigad,Maharashtra,IN
+19.995|73.7965:Nashik,Maharashtra,IN
+18.5042|73.853:Pune,Maharashtra,IN
+17.658|75.9069:Solapur,Maharashtra,IN
+16.7045|74.2414:Kolhapur,Maharashtra,IN
+19.8701|75.346:Aurangabad,Maharashtra,IN
+22.2297|84.8608:Rourkela,Odisha,IN
+23.5517|74.4443:Banswara,Rajasthan,IN
+26.2669|73.0305:Jodhpur,Rajasthan,IN
+25.1653|75.8512:Kota,Rajasthan,IN
+27.202|73.7339:Nagaur,Rajasthan,IN
+26.023|76.3441:Sawai Madhopur,Rajasthan,IN
+29.9479|78.1603:Haridwar,Uttarakhand,IN
+29.3929|79.4522:Nainital,Uttarakhand,IN
+28.6147|77.2091:,Delhi,IN
+19.6833|72.75:Palghar,Maharashtra,IN
+21.1571|79.0822:Nagpur,Maharashtra,IN
+23.3506|85.3138:Ranchi,Jharkhand,IN
+23.7978|87.9864:,West Bengal,IN
+26.4655|74.6317:Ajmer,Rajasthan,IN
+24.8864|74.6457:Chittorgarh,Rajasthan,IN
+25.386|91.8117:East Khasi Hills,Meghalaya,IN
+14.6837|77.5815:Anantapur,Andhra Pradesh,IN
+13.2059|79.0881:Chittoor,Andhra Pradesh,IN
+16.9333|82.2167:East Godavari,Andhra Pradesh,IN
+16.3|80.45:Guntur,Andhra Pradesh,IN
+14.4673|78.8542:Y.S.R. Kadapa,Andhra Pradesh,IN
+16.1667|81.1333:Krishna,Andhra Pradesh,IN
+15.8255|78.0301:Kurnool,Andhra Pradesh,IN
+14.4398|79.9936:S.P.S. Nellore,Andhra Pradesh,IN
+16.7|81.1:West Godavari,Andhra Pradesh,IN
+26.5865|73.8457:Other state,Rajasthan,IN
+28.6077|76.6525:Jhajjar,Haryana,IN
+27.2109|77.4815:Bharatpur,Rajasthan,IN
+28.1256|75.4004:Jhunjhunu,Rajasthan,IN
+21.501|86.9181:Balasore,Odisha,IN
+20.1742|85.6139:Khordha,Odisha,IN
+21.0633|86.4995:Bhadrak,Odisha,IN
+11.8747|75.3752:Kannur,Kerala,IN
+12.5023|74.9909:Kasaragod,Kerala,IN
+33.7258|75.1526:Anantnag,Jammu and Kashmir,IN
+34.0844|74.7991:Srinagar,Jammu and Kashmir,IN
+33.7194|74.8313:Shopiyan,Jammu and Kashmir,IN
+34.5269|74.2574:Kupwara,Jammu and Kashmir,IN
+34.3054|74.6694:Bandipora,Jammu and Kashmir,IN
+34.209|74.3429:Baramulla,Jammu and Kashmir,IN
+34.2165|74.7704:Ganderbal,Jammu and Kashmir,IN
+31.6335|74.8751:Amritsar,Punjab,IN
+30.9073|75.8492:Ludhiana,Punjab,IN
+30.409|74.0348:Fazilka,Punjab,IN
+30.9257|74.6131:Ferozepur,Punjab,IN
+30.7141|76.7184:S.A.S. Nagar,Punjab,IN
+31.3308|75.5901:Jalandhar,Punjab,IN
+13.0836|80.2825:Chennai,Tamil Nadu,IN
+10.9942|76.9663:Coimbatore,Tamil Nadu,IN
+11.7451|79.7589:Cuddalore,Tamil Nadu,IN
+9.9242|78.1242:Madurai,Tamil Nadu,IN
+10.7769|79.8406:Nagapattinam,Tamil Nadu,IN
+8.9635|77.3082:Tenkasi,Tamil Nadu,IN
+13.1246|79.9182:Thiruvallur,Tamil Nadu,IN
+10.7745|79.6369:Thiruvarur,Tamil Nadu,IN
+8.7264|77.7335:Tirunelveli,Tamil Nadu,IN
+11.0893|77.3626:Tiruppur,Tamil Nadu,IN
+11.9378|79.5021:Viluppuram,Tamil Nadu,IN
+28.3925|77.3128:Faridabad,Haryana,IN
+29.5394|75.0311:Sirsa,Haryana,IN
+28.105|77.0092:Nuh,Haryana,IN
+28.8976|76.5745:Rohtak,Haryana,IN
+23.0278|72.6003:Ahmedabad,Gujarat,IN
+23.1884|73.6471:Mahisagar,Gujarat,IN
+22.7205|73.6293:Panchmahal,Gujarat,IN
+21.1858|72.8368:Surat,Gujarat,IN
+22.3095|73.1799:Vadodara,Gujarat,IN
+17.3949|78.4708:Hyderabad,Telangana,IN
+22.5667|72.9333:Anand,Gujarat,IN
+23.7833|85.9667:Bokaro,Jharkhand,IN
+23.42|76.2809:Shajapur,Madhya Pradesh,IN
+22.7162|75.8651:Indore,Madhya Pradesh,IN
+23.2647|77.4052:Bhopal,Madhya Pradesh,IN
+23.1809|75.7882:Ujjain,Madhya Pradesh,IN
+23.1742|79.9314:Jabalpur,Madhya Pradesh,IN
+21.8257|75.6213:Khargone,Madhya Pradesh,IN
+23.3301|77.7845:Raisen,Madhya Pradesh,IN
+22.9667|76.0667:Dewas,Madhya Pradesh,IN
+24.0726|75.066:Mandsaur,Madhya Pradesh,IN
+23.3303|75.0403:Ratlam,Madhya Pradesh,IN
+22.3438|77.0897:Harda,Madhya Pradesh,IN
+23.1157|81.6961:Anuppur,Madhya Pradesh,IN
+21.8212|76.3564:Khandwa,Madhya Pradesh,IN
+22.75|77.7167:Hoshangabad,Madhya Pradesh,IN
+22.0319|74.9041:Barwani,Madhya Pradesh,IN
+24.5898|76.16:Jhalawar,Rajasthan,IN
+26.1611|75.7863:Tonk,Rajasthan,IN
+26.8547|80.9214:Lucknow,Uttar Pradesh,IN
+28.6625|77.4378:Ghaziabad,Uttar Pradesh,IN
+28.3615|77.507:Gautam Buddha Nagar,Uttar Pradesh,IN
+26.388|80.2117:Kanpur Nagar,Uttar Pradesh,IN
+28.9986|77.7044:Meerut,Uttar Pradesh,IN
+26.7968|82.7399:Basti,Uttar Pradesh,IN
+28.7304|77.7814:Hapur,Uttar Pradesh,IN
+27.1591|78.3958:Firozabad,Uttar Pradesh,IN
+25.8955|81.9478:Pratapgarh,Uttar Pradesh,IN
+29.9657|77.5461:Saharanpur,Uttar Pradesh,IN
+25.4753|80.3358:Banda,Uttar Pradesh,IN
+26.7882|83.0228:Sant Kabir Nagar,Uttar Pradesh,IN
+27.5737|78.6523:Etah,Uttar Pradesh,IN
+27.2734|82.8633:Siddharthnagar,Uttar Pradesh,IN
+28.8389|78.7768:Moradabad,Uttar Pradesh,IN
+28.4072|77.8491:Bulandshahr,Uttar Pradesh,IN
+27.8129|78.6502:Kasganj,Uttar Pradesh,IN
+28.877|78.4685:Amroha,Uttar Pradesh,IN
+27.4919|77.6742:Mathura,Uttar Pradesh,IN
+29.3732|78.1357:Bijnor,Uttar Pradesh,IN
+21.0167|75.5667:Jalgaon,Maharashtra,IN
+31.6677|76.5265:Hamirpur,Himachal Pradesh,IN
+19.7217|77.1518:Hingoli,Maharashtra,IN
+20.5399|76.1707:Buldhana,Maharashtra,IN
+25.1259|85.4537:Nalanda,Bihar,IN
+15.506|80.0499:Prakasam,Andhra Pradesh,IN
+23.9263|91.8438:Ambassa,Tripura,IN
+27.5561|76.6124:Alwar,Rajasthan,IN
+24.587|73.6985:Udaipur,Rajasthan,IN
+30.7034|76.7894:Chandigarh,Chandigarh,IN
+32.5611|75.1249:Samba,Jammu and Kashmir,IN
+30.3449|76.4:Patiala,Punjab,IN
+31.5324|75.908:Hoshiarpur,Punjab,IN
+30.6422|76.3767:Fatehgarh Sahib,Punjab,IN
+30.8188|75.1777:Moga,Punjab,IN
+30.4678|74.5182:Sri Muktsar Sahib,Punjab,IN
+31.5801|76.2112:Una,Himachal Pradesh,IN
+30.3095|78.0489:Dehradun,Uttarakhand,IN
+11.1393|79.0843:Ariyalur,Tamil Nadu,IN
+10.7686|79.1291:Thanjavur,Tamil Nadu,IN
+10.0102|77.4771:Theni,Tamil Nadu,IN
+12.9136|79.1325:Vellore,Tamil Nadu,IN
+11.2341|78.8802:Perambalur,Tamil Nadu,IN
+21.77|72.1459:Bhavnagar,Gujarat,IN
+22.1667|71.6667:Botad,Gujarat,IN
+23.2408|72.6373:Gandhinagar,Gujarat,IN
+22.7526|72.6865:Kheda,Gujarat,IN
+20.9532|72.96:Navsari,Gujarat,IN
+23.8507|72.1296:Patan,Gujarat,IN
+24.2839|72.0332:Banaskantha,Gujarat,IN
+23.4715|73.3304:Aravalli,Gujarat,IN
+23.608|72.3746:Mehsana,Gujarat,IN
+25.2916|79.8711:Mahoba,Uttar Pradesh,IN
+27.2281|79.025:Mainpuri,Uttar Pradesh,IN
+24.4891|86.6995:Deoghar,Jharkhand,IN
+28.3543|79.4162:Bareilly,Uttar Pradesh,IN
+25.4361|81.8472:Prayagraj,Uttar Pradesh,IN
+27.8863|78.0739:Aligarh,Uttar Pradesh,IN
+27.5768|81.6025:Bahraich,Uttar Pradesh,IN
+25.4486|78.5696:Jhansi,Uttar Pradesh,IN
+11.5057|92.642:South Andaman,Andaman and Nicobar Islands,IN
+17.136|78.4141:Ranga Reddy,Telangana,IN
+17.1524|79.6212:Suryapet,Telangana,IN
+17.2521|77.7465:Vikarabad,Telangana,IN
+22.5953|75.3006:Dhar,Madhya Pradesh,IN
+21.3|76.2333:Burhanpur,Madhya Pradesh,IN
+26.4905|77.9857:Morena,Madhya Pradesh,IN
+28.809|79.029:Rampur,Uttar Pradesh,IN
+27.0316|79.9212:Kannauj,Uttar Pradesh,IN
+20.7064|77.0029:Akola,Maharashtra,IN
+17.6833|73.9833:Satara,Maharashtra,IN
+20.9333|77.75:Amravati,Maharashtra,IN
+16.9921|73.2919:Ratnagiri,Maharashtra,IN
+19.8333|75.8833:Jalna,Maharashtra,IN
+25.6013|85.1375:Patna,Bihar,IN
+25.3656|86.4877:Munger,Bihar,IN
+33.6557|78.0048:Chuchot Yokma,Ladakh,IN
+24.0394|74.7777:Pratapgarh,Rajasthan,IN
+25.5723|83.9721:Buxar,Bihar,IN
+28.9952|77.0222:Sonipat,Haryana,IN
+29.3901|76.9695:Panipat,Haryana,IN
+29.5139|75.4498:Fatehabad,Haryana,IN
+26.8997|76.3304:Dausa,Rajasthan,IN
+34.0413|74.7263:Budgam,Jammu and Kashmir,IN
+32.9203|75.1287:Udhampur,Jammu and Kashmir,IN
+29.9908|75.4:Mansa,Punjab,IN
+30.3721|75.5454:Barnala,Punjab,IN
+30.2461|75.8469:Sangrur,Punjab,IN
+31.1105|76.1548:Shahid Bhagat Singh Nagar,Punjab,IN
+32.0409|75.4014:Gurdaspur,Punjab,IN
+30.2071|74.9414:Bathinda,Punjab,IN
+30.973|76.5327:Rupnagar,Punjab,IN
+28.1426|77.3344:Palwal,Haryana,IN
+30.1291|77.2805:Yamunanagar,Haryana,IN
+29.3162|76.3144:Jind,Haryana,IN
+22.1285|69.4555:Devbhumi Dwarka,Gujarat,IN
+22.3139|74.0139:Chhota Udaipur,Gujarat,IN
+20.6109|72.9316:Valsad,Gujarat,IN
+25.3329|82.9965:Varanasi,Uttar Pradesh,IN
+26.4603|79.511:Auraiya,Uttar Pradesh,IN
+28.5844|78.5718:Sambhal,Uttar Pradesh,IN
+23.845|91.9269:Dhalai,Tripura,IN
+28.0364|79.123:Budaun,Uttar Pradesh,IN
+21.1991|81.2897:Durg,Chhattisgarh,IN
+22.0105|81.2414:Kawardha,Chhattisgarh,IN
+19.1557|77.3111:Nanded,Maharashtra,IN
+25.7728|73.3234:Pali,Rajasthan,IN
+25.0595|73.8832:Rajsamand,Rajasthan,IN
+17.7198|83.2628:Visakhapatnam,Andhra Pradesh,IN
+30.7206|76.8175:Bapu Dham Colony, Sector 26,Chandigarh,IN
+9.8388|77.0588:Idukki,Kerala,IN
+9.5948|76.5329:Kottayam,Kerala,IN
+8.8869|76.5923:Kollam,Kerala,IN
+11.2588|75.7808:Kozhikode,Kerala,IN
+11.0429|76.0804:Malappuram,Kerala,IN
+8.5052|76.9514:Thiruvananthapuram,Kerala,IN
+9.5892|77.9537:Virudhunagar,Tamil Nadu,IN
+31.4596|74.9221:Tarn Taran,Punjab,IN
+30.6555|74.7695:Faridkot,Punjab,IN
+32.2705|75.6491:Pathankot,Punjab,IN
+30.3628|76.7952:Ambala,Haryana,IN
+22.8556|74.2576:Dahod,Gujarat,IN
+22.4692|70.071:Jamnagar,Gujarat,IN
+22.3|70.7833:Rajkot,Gujarat,IN
+23.8073|73.0353:Sabarkantha,Gujarat,IN
+22.0325|87.7797:Purba Medinipur,West Bengal,IN
+22.5963|88.2561:Howrah,West Bengal,IN
+22.8086|88.7924:North 24 Parganas,West Bengal,IN
+21.8457|88.375:South 24 Parganas,West Bengal,IN
+22.5705|88.3712:Kolkata,West Bengal,IN
+27.0394|88.2639:Darjeeling,West Bengal,IN
+25.0109|88.1405:Malda,West Bengal,IN
+23.4749|88.5162:Nadia,West Bengal,IN
+23.9537|87.6655:Birbhum,West Bengal,IN
+22.4154|87.2659:Paschim Medinipur,West Bengal,IN
+23.2408|87.8738:Purba Bardhaman,West Bengal,IN
+22.1643|87.6871:Paschim Bardhaman,West Bengal,IN
+22.8853|88.0795:Hooghly,West Bengal,IN
+27.067|88.4701:Kalimpong,West Bengal,IN
+26.5242|88.7198:Jalpaiguri,West Bengal,IN
+26.7778|79.0216:Etawah,Uttar Pradesh,IN
+26.1246|74.6685:Dholpur,Rajasthan,IN
+20.9029|74.7724:Dhule,Maharashtra,IN
+21.3667|74.25:Nandurbar,Maharashtra,IN
+16.8544|74.5642:Sangli,Maharashtra,IN
+18.4|76.5833:Latur,Maharashtra,IN
+20.4|78.1333:Yavatmal,Maharashtra,IN
+26.2191|81.245:Rae Bareli,Uttar Pradesh,IN
+22.3059|74.3555:Alirajpur,Madhya Pradesh,IN
+24.6932|84.0027:Rohtas,Bihar,IN
+25.3464|74.6352:Bhilwara,Rajasthan,IN
+30.7362|76.7209:Bapu Dham colony,Chandigarh,IN
+11.7109|76.0874:Wayanad,Kerala,IN
+31.3778|75.391:Kapurthala,Punjab,IN
+23.3594|85.3196:Hindpiri,Jharkhand,IN
+29.6901|76.9884:Karnal,Haryana,IN
+8.0901|77.5384:Kanyakumari,Tamil Nadu,IN
+21.5167|70.4667:Junagadh,Gujarat,IN
+29.4448|77.3171:Shamli,Uttar Pradesh,IN
+27.1358|81.9598:Gonda,Uttar Pradesh,IN
+21.7408|73.6438:Narmada,Gujarat,IN
+29.4703|77.7076:Muzaffarnagar,Uttar Pradesh,IN
+19.0921|74.7383:Ahmednagar,Maharashtra,IN
+24.2684|87.2489:Dumka,Jharkhand,IN
+23.8416|73.7144:Dungarpur,Rajasthan,IN
+28.0338|94.6604:Other State,Andhra Pradesh,IN
+25.08|72.29:Jalore,Rajasthan,IN
+19.4513|76.1109:Other State,Maharashtra,IN
+32.7027|74.8787:Jammu,Jammu and Kashmir,IN
+26.2201|78.1762:Gwalior,Madhya Pradesh,IN
+24.4585|74.8625:Neemuch,Madhya Pradesh,IN
+10.3621|77.9695:Dindigul,Tamil Nadu,IN
+12.9193|79.3387:Ranipet,Tamil Nadu,IN
+23.825|76.073:Agar Malwa,Madhya Pradesh,IN
+23.8333|78.7167:Sagar,Madhya Pradesh,IN
+26.1429|79.3256:Jalaun,Uttar Pradesh,IN
+25.2013|81.0879:Chitrakoot,Uttar Pradesh,IN
+26.0676|83.1836:Azamgarh,Uttar Pradesh,IN
+26.9347|70.8958:BSF Camp,Rajasthan,IN
+18.1184|83.418:Vizianagaram,Andhra Pradesh,IN
+32.5554|76.1249:Chamba,Himachal Pradesh,IN
+9.3602|78.8372:Ramanathapuram,Tamil Nadu,IN
+10.8058|78.6947:Tiruchirappalli,Tamil Nadu,IN
+33.8735|74.8994:Pulwama,Jammu and Kashmir,IN
+33.6451|75.0177:Kulgam,Jammu and Kashmir,IN
+24.2031|84.1693:Palamu,Jharkhand,IN
+27.5962|78.0524:Hathras,Uttar Pradesh,IN
+26.1569|81.8053:Amethi,Uttar Pradesh,IN
+28.2714|76.151:Mahendragarh,Haryana,IN
+17.8053|79.0115:Other State,Telangana,IN
+16.0737|77.7744:Jogulamba Gadwal,Telangana,IN
+19.6771|78.5331:Adilabad,Telangana,IN
+24.9899|83.6038:Kaimur,Bihar,IN
+25.474|84.5365:Bhojpur,Bihar,IN
+24.753|84.374:Aurangabad,Bihar,IN
+25.4244|86.1337:Begusarai,Bihar,IN
+21.7|72.9667:Bharuch,Gujarat,IN
+26.1722|91.7458:Guwahati,Assam,IN
+24.8114|92.8541:Cachar,Assam,IN
+19.2051|72.9553:Vasai Virar,Maharashtra,IN
+11.2213|78.1652:Namakkal,Tamil Nadu,IN
+11.6655|78.1516:Salem,Tamil Nadu,IN
+28.9451|77.2208:Baghpat,Uttar Pradesh,IN
+27.5619|80.6827:Sitapur,Uttar Pradesh,IN
+27.1733|81.2165:Fatehpur,Uttar Pradesh,IN
+27.7213|81.8999:Shrawasti,Uttar Pradesh,IN
+24.4678|85.5941:Koderma,Jharkhand,IN
+24.1589|83.8008:Garhwa,Jharkhand,IN
+28.3042|74.9672:Churu,Rajasthan,IN
+29.0367|79.4856:Udham Singh Nagar,Uttarakhand,IN
+26.4665|84.4428:Gopalganj,Bihar,IN
+26.726|84.6076:West Champaran,Bihar,IN
+25.9204|84.811:Saran,Bihar,IN
+12.6822|79.9801:Chengalpattu,Tamil Nadu,IN
+9.9547|78.1324:Nilgiris,Tamil Nadu,IN
+12.2353|79.0748:Tiruvannamalai,Tamil Nadu,IN
+28.1972|76.6176:Rewari,Haryana,IN
+24.7443|78.8331:Tikamgarh,Madhya Pradesh,IN
+23.796|86.4306:Dhanbad,Jharkhand,IN
+19.0368|73.0158:,Maharashtra,IN
+26.7675|94.2068:Jorhat,Assam,IN
+31.3391|76.7634:Bilaspur,Himachal Pradesh,IN
+10.5108|76.2112:Thrissur,Kerala,IN
+34.5516|76.1306:Kargil,Ladakh,IN
+12.8242|79.7011:Kancheepuram,Tamil Nadu,IN
+25.9403|87.987:Uttar Dinajpur,West Bengal,IN
+22.4497|86.997:Jhargram,West Bengal,IN
+30.7046|76.864:Panchkula,Haryana,IN
+28.7919|76.1411:Bhiwani,Haryana,IN
+20.9641|70.7771:Gir Somnath,Gujarat,IN
+22.7|71.6833:Surendranagar,Gujarat,IN
+25.1677|86.0956:Lakhisarai,Bihar,IN
+26.2215|84.3588:Siwan,Bihar,IN
+25.0961|76.509:Baran,Rajasthan,IN
+26.9195|70.9143:Jaisalmer,Rajasthan,IN
+25.1343|82.5671:Mirzapur,Uttar Pradesh,IN
+20.1082|77.1409:Washim,Maharashtra,IN
+26.5285|76.9629:Karauli,Rajasthan,IN
+24.1871|86.3046:Giridih,Jharkhand,IN
+23.2139|82.8682:Surajpur,Chhattisgarh,IN
+22.0909|81.2248:Kabeerdham,Chhattisgarh,IN
+25.7451|82.6824:Jaunpur,Uttar Pradesh,IN
+26.26|82.0731:Sultanpur,Uttar Pradesh,IN
+24.8903|72.8565:Sirohi,Rajasthan,IN
+25.752|71.4138:Barmer,Rajasthan,IN
+22.1196|84.0416:Sundargarh,Odisha,IN
+21.8653|84.0245:Jharsuguda,Odisha,IN
+20.85|86.3333:Jajpur,Odisha,IN
+32.3859|75.5176:Kathua,Jammu and Kashmir,IN
+25.2455|84.6638:Arwal,Bihar,IN
+25.2134|84.9854:Jehanabad,Bihar,IN
+26.4694|90.5608:Bongaigaon,Assam,IN
+23.543|78.2975:171,Madhya Pradesh,IN
+26.5671|78.7855:Bhind,Madhya Pradesh,IN
+24.1761|88.273:Murshidabad,West Bengal,IN
+26.9266|81.1969:Barabanki,Uttar Pradesh,IN
+26.4202|82.6709:Ambedkar Nagar,Uttar Pradesh,IN
+27.6121|75.14:Sikar,Rajasthan,IN
+19.3877|85.0501:Ganjam,Odisha,IN
+33.082|74.833:Reasi,Jammu and Kashmir,IN
+23.2927|81.3586:Shahdol,Madhya Pradesh,IN
+23.6241|69.9589:Kutch,Gujarat,IN
+23.9988|85.3673:Hazaribagh,Jharkhand,IN
+17.4484|78.9803:Yadadri Bhuvanagiri,Telangana,IN
+18.7883|78.9141:Jagtial,Telangana,IN
+11.7358|78.9631:Kallakurichi,Tamil Nadu,IN
+27.3943|80.1311:Hardoi,Uttar Pradesh,IN
+27.3905|79.5801:Farrukhabad,Uttar Pradesh,IN
+21.6319|85.5849:Kendujhar,Odisha,IN
+18.3|83.9:Srikakulam,Andhra Pradesh,IN
+20.2688|85.841:Bhubaneswar,Odisha,IN
+24.576|80.8012:Satna,Madhya Pradesh,IN
+23.2011|77.0771:Sehore,Madhya Pradesh,IN
+26.1205|92.0062:Kamrup Metropolitan,Assam,IN
+28.631|79.8034:Pilibhit,Uttar Pradesh,IN
+25.5805|83.5806:Ghazipur,Uttar Pradesh,IN
+25.499|81.417:Kaushambi,Uttar Pradesh,IN
+26.7543|83.3756:Gorakhpur,Uttar Pradesh,IN
+23.9835|86.0325:Dumri,Jharkhand,IN
+25.2445|86.9718:Bhagalpur,Bihar,IN
+26.1627|85.8975:Darbhanga,Bihar,IN
+30.1548|79.2076:,Uttarakhand,IN
+10.7758|76.6581:Palakkad,Kerala,IN
+30.6668|77.4311:Sirmaur,Himachal Pradesh,IN
+33.0902|75.3283:Ramban,Jammu and Kashmir,IN
+15.1951|74.1186:South Goa,Goa,IN
+22.7699|74.5975:Jhabua,Madhya Pradesh,IN
+24.5259|81.3026:Rewa,Madhya Pradesh,IN
+24.4074|81.8826:Sidhi,Madhya Pradesh,IN
+27.9481|80.7778:Lakhimpur Kheri,Uttar Pradesh,IN
+26.3829|81.2757:Maharajganj,Uttar Pradesh,IN
+27.4306|82.1802:Balrampur,Uttar Pradesh,IN
+11.9299|79.8247:Puducherry,Puducherry,IN
+20.5061|86.4211:Kendrapara,Odisha,IN
+20.1313|85.1283:Nayagarh,Odisha,IN
+19.8|85.85:Puri,Odisha,IN
+26.9638|84.1335:Madhubani,Bihar,IN
+25.1515|85.4873:,Bihar,IN
+29.7974|76.3777:Kaithal,Haryana,IN
+25.6651|78.4609:Datia,Madhya Pradesh,IN
+18.1853|76.0407:Osmanabad,Maharashtra,IN
+19.2608|76.777:Parbhani,Maharashtra,IN
+29.5818|74.3294:Hanumangarh,Rajasthan,IN
+25.7583|84.1479:Ballia,Uttar Pradesh,IN
+26.4395|79.8596:Kanpur Dehat,Uttar Pradesh,IN
+26.7925|82.2002:Ayodhya,Uttar Pradesh,IN
+25.2604|83.2679:Chandauli,Uttar Pradesh,IN
+26.6251|84.9002:East Champaran,Bihar,IN
+21.9005|82.7269:Janjgir Champa,Chhattisgarh,IN
+21.8949|86.412:Mayurbhanj,Odisha,IN
+20.4665|85.8961:Cuttack,Odisha,IN
+12.5265|78.2141:Krishnagiri,Tamil Nadu,IN
+10.1111|78.6002:Tirupathur,Tamil Nadu,IN
+24.1039|92.208:North Tripura,Tripura,IN
+16.1331|73.7398:Sindhudurg,Maharashtra,IN
+21.9032|77.9:Betul,Madhya Pradesh,IN
+17.6252|78.0824:Sangareddy,Telangana,IN
+26.5025|83.7792:Deoria,Uttar Pradesh,IN
+25.3945|82.5686:Bhadohi,Uttar Pradesh,IN
+26.9288|80.5637:,Uttar Pradesh,IN
+28.0165|73.3118:Bikaner,Rajasthan,IN
+20.7064|83.4897:Balangir,Odisha,IN
+29.9742|76.832:Kurukshetra,Haryana,IN
+8.8063|78.1433:Thoothukkudi,Tamil Nadu,IN
+25.3665|88.574:Dakshin Dinajpur,West Bengal,IN
+26.7501|83.9144:Kushinagar,Uttar Pradesh,IN
+27.8814|79.9109:Shahjahanpur,Uttar Pradesh,IN
+24.5636|87.2503:Ramgarh,Jharkhand,IN
+20.7269|81.2054:Balod,Chhattisgarh,IN
+18.9895|75.7562:Beed,Maharashtra,IN
+21.1712|79.6563:Bhandara,Maharashtra,IN
+21.6571|82.1597:Baloda Bazar,Chhattisgarh,IN
+15.3626|74.0542:,Goa,IN
+20.2|86.3:Jagatsinghpur,Odisha,IN
+26.5072|93.9736:Golaghat,Assam,IN
+12.1279|78.1586:Dharmapuri,Tamil Nadu,IN
+33.2439|74.392:Rajouri,Jammu and Kashmir,IN
+33.7696|74.0973:Punch,Jammu and Kashmir,IN
+29.149|75.7368:Hisar,Haryana,IN
+34.3395|78.4278:Leh,Ladakh,IN
+24.422|83.0623:Sonbhadra,Uttar Pradesh,IN
+17.552|78.5629:Medchal Malkajgiri,Telangana,IN
+23.946|86.8399:Jamtara,Jharkhand,IN
+21.8963|83.394:Raigarh,Chhattisgarh,IN
+20.8268|71.0451:Unassigned,State Unassigned,IN
+20.8393|85.1005:Angul,Odisha,IN
+21.45|83.9667:Sambalpur,Odisha,IN
 35.106|135.7298:Kyoto,Kyoto Prefecture,JP
+26.1056|91.404:Kamrup,Assam,IN
+26.7438|93.1624:Biswanath,Assam,IN
+26.4446|91.4382:Nalbari,Assam,IN
+26.0032|92.8538:Hojai,Assam,IN
+25.7769|87.4743:Purnia,Bihar,IN
+26.124|85.3867:Muzaffarpur,Bihar,IN
+25.5385|87.5704:Katihar,Bihar,IN
+26.5137|85.2945:Sheohar,Bihar,IN
+25.8772|86.5929:Saharsa,Bihar,IN
+29.8357|79.7716:Bageshwar,Uttarakhand,IN
+22.947|81.0751:Dindori,Madhya Pradesh,IN
+32.1013|76.2731:Kangra,Himachal Pradesh,IN
+26.3261|92.8302:,Assam,IN
+28.5968|76.2734:Charkhi Dadri,Haryana,IN
+23.7444|84.5081:Latehar,Jharkhand,IN
 14.55|121.03:Makati,Metro Manila,PH
 14.575|121.0833:Pasig,Metro Manila,PH
 14.65|121.1:Marikina,Metro Manila,PH
@@ -1754,8 +2208,10 @@
 15.0719|120.5419:Porac,Pampanga,PH
 14.8|120.53:Orani,Bataan,PH
 13.93|121.62:Lucena,Quezon,PH
+20.1826|80.0062:Gadchiroli,Maharashtra,IN
 14.32|121.12:Santa Rosa,Laguna,PH
 14.5842|121.1763:Antipolo,Rizal,PH
+21.0975|81.0341:Rajnandgaon,Chhattisgarh,IN
 14.33|120.94:Dasmarinas,Cavite,PH
 14.55|121.0:Pasay,Metro Manila,PH
 15.03|120.68:San Fernando,Pampanga,PH
@@ -1778,11 +2234,15 @@
 14.3944|120.8531:Tanza,Cavite,PH
 14.7|120.98:Valenzuela,Metro Manila,PH
 14.38|120.88:General Trias,Cavite,PH
+23.7465|91.7401:,Tripura,IN
+20.8386|84.3224:Boudh,Odisha,IN
 14.42|120.85:Rosario,Cavite,PH
+18.3591|81.887:Malkangiri,Odisha,IN
 14.08|121.15:Tanauan,Batangas,PH
 16.4316|120.3446:Caba,La Union,PH
 14.6969|121.1219:San Mateo,Rizal,PH
 7.07|125.6:Davao,Davao Del Sur,PH
+26.1027|87.9431:Kishanganj,Bihar,IN
 10.6765|122.9509:Bacolod,Negros Occidental,PH
 9.75|118.75:Puerto Princesa,Palawan,PH
 17.62|121.72:Tuguegarao,Cagayan,PH
@@ -1802,20 +2262,31 @@
 43.0|68.5:,Shymkent,KZ
 44.0|72.0:,Jambyl,KZ
 54.8833|69.1667:,North Kazakhstan,KZ
+9.2646|76.7867:Pathanamthitta,Kerala,IN
 42.3075|69.5723:Nur-Sultan,Shymkent,KZ
+24.3481|93.701:Churachandpur,Manipur,IN
 47.1167|51.8833:,Atyrau,KZ
 52.0|69.0:,Akmola,KZ
 52.3|76.95:,Pavlodar,KZ
 43.8667|52.0:,Mangystau,KZ
+10.9592|78.0772:Karur,Tamil Nadu,IN
+10.3849|78.7929:Pudukkottai,Tamil Nadu,IN
+26.8042|92.9403:Sonitpur,Assam,IN
 49.95|82.6167:,East Kazakhstan,KZ
 45.0|64.0:,Kyzylorda,KZ
 51.2333|51.3667:,West Kazakhstan,KZ
+24.5761|77.7307:Ashoknagar,Madhya Pradesh,IN
+23.8357|79.4436:Damoh,Madhya Pradesh,IN
+24.9086|79.5963:Chhatarpur,Madhya Pradesh,IN
 14.5616|120.5955:Limay,Bataan,PH
 14.5425|121.0644:Pateros,Metro Manila,PH
+30.4342|78.5374:Tehri Garhwal,Uttarakhand,IN
 14.8012|121.124:Rodriguez,Rizal,PH
 14.4817|121.1874:Binangonan,Rizal,PH
+33.3162|75.7651:Kishtwar,Jammu and Kashmir,IN
 14.2721|121.124:Cabuyao,Laguna,PH
 14.7811|120.8784:Bulacan,Bulacan,PH
+21.4588|80.1963:Gondia,Maharashtra,IN
 14.3426|121.0531:San Pedro,Laguna,PH
 14.3288|121.0899:Binan,Laguna,PH
 14.1746|121.1097:Calamba,Laguna,PH
@@ -1828,10 +2299,15 @@
 7.8303|124.116:Iligan,Lanao Del Sur,PH
 15.6032|121.0508:General Mamerto Natividad,Nueva Ecija,PH
 14.6215|120.577:Orion,Bataan,PH
+31.7092|76.932:Mandi,Himachal Pradesh,IN
 14.6388|120.9744:Cainta,Metro Manila,PH
+26.5471|80.4878:Unnao,Uttar Pradesh,IN
+23.654|85.56:,Jharkhand,IN
 11.411|122.5173:Jamindan,Capiz,PH
+26.1136|91.7603:Sarusajai Quarantine Centre,Assam,IN
 10.7051|122.5679:Iloilo,Iloilo,PH
 15.7044|121.0983:,Rizal,PH
+22.7989|86.1756:East Singhbhum,Jharkhand,IN
 14.5762|121.0173:Carmona,Metro Manila,PH
 8.4859|124.648:Cagayan De Oro,Misamis Oriental,PH
 6.8021|124.6329:Lambayong,Sultan Kudarat,PH
@@ -1841,34 +2317,50 @@
 15.3089|120.9453:Gapan,Nueva Ecija,PH
 14.8996|120.715:Macabebe,Pampanga,PH
 15.2408|120.85:San Antonio,Nueva Ecija,PH
+19.9665|79.2968:Chandrapur,Maharashtra,IN
 15.6703|120.586:Paniqui,Tarlac,PH
 17.7386|121.455:Tuao,Cagayan,PH
 18.0675|121.6447:Gattaran,Cagayan,PH
 14.2926|121.4618:Lumban,Laguna,PH
+19.8683|83.109:Kalahandi,Odisha,IN
 15.8144|120.4556:Bayambang,Pangasinan,PH
 16.5179|121.1804:Solano,Nueva Vizcaya,PH
 10.8942|122.7043:Barotac Nuevo,Iloilo,PH
 16.7088|121.6698:Echague,Isabela,PH
 14.633|121.0986:Marikinia,Metro Manila,PH
+9.5013|76.3323:Alappuzha,Kerala,IN
 15.1583|120.0553:Cabangan,Zambales,PH
 16.8179|121.7271:Alicia,Isabel,PH
+26.404|90.2698:Kokrajhar,Assam,IN
+26.9899|94.6401:Sivasagar,Assam,IN
+26.0257|89.9721:Dhubri,Assam,IN
+30.9189|77.0976:Solan,Himachal Pradesh,IN
 14.4191|120.9748:Bacoor,Metro Manila,PH
 10.6442|122.2435:Miagao,Iloilo,PH
 11.6968|122.367:Kalibo,Aklan,PH
 14.8422|120.2879:Olongapo,Zambales,PH
 14.7879|120.9316:Bocaue,Bulacan,PH
 11.9|121.9098:Malay,Aklan,PH
+22.6954|71.577:Other State,Gujarat,IN
+23.4594|85.0896:Mandar,Jharkhand,IN
 11.4431|122.3319:Libacao,Aklan,PH
 14.0747|120.6317:Nasugbu,Batangas,PH
 13.4143|121.1807:Calapan,Oriental Mindoro,PH
+30.9686|78.6076:Uttarkashi,Uttarakhand,IN
+25.9609|80.1453:Hamirpur,Uttar Pradesh,IN
+25.9385|83.5652:Mau,Uttar Pradesh,IN
+22.8453|85.9511:Saraikela-Kharsawan,Jharkhand,IN
 14.7532|120.9548:Marilao,Bulacan,PH
+22.0833|82.15:Bilaspur,Chhattisgarh,IN
 15.3466|120.5934:Capas,Tarlac,PH
 14.7714|120.5435:Samal,Bataan,PH
 10.4242|122.9212:La Carlota,Negros Occidental,PH
 11.0948|122.4887:Lambunao,Iloilo,PH
 14.5687|121.0282:Makati,Metro Maniila,PH
 16.4849|121.1406:Bayombong,Nueva Vizcaya,PH
+27.1688|94.1199:Lakhimpur,Assam,IN
 15.6869|120.4157:Camiling,Tarlac,PH
+22.0662|81.6862:Mungeli,Chhattisgarh,IN
 15.7928|121.3038:Alfonso Castaneda,Nueva Vizcaya,PH
 15.5437|120.7629:Licab,Nueva Ecija,PH
 10.8818|123.0021:Enrique B. Magalona,Negros Occidental,PH
@@ -1878,74 +2370,41 @@
 7.972|124.1929:Marantao,Lanao del Sur,PH
 8.2329|124.2415:Iligan,Lanao del Norte,PH
 16.5228|120.4547:Burgos,La Union,PH
-10.5108|76.2112:Thrissur,Kerala,IN
-9.5013|76.3323:Alappuzha,Kerala,IN
-12.5023|74.9909:Kasaragod,Kerala,IN
 28.6092|77.3005:East Delhi (Mayur Vihar),Delhi,IN
-17.3949|78.4708:Hyderabad,Telangana,IN
-26.9288|80.5637:,Uttar Pradesh,IN
 28.6279|77.0906:Janakpuri,Delhi,IN
-28.6625|77.4378:Ghaziabad,Uttar Pradesh,IN
 28.6174|77.0528:Uttam Nagar,Delhi,IN
 34.3333|77.4167:Ladakh,Ladakh,IN
-12.8242|79.7011:Kancheepuram,Tamil Nadu,IN
 9.386|76.7869:Ranni,Kerala,IN
 28.6764|77.1554:Tri Nagar,Delhi,IN
-32.7027|74.8787:Jammu,Jammu and Kashmir,IN
 12.9662|77.5869:Bengaluru,Karnataka,IN
-11.8747|75.3752:Kannur,Kerala,IN
-18.5042|73.853:Pune,Maharashtra,IN
-31.6335|74.8751:Amritsar,Punjab,IN
 9.3375|76.7097:Kozhencherry,Kerala,IN
 9.936|76.2614:Kochi,Kerala,IN
 9.595|76.4692:Chengalam,Kerala,IN
 34.5|77.5:Chuchot,Ladakh,IN
-18.9402|72.8348:Mumbai,Maharashtra,IN
 18.6529|73.7587:Pimpri-Chinchwad,Maharashtra,IN
-14.4398|79.9936:Nellore,Andhra Pradesh,IN
 17.3327|76.8404:Kalaburagi,Karnataka,IN
-21.1571|79.0822:Nagpur,Maharashtra,IN
-19.0368|73.0158:,Maharashtra,IN
-26.8547|80.9214:Lucknow,Uttar Pradesh,IN
 28.6341|77.2169:Delhi,Delhi,IN
 8.7383|76.7192:Varkala,Kerala,IN
 8.6033|77.0025:Nedumangad,Kerala,IN
-8.5052|76.9514:Thiruvananthapuram,Kerala,IN
-19.0921|74.7383:Ahmednagar,Maharashtra,IN
-19.0801|72.9986:Vashi,Maharashtra,IN
+19.0801|72.9986:Thane - Vashi,Maharashtra,IN
 19.2132|73.1057:Kalyan-Dombivali,Maharashtra,IN
 19.0166|73.0926:Panvel (Kamothe),Maharashtra,IN
 19.0326|73.0296:Navi Mumbai,Maharashtra,IN
-20.4|78.1333:Yavatmal,Maharashtra,IN
+25.8636|85.7787:Samastipur,Bihar,IN
+25.511|86.4724:Khagaria,Bihar,IN
 10.0743|77.0625:Munnar,Kerala,IN
-19.8701|75.346:Aurangabad,Maharashtra,IN
-30.3095|78.0489:Dehradun,Uttarakhand,IN
-33.2439|74.392:Rajouri,Jammu and Kashmir,IN
 12.5|74.9833:Kalanadu,Kerala,IN
-11.0429|76.0804:Malappuram,Kerala,IN
-20.2688|85.841:Bhubaneswar,Odisha,IN
 28.5241|77.2068:Saket,Delhi,IN
-34.5516|76.1306:Kargil,Ladakh,IN
-34.3395|78.4278:Leh,Ladakh,IN
 11.6993|75.5345:Mahe,Puducherry,IN
 28.5334|77.3821:Noida,Uttar Pradesh,IN
-22.5705|88.3712:Kolkata,West Bengal,IN
-28.3615|77.507:Gautam Buddh Nagar,Uttar Pradesh,IN
-13.0836|80.2825:Chennai,Tamil Nadu,IN
 17.4953|73.2692:Shrungartali,Maharashtra,IN
 34.1924|74.5268:Khanyar,Jammu and Kashmir,IN
-28.1256|75.4004:Jhunjhunu,Rajasthan,IN
 28.679|77.3148:Dilshad Garden,Delhi,IN
-30.7034|76.7894:Chandigarh,Chandigarh,IN
 19.2291|73.1658:Ulhasnagar,Maharashtra,IN
 12.3249|75.8053:Kodagu,Karnataka,IN
-15.506|80.0499:Ongole,Andhra Pradesh,IN
 21.244|81.6348:Raipur,Chhattisgarh,IN
-27.9481|80.7778:Lakhimpur kheri,Uttar Pradesh,IN
 31.1845|75.994:Banga,Punjab,IN
 12.522|74.971:Eriyal,Kerala,IN
-22.3|70.7833:Rajkot,Gujarat,IN
-21.1858|72.8368:Surat,Gujarat,IN
 17.7669|83.2508:Visakapatnam,Andhra Pradesh,IN
 28.6872|77.1955:Rana Pratap Bagh,Delhi,IN
 28.6904|77.1761:Ashok Vihar,Delhi,IN
@@ -1954,24 +2413,15 @@
 30.7035|76.6916:Mohali,Punjab,IN
 28.7288|77.1756:Jahangirpuri,Delhi,IN
 28.6199|77.1995:North Delhi,Delhi,IN
-23.0278|72.6003:Ahmedabad,Gujarat,IN
-22.3095|73.1799:Vadodara,Gujarat,IN
-25.3464|74.6352:Bhilwara,Rajasthan,IN
-28.3925|77.3128:Faridabad,Haryana,IN
-29.3901|76.9695:Panipat,Haryana,IN
-32.1013|76.2731:Kangra,Himachal Pradesh,IN
-23.1742|79.9314:Jabalpur,Madhya Pradesh,IN
 18.4372|79.1312:Karimnagar,Telangana,IN
 28.706|77.1909:West Delhi,Delhi,IN
 22.8467|88.6618:Habra,West Bengal,IN
 13.6111|77.5164:Gowribidanur,Karnataka,IN
-30.7046|76.864:Panchkula,Haryana,IN
 34.0826|76.119:Sankoo Valley,Ladakh,IN
-23.2408|72.6373:Gandhinagar,Gujarat,IN
-28.8389|78.7768:Moradabad,Uttar Pradesh,IN
 11.2756|77.5828:Perundurai,Tamil Nadu,IN
 31.1245|76.1185:Nawanshahr,Punjab,IN
 31.2168|76.143:Garhshankar,Punjab,IN
+10.0841|76.5463:Ernakulam,Kerala,IN
 12.3091|76.653:Mysuru,Karnataka,IN
 28.9959|77.0117:Sonepat,Haryana,IN
 22.6199|88.3942:Dum Dum,West Bengal,IN
@@ -1979,46 +2429,34 @@
 16.9961|81.8016:Rajahmundry,Andhra Pradesh,IN
 16.5026|80.6398:Vijayawada,Andhra Pradesh,IN
 28.4876|77.4957:Greater Noida,Uttar Pradesh,IN
-25.3329|82.9965:Varanasi,Uttar Pradesh,IN
 15.4527|75.0171:Hosayellapur,Karnataka,IN
 19.1183|72.9312:Mumbai City,Maharashtra,IN
-10.9942|76.9663:Coimbatore,Tamil Nadu,IN
-25.3656|86.4877:Munger,Bihar,IN
-25.6013|85.1375:Patna,Bihar,IN
-30.8432|75.4175:,Punjab,IN
-23.2647|77.4052:Bhopal,Madhya Pradesh,IN
 17.5433|80.619:Kothagudem,Telangana,IN
 17.4874|78.4209:Kukatpally,Telangana,IN
 13.9936|74.5509:Bhatkal,Karnataka,IN
 11.0513|75.9834:Vengara,Kerala,IN
 11.1393|75.8312:Kadalundi,Kerala,IN
 11.7686|75.4908:Koduvally,Kerala,IN
-8.7264|77.7335:Tirunelveli,Tamil Nadu,IN
-17.7198|83.2628:Visakhapatnam,Andhra Pradesh,IN
-26.5865|73.8457:,Rajasthan,IN
+10.4567|76.404:,Kerala,IN
+24.8854|86.924:Banka,Bihar,IN
+24.785|84.9927:Gaya,Bihar,IN
+24.9214|86.2254:Jamui,Bihar,IN
+24.8867|85.5439:Nawada,Bihar,IN
+25.1419|85.8628:Sheikhpura,Bihar,IN
+26.0046|85.0791:Vaishali,Bihar,IN
+25.9164|86.7934:Madhepura,Bihar,IN
+26.5797|85.5093:Sitamarhi,Bihar,IN
 27.5685|76.6378:Shashtri Nagar,Rajasthan,IN
-19.2051|72.9553:Vasai-Virar,Maharashtra,IN
-28.1426|77.3344:Palwal,Haryana,IN
 17.4485|78.4492:Balkampet,Telangana,IN
 18.3415|79.5129:Saidabad,Telangana,IN
 17.4207|78.463:Somajiguda,Telangana,IN
 17.4318|78.3864:Gachibowli,Telangana,IN
-30.1548|79.2076:,Uttarakhand,IN
-19.2|72.9667:Thane,Maharashtra,IN
-16.8544|74.5642:Sangli,Maharashtra,IN
-18.0895|74.0507:Khandala,Maharashtra,IN
 26.4356|80.3299:Kanpur,Uttar Pradesh,IN
-28.631|79.8034:Pilibhit,Uttar Pradesh,IN
-29.1965|76.3401:,Haryana,IN
-11.0893|77.3626:Tiruppur,Tamil Nadu,IN
-9.9242|78.1242:Madurai,Tamil Nadu,IN
-25.1515|85.4873:,Bihar,IN
-25.7451|82.6824:Jaunpur,Uttar Pradesh,IN
-25.499|81.417:Kaushambi,Uttar Pradesh,IN
+18.0895|74.0507:Khandala,Maharashtra,IN
 24.8076|93.9286:Imphal,Manipur,IN
 18.5778|73.9577:Pune Rural,Maharashtra,IN
 12.8979|74.8454:Mangaluru,Karnataka,IN
-14.7059|76.1705:,Karnataka,IN
+14.7886|74.6238:Uttara Kannada,Karnataka,IN
 13.5806|77.8371:Chikkaballapura,Karnataka,IN
 13.0303|80.1702:Porur,Tamil Nadu,IN
 13.1005|80.245:Purasaivakkam,Tamil Nadu,IN
@@ -2026,78 +2464,93 @@
 17.4059|78.3303:Kokapet,Telangana,IN
 17.3387|78.3082:Chandanagar,Telangana,IN
 18.6358|79.55:Begumpet,Telangana,IN
-34.6439|76.3106:,Jammu and Kashmir,IN
 34.049|74.8131:Natipora,Jammu and Kashmir,IN
 31.023|75.7887:Phillaur,Punjab,IN
 13.7518|79.7071:Srikalahasti,Andhra Pradesh,IN
 13.0203|80.2213:Saidapet,Tamil Nadu,IN
 17.4014|78.3916:Manikonda,Telangana,IN
-22.7162|75.8651:Indore,Madhya Pradesh,IN
-23.1809|75.7882:Ujjain,Madhya Pradesh,IN
-22.6954|71.577:,Gujarat,IN
-23.543|78.2975:,Madhya Pradesh,IN
-23.3078|92.8289:,Mizoram,IN
-26.2669|73.0305:Jodhpur,Rajasthan,IN
-11.0132|78.4097:,Tamil Nadu,IN
+17.6707|80.7064:Bhadradri Kothagudem,Telangana,IN
+23.7367|92.7146:Aizawl,Mizoram,IN
 13.335|74.7494:Udupi,Karnataka,IN
-30.9073|75.8492:Ludhiana,Punjab,IN
+25.4235|77.6607:Shivpuri,Madhya Pradesh,IN
+14.2205|76.3996:Chitradurga,Karnataka,IN
 29.8072|78.6098:Dugadda,Uttarakhand,IN
-21.0975|81.0341:Rajnandgaon,Chhattisgarh,IN
 12.9256|79.364:Walajapet,Tamil Nadu,IN
-28.0338|94.6604:,Andhra Pradesh,IN
-15.3626|74.0542:Goa,Goa,IN
 22.4839|88.4128:Nayabad,West Bengal,IN
-22.0833|82.15:Bilaspur,Chhattisgarh,IN
 21.2203|81.38:Bhilai,Chhattisgarh,IN
-28.9451|77.2208:Baghpat,Uttar Pradesh,IN
-12.4729|92.781:,Andaman and Nicobar Islands,IN
 17.5054|78.4675:Qutbullapur,Telangana,IN
 17.41|78.4823:Domalguda,Telangana,IN
+14.7059|76.1705:Other State,Karnataka,IN
+13.0|77.5833:Bengaluru Urban,Karnataka,IN
+11.3406|77.7172:Erode,Tamil Nadu,IN
 17.442|78.5019:Secunderabad,Telangana,IN
-11.1393|79.0843:Ariyalur,Tamil Nadu,IN
+24.1947|82.6656:Singrauli,Madhya Pradesh,IN
+12.841|92.8692:North and Middle Andaman,Andaman and Nicobar Islands,IN
 12.8927|75.0404:Bantwal,Karnataka,IN
 13.34|77.1015:Tumkur,Karnataka,IN
+22.7951|86.1839:West Singhbhum,Jharkhand,IN
+20.4484|82.2365:Gariaband,Chhattisgarh,IN
+22.35|82.6833:Korba,Chhattisgarh,IN
+20.264|81.4974:Uttar Bastar Kanker,Chhattisgarh,IN
 10.6742|76.074:Prakulam,Kerala,IN
+19.6529|73.147:Palghar Rural,Maharashtra,IN
 14.4669|75.9269:Davangere,Karnataka,IN
-23.7978|87.9864:,West Bengal,IN
+12.8677|75.2515:Dakshina Kannada,Karnataka,IN
 12.9681|80.1336:Pammal,Tamil Nadu,IN
 13.0836|80.2102:Anna Nagar,Tamil Nadu,IN
-23.608|72.3746:Mehsana,Gujarat,IN
 10.9595|79.3788:Kumbakonam,Tamil Nadu,IN
 12.9599|79.1386:Katpadi,Tamil Nadu,IN
-26.4655|74.6317:Ajmer,Rajasthan,IN
 13.6101|77.5172:Gauribidanur,Karnataka,IN
-34.0844|74.7991:Srinagar,Jammu and Kashmir,IN
 34.295|74.6202:Hajin,Jammu and Kashmir,IN
 10.773|76.378:Ottapalam,Kerala,IN
 9.4448|77.5541:Rajapalayam,Tamil Nadu,IN
-21.2651|82.0416:,Chhattisgarh,IN
 13.0387|80.2229:West Mambalam,Tamil Nadu,IN
-21.77|72.1459:Bhavnagar,Gujarat,IN
-15.8255|78.0301:Kurnool,Andhra Pradesh,IN
 16.4758|79.4365:Macherla,Andhra Pradesh,IN
 15.8275|80.3556:Chirala,Andhra Pradesh,IN
 12.1167|76.674:Nanjangud,Karnataka,IN
-30.3628|76.7952:Ambala,Haryana,IN
+19.1748|84.1612:Gajapati,Odisha,IN
+20.1275|84.0478:Kandhamal,Odisha,IN
+25.3773|93.0329:Dima Hasao,Assam,IN
 9.9405|76.324:Maradu,Kerala,IN
 10.4349|76.2641:Temple Gate,Kerala,IN
+29.5993|79.6597:Almora,Uttarakhand,IN
+29.5852|80.2163:Pithoragarh,Uttarakhand,IN
+29.3359|80.0907:Champawat,Uttarakhand,IN
+23.0415|84.543:Gumla,Jharkhand,IN
+26.2696|92.2894:Morigaon,Assam,IN
+21.6448|69.621:Porbandar,Gujarat,IN
+9.8502|78.4856:Sivaganga,Tamil Nadu,IN
+26.383|91.0217:Barpeta,Assam,IN
 28.5861|77.2485:Nizamuddin area,Delhi,IN
-16.9333|82.2167:Kakinada,Andhra Pradesh,IN
+29.1965|76.3401:,Haryana,IN
 13.0942|80.2854:Broadway,Tamil Nadu,IN
+21.1764|73.6194:Tapi,Gujarat,IN
+21.6052|71.2163:Amreli,Gujarat,IN
+30.2856|78.9814:Rudraprayag,Uttarakhand,IN
+29.8769|78.7664:Pauri Garhwal,Uttarakhand,IN
 15.2688|76.3909:Hospet,Karnataka,IN
 22.5901|88.4113:Salt Lake,West Bengal,IN
 22.4978|88.3483:Tollygugne,West Bengal,IN
 13.8037|77.6087:Lepakshi,Andhra Pradesh,IN
 16.4281|79.7218:Karampudi,Andhra Pradesh,IN
-16.3|80.45:Guntur,Andhra Pradesh,IN
 15.9182|80.3496:Kunkala Marru,Andhra Pradesh,IN
 14.5833|77.6333:Kandukuru,Andhra Pradesh,IN
-23.3594|85.3196:Hindpidi,Jharkhand,IN
 24.8128|92.7976:Silchar,Assam,IN
+21.8166|80.1847:Balaghat,Madhya Pradesh,IN
 19.2741|72.9131:Mira-Bhayandar,Maharashtra,IN
-20.5126|84.422:,Odisha,IN
+22.9406|83.1235:Surguja,Chhattisgarh,IN
+23.4675|82.2383:Koriya,Chhattisgarh,IN
+22.7729|81.9615:Gaurela Pendra Marwahi,Chhattisgarh,IN
+23.5207|91.6339:Gomati,Tripura,IN
+23.5847|91.3324:Sipahijala,Tripura,IN
+23.2013|91.5826:South Tripura,Tripura,IN
+23.8903|91.4025:West Tripura,Tripura,IN
+26.6519|90.6269:Chirang,Assam,IN
+27.4877|95.3568:Tinsukia,Assam,IN
+24.6788|92.5654:Hailakandi,Assam,IN
+22.6105|84.5017:Simdega,Jharkhand,IN
 11.8924|79.8136:Ariyankuppam,Puducherry,IN
-26.3261|92.8302:,Assam,IN
+28.631|77.2172:New Delhi,Delhi,IN
 10.582|76.9338:Annaimalai,Tamil Nadu,IN
 10.6593|77.0079:Pollachi,Tamil Nadu,IN
 11.2935|76.9401:Mettupalayam,Tamil Nadu,IN
@@ -2107,30 +2560,73 @@
 13.0649|80.2383:Bodi,Tamil Nadu,IN
 9.8396|77.385:Chinnamanur,Tamil Nadu,IN
 9.8055|77.3339:Uthamapalayam,Tamil Nadu,IN
+24.7316|93.8839:,Manipur,IN
 10.1237|77.5476:Periyakulam,Tamil Nadu,IN
+31.9237|77.25:,Himachal Pradesh,IN
 10.3528|77.9627:Begampur,Tamil Nadu,IN
 12.1429|78.1689:Thirupathur,Tamil Nadu,IN
 9.9558|78.8134:Devakottai,Tamil Nadu,IN
 9.5443|78.5877:Ilayankudi,Tamil Nadu,IN
-24.7316|93.8839:,Manipur,IN
+9.8368|78.092:Airport Quarantine,Tamil Nadu,IN
+30.4113|79.3215:Chamoli,Uttarakhand,IN
+12.7619|75.2027:Puttur,Karnataka,IN
+26.1621|90.6229:Goalpara,Assam,IN
+17.9295|79.8893:Foreign Evacuees,Telangana,IN
+24.7902|93.9579:Imphal East,Manipur,IN
+18.5025|73.9271:Hadapsar - Pune,Maharashtra,IN
 27.5642|76.6104:Ramganj,Rajasthan,IN
+27.8254|96.2427:Lohit,Arunachal Pradesh,IN
 14.0294|74.9744:Bilal Colony,Karnataka,IN
 17.9017|77.533:Lalwani Rd,Karnataka,IN
 17.8668|76.9477:Basavakalyan,Karnataka,IN
+17.9|77.55:Bidar,Karnataka,IN
 9.8982|76.714:Thodupuzha,Kerala,IN
-23.654|85.56:,Jharkhand,IN
+26.3495|92.6846:Nagaon,Assam,IN
+26.0628|93.147:West Karbi Anglong,Assam,IN
+22.0667|78.9333:Chhindwara,Madhya Pradesh,IN
 15.145|76.9282:Bellary,Karnataka,IN
-31.9237|77.25:,Himachal Pradesh,IN
+23.6079|83.6189:Balrampur,Chhattisgarh,IN
+21.2651|82.0416:,Chhattisgarh,IN
 11.9189|79.6654:Thiruvandarkoil,Puducherry,IN
+16.1662|75.6542:Bagalkote,Karnataka,IN
+24.8601|92.3765:Karimganj,Assam,IN
+21.5382|84.7335:Deogarh,Odisha,IN
+18.8113|82.7125:Koraput,Odisha,IN
+27.4753|94.5618:Dhemaji,Assam,IN
+25.71|89.8971:South Salmara Mankachar,Assam,IN
+31.1032|77.1585:Shimla,Himachal Pradesh,IN
+23.2348|87.0671:Bankura,West Bengal,IN
+20.7065|81.5494:Dhamtari,Chhattisgarh,IN
+20.7349|78.5977:Wardha,Maharashtra,IN
+23.3769|85.8648:Silli,Jharkhand,IN
+15.867|74.5117:Belagavi,Karnataka,IN
 20.2845|85.8591:Bomikhal,Odisha,IN
+18.4183|78.7706:Rajanna Sircilla,Telangana,IN
+17.2506|80.1559:Khammam,Telangana,IN
+18.0439|79.4721:Warangal Urban,Telangana,IN
+18.1025|78.8534:Siddipet,Telangana,IN
+18.6728|78.096:Nizamabad,Telangana,IN
+18.509|73.8732:Bhawani Peth Pune,Maharashtra,IN
+18.487|73.8501:Parvati - Pune,Maharashtra,IN
+19.4208|76.0501:Limboni Nagar Pune,Maharashtra,IN
 21.0649|75.5701:Jalgaon Rural,Maharashtra,IN
+15.5501|73.9821:North Goa,Goa,IN
 15.853|77.485:Nandavaram,Andhra Pradesh,IN
 16.9833|79.9667:Kodaru,Andhra Pradesh,IN
 13.6367|79.3965:Prakasam Nagar,Andhra Pradesh,IN
-16.1667|81.1333:Machilipatnam,Andhra Pradesh,IN
+23.5214|77.8064:Vidisha,Madhya Pradesh,IN
+23.5307|80.8279:Umaria,Madhya Pradesh,IN
+20.653|85.5991:Dhenkanal,Odisha,IN
+21.7191|81.5333:Bametara,Chhattisgarh,IN
 13.8333|77.4939:Hindupur,Andhra Pradesh,IN
 32.312|75.6015:Sujjanpur,Punjab,IN
 25.3874|87.0976:Naugachia,Bihar,IN
+26.1153|86.5954:Supaul,Bihar,IN
+18.0475|78.2668:Medak,Telangana,IN
+16.9047|78.814:Mahabubnagar,Telangana,IN
+17.5961|80.0008:Mahabubabad,Telangana,IN
+24.071|91.6023:Khowai,Tripura,IN
+22.9458|79.1963:Narsinghpur,Madhya Pradesh,IN
 15.3161|78.2363:Banaganapalli,Andhra Pradesh,IN
 15.8221|78.0554:Chittari,Andhra Pradesh,IN
 17.9289|78.5175:Sangaih Pet,Andhra Pradesh,IN
@@ -2155,7 +2651,9 @@
 13.6293|79.5144:Renigunta,Andhra Pradesh,IN
 17.5328|82.5195:Nelamalipudi,Ozhili,Andhra Pradesh,IN
 14.4352|79.9778:Magunta Layout,Andhra Pradesh,IN
-12.9205|77.6209:Madiwala,Karnataka,IN
+13.2232|77.574:Bengaluru Rural,Karnataka,IN
+22.8876|84.1384:Jashpur,Chhattisgarh,IN
+18.1653|74.5922:Baramati,Maharashtra,IN
 19.0965|74.7678:Ahmednagar Rural,Maharashtra,IN
 20.2412|85.8249:Bhimatangi, Bhubaneswar,Odisha,IN
 30.5871|76.8468:Dera Bassi, Mohali,Punjab,IN
@@ -2171,51 +2669,75 @@
 15.8556|78.2648:Nandikotkur,Andhra Pradesh,IN
 15.7115|77.59:Ganigalli,Andhra Pradesh,IN
 15.5093|78.3415:Panyam,Andhra Pradesh,IN
+24.6387|87.8407:Pakur,Jharkhand,IN
+26.4729|92.0296:Darrang,Assam,IN
+25.5365|91.2796:,Meghalaya,IN
+19.0868|78.3397:Nirmal,Telangana,IN
+18.6095|79.3817:Peddapalli,Telangana,IN
+22.8078|70.8236:Morbi,Gujarat,IN
 14.6505|77.5816:R K Function Hall Backside,Andhra Pradesh,IN
+14.8186|77.666:Narsapuram,Andhra Pradesh,IN
+20.7765|82.5461:Nuapada,Odisha,IN
 13.652|78.7909:Gandhi Nagar,Andhra Pradesh,IN
-14.4673|78.8542:Kadappa,Andhra Pradesh,IN
 17.6668|82.6095:Narsipatnam,Andhra Pradesh,IN
 17.6808|83.2021:Gajuwaka,Andhra Pradesh,IN
 17.7342|83.2971:Akkayyapelem,Andhra Pradesh,IN
-14.8186|77.666:Narsapuram,Andhra Pradesh,IN
 33.9167|76.6667:Kashmir Division,Jammu and Kashmir,IN
+28.0537|76.1056:Narnaul,Haryana,IN
+26.7437|93.1613:Charaideo,Assam,IN
 9.2248|76.6785:Pandalam,Kerala,IN
 17.6927|83.2915:Kotaveedhi,Andhra Pradesh,IN
 14.1475|79.8471:Gudur,Andhra Pradesh,IN
 14.004|80.0716:Vakadu,Andhra Pradesh,IN
 13.9083|79.8864:Naidupeta,Andhra Pradesh,IN
 16.6581|81.7433:Penugonda,Andhra Pradesh,IN
-16.7|81.1:Eluru,Andhra Pradesh,IN
 16.5505|80.6497:Payakapuram,Andhra Pradesh,IN
 15.6498|79.4889:Konakalamitta Mandal,Andhra Pradesh,IN
 32.3892|75.7201:Kot Kar Khan,Punjab,IN
 30.968|76.5235:Ropar,Punjab,IN
 19.177|73.9481:Dadra and Nagar Haveli,Maharashtra,IN
-19.995|73.7965:Nashik Rural,Maharashtra,IN
+24.0057|76.7272:Rajgarh,Madhya Pradesh,IN
 23.5414|91.4921:Udaipur,Tripura,IN
+26.1329|87.4573:Araria,Bihar,IN
 32.8322|76.1537:Tissa,Himachal Pradesh,IN
 16.2893|80.4336:Srinivasaraopeta,Andhra Pradesh,IN
 16.3373|75.282:Mudhol,Karnataka,IN
+15.4331|75.6355:Gadag,Karnataka,IN
+12.5274|76.8947:Mandya,Karnataka,IN
 20.5344|86.1639:Jharpada,Odisha,IN
 30.5538|76.8346:Jawaharpur,Punjab,IN
 30.0983|75.6821:Cheeda,Punjab,IN
+11.7064|75.5337:Mahe,Kerala,IN
+29.9201|73.875:Ganganagar,Rajasthan,IN
 19.8674|75.5412:Aurangabad Rural,Maharashtra,IN
+20.8473|83.8931:Subarnapur,Odisha,IN
 16.6371|81.658:Koretipadu,Andhra Pradesh,IN
 15.3418|79.3451:Vedigadla,Andhra Pradesh,IN
 16.2902|80.6742:Buchayathota,Andhra Pradesh,IN
+27.4844|94.9231:Dibrugarh,Assam,IN
 13.6319|79.4182:Tirupati,Andhra Pradesh,IN
+25.6768|94.1094:Kohima,Nagaland,IN
+25.914|93.7285:Dimapur,Nagaland,IN
+25.6734|76.6966:Sheopur,Madhya Pradesh,IN
 13.95|80.1167:Mallam,Andhra Pradesh,IN
 17.8076|83.3551:Haripriya Garden,Andhra Pradesh,IN
 13.5882|80.0355:Tada,Andhra Pradesh,IN
 15.5468|79.0425:Turimella,Andhra Pradesh,IN
 16.518|80.6152:Islamapet,Andhra Pradesh,IN
+17.0571|79.2685:Nalgonda,Telangana,IN
+16.4868|78.3129:Nagarkurnool,Telangana,IN
+18.2852|80.3362:Mulugu,Telangana,IN
 16.5149|80.6313:Arundalpet,Andhra Pradesh,IN
 14.6821|77.5426:Kalyana Durgam,Andhra Pradesh,IN
-14.6837|77.5815:Anantapur,Andhra Pradesh,IN
+13.1602|80.2977:Railway Quarantine,Tamil Nadu,IN
+14.4594|75.9154:Davanagere,Karnataka,IN
 26.9198|75.8318:Ghat Gate,Rajasthan,IN
-26.9195|70.9143:Jaisalmer,Rajasthan,IN
-20.9333|77.75:Amaravati,Maharashtra,IN
-18.9895|75.7562:Beed,Maharashtra,IN
+15.4511|75.0052:Dharwad,Karnataka,IN
+23.0767|85.2787:Khunti,Jharkhand,IN
+25.4456|89.9502:South West Garo Hills,Meghalaya,IN
+24.7723|93.8667:Imphal West,Manipur,IN
+18.3242|78.3326:Kamareddy,Telangana,IN
+26.5164|89.533:Alipurduar,West Bengal,IN
 20.55|74.5333:Malegaon,Maharashtra,IN
 17.2429|82.3344:Kathipudi,Andhra Pradesh,IN
 16.0662|80.5517:Ponnur Mandal,Andhra Pradesh,IN
@@ -2226,12 +2748,14 @@
 11.9283|79.7828:Moolakulam,Puducherry,IN
 30.7377|76.7496:Sector 37,Chandigarh,IN
 12.1439|75.5471:Kudiyanmala,Kerala,IN
-23.7465|91.7401:,Tripura,IN
 16.2772|80.4569:Sangadi Gunta,Andhra Pradesh,IN
 17.729|83.2998:Kummari Bazar,Andhra Pradesh,IN
 16.6025|79.7234:Dachepalli,Andhra Pradesh,IN
 15.7355|79.2698:Markapur,Andhra Pradesh,IN
+18.439|79.8683:Jayashankar Bhupalapally,Telangana,IN
+17.7231|79.1608:Jangaon,Telangana,IN
 20.2783|85.8401:Madhusudan,Odisha,IN
+26.7448|92.0944:Udalguri,Assam,IN
 11.8194|75.5602:Kottayam-Malabar,Kerala,IN
 10.1356|76.2393:Naravoor,Kerala,IN
 11.7861|75.5331:Kadirur,Kerala,IN
@@ -2239,8 +2763,10 @@
 11.6637|75.6212:Edacheri,Kerala,IN
 15.2541|78.8899:Devanagar,Andhra Pradesh,IN
 16.8667|77.6167:Maddur,Andhra Pradesh,IN
-16.7045|74.2414:Kolhapur Rural,Maharashtra,IN
-19.6529|73.147:Palghar Rural,Maharashtra,IN
+26.3196|89.4545:Cooch Behar,West Bengal,IN
+19.3557|79.4412:Komaram Bheem,Telangana,IN
+33.1446|75.5447:Doda,Jammu and Kashmir,IN
+16.8288|75.7144:Vijayapura,Karnataka,IN
 16.3011|74.7228:Hirebagewadi,Karnataka,IN
 18.9982|73.1232:Panvel,Maharashtra,IN
 17.7174|83.2897:Sujata Convent,Andhra Pradesh,IN
@@ -2250,34 +2776,769 @@
 18.0448|83.511:Pedda,Andhra Pradesh,IN
 14.9634|78.5865:Chagala Marri,Andhra Pradesh,IN
 13.5451|79.5255:Vadamalapeta,Andhra Pradesh,IN
+24.708|80.1764:Panna,Madhya Pradesh,IN
+23.4414|84.6865:Lohardaga,Jharkhand,IN
+21.3377|83.6212:Bargarh,Odisha,IN
+26.6472|91.2866:Baksa,Assam,IN
+25.0984|94.3611:Ukhrul,Manipur,IN
+24.8305|93.5635:Noney,Manipur,IN
+24.6433|93.9972:Thoubal,Manipur,IN
 19.2971|73.0635:Bhiwandi,Maharashtra,IN
 21.1571|79.0731:Nagpur Rural,Maharashtra,IN
-26.0593|94.472:,Nagaland,IN
 16.4974|80.6375:Ranihari Thotta,Andhra Pradesh,IN
 16.814|81.5271:Tadepalligudem,Andhra Pradesh,IN
 15.3504|75.1374:Hubballi,Karnataka,IN
 12.3821|77.0613:Malavalli,Karnataka,IN
-17.9|77.55:Bidar,Karnataka,IN
 16.4927|74.7749:Raibag,Karnataka,IN
 13.2881|77.5318:Doddaballapura,Karnataka,IN
-19.1482|77.3152:PMC,Maharashtra,IN
+23.333|86.367:Purulia,West Bengal,IN
 12.0379|75.2466:Madayi,Kerala,IN
 11.7111|75.5277:New Mahe,Kerala,IN
+10.6756|76.0219:Chathanur,Kerala,IN
 14.4027|79.9348:Chandrababu Nagar,Andhra Pradesh,IN
 17.7186|83.295:Pedda Bazar,Andhra Pradesh,IN
 16.3002|80.0796:Narasarao Peta,Andhra Pradesh,IN
+21.1106|82.0955:Mahasamund,Chhattisgarh,IN
+24.1971|92.0362:Unokoti,Tripura,IN
+25.242|87.6378:Sahibganj,Jharkhand,IN
 25.5731|91.8878:Shillong,Meghalaya,IN
 18.5029|83.837:Anandpeta,Andhra Pradesh,IN
 20.2333|85.8333:Bhubaneshwar,Odisha,IN
 11.8435|75.6862:Cheruvanchery,Kerala,IN
-25.5365|91.2796:,Meghalaya,IN
+27.3742|96.3545:Changlang,Arunachal Pradesh,IN
 16.429|74.588:Chikkodi,Karnataka,IN
 19.114|72.9177:MCGM,Maharashtra,IN
-21.1539|79.0787:Nagpur Corp,Maharashtra,IN
-18.1346|74.5124:Malegoan,Maharashtra,IN
 22.505|82.5454:Katghora,Chhattisgarh,IN
+11.7154|92.7161:Bombooflat,Andaman and Nicobar Islands,IN
 12.8333|75.25:Uppinangadi,Karnataka,IN
 12.9507|77.2368:Hospete,Karnataka,IN
+23.3638|85.3328:Azad Basti,Jharkhand,IN
+17.1307|76.9436:Shahbad,Karnataka,IN
+16.5091|75.284:Jamakhandi,Karnataka,IN
+25.6093|85.0785:Khajpura,Bihar,IN
+18.6065|73.7988:PCMC,Maharashtra,IN
+19.1482|77.3152:PMC,Maharashtra,IN
+18.75|73.75:Pune Dist,Maharashtra,IN
+19.0874|73.0114:Thane Corp,Maharashtra,IN
+25.1973|85.5237:Bihar Sharif,Bihar,IN
+30.7156|76.7871:chandigarh sector 30,Chandigarh,IN
+11.8607|75.4736:Iriveri,Kerala,IN
+11.959|75.3562:Velapuram,Kerala,IN
+11.7609|75.6167:Kunnothuparambu,Kerala,IN
+11.8322|75.4841:Peralassery,Kerala,IN
+25.2078|85.3227:Bihar Sarif,Bihar,IN
+30.4759|76.5897:Rajpura,Punjab,IN
+11.7894|75.5952:Chendayad,Kerala,IN
+11.7839|75.5706:Pathipalam,Kerala,IN
+11.7184|75.5774:Peringathur,Kerala,IN
+11.762|75.5479:Champad,Kerala,IN
+11.6798|76.3794:Muthiyanga,Kerala,IN
+11.7977|75.4504:Muzhappilangad,Kerala,IN
+9.9847|76.3481:Chapparapadavu,Kerala,IN
+10.4473|76.4089:Kavilpad,Kerala,IN
+10.7976|76.7707:Kanjikode,Kerala,IN
+10.7182|76.5997:Kuzhalmannam,Kerala,IN
+10.9015|76.1913:Vilayur,Kerala,IN
+12.51|75.0428:Chengala,Kerala,IN
+12.5517|74.9596:Mogral Puthur,Kerala,IN
+12.0021|75.2865:Cherukunnu,Kerala,IN
+8.9078|77.056:Kulathupuzha,Kerala,IN
+11.9879|75.5997:Kolayad,Kerala,IN
+11.787|75.5597:Pathayakunnu,Kerala,IN
+11.6698|75.7261:Mokeri,Kerala,IN
+11.9132|75.763:Kanichar,Kerala,IN
+12.0455|75.4647:Chengalayi,Kerala,IN
+9.8374|77.1604:Nedumkandam,Kerala,IN
+10.9201|75.9169:Mancheri,Kerala,IN
+9.6285|76.9793:Elappara,Kerala,IN
+9.9134|76.9258:Maniyarankudy,Kerala,IN
+9.5354|76.545:Panachikkad,Kerala,IN
+24.9546|84.0177:Sasaram,Bihar,IN
+20.5799|73.7468:Dang,Gujarat,IN
+25.0349|83.5066:Chainpur,Bihar,IN
+26.268|84.5878:Goreakothi,Bihar,IN
+25.3126|86.4889:Jamalpur,Bihar,IN
+18.2536|77.3636:Jamalpur,Karnataka,IN
+24.5048|85.1056:Bilaspur,Bihar,IN
+25.2173|85.6248:Asthwan,Bihar,IN
+25.3209|84.4536:Naya bhojpur,Bihar,IN
+20.9167|86.45:Dhamnagar,Odisha,IN
+20.9884|86.6341:Tihidi,Odisha,IN
+12.498|75.0008:Chemnad,Kerala,IN
+14.4814|75.3235:Malvalli,Karnataka,IN
+30.776|76.7958:Nayagaon,Punjab,IN
+25.578|85.0726:Sada Bazaar,Bihar,IN
+9.5848|76.5912:Manarcad,Kerala,IN
+9.6251|76.5395:SankranthI,Kerala,IN
+9.0439|76.6264:Sasthamkotta,Kerala,IN
+8.8621|76.7064:Chathannoor,Kerala,IN
+30.7302|76.8106:Sector 26,Chandigarh,IN
+12.8704|75.0485:Panemangalore,Karnataka,IN
+27.6054|81.7738:Pachdewari,Bihar,IN
+25.5973|85.2197:Sadar,Bihar,IN
+25.5417|85.117:Phulwari,Bihar,IN
+26.4478|84.1127:Bhore,Bihar,IN
+30.6913|76.8211:Vikas Nagar,Chandigarh,IN
+30.7669|76.7774:Sector 12,Chandigarh,IN
+30.7084|76.7753:Sector 32,Chandigarh,IN
+23.36|85.3642:Lowadih,Jharkhand,IN
+30.8432|75.4175:,Punjab,IN
+24.8801|74.6567:Surajpol,Rajasthan,IN
+12.8333|76.7585:Nagamangala,Karnataka,IN
+25.6206|85.135:Police Line,Bihar,IN
+26.1217|86.4036:Madhepur,Bihar,IN
+26.2629|86.2803:Jhanjharpur,Bihar,IN
+26.4962|86.0885:Kaluhai,Bihar,IN
+25.0311|86.0525:Halsi,Bihar,IN
+25.4996|84.9605:Naubatpur,Bihar,IN
+25.0813|86.8768:Pawai,Bihar,IN
+23.2858|83.7036:Jamhor,Bihar,IN
+25.1936|85.5144:Nala Road,Bihar,IN
+25.5595|84.4547:Bihiya,Bihar,IN
+19.0447|82.9203:Dasmantapur,Odisha,IN
+27.1187|75.6437:Heeda Ki Mori,Rajasthan,IN
+26.9297|75.8046:Hazi colony,Rajasthan,IN
+20.896|85.1719:Basudevpur,Odisha,IN
+9.5785|76.5491:Muttambalam,Kerala,IN
+13.4586|75.2757:Mallavali,Karnataka,IN
+30.6941|76.7525:Sector 49,Chandigarh,IN
+30.7269|76.7765:Sector 21,Chandigarh,IN
+24.836|85.4089:Hisua,Bihar,IN
+24.8944|84.1684:Dehri on Sone,Bihar,IN
+25.018|84.0335:Agrer,Bihar,IN
+25.9353|84.5666:Mani,Bihar,IN
+25.5529|84.1511:Gola,Bihar,IN
+25.6846|87.4803:Shobhaganj,Bihar,IN
+24.9406|84.0115:Nokha Sasram,Bihar,IN
+25.2317|83.9214:Kochas,Bihar,IN
+26.1483|85.8913:Darbhanga Town,Bihar,IN
+25.7914|87.4989:Rambagh,Bihar,IN
+30.7124|76.7339:Sector 52,Chandigarh,IN
+30.716|76.7864:Sector 30-B,Chandigarh,IN
+30.6931|76.7941:Ram Darbar,Chandigarh,IN
+17.5641|76.5647:Aland,Karnataka,IN
+26.1235|84.0766:Nepura,Bihar,IN
+25.1294|75.9662:Ladpura,Rajasthan,IN
+26.4878|90.6437:Salmara Bongaigaon,Assam,IN
+24.352|84.509:Pokari, Amangaj,Bihar,IN
+26.2652|85.9462:Chikni Kamaldah,Bihar,IN
+26.0432|89.4531:Panchdeori,Bihar,IN
+24.7967|85.0672:Manpur,Bihar,IN
+25.047|83.6055:Bhabua,Bihar,IN
+23.1536|79.9463:Sadarbazar, Jamalpur,Bihar,IN
+18.0326|73.4167:Kurla,Maharashtra,IN
+20.2841|85.8321:Madhusudan Nagar,Odisha,IN
+11.0132|78.4097:,Tamil Nadu,IN
+16.2348|74.6024:Hukkeri,Karnataka,IN
+21.6421|86.878:Panchapalli,Odisha,IN
+21.8167|83.9167:Brajrajnagar,Odisha,IN
+30.7149|76.7688:Sector 33 B,Chandigarh,IN
+30.7439|76.7453:Sector 38,Chandigarh,IN
+26.8688|84.3479:Yogapatti,Bihar,IN
+26.9196|75.8251:Johari Bazar,Rajasthan,IN
+26.313|73.0072:Subash Chowk,Rajasthan,IN
+20.19|86.3046:Katikata,Odisha,IN
+29.0038|78.4045:Naugaon Saadat,Uttar Pradesh,IN
+17.3903|78.5454:Ramanthapur,Telangana,IN
+17.3224|78.5762:Vanasthalipuram,Telangana,IN
+17.3587|78.4489:Ziaguda,Telangana,IN
+12.6579|76.4875:K R Pete,Karnataka,IN
+21.4659|85.1305:Lekharia Village,Odisha,IN
+20.8407|86.3874:Birajapur,Odisha,IN
+21.8667|84.0:Beherapatana,Odisha,IN
+30.7524|76.7721:Sector 15,Chandigarh,IN
+24.8271|87.2137:Godda,Jharkhand,IN
+22.2387|84.8116:Bari block,Odisha,IN
+30.0864|78.2666:Rishikesh,Uttarakhand,IN
+23.7513|80.4083:Katni,Madhya Pradesh,IN
+26.9101|75.8068:C Scheme,Rajasthan,IN
+26.4574|74.6353:Nala Bazar,Rajasthan,IN
+26.1678|85.3373:Sadalpur,Bihar,IN
+15.9184|75.6803:Badami,Karnataka,IN
+30.7339|76.7879:Sector 18,Chandigarh,IN
+25.3498|78.8045:Niwari,Madhya Pradesh,IN
+12.7373|75.3206:Savanuru,Karnataka,IN
+17.4605|77.4197:Chincholi,Karnataka,IN
+26.1711|84.6594:Basantpur,Bihar,IN
+20.4465|85.4699:Tigiria,Odisha,IN
+30.7691|76.748:Dhanas,Chandigarh,IN
+14.9741|75.3393:Savanur,Karnataka,IN
+20.281|73.0496:Dadra and Nagar Haveli,Dadra and Nagar Haveli and Daman and Diu,IN
+25.9644|87.5325:Jalagarh,Bihar,IN
+28.5663|77.2701:Bharat Nagar,Delhi,IN
+30.7388|76.7219:Sector 56,Chandigarh,IN
+25.6044|85.0855:Rajabajar,Bihar,IN
+20.3219|85.8463:Mancheswar, Bhubaneswar,Odisha,IN
+20.3079|85.8474:VSS Nagar, Bhubaneswar,Odisha,IN
+20.2676|85.815:Suryanagar, Bhubaneswar,Odisha,IN
+25.7268|86.2039:Hasanpur,Bihar,IN
+25.753|86.0279:Rosera,Bihar,IN
+16.6557|74.8247:Kudachi,Karnataka,IN
+25.0393|87.1525:Bhalwabazar,Bihar,IN
+25.8413|86.683:Saurbazar,Bihar,IN
+25.9246|86.2396:Biraul,Bihar,IN
+30.7226|76.7991:Sector 27 B,Chandigarh,IN
+30.7582|76.721:Maloya,Chandigarh,IN
+25.4291|87.6691:Shikarganj,Bihar,IN
+26.1742|85.83:Sobhan,Bihar,IN
+26.3821|87.0664:Thutti,Bihar,IN
+24.7583|84.7569:Malpa,Bihar,IN
+25.1335|86.9089:Chandpura Khurd,Bihar,IN
+24.6464|77.3109:Guna,Madhya Pradesh,IN
+17.9779|77.5529:Fatehpur,Kaila,Bihar,IN
+24.7024|85.4147:Hemja Devpal,Bihar,IN
+25.4918|86.1962:Chandpura,Bihar,IN
+25.1662|83.7002:Khajpur,Bihar,IN
+13.7441|76.9028:Sira,Karnataka,IN
+30.7376|76.7341:Sector 40,Chandigarh,IN
+30.6948|76.7987:Hallomajra,Chandigarh,IN
+24.6913|78.4138:Lalitpur,Uttar Pradesh,IN
+25.8702|86.6145:Saharsha Basti,Bihar,IN
+26.1768|84.6475:Sahmoorha,Bihar,IN
+24.6548|84.5906:Madanpur,Bihar,IN
+25.5909|86.9918:Puraini,Bihar,IN
+25.9686|86.6811:Ghailadh,Bihar,IN
+25.9546|84.4557:Mohmmadpur,Bihar,IN
+26.0805|87.2377:Ranganj,Bihar,IN
+26.0723|86.2218:Alinagar,Bihar,IN
+17.7725|78.6525:Gauraboram,Bihar,IN
+13.3987|78.0588:Chintamani,Karnataka,IN
+17.203|76.3592:Afzalpura,Karnataka,IN
+13.142|76.8285:Kamalapura,Karnataka,IN
+14.2635|75.3575:Shikaripura,Karnataka,IN
+10.9776|76.2019:Angadipuram,Kerala,IN
+25.362|85.6952:Belchi,Bihar,IN
+32.1313|76.1948:Jheer Bhalla, Tarkhankad,Himachal Pradesh,IN
+10.9255|79.8323:Karaikal,Puducherry,IN
+25.3789|85.4053:Mahkar,Bihar,IN
+25.3324|85.3996:Chandi,Bihar,IN
+25.3805|85.2551:Karai,Bihar,IN
+25.012|85.5661:Murgiya Chak,Bihar,IN
+25.4887|86.5615:Tikarampur,Bihar,IN
+25.8048|85.0847:Jagdish Tola,Bihar,IN
+25.5362|86.6579:Malpa,Chautham,Bihar,IN
+25.4645|85.9889:Barauni,Bihar,IN
+25.5988|86.2639:Bakhri,Bihar,IN
+25.5234|86.1943:Nawakothi,Bihar,IN
+25.8413|86.1631:Singhia,Bihar,IN
+25.0806|86.73:Sambhuganj,Bihar,IN
+15.6688|75.413:Banahatti,Karnataka,IN
+25.2786|85.6983:Lodipur,Bihar,IN
+25.2432|86.7445:Sultangang,Bihar,IN
+26.4614|83.9845:Vijaipur,Bihar,IN
+25.4533|85.5904:Athmalgola,Bihar,IN
+13.0029|76.1025:Hassan,Karnataka,IN
+11.9053|75.9985:Thirunelly,Kerala,IN
+10.9046|76.4151:Sreekrishnapuram,Kerala,IN
+11.2771|76.0142:Palengara,Kerala,IN
+32.0433|76.2741:Chaundha, Kulthi,Himachal Pradesh,IN
+22.6096|80.3701:Mandla,Madhya Pradesh,IN
+22.0833|79.5333:Seoni,Madhya Pradesh,IN
+30.7516|76.7576:Sector 25,Chandigarh,IN
+30.7356|76.8035:Sector 7,Chandigarh,IN
+16.7609|77.1367:Yadgir,Karnataka,IN
+30.746|76.7781:Sector 16,Chandigarh,IN
+32.1145|76.5568:Barol, Panchrukhi, Palampur,Himachal Pradesh,IN
+31.6448|76.3459:Jamanabad,Himachal Pradesh,IN
+26.2923|86.4711:Ghoghardia,Bihar,IN
+26.5667|85.2091:Khutauna,Bihar,IN
+25.8241|86.7733:Poharaghat,Bihar,IN
+25.2698|83.579:Gogari,Bihar,IN
+25.6457|86.4067:Alauli,Bihar,IN
+24.9175|83.7905:Chenari,Bihar,IN
+22.0611|82.8012:Pithphorwa,Bihar,IN
+25.1439|84.1851:Sanjhouli,Bihar,IN
+26.3604|84.2984:Hathua,Bihar,IN
+21.477|81.9271:Pachdeori,Bihar,IN
+25.3806|87.1891:Rangra,Bihar,IN
+26.103|84.2941:Andar,Bihar,IN
+9.7895|76.6108:Uzhavoor,Kerala,IN
+9.4487|76.6974:Vaipur,Kerala,IN
+13.1333|78.1333:Kolar,Karnataka,IN
+31.5892|76.736:Tanda,Himachal Pradesh,IN
+25.3444|87.6235:Manihari,Bihar,IN
+26.6985|84.5127:Nautan,Bihar,IN
+27.1055|84.4671:Narkatiyaganj,Bihar,IN
+26.2059|85.4979:Bochahan,Bihar,IN
+26.064|85.6239:Bandra,Bihar,IN
+26.0915|85.0668:Paru,Bihar,IN
+25.5582|84.6778:Ara,Bihar,IN
+24.6804|84.2797:Noniabigha,Bihar,IN
+24.6033|84.1292:Nabinagar,Bihar,IN
+17.9841|79.6021:Warangal,Telangana,IN
+17.3634|78.4668:Moosa Bowli,Telangana,IN
+17.366|78.4501:Jiyaguda,Telangana,IN
+9.8966|76.3218:Kammana,Kerala,IN
+11.6614|76.1621:Meenangadi,Kerala,IN
+11.6213|76.3209:Cheeral,Kerala,IN
+15.397|75.0829:Nawanagar,Karnataka,IN
+25.3827|84.2112:Nawanagar,Bihar,IN
+26.197|85.7579:Brahampur,Bihar,IN
+24.6519|85.4936:Rajauli,Bihar,IN
+25.2329|86.9847:Warsaliganj,Bihar,IN
+25.4214|86.3145:Ballia,Bihar,IN
+25.6684|86.0346:Khdawandpur,Bihar,IN
+25.2141|84.2529:Bikramganj,Bihar,IN
+25.2649|84.2037:Surajpura,Bihar,IN
+25.2379|86.9036:Nathnagar,Bihar,IN
+25.1392|85.2024:Islampur,Bihar,IN
+25.4057|86.8606:Narayanpur,Bihar,IN
+21.2506|81.5955:Kukurbeda,Chhattisgarh,IN
+32.0496|76.4664:Kakrain, Sullah, Palampur,Himachal Pradesh,IN
+26.197|84.3245:Pratappur,Bihar,IN
+26.6749|85.1683:Dhaka,Bihar,IN
+25.097|85.549:Khshroopur,Bihar,IN
+25.465|85.7083:Barh,Bihar,IN
+26.1723|86.4156:Marauna,Bihar,IN
+26.2775|86.8607:Raghopur,Bihar,IN
+26.209|87.007:Chhatapur,Bihar,IN
+25.122|86.5498:Kharagpur,Bihar,IN
+25.6031|87.2842:Falka Gumti,Bihar,IN
+25.4242|86.3999:Sahebpur Kamal,Bihar,IN
+25.6483|86.1747:Gadhpura,Bihar,IN
+23.585|85.4124:Jumra,Jharkhand,IN
+32.05|76.6462:Paprola, Baijnath,Himachal Pradesh,IN
+26.2563|85.1653:Motipur,Bihar,IN
+25.2918|83.8193:Kurhani,Bihar,IN
+25.4493|86.0218:Nagarpalika,Bihar,IN
+26.4394|87.087:Pathargama,Bihar,IN
+24.9198|86.5946:Belhar,Bihar,IN
+24.7368|85.3536:Miskaur,Bihar,IN
+25.2157|84.9902:Malahchak,Bihar,IN
+25.2078|84.8985:Ratnifaridpur,Bihar,IN
+25.6113|85.0765:Shyamnagar,Bihar,IN
+25.0295|85.5286:Giriyak,Bihar,IN
+25.3152|85.2804:Hilsa,Bihar,IN
+25.5075|86.3391:Gagaur,Bihar,IN
+25.6688|87.8549:Nayatola,Bihar,IN
+24.6032|85.2281:Sansarpokhar,Bihar,IN
+24.9317|85.8015:Gulani,Bihar,IN
+25.1459|86.1756:Ramshir,Bihar,IN
+26.0107|84.4324:Jakanpura,Bihar,IN
+25.0205|86.0662:Mohaddinagar,Bihar,IN
+25.4072|84.7422:Sandesh,Bihar,IN
+26.0099|85.0841:Saraiya,Bihar,IN
+25.8147|85.3973:Mahua,Bihar,IN
+26.0008|85.8891:Rasulpur,Bihar,IN
+26.0753|86.5222:Ramdutpatti,Bihar,IN
+26.4268|88.1281:Thankurganj,Bihar,IN
+25.6154|85.1955:Machhua Tola,Bihar,IN
+13.9448|75.5668:Shivamogga,Karnataka,IN
+26.0014|84.2745:Raghunathpur,Bihar,IN
+26.0765|84.127:Darauli,Bihar,IN
+26.3151|84.457:Barharia,Bihar,IN
+24.656|85.4081:Sirdala,Bihar,IN
+25.7414|85.4974:Jandaha,Bihar,IN
+17.698|77.2158:Chitaguppa,Karnataka,IN
+24.6866|86.3546:Sono,Bihar,IN
+24.7712|86.3754:Jhajha,Bihar,IN
+26.606|86.313:Ladnia,Bihar,IN
+24.6771|84.8497:Panaul,Bihar,IN
+25.7436|84.9987:Digha,Bihar,IN
+26.0106|86.994:Kumarkhand,Bihar,IN
+25.7327|86.9885:Biharganj,Bihar,IN
+25.8988|86.9929:Murliganj,Bihar,IN
+26.1419|85.4231:Madhepur town,Bihar,IN
+26.3128|86.9332:Pratapganj,Bihar,IN
+25.8615|86.5619:Kahra,Bihar,IN
+25.663|86.765:Saharsa Basti,Bihar,IN
+24.7536|86.3882:Chitochak,Jhajha,Bihar,IN
+25.5145|84.4597:Ujiyapur,Bihar,IN
+26.1158|87.4472:Etahara,Bihar,IN
+24.9947|85.7988:Chorwar Ariri,Bihar,IN
+24.7916|83.8323:Kusumbha,Bihar,IN
+24.9287|85.5015:Barai Bigha,Bihar,IN
+25.0459|85.7829:Latkan,Ariari,Bihar,IN
+25.9137|84.5924:Daudpur Etawa,Bihar,IN
+25.1025|85.8398:Belchhi,Ariari,Bihar,IN
+25.4593|85.533:Bkhtiyapur,Bihar,IN
+24.7479|84.3818:Aurangabad Town,Bihar,IN
+25.4671|84.4196:Jagdishpur,Bihar,IN
+24.9864|87.1343:Dhoraiya,Bihar,IN
+24.7548|86.7196:Katoria,Bihar,IN
+25.0029|86.9901:Rajaun,Bihar,IN
+27.1821|84.3391:Sona Khal,Bihar,IN
+24.7665|85.2105:Bishan Pur,Bihar,IN
+26.135|85.3322:Marwan,Bihar,IN
+26.456|85.2356:Dumri Katsarai,Bihar,IN
+25.9342|87.5092:Kheruchak,Bihar,IN
+25.5265|87.1877:Rupali,Bihar,IN
+25.8898|87.2225:Banmankhai,Bihar,IN
+25.6075|87.1929:Bhawanipur,Bihar,IN
+24.748|85.5531:Akbarpur,Bihar,IN
+24.7986|85.0247:Mufasil,Bihar,IN
+25.6514|85.3234:Biddupur,Bihar,IN
+26.3772|86.0229:Rahika,Bihar,IN
+26.2278|86.2745:Lakhnaur,Bihar,IN
+25.425|86.6186:Gogri,Bihar,IN
+24.9748|83.9032:Shivsagar,Bihar,IN
+25.0532|84.3282:Nasriganj,Bihar,IN
+25.1262|83.9265:kargahar,Bihar,IN
+25.2033|85.5153:Patel Nagar,Bihar,IN
+25.5921|85.1948:Agamkuan,Bihar,IN
+25.6138|85.1891:R P S More,Bihar,IN
+25.2768|86.1449:Fathua,Bihar,IN
+25.1628|85.4695:Noorsarai,Bihar,IN
+25.154|86.7124:Nayagaon,Bihar,IN
+20.9613|81.8836:Rajim,Chhattisgarh,IN
+26.1898|87.7591:Kochadhaman,Bihar,IN
+26.3087|86.5727:Niemali,Bihar,IN
+26.1581|86.7974:Pipra,Bihar,IN
+25.8862|86.5583:Nariyar,Bihar,IN
+25.9835|86.7947:Sigheshwar,Bihar,IN
+26.0567|86.7234:Gamhria,Bihar,IN
+25.6873|84.128:Rampur Dali,Bihar,IN
+25.5899|86.7781:Beldaur,Bihar,IN
+25.1344|85.1769:Manichak,Bihar,IN
+25.1821|87.2736:Gourachak,Bihar,IN
+25.0392|86.9034:Amarpur,Bihar,IN
+25.733|87.7876:Balimara,Bihar,IN
+25.0556|86.7165:Meharpur Dara,Bihar,IN
+25.5327|87.3234:Fulli Dumar,Bihar,IN
+16.2|77.3667:Raichur,Karnataka,IN
+15.3296|76.1527:Koppal,Karnataka,IN
+25.2998|85.6884:Bind,Bihar,IN
+25.3014|85.6211:Sosandi,Bihar,IN
+25.7393|87.5547:Ranipatra,Bihar,IN
+25.491|85.939:Teghra,Bihar,IN
+25.6658|86.0277:Khudawanpur,Bihar,IN
+25.5493|86.0083:Bhagwanpur,Bihar,IN
+26.3296|84.9598:Dilwarpur,Bihar,IN
+24.6426|84.724:Mahadewpur,Bihar,IN
+25.8808|85.8036:Manipur,Bihar,IN
+25.7521|87.7681:Mokari,Bihar,IN
+25.1357|83.4384:Bairi,Bihar,IN
+26.2606|87.4549:Jitwarpur,Bihar,IN
+25.1324|85.8209:Surdaspur,Bihar,IN
+24.9406|85.1597:Atri,Bihar,IN
+25.1531|84.9027:Shakurabad,Bihar,IN
+26.0035|86.9384:Shreepur,Bihar,IN
+25.9724|86.7726:Sukhasan,Bihar,IN
+26.1855|86.6902:Ratauli,Bihar,IN
+13.3231|75.7738:Chikkamagaluru,Karnataka,IN
+25.242|85.1427:Modanganj,Bihar,IN
+25.2285|85.063:Kako,Bihar,IN
+25.0853|85.1493:Hulasganj,Bihar,IN
+25.3518|85.2699:Ghosi,Bihar,IN
+25.0705|84.9718:Makhdumpur,Bihar,IN
+25.695|85.302:Bahuara,Bihar,IN
+24.8709|84.2149:Barun,Bihar,IN
+25.5484|86.5591:Saidpur,Bihar,IN
+25.4187|86.2635:Pokharia,Bihar,IN
+26.2861|85.7062:Lakhanpur,Bihar,IN
+25.4949|86.1837:Ajhour,Bihar,IN
+25.523|86.0853:Birpur,Bihar,IN
+25.3328|87.7454:Paranpur,Bihar,IN
+25.4688|84.4193:Jagdispur,Bihar,IN
+25.2624|87.2328:Kahalgaon,Bihar,IN
+25.1732|87.2251:Madarganj,Bihar,IN
+25.1562|87.2466:Maheshkor,Bihar,IN
+25.2729|85.557:Rahui,Bihar,IN
+25.2854|85.3946:Tharthari,Bihar,IN
+26.5612|84.3334:Kochaikote,Bihar,IN
+25.1783|83.969:Ekniya Diyara,Bihar,IN
+25.5053|86.3884:Labhgaon,Bihar,IN
+25.3928|86.7047:Pasraha,Bihar,IN
+26.2911|86.1873:Madhubani Town,Bihar,IN
+26.1266|86.8963:Triveniganj,Bihar,IN
+24.8468|93.9382:Mantripukhri,Manipur,IN
+12.1439|75.1711:Thrikaripur,Kerala,IN
+9.2667|76.55:Mavelikara,Kerala,IN
+31.9041|77.4009:Kullu,Himachal Pradesh,IN
+25.5141|90.1894:Tura,Meghalaya,IN
+25.3165|86.7121:Parbatta,Bihar,IN
+25.1751|86.6483:Asarganj,Bihar,IN
+26.3818|84.5867:Barauli,Bihar,IN
+26.4064|84.5972:Salona,Bihar,IN
+26.3669|84.5398:Mauze Kahla,Bihar,IN
+25.3814|86.4858:Kalla Subhas,Bihar,IN
+26.3304|84.6671:Sidhwalia,Bihar,IN
+25.7738|87.4809:Purnea Town,Bihar,IN
+25.7326|85.1988:Adima Chak,Bihar,IN
+26.2537|86.9805:Bharatpur,Bihar,IN
+25.2429|87.4766:Kushela,Bihar,IN
+25.71|85.2986:Gumti Tola,Bihar,IN
+25.701|86.011:Boriya,Bihar,IN
+24.8837|86.2957:Ratanpur,Bihar,IN
+25.0609|85.5795:Patora,Bihar,IN
+26.5758|85.5131:Shantinagar,Bihar,IN
+25.18|86.0939:Chitranjan Road,Bihar,IN
+27.0906|80.4726:Mahsona,Bihar,IN
+25.2064|86.0543:Mankatha,Bihar,IN
+25.1269|83.9277:Kaghar,Bihar,IN
+25.2657|86.3001:Kiranpur,Bihar,IN
+25.2828|86.0229:Berhiya,Bihar,IN
+25.0835|86.5466:katan,Bihar,IN
+24.3093|85.2117:Jainbigha,Bihar,IN
+25.7045|86.7085:Maniori,Bihar,IN
+25.3842|86.1366:Kithwan,Bihar,IN
+25.9984|85.6803:Samastipur Town,Bihar,IN
+25.7931|86.1164:Dudhpura,Bihar,IN
+25.8216|85.6821:Morwa,Bihar,IN
+25.662|85.8332:Dalsinghsarai,Bihar,IN
+25.871|85.6543:Tajpur,Bihar,IN
+24.5829|84.4164:Deokhaira,Bihar,IN
+26.2285|84.1754:Kuriyari,Bihar,IN
+25.3083|85.0436:Riwan,Bihar,IN
+25.9541|85.7806:Kalyanpur,Bihar,IN
+25.6745|84.6529:Shivpur,Bihar,IN
+25.2108|83.8088:Parsathua,Bihar,IN
+25.2443|83.8701:Navaliya,Bihar,IN
+26.5978|84.575:Barkuria,Bihar,IN
+26.0213|86.8662:Shankarpur,Bihar,IN
+9.9573|77.2189:Santhanpara,Kerala,IN
+24.2042|84.8719:Chatra,Jharkhand,IN
+25.5416|87.5693:Gaya Town,Bihar,IN
+25.4341|85.3273:Salarpur,Bihar,IN
+24.8695|86.2087:Khaira,Bihar,IN
+25.3886|85.8801:Seonan,Bihar,IN
+25.2442|86.2519:Salempur,Bihar,IN
+24.7121|84.3197:Titai Bigha,Bihar,IN
+25.3809|87.7072:Zafraganj,Bihar,IN
+24.9527|83.7316:Rampur,Bihar,IN
+25.3004|84.9967:Mokar,Bihar,IN
+25.1137|85.1197:Sukhiyawan,Bihar,IN
+25.2043|85.09:Ahiyasa,Bihar,IN
+25.2177|85.7347:Basibigha,Bihar,IN
+25.0978|85.0984:Kurre,Bihar,IN
+24.7836|85.0424:Gandha,Bihar,IN
+25.4299|84.2828:Vaina,Bihar,IN
+25.5205|85.2371:Rukanpur,Bihar,IN
+25.2145|83.9111:Parsiya,Bihar,IN
+25.2823|84.0034:Kaithhar Kala,Bihar,IN
+25.3883|83.8972:Rajpur,Bihar,IN
+25.3019|83.9384:Chhitan Dihara,Bihar,IN
+26.49|84.8959:Katariya,Bihar,IN
+26.5279|84.0805:Mohariya,Bihar,IN
+25.1724|85.7869:Sekhopursarai,Bihar,IN
+14.7928|75.3964:Haveri,Karnataka,IN
+11.6106|76.0822:Kalpatta,Kerala,IN
+10.0503|76.7171:Oonnukal,Kerala,IN
+9.0048|76.8302:Vettikavala,Kerala,IN
+19.2335|82.5478:Nabarangapur,Odisha,IN
+26.0175|85.064:Basotpur,Bihar,IN
+25.3429|86.5154:Milkichak,Bihar,IN
+25.9728|86.3171:Gora Bauram,Bihar,IN
+25.4883|83.8877:Chausa,Bihar,IN
+25.6797|86.9441:Uda Kishanganj,Bihar,IN
+26.0853|86.0773:Jakauli,Bihar,IN
+25.7928|86.0882:Dath,Bihar,IN
+25.4666|84.0751:Deharia,Bihar,IN
+25.1598|84.7289:Karpi,Bihar,IN
+25.1244|84.7237:Sonbhadra,Bihar,IN
+25.32|87.4276:Pirpainty,Bihar,IN
+25.0502|85.371:Fullidumar,Bihar,IN
+25.3593|85.0398:Masaurhi,Bihar,IN
+26.3955|86.1605:Rajnagar,Bihar,IN
+26.4485|85.9172:Benipatti,Bihar,IN
+25.982|86.6552:Supaul Rural,Bihar,IN
+25.4476|84.8666:Bikram,Bihar,IN
+27.1696|88.3678:South Sikkim,Sikkim,IN
+26.7123|85.6811:Parihar,Bihar,IN
+26.8005|84.6226:Manjhauliya,Bihar,IN
+24.7812|85.6928:Gobindpur,Bihar,IN
+24.7704|85.4367:Narhat,Bihar,IN
+8.8152|76.8211:Madavoor,Kerala,IN
+26.4411|85.1347:Madhuban,Bihar,IN
+26.9826|84.8521:Raksaul,Bihar,IN
+26.5963|84.5966:Paharpur,Bihar,IN
+26.6236|84.8281:Turkauliya,Bihar,IN
+24.6359|85.2253:Fatehpur,Bihar,IN
+24.5145|84.6629:Banke Bazar,Bihar,IN
+25.9679|84.5369:Ekma,Bihar,IN
+25.7059|85.1494:Sonepur,Bihar,IN
+26.031|84.7968:Isuapur,Bihar,IN
+25.9204|84.987:Parsa,Bihar,IN
+25.78|84.667:Revilganj,Bihar,IN
+24.8416|85.8989:Kauakole,Bihar,IN
+25.3674|85.5308:Harnaut,Bihar,IN
+26.2798|85.3384:Minapur,Bihar,IN
+26.952|84.5377:Chanpatiya,Bihar,IN
+27.0571|84.0305:Piprasi,Bihar,IN
+25.0638|86.1317:Chanan,Bihar,IN
+25.0806|86.7303:Shambhuganj,Bihar,IN
+26.571|85.1497:Patahi,Bihar,IN
+25.1215|84.4986:Kaler,Bihar,IN
+25.1267|84.81:Kurtha,Bihar,IN
+24.8633|87.0101:Barahat,Bihar,IN
+25.9409|84.3965:Siswan,Bihar,IN
+26.2054|84.6716:Lakrinaviganj,Bihar,IN
+25.542|85.1781:Sampatchak,Bihar,IN
+25.5702|87.6468:Dandkhora,Bihar,IN
+26.4909|84.685:Sangrampur,Bihar,IN
+25.027|86.5413:Tetiyabambar,Bihar,IN
+26.5955|85.9929:Kalyana,Bihar,IN
+26.6699|85.1939:Narkatiya,Bihar,IN
+25.6419|84.1155:Simri,Bihar,IN
+26.044|86.348:Rasiyari,Bihar,IN
+25.5532|85.9825:Baghras,Bihar,IN
+26.1426|87.629:Jokihat,Bihar,IN
+26.3812|87.5217:Sikti,Bihar,IN
+26.0742|87.1475:Bhargama,Bihar,IN
+25.1739|85.2562:Ranipur,Bihar,IN
+26.1697|85.9078:Badiya,Bihar,IN
+26.8443|85.5792:Sonbarsa,Bihar,IN
+25.4059|84.5568:Garhani,Bihar,IN
+26.0651|84.8863:Taraiya,Bihar,IN
+26.2597|84.741:Baikunthpur,Bihar,IN
+25.8334|84.8626:Garkha,Bihar,IN
+26.459|84.2429:Phulwaria,Bihar,IN
+25.8474|86.3105:Bishariya,Bihar,IN
+26.1665|85.9626:Sheili!<Pura,Bihar,IN
+24.7966|84.9057:Haspura,Bihar,IN
+25.5821|85.8972:Bachwara,Bihar,IN
+25.6471|87.7391:Kadwa,Bihar,IN
+25.4515|87.2541:Kursela,Bihar,IN
+25.4788|87.7177:Pranpur,Bihar,IN
+25.8708|90.6991:North Garo Hills,Meghalaya,IN
+12.7155|77.2741:Ramanagara,Karnataka,IN
+22.7815|86.2122:Jamshedpur,Jharkhand,IN
+25.3831|85.9097:Mokama,Bihar,IN
+25.3679|86.1624:Matihani,Bihar,IN
+25.2553|84.0249:Bariyarpur,Bihar,IN
+25.6227|85.9134:Mansurchak,Bihar,IN
+24.8193|84.6356:Rafiganj,Bihar,IN
+25.6582|87.9882:Barsoi,Bihar,IN
+25.8658|85.181:Lalganj,Bihar,IN
+25.4858|86.4818:Rahimpur,Bihar,IN
+25.8474|85.0339:Dariyapur,Bihar,IN
+24.2082|84.9233:Sonbigha,Bihar,IN
+24.4571|85.1375:Barachatti,Bihar,IN
+25.7627|85.4368:Malkauli,Bihar,IN
+26.9953|84.4053:Lauriya,Bihar,IN
+26.3051|87.2693:FORBESGANJ,Bihar,IN
+25.8201|86.3038:KUSHESHWAR ASTHAN,Bihar,IN
+24.5025|85.0072:BARACHAHY,Bihar,IN
+24.5678|84.8004:SHERGHATTY,Bihar,IN
+25.2421|87.0815:SABOUR,Bihar,IN
+26.1003|85.8936:BAHADURPUR,Bihar,IN
+25.8545|86.4681:MAHISHI,Bihar,IN
+25.7503|86.5881:SIMRI BAKHTIYARPUR,Bihar,IN
+25.5147|86.5547:MANSI,Bihar,IN
+26.2643|87.8383:BAHADURGANJ,Bihar,IN
+25.3715|87.0054:KHARIK,Bihar,IN
+25.9715|84.8566:MARHAURAH,Bihar,IN
+25.1658|86.8186:SHAHKUND,Bihar,IN
+25.1466|87.0539:GORADIH,Bihar,IN
+26.5321|85.4215:DEWDA,Bihar,IN
+25.2337|85.7643:BIDAYDIH,Bihar,IN
+26.4167|86.0511:LOHANIKURWA,Bihar,IN
+24.8653|86.9532:DESHRA,Bihar,IN
+24.8031|87.0239:BOUNSI,Bihar,IN
+24.7893|86.8844:DOMUHAN,Bihar,IN
+25.6627|87.665:SAMUNIYA,Bihar,IN
+26.4046|84.4984:MANJHA,Bihar,IN
+26.1608|84.415:PACHRUKHI,Bihar,IN
+25.0753|85.9295:CHEWARA,Bihar,IN
+25.0427|85.8527:ARIYARI,Bihar,IN
+25.2384|86.2208:SURYAGARHA,Bihar,IN
+27.1657|84.3293:RAMNAGAR,Bihar,IN
+24.9445|86.264:KATAUNA BARHAT,Bihar,IN
+25.6473|87.5786:HASALGANJ,Bihar,IN
+25.5663|86.8961:ALAMNAGAR,Bihar,IN
+16.7475|77.4959:Narayanpet,Telangana,IN
+25.7884|84.9533:Ramgarha,Bihar,IN
+26.6574|84.9192:Motjhari,Bihar,IN
+26.5132|86.0318:Basopatti,Bihar,IN
+25.2448|84.0631:Dinara,Bihar,IN
+25.1517|84.8609:Ratni Farispir,Bihar,IN
+26.5807|86.1351:Jaynagar,Bihar,IN
+26.2936|86.1343:Madhiya Kamlabari,Bihar,IN
+25.5965|85.222:Patna City,Bihar,IN
+25.2026|85.5463:Biharsharif,Bihar,IN
+25.4941|85.1799:Gaurichak,Bihar,IN
+26.62|85.3399:Purnahiya,Bihar,IN
+26.3026|88.1333:Pothia,Bihar,IN
+25.9693|86.5556:Satiar Katiya,Bihar,IN
+25.69|85.2095:Hajipur,Bihar,IN
+26.2836|87.2035:Narpatganj,Bihar,IN
+9.616|77.9631:Allalpatii,Bihar,IN
+34.5263|77.6658:Nubra,Ladakh,IN
+19.0853|82.0183:Jagdalpur,Chhattisgarh,IN
+11.7833|75.4333:Dharmadam,Kerala,IN
+22.5456|85.805:Chaibasa,Jharkhand,IN
+25.4343|75.6366:Bundi,Rajasthan,IN
+26.2335|94.8115:Tuensang,Nagaland,IN
+19.2073|81.9344:Bastar,Chhattisgarh,IN
+25.6291|90.1913:West Garo Hills,Meghalaya,IN
+25.5934|91.2607:West Khasi Hills,Meghalaya,IN
+12.6579|74.919:Mangalpady,Kerala,IN
+12.6891|74.9843:Paivalike,Kerala,IN
+12.4608|75.1639:Badiadka,Kerala,IN
+12.441|75.025:Udma,Kerala,IN
+9.6351|76.6045:Ayarkunnam,Kerala,IN
+9.2658|76.8126:Malayalapuzha,Kerala,IN
+9.3359|76.7095:Thannithode,Kerala,IN
+9.4218|76.8625:Kudamurutti,Kerala,IN
+10.8741|76.4432:Kadampazhipuram,Kerala,IN
+25.5235|84.0401:Bhabhua,Bihar,IN
+25.7819|84.743:Chapra,Bihar,IN
+24.9678|84.9752:Belaganj,Bihar,IN
+24.8155|84.8105:Guraru,Bihar,IN
+24.8585|84.9133:Paraiya,Bihar,IN
+26.0755|84.3554:Hasanpura,Bihar,IN
+25.1253|87.216:Sanhaula,Bihar,IN
+25.3597|85.1297:Dhanarua,Bihar,IN
+25.1832|85.1073:Ghoshi,Bihar,IN
+25.3321|85.2876:Nagarnausa,Bihar,IN
+26.023|86.3513:Kiratpur,Bihar,IN
+26.228|85.9027:Keoti Runway,Bihar,IN
+25.9874|86.8057:Singheswar,Bihar,IN
+26.3378|85.8201:Jale,Bihar,IN
+24.9279|84.9851:Kaltv'.Or,Bihar,IN
+25.2245|85.2301:Ekangarsarai,Bihar,IN
+25.5589|84.1461:Dumraon,Bihar,IN
+25.4881|86.8754:Murau L,Bihar,IN
+26.1994|85.4001:Mushahar I,Bihar,IN
+25.425|86.307:Balia,Bihar,IN
+25.4737|86.3004:Dandari,Bihar,IN
+26.3679|87.4383:Kursakanta,Bihar,IN
+26.5858|85.213:Gamhariya,Bihar,IN
+25.1657|83.6246:Mohania,Bihar,IN
+25.3646|83.7397:Nuaon,Bihar,IN
+25.4647|84.0146:Itarhi,Bihar,IN
+24.8887|85.6697:Roh,Bihar,IN
+26.8745|84.7818:Ramgarhwa,Bihar,IN
+25.8662|85.9282:Khanpur,Bihar,IN
+26.9776|84.6748:Sikta,Bihar,IN
+26.5921|85.7192:Bag Ha Ii,Bihar,IN
+25.743|84.9973:Dighwara,Bihar,IN
+16.3613|78.0658:Wanaparthy,Telangana,IN
+24.3394|94.0062:Chandel,Manipur,IN
+25.4652|86.1443:Rajaura,Bihar,IN
+25.5842|86.0905:Cheria Bariyapur,Bihar,IN
+25.4524|87.4578:Barari,Bihar,IN
+25.0216|86.6598:Bagha,Bihar,IN
+25.6985|86.2455:Sihma,Bihar,IN
+25.1821|86.2899:Maharathpur,Bihar,IN
+24.9494|85.9246:Aliganj,Bihar,IN
+24.4181|84.6287:Ghatkushumba,Bihar,IN
+25.5709|85.0515:Govindpur,Bihar,IN
+26.5598|85.5187:Kailashpur,Bihar,IN
+26.0562|87.7357:Baisa,Bihar,IN
+25.9818|87.7207:Amour,Bihar,IN
+25.7384|87.1832:Dhamdaha,Bihar,IN
+25.8644|87.747:Baisi,Bihar,IN
+25.5304|84.6912:Gothahula,Bihar,IN
+25.0971|86.6662:Tarapur,Bihar,IN
+24.9677|85.0914:Khizarsarai,Bihar,IN
+25.8036|85.0321:Bela,Bihar,IN
+25.7954|87.5972:Dagarua,Bihar,IN
+24.562|84.2306:Muraul,Bihar,IN
+26.54|85.6207:Bajpatti,Bihar,IN
+26.2045|86.6427:Kishanpur,Bihar,IN
+25.9031|84.6961:Jalalpur,Bihar,IN
+25.9554|85.5735:Sakra,Bihar,IN
+25.675|86.099:Chhourahi,Bihar,IN
+25.5648|84.0137:Nadaon,Bihar,IN
+24.6594|84.4365:Deo,Bihar,IN
+24.9803|84.6542:Goh,Bihar,IN
+24.6418|84.2566:Kutumba,Bihar,IN
+25.2687|94.0222:Senapati,Manipur,IN
+24.6281|93.7625:Bishnupur,Manipur,IN
+11.2615|75.9539:Mavoor,Kerala,IN
+27.6526|91.9526:Tawang,Arunachal Pradesh,IN
+27.6654|95.8773:Namsai,Arunachal Pradesh,IN
 48.2722|15.7514:,Lower Austria,AT
 48.2082|16.3738:,Vienna,AT
 47.8095|13.055:,Salzburg,AT
@@ -3261,6 +4522,8 @@
 -25.0892|-50.1602:Ponta Grossa,Parana,BR
 -23.7617|-53.308:Umuarama,Parana,BR
 -8.9006|-63.943:Porto Velho,Rondonia,BR
+19.4319|-99.1331:,Ciudad de Mexico,MX
+28.4692|-107.3318:,Guerero,MX
 -2.6278|-56.7358:Parintins,Amazonas,BR
 -36.6354|-65.4105:,,AR
 -4.2883|-38.6411:Barreiras,Bahia,BR
@@ -3697,28 +4960,515 @@
 43.5047|13.156:Ancona,Marche,IT
 50.0629|10.6066:Hasberge,Bayern,DE
 42.889|13.5556:Ascoli Piceno,Marche,IT
+52.256|6.7892:Hengelo,Overijssel,NL
 49.7388|10.1607:Kitzingen,Bayern,DE
+52.6328|4.7518:Alkmaar,Noord-Holland,NL
+52.3049|4.8568:Amstelveen,Noord-Holland,NL
+52.3699|4.9079:Amsterdam,Noord-Holland,NL
 43.1904|13.24:Macerata,Marche,IT
+52.5487|4.9105:Beemster,Noord-Holland,NL
+52.67|4.701:Bergen (NH.),Noord-Holland,NL
+52.4869|4.6573:Beverwijk,Noord-Holland,NL
+52.2735|5.2431:Blaricum,Noord-Holland,NL
+52.5468|4.6637:Castricum,Noord-Holland,NL
+52.3414|4.9645:Diemen,Noord-Holland,NL
+52.4963|5.0718:Edam-Volendam,Noord-Holland,NL
+52.3887|4.6391:Haarlem,Noord-Holland,NL
+52.3054|4.693:Haarlemmermeer,Noord-Holland,NL
+52.5136|4.6698:Heemskerk,Noord-Holland,NL
+52.3455|4.6205:Heemstede,Noord-Holland,NL
+52.6656|4.827:Heerhugowaard,Noord-Holland,NL
+52.6044|4.7137:Heiloo,Noord-Holland,NL
+52.9584|4.7589:Den Helder,Noord-Holland,NL
+52.2286|5.1695:Hilversum,Noord-Holland,NL
+52.6424|5.0521:Hoorn,Noord-Holland,NL
+52.2951|5.2342:Huizen,Noord-Holland,NL
+52.6822|4.8078:Langedijk,Noord-Holland,NL
+52.7722|5.1066:Medemblik,Noord-Holland,NL
+52.438|4.8767:Oostzaan,Noord-Holland,NL
+52.5077|4.9478:Purmerend,Noord-Holland,NL
+52.2334|4.829:Uithoorn,Noord-Holland,NL
+52.4587|4.62:Velsen,Noord-Holland,NL
+52.3084|5.0377:Weesp,Noord-Holland,NL
+52.3707|4.5274:Zandvoort,Noord-Holland,NL
+52.4495|4.8093:Zaanstad,Noord-Holland,NL
+52.1274|4.6588:Alphen aan den Rijn,Zuid-Holland,NL
+51.8532|4.5406:Barendrecht,Zuid-Holland,NL
+51.9043|4.1679:Brielle,Zuid-Holland,NL
+51.9296|4.589:Capelle aan den IJssel,Zuid-Holland,NL
+52.0088|4.3653:Delft,Zuid-Holland,NL
+51.812|4.6565:Dordrecht,Zuid-Holland,NL
+51.8306|4.969:Gorinchem,Zuid-Holland,NL
+52.01|4.7107:Gouda,Zuid-Holland,NL
+52.0841|4.3173:s-Gravenhage,Zuid-Holland,NL
+51.8306|4.1474:Hellevoetsluis,Zuid-Holland,NL
+52.6987|5.2494:Stede Broec,Noord-Holland,NL
+52.2052|4.3966:Katwijk,Zuid-Holland,NL
+51.9145|4.5872:Krimpen aan den IJssel,Zuid-Holland,NL
+52.1536|4.4938:Leiden,Zuid-Holland,NL
+51.9244|4.2512:Maassluis,Zuid-Holland,NL
+52.2343|4.4477:Noordwijk,Zuid-Holland,NL
+52.1777|4.4667:Oegstgeest,Zuid-Holland,NL
+51.826|4.6823:Papendrecht,Zuid-Holland,NL
+51.8719|4.5985:Ridderkerk,Zuid-Holland,NL
+51.9144|4.4872:Rotterdam,Zuid-Holland,NL
+52.0565|4.3369:Rijswijk,Zuid-Holland,NL
+51.9185|4.3982:Schiedam,Zuid-Holland,NL
+51.9112|4.3382:Vlaardingen,Zuid-Holland,NL
+52.0447|4.6547:Waddinxveen,Zuid-Holland,NL
+52.1431|4.3939:Wassenaar,Zuid-Holland,NL
+52.0631|4.4889:Zoetermeer,Zuid-Holland,NL
+51.8223|4.6565:Zwijndrecht,Zuid-Holland,NL
+51.4039|5.745:Asten,Noord-Brabant,NL
+51.4497|4.9263:Baarle-Nassau,Noord-Brabant,NL
+51.496|4.282:Bergen op Zoom,Noord-Brabant,NL
+51.5128|5.3955:Best,Noord-Brabant,NL
 49.7573|9.2347:Miltenberg,Bayern,DE
+51.6029|5.6737:Boekel,Noord-Brabant,NL
+51.6462|5.9504:Boxmeer,Noord-Brabant,NL
+51.5916|5.3228:Boxtel,Noord-Brabant,NL
+51.5913|4.7717:Breda,Noord-Brabant,NL
+51.4618|5.7908:Deurne,Noord-Brabant,NL
+51.6297|4.9378:Dongen,Noord-Brabant,NL
+51.3583|5.309:Eersel,Noord-Brabant,NL
+51.4359|5.4855:Eindhoven,Noord-Brabant,NL
+51.5709|4.6395:Etten-Leur,Noord-Brabant,NL
+51.588|4.9197:Gilze en Rijen,Noord-Brabant,NL
+51.5186|5.0679:Goirle,Noord-Brabant,NL
+51.7578|5.742:Grave,Noord-Brabant,NL
+51.6002|5.2276:Haaren,Noord-Brabant,NL
+51.4822|5.6583:Helmond,Noord-Brabant,NL
+51.6909|5.2982:s-Hertogenbosch,Noord-Brabant,NL
+51.7331|5.1373:Heusden,Noord-Brabant,NL
+51.4853|5.136:Hilvarenbeek,Noord-Brabant,NL
+51.6274|5.0763:Loon op Zand,Noord-Brabant,NL
+51.6877|5.783:Mill en Sint Hubert,Noord-Brabant,NL
+51.4748|5.5492:Nuenen, Gerwen en Nederwetten,Noord-Brabant,NL
+51.5031|5.3069:Oirschot,Noord-Brabant,NL
+51.5766|5.1821:Oisterwijk,Noord-Brabant,NL
+51.6431|4.8563:Oosterhout,Noord-Brabant,NL
+51.7682|5.5267:Oss,Noord-Brabant,NL
+51.5334|4.5581:Rucphen,Noord-Brabant,NL
+51.6385|5.351:Sint-Michielsgestel,Noord-Brabant,NL
+51.386|5.7132:Someren,Noord-Brabant,NL
+51.5104|5.4917:Son en Breugel,Noord-Brabant,NL
+51.5554|5.1058:Tilburg,Noord-Brabant,NL
+51.6574|5.6183:Uden,Noord-Brabant,NL
+51.3505|5.459:Valkenswaard,Noord-Brabant,NL
+51.4217|5.4045:Veldhoven,Noord-Brabant,NL
+51.6605|5.2977:Vught,Noord-Brabant,NL
+51.3865|5.4435:Waalre,Noord-Brabant,NL
+51.6899|5.0628:Waalwijk,Noord-Brabant,NL
+51.4706|4.6628:Zundert,Noord-Brabant,NL
+52.2239|4.519:Teylingen,Zuid-Holland,NL
+52.6276|4.9456:Koggenland,Noord-Holland,NL
+52.013|4.5312:Lansingerland,Zuid-Holland,NL
 41.7037|14.7773:Campobasso,Molise,IT
+51.5562|5.6825:Gemert-Bakel,Noord-Brabant,NL
+51.5888|4.5296:Halderberge,Noord-Brabant,NL
+51.3796|5.5778:Heeze-Leende,Noord-Brabant,NL
+51.5293|5.6349:Laarbeek,Noord-Brabant,NL
+51.362|5.1653:Reusel-De Mierden,Noord-Brabant,NL
+51.5314|4.4575:Roosendaal,Noord-Brabant,NL
+51.729|5.8734:Cuijk,Noord-Brabant,NL
+51.7452|5.6324:Landerd,Noord-Brabant,NL
+51.2743|5.5764:Cranendonck,Noord-Brabant,NL
+51.6989|4.6277:Moerdijk,Noord-Brabant,NL
+51.7355|5.5284:Bernheze,Noord-Brabant,NL
+51.4816|4.9546:Alphen-Chaam,Noord-Brabant,NL
+51.3233|5.3601:Bergeijk,Noord-Brabant,NL
+51.3661|5.2148:Bladel,Noord-Brabant,NL
+51.4221|5.5611:Geldrop-Mierlo,Noord-Brabant,NL
+52.0001|4.1589:Westland,Zuid-Holland,NL
+51.9703|4.6062:Zuidplas,Zuid-Holland,NL
+52.8626|4.8328:Hollands Kroon,Noord-Holland,NL
+52.0865|4.3912:Leidschendam-Voorburg,Zuid-Holland,NL
+51.8175|3.9829:Goeree-Overflakkee,Zuid-Holland,NL
+52.0427|4.392:Pijnacker-Nootdorp,Zuid-Holland,NL
+51.8498|4.3252:Nissewaard,Zuid-Holland,NL
+51.9464|4.8512:Krimpenerwaard,Zuid-Holland,NL
+52.277|5.1627:Gooise Meren,Noord-Holland,NL
+51.6172|5.4374:Meierijstad,Noord-Brabant,NL
+51.7552|5.1304:Altena,Noord-Brabant,NL
+51.8232|4.4171:Hoeksche Waard,Zuid-Holland,NL
+51.8709|4.7849:Molenlanden,Zuid-Holland,NL
+48.125|14.8704:Amstetten,Lower Austria,AT
+48.0064|16.2326:Baden,Lower Austria,AT
+47.1026|9.9417:Bludenz,Vorarlberg,AT
+48.1273|13.0853:Braunau am Inn,Upper Austria,AT
+47.5038|9.7437:Bregenz,Vorarlberg,AT
+47.5769|15.3791:Bruck-Murzzuschlag,Styria,AT
+48.0629|16.6801:Bruck an der Leitha,Styria,AT
+47.4132|9.7438:Dornbirn,Vorarlberg,AT
+48.3217|13.9842:Eferding,Upper Austria,AT
+47.2381|9.5967:Feldkirch,Vorarlberg,AT
+46.7885|14.0063:Feldkirchen,Carinthia,AT
+47.7612|13.7552:Gmunden,Upper Austria,AT
+47.0667|15.4333:Graz(Stadt),Styria,AT
+48.2693|13.7692:Grieskirchen,Upper Austria,AT
+47.6081|13.2675:Hallein,Salzburg,AT
+47.2853|15.9456:Hartberg-Furstenfeld,Styria,AT
+47.0866|10.8963:Imst,Tyrol,AT
+47.1963|11.3417:Innsbruck-Land,Tyrol,AT
+47.2891|11.3806:Innsbruck-Stadt,Tyrol,AT
+47.8172|14.2095:Kirchdorf an der Krems,Upper Austria,AT
+47.464|12.3754:Kitzbuhel,Tyrol,AT
+46.6253|14.3082:Klagenfurt Stadt,Carinthia,AT
+48.4626|15.5109:Krems(Land),Lower Austria,AT
+47.5194|12.0577:Kufstein,Tyrol,AT
+47.0337|10.4829:Landeck,Tyrol,AT
+46.7835|15.5223:Leibnitz,Styria,AT
+47.3816|15.0959:Leoben,Styria,AT
+46.9062|12.5226:Lienz,Tyrol,AT
+48.3|14.2833:Linz(Stadt),Upper Austria,AT
+48.1609|15.2943:Melk,Lower Austria,AT
+48.0859|16.2844:Modling,Lower Austria,AT
+47.6881|15.9427:Neunkirchen,Lower Austria,AT
+48.2762|14.739:Perg,Upper Austria,AT
+47.3801|10.5832:Reutte,Tyrol,AT
+48.2203|13.442:Ried im Innkreis,Upper Austria,AT
+48.5593|13.9581:Rohrbach,Upper Austria,AT
+47.8421|13.1857:Salzburg-Umgebung,Salzburg,AT
+47.8007|13.0453:Salzburg(Stadt),Salzburg,AT
+47.308|13.2677:Sankt Johann im Pongau,Salzburg,AT
+48.1637|15.7054:Sankt Polten(Land),Lower Austria,AT
+48.2|15.6167:Sankt Polten(Stadt),Lower Austria,AT
+47.9282|15.0893:Scheibbs,Lower Austria,AT
+47.2743|11.783:Schwaz,Tyrol,AT
+47.914|14.4774:Steyr-Land,Upper Austria,AT
+46.8776|15.8497:Sudoststeiermark,Styria,AT
+47.1405|13.6661:Tamsweg,Salzburg,AT
+48.3463|15.9958:Tulln,Lower Austria,AT
+48.4229|14.2695:Urfahr-Umgebung,Upper Austria,AT
+46.6433|13.7682:Villach Land,Carinthia,AT
+47.9642|13.533:Vocklabruck,Upper Austria,AT
+47.0581|15.078:Voitsberg,Styria,AT
+47.2813|15.6732:Weiz,Styria,AT
+48.1263|13.973:Wels-Land,Upper Austria,AT
+48.2537|16.2894:Wien  2.,Vienna,AT
+48.2537|16.2896:Wien  3.,Vienna,AT
+48.2537|16.2899:Wien  4.,Vienna,AT
+47.2972|12.6538:Zell am See,Salzburg,AT
+48.5552|15.1539:Zwettl,Lower Austria,AT
+46.8075|15.1984:Deutschlandsberg,Styria,AT
+48.4663|14.6304:Freistadt,Upper Austria,AT
+48.352|16.7507:Ganserndorf,Lower Austria,AT
+46.57|14.2948:Klagenfurt Land,Carinthia,AT
+48.4322|16.2663:Korneuburg,Lower Austria,AT
+48.6099|16.5386:Mistelbach,Lower Austria,AT
 49.9938|9.6629:Main-Spessart,Bayern,DE
+48.4316|13.5887:Scharding,Upper Austria,AT
+46.8987|13.2715:Spittal an der Drau,Carinthia,AT
+47.8677|16.0101:Wiener Neustadt(Land),Lower Austria,AT
+47.7932|16.5676:Eisenstadt-Umgebung,Burgenland,AT
+47.127|15.384:Graz-Umgebung,Styria,AT
+47.4449|13.9015:Grobming,Styria,AT
+47.1023|16.2973:Gussing,Burgenland,AT
+48.6376|16.0054:Hollabrunn,Lower Austria,AT
+48.7135|15.6784:Horn,Lower Austria,AT
+48.4088|15.5965:Krems an der Donau(Stadt),Lower Austria,AT
+47.5211|14.2134:Liezen,Styria,AT
+47.9278|15.5824:Lilienfeld,Lower Austria,AT
+48.1904|14.281:Linz-Land,Upper Austria,AT
+47.736|16.4011:Mattersburg,Burgenland,AT
+47.2404|14.6415:Murtal,Styria,AT
+47.5131|16.4834:Oberpullendorf,Burgenland,AT
+47.2958|16.2658:Oberwart,Burgenland,AT
+46.8841|14.3404:Sankt Veit an der Glan,Carinthia,AT
+46.5961|14.6567:Volkermarkt,Carinthia,AT
+47.9582|14.7676:Waidhofen an der Ybbs(Stadt),Lower Austria,AT
+48.1568|14.0221:Wels(Stadt),Upper Austria,AT
+48.2101|16.377:Wien(Stadt),Vienna,AT
+47.8|16.25:Wiener Neustadt(Stadt),Lower Austria,AT
+46.9678|16.1447:Jennersdorf,Burgenland,AT
+47.888|16.9314:Neusiedl am See,Burgenland,AT
+48.8522|15.3477:Waidhofen an der Thaya,Lower Austria,AT
+46.8402|14.8418:Wolfsberg,Carinthia,AT
+48.8549|15.0635:Gmund,Lower Austria,AT
+46.609|13.8514:Villach Stadt,Carinthia,AT
 52.4214|10.787:Wolfsburg,Niedersachsen,DE
+47.1281|14.1768:Murau,Styria,AT
 48.3703|10.8979:Augsburg,Bayern,DE
 39.4286|8.9453:Sud Sardegna,Sardegna,IT
+48.0333|14.4167:Steyr(Stadt),Upper Austria,AT
 47.8797|10.624:Kaufbeuren,Bayern,DE
 37.49|14.0632:Caltanissetta,Sicilia,IT
+46.647|13.1207:Hermagor,Carinthia,AT
 47.7243|10.3152:Kempten,Bayern,DE
 47.9863|10.1805:Memmingen,Bayern,DE
 48.4277|11.0529:Aichach-Friedberg,Bayern,DE
+54.785|9.4385:Flensburg,Schleswig-Holstein,DE
+54.1335|9.1079:Dithmarschen,Schleswig-Holstein,DE
+54.6108|8.8866:Nordfriesland,Schleswig-Holstein,DE
+54.6197|9.4888:Schleswig-Flensburg,Schleswig-Holstein,DE
+53.9292|9.5194:Steinburg,Schleswig-Holstein,DE
+53.7212|10.3318:Stormarn,Schleswig-Holstein,DE
+52.4219|9.7199:Region Hannover,Niedersachsen,DE
+52.1509|9.9515:Hildesheim,Niedersachsen,DE
+53.8583|8.6978:Cuxhaven,Niedersachsen,DE
+53.6022|9.4784:Stade,Niedersachsen,DE
+52.9733|9.1754:Verden,Niedersachsen,DE
+53.0472|8.6288:Delmenhorst,Niedersachsen,DE
+52.2719|8.0448:Osnabruck,Niedersachsen,DE
 48.5966|10.5281:Dillingen a.d.Donau,Bayern,DE
+52.729|8.2864:Vechta,Niedersachsen,DE
+53.3556|8.3903:Wesermarsch,Niedersachsen,DE
+53.5753|7.7835:Wittmund,Niedersachsen,DE
+53.1198|8.7804:Bremen,Bremen,DE
+51.2156|6.7767:Dusseldorf,Nordrhein-Westfalen,DE
+51.4315|6.7636:Duisburg,Nordrhein-Westfalen,DE
+51.4518|7.0111:Essen,Nordrhein-Westfalen,DE
+51.334|6.5626:Krefeld,Nordrhein-Westfalen,DE
+51.1955|6.4427:Monchengladbach,Nordrhein-Westfalen,DE
+51.1793|7.1932:Remscheid,Nordrhein-Westfalen,DE
+51.2716|7.1967:Wuppertal,Nordrhein-Westfalen,DE
+51.7904|6.1378:Kleve,Nordrhein-Westfalen,DE
+51.2517|6.9786:Mettmann,Nordrhein-Westfalen,DE
+51.1426|6.6471:Rhein-Kreis Neuss,Nordrhein-Westfalen,DE
+51.2573|6.3909:Viersen,Nordrhein-Westfalen,DE
+51.6557|6.6168:Wesel,Nordrhein-Westfalen,DE
+50.7324|7.1019:Bonn,Nordrhein-Westfalen,DE
+50.9417|6.9552:Koln,Nordrhein-Westfalen,DE
+51.0332|6.9817:Leverkusen,Nordrhein-Westfalen,DE
+50.7539|6.2419:StadtRegion Aachen,Nordrhein-Westfalen,DE
+50.8048|6.4833:Duren,Nordrhein-Westfalen,DE
+50.9051|6.7162:Rhein-Erft-Kreis,Nordrhein-Westfalen,DE
+50.6615|6.7855:Euskirchen,Nordrhein-Westfalen,DE
+51.0595|6.0954:Heinsberg,Nordrhein-Westfalen,DE
+51.0126|7.5165:Oberbergischer Kreis,Nordrhein-Westfalen,DE
+51.023|7.1946:Rheinisch-Bergischer Kreis,Nordrhein-Westfalen,DE
+50.7608|7.235:Rhein-Sieg-Kreis,Nordrhein-Westfalen,DE
+51.5115|7.0931:Gelsenkirchen,Nordrhein-Westfalen,DE
+51.963|7.6178:Munster,Nordrhein-Westfalen,DE
+51.8421|6.8561:Borken,Nordrhein-Westfalen,DE
+51.9457|7.1695:Coesfeld,Nordrhein-Westfalen,DE
+51.6136|7.1933:Recklinghausen,Nordrhein-Westfalen,DE
+52.1501|7.339:Steinfurt,Nordrhein-Westfalen,DE
+51.9093|8.3809:Gutersloh,Nordrhein-Westfalen,DE
+51.7735|9.3825:Hoxter,Nordrhein-Westfalen,DE
+52.3525|8.7395:Minden-Lubbecke,Nordrhein-Westfalen,DE
+51.7181|8.752:Paderborn,Nordrhein-Westfalen,DE
+51.4864|7.2108:Bochum,Nordrhein-Westfalen,DE
+51.5166|7.4583:Dortmund,Nordrhein-Westfalen,DE
+51.3599|7.4713:Hagen,Nordrhein-Westfalen,DE
+51.2626|7.7129:Markischer Kreis,Nordrhein-Westfalen,DE
+50.9378|8.1949:Siegen-Wittgenstein,Nordrhein-Westfalen,DE
+51.5725|8.1083:Soest,Nordrhein-Westfalen,DE
+51.5325|7.6869:Unna,Nordrhein-Westfalen,DE
+50.1121|8.6834:Frankfurt am Main,Hessen,DE
+50.1006|8.7665:Offenbach,Hessen,DE
+50.0847|8.2421:Wiesbaden,Hessen,DE
+50.8052|9.6043:Bergstrasze,Hessen,DE
+49.8555|8.7952:Darmstadt-Dieburg,Hessen,DE
+49.9227|8.4821:Grosz-Gerau,Hessen,DE
+50.2815|8.5046:Hochtaunuskreis,Hessen,DE
+50.2439|9.286:Main-Kinzig-Kreis,Hessen,DE
+50.1027|8.4355:Main-Taunus-Kreis,Hessen,DE
+49.6717|8.9795:Odenwaldkreis,Hessen,DE
+50.1437|8.0823:Rheingau-Taunus-Kreis,Hessen,DE
+50.3548|8.9075:Wetteraukreis,Hessen,DE
+51.3185|9.5118:Kassel,Hessen,DE
+51.0238|9.3736:Schwalm-Eder-Kreis,Hessen,DE
+51.1908|9.9286:Werra-Meiszner-Kreis,Hessen,DE
+50.4672|7.044:Ahrweiler,Rheinland-Pfalz,DE
+49.4431|7.3228:Altenkirchen,Rheinland-Pfalz,DE
+49.9249|6.9675:Bernkastel-Wittlich,Rheinland-Pfalz,DE
+49.4421|7.7605:Kaiserslautern,Rheinland-Pfalz,DE
+50.0006|8.2724:Mainz,Rheinland-Pfalz,DE
+49.7594|8.156:Alzey-Worms,Rheinland-Pfalz,DE
+49.453|8.1102:Bad Durkheim,Rheinland-Pfalz,DE
+49.6319|7.9149:Donnersbergkreis,Rheinland-Pfalz,DE
+49.2214|8.3751:Germersheim,Rheinland-Pfalz,DE
+49.921|8.0797:Mainz-Bingen,Rheinland-Pfalz,DE
+48.6854|9.0096:Boblingen,Baden-Wurttemberg,DE
+48.8942|9.1919:Ludwigsburg,Baden-Wurttemberg,DE
+48.8989|9.5013:Rems-Murr-Kreis,Baden-Wurttemberg,DE
+49.1431|9.2193:Heilbronn,Baden-Wurttemberg,DE
+49.2716|9.6143:Hohenlohekreis,Baden-Wurttemberg,DE
+49.1448|9.9091:Schwabisch Hall,Baden-Wurttemberg,DE
+48.6622|10.1818:Heidenheim,Baden-Wurttemberg,DE
+48.8775|10.0902:Ostalbkreis,Baden-Wurttemberg,DE
+49.4665|9.2801:Neckar-Odenwald-Kreis,Baden-Wurttemberg,DE
+49.3685|8.7677:Rhein-Neckar-Kreis,Baden-Wurttemberg,DE
+48.8764|8.7128:Pforzheim,Baden-Wurttemberg,DE
+48.7143|8.7404:Calw,Baden-Wurttemberg,DE
+48.9148|8.8276:Enzkreis,Baden-Wurttemberg,DE
+48.4205|8.0174:Ortenaukreis,Baden-Wurttemberg,DE
+48.0192|8.4109:Schwarzwald-Baar-Kreis,Baden-Wurttemberg,DE
+48.0114|8.7942:Tuttlingen,Baden-Wurttemberg,DE
+47.6639|9.1776:Konstanz,Baden-Wurttemberg,DE
+48.4067|9.3657:Reutlingen,Baden-Wurttemberg,DE
+48.2672|8.9374:Zollernalbkreis,Baden-Wurttemberg,DE
+48.4017|9.8275:Alb-Donau-Kreis,Baden-Wurttemberg,DE
+48.1075|9.7744:Biberach,Baden-Wurttemberg,DE
+47.782|9.6146:Ravensburg,Baden-Wurttemberg,DE
+48.1364|11.5775:Munchen,Bayern,DE
+47.8565|12.1288:Rosenheim,Bayern,DE
+48.2096|12.7051:Altotting,Bayern,DE
+47.6984|12.902:Berchtesgadener Land,Bayern,DE
+48.2594|11.4343:Dachau,Bayern,DE
+48.0762|11.9135:Ebersberg,Bayern,DE
+48.8981|11.3704:Eichstatt,Bayern,DE
+48.3087|11.9082:Erding,Bayern,DE
+48.4008|11.7438:Freising,Bayern,DE
+48.1792|11.2546:Furstenfeldbruck,Bayern,DE
+47.4929|11.0868:Garmisch-Partenkirchen,Bayern,DE
+48.0494|10.8768:Landsberg a.Lech,Bayern,DE
+47.7409|11.8097:Miesbach,Bayern,DE
+48.664|11.1975:Neuburg-Schrobenhausen,Bayern,DE
+47.8943|12.5795:Traunstein,Bayern,DE
+47.7874|11.0485:Weilheim-Schongau,Bayern,DE
+48.882|12.5738:Straubing,Bayern,DE
+48.8313|12.9622:Deggendorf,Bayern,DE
+48.5733|13.4579:Passau,Bayern,DE
+49.0229|13.0999:Regen,Bayern,DE
+48.4245|12.8675:Rottal-Inn,Bayern,DE
+48.986|12.6864:Straubing-Bogen,Bayern,DE
+49.0149|12.1017:Regensburg,Bayern,DE
+50.0299|11.2499:Weiden i.d.OPf.,Bayern,DE
+49.4855|11.8013:Amberg-Sulzbach,Bayern,DE
+49.2779|11.433:Neumarkt i.d.OPf.,Bayern,DE
+49.7275|11.8707:Neustadt a.d.Waldnaab,Bayern,DE
+49.328|12.1083:Schwandorf,Bayern,DE
+49.2772|6.9703:Stadtverband Saarbrucken,Saarland,DE
+49.27|7.2478:Saar-Pfalz-Kreis,Saarland,DE
+49.467|7.1709:Sankt Wendel,Saarland,DE
+52.5212|13.4241:Berlin Mitte,Berlin,DE
+52.5|13.45:Berlin Friedrichshain-Kreuzberg,Berlin,DE
+52.5693|13.4025:Berlin Pankow,Berlin,DE
+52.4996|13.323:Berlin Charlottenburg-Wilmersdorf,Berlin,DE
+52.5349|13.2022:Berlin Spandau,Berlin,DE
+52.4349|13.2418:Berlin Steglitz-Zehlendorf,Berlin,DE
+52.4699|13.3684:Berlin Tempelhof-Schoneberg,Berlin,DE
+52.4808|13.4354:Berlin Neukolln,Berlin,DE
+52.5644|13.5506:Berlin Marzahn-Hellersdorf,Berlin,DE
+52.5162|13.4809:Berlin Lichtenberg,Berlin,DE
+52.5755|13.3497:Berlin Reinickendorf,Berlin,DE
+52.8237|13.7039:Barnim,Brandenburg,DE
+52.0432|13.8197:Dahme-Spreewald,Brandenburg,DE
+52.9921|12.6359:Ostprignitz-Ruppin,Brandenburg,DE
+52.2469|12.6892:Potsdam-Mittelmark,Brandenburg,DE
+52.0739|13.2761:Teltow-Flaming,Brandenburg,DE
+53.9128|12.2206:Rostock,Mecklenburg-Vorpommern,DE
+50.6089|12.9449:Erzgebirgskreis,Sachsen,DE
+50.4568|12.2348:Vogtlandkreis,Sachsen,DE
 48.3527|10.381:Gunzburg,Bayern,DE
+50.7147|12.4976:Zwickau,Sachsen,DE
+51.0536|13.7408:Dresden,Sachsen,DE
+51.1796|14.4243:Bautzen,Sachsen,DE
+50.9167|13.8727:Sachsische Schweiz-Osterzgebirge,Sachsen,DE
+51.3452|12.3859:Leipzig,Sachsen,DE
+51.4822|11.9749:Halle,Sachsen-Anhalt,DE
+51.1472|11.8836:Burgenlandkreis,Sachsen-Anhalt,DE
+51.8218|10.9584:Harz,Sachsen-Anhalt,DE
+51.5359|11.3564:Mansfeld-Sudharz,Sachsen-Anhalt,DE
+51.4258|11.8656:Saalekreis,Sachsen-Anhalt,DE
+50.8786|12.0779:Gera,Thuringen,DE
+51.3836|10.2533:Eichsfeld,Thuringen,DE
+50.8936|10.2121:Wartburgkreis,Thuringen,DE
+50.6309|10.3965:Schmalkalden-Meiningen,Thuringen,DE
+50.4338|10.7342:Hildburghausen,Thuringen,DE
+50.3559|11.1838:Sonneberg,Thuringen,DE
+50.6409|11.3126:Saalfeld-Rudolstadt,Thuringen,DE
+50.9042|11.7317:Saale-Holzland-Kreis,Thuringen,DE
+50.6554|12.2029:Greiz,Thuringen,DE
 48.3958|10.001:Neu-Ulm,Bayern,DE
-47.548|9.6851:Lindau,Bayern,DE
 52.4821|10.5449:Gifhorn,Niedersachsen,DE
+52.1607|10.5344:Wolfenbuttel,Niedersachsen,DE
+51.5312|9.9381:Göttingen,Niedersachsen,DE
+52.2928|9.2066:Schaumburg,Niedersachsen,DE
+52.6252|10.0862:Celle,Niedersachsen,DE
+53.2409|7.4784:Leer,Niedersachsen,DE
+53.5382|8.5885:Bremerhaven,Bremen,DE
+51.4128|6.8819:Mulheim a.d.Ruhr,Nordrhein-Westfalen,DE
+51.1668|7.0884:Solingen,Nordrhein-Westfalen,DE
+50.5536|9.6746:Fulda,Hessen,DE
+50.9063|9.7525:Hersfeld-Rotenburg,Hessen,DE
+48.7085|9.6495:Göppingen,Baden-Wurttemberg,DE
+48.5231|11.5115:Pfaffenhofen a.d.Ilm,Bayern,DE
+47.9997|11.3422:Starnberg,Bayern,DE
+50.9563|12.3992:Altenburger Land,Thuringen,DE
+48.3055|4.161:Aube,Grand Est,FR
+43.105|2.4054:Aude,Occitanie,FR
+43.5435|5.086:Bouches-du-Rhone,Provence-Alpes-Cote d'Azur,FR
+49.0998|-0.3617:Calvados,Normandy,FR
+45.72|0.2035:Charente,Nouvelle-Aquitaine,FR
+47.068|2.4912:Cher,Centre-Val de Loire,FR
+45.3583|1.8782:Correze,Nouvelle-Aquitaine,FR
+47.4276|4.7712:Cote-d'Or,Bourgogne-Franche-Comte,FR
+48.4416|-2.8654:Cotes-d'Armor,Brittany,FR
+46.0915|2.018:Creuse,Nouvelle-Aquitaine,FR
+45.1065|0.7411:Dordogne,Nouvelle-Aquitaine,FR
+47.1671|6.3632:Doubs,Bourgogne-Franche-Comte,FR
+49.1138|0.9961:Eure,Normandy,FR
+48.3894|1.3699:Eure-et-Loir,Centre-Val de Loire,FR
+48.2618|-4.0616:Finistere,Brittany,FR
+43.9945|4.1798:Gard,Occitanie,FR
+43.3607|1.1761:Haute-Garonne,Occitanie,FR
+44.8261|-0.5769:Gironde,Nouvelle-Aquitaine,FR
+43.5802|3.3686:Herault,Occitanie,FR
+48.155|-1.6382:Ille-et-Vilaine,Brittany,FR
+47.2598|0.6909:Indre-et-Loire,Centre-Val de Loire,FR
+45.2657|5.5733:Isere,Auvergne-Rhone-Alpes,FR
+46.7311|5.6973:Jura,Bourgogne-Franche-Comte,FR
+47.6182|1.427:Loir-et-Cher,Centre-Val de Loire,FR
+45.7297|4.1639:Loire,Auvergne-Rhone-Alpes,FR
+45.1288|3.8062:Haute-Loire,Auvergne-Rhone-Alpes,FR
+47.3631|-1.6802:Loire-Atlantique,Pays de la Loire,FR
+47.9128|2.3437:Loiret,Centre-Val de Loire,FR
+44.6255|1.6058:Lot,Occitanie,FR
+44.3687|0.4608:Lot-et-Garonne,Nouvelle-Aquitaine,FR
+47.3922|-0.5639:Maine-et-Loire,Pays de la Loire,FR
+49.0813|-1.3292:Manche,Normandy,FR
+48.9509|4.2387:Marne,Grand Est,FR
+48.1125|5.2248:Haute-Marne,Grand Est,FR
+48.1486|-0.6571:Mayenne,Pays de la Loire,FR
+48.7915|6.1608:Meurthe-et-Moselle,Grand Est,FR
+48.9936|5.3813:Meuse,Grand Est,FR
+49.039|6.6602:Moselle,Grand Est,FR
+47.1172|3.5039:Nievre,Bourgogne-Franche-Comte,FR
+50.4503|3.2125:Nord,Hauts-de-France,FR
+49.4109|2.4245:Oise,Hauts-de-France,FR
+48.6231|0.1278:Orne,Normandy,FR
+50.4961|2.2841:Pas-de-Calais,Hauts-de-France,FR
+45.7272|3.1397:Puy-de-Dome,Auvergne-Rhone-Alpes,FR
+48.6732|7.5523:Bas-Rhin,Grand Est,FR
+47.8606|7.274:Haut-Rhin,Grand Est,FR
+45.8721|4.6406:Rhone,Auvergne-Rhone-Alpes,FR
+46.6461|4.543:Saone-et-Loire,Bourgogne-Franche-Comte,FR
+47.9961|0.2225:Sarthe,Pays de la Loire,FR
+46.0539|6.4367:Haute-Savoie,Auvergne-Rhone-Alpes,FR
+49.6546|1.0274:Seine-Maritime,Normandy,FR
+48.6293|2.9342:Seine-et-Marne,Ile-de-France,FR
+48.816|1.8413:Yvelines,Ile-de-France,FR
+49.9597|2.2733:Somme,Hauts-de-France,FR
+43.4419|6.2447:Var,Provence-Alpes-Cote d'Azur,FR
+44.008|5.1767:Vaucluse,Provence-Alpes-Cote d'Azur,FR
+46.6756|-1.2999:Vendee,Pays de la Loire,FR
+46.5667|0.4591:Vienne,Nouvelle-Aquitaine,FR
+48.1968|6.38:Vosges,Grand Est,FR
+47.8422|3.5626:Yonne,Bourgogne-Franche-Comte,FR
+47.632|6.9284:Territoire de Belfort,Bourgogne-Franche-Comte,FR
+48.5228|2.2434:Essonne,Ile-de-France,FR
+48.8474|2.2458:Hauts-de-Seine,Ile-de-France,FR
+48.9176|2.4779:Seine-Saint-Denis,Ile-de-France,FR
+48.7774|2.4688:Val-de-Marne,Ile-de-France,FR
+49.0827|2.1308:Val-d'Oise,Ile-de-France,FR
+5.1694|-52.6468:Guyane,French Guiana,FR
+-21.1332|55.5324:La Reunion,Reunion,FR
+43.7655|-0.7102:Mayotte,Mayotte,FR
+44.4679|9.1227:Genova,Liguria,IT
+43.9467|7.8088:Imperia,Liguria,IT
+44.283|8.2918:Savona,Liguria,IT
+44.879|8.187:Asti,Piemonte,IT
+47.548|9.6851:Lindau,Bayern,DE
+41.4286|13.1459:Latina,Lazio,IT
+43.1003|13.5776:Fermo,Marche,IT
+45.9415|13.6218:Gorizia,Friuli Venezia Giulia,IT
+41.241|14.7521:Benevento,Campania,IT
 47.7699|10.6399:Ostallgau,Bayern,DE
 48.0399|10.3896:Unterallgau,Bayern,DE
 47.5728|10.2586:Oberallgau,Bayern,DE
-49.2772|6.9703:Stadtverband Saarbrucken,Saarland,DE
 51.9068|10.432:Goslar,Niedersachsen,DE
 38.8977|16.4911:Catanzaro,Calabria,IT
 49.4958|6.6805:Merzig-Wadern,Saarland,DE
@@ -3726,107 +5476,57 @@
 49.3757|7.1172:Neunkirchen,Saarland,DE
 38.2401|16.0324:Reggio di Calabria,Calabria,IT
 49.3555|6.7756:Saarlouis,Saarland,DE
-49.27|7.2478:Saar-Pfalz-Kreis,Saarland,DE
-49.467|7.1709:Sankt Wendel,Saarland,DE
-52.5212|13.4241:Berlin Mitte,Berlin,DE
-45.9415|13.6218:Gorizia,Friuli Venezia Giulia,IT
 52.2249|11.0148:Helmstedt,Niedersachsen,DE
-52.5|13.45:Berlin Friedrichshain-Kreuzberg,Berlin,DE
-44.4679|9.1227:Genova,Liguria,IT
-44.283|8.2918:Savona,Liguria,IT
-52.5693|13.4025:Berlin Pankow,Berlin,DE
 51.7068|10.0068:Northeim,Niedersachsen,DE
-52.4996|13.323:Berlin Charlottenburg-Wilmersdorf,Berlin,DE
-52.5349|13.2022:Berlin Spandau,Berlin,DE
-52.4349|13.2418:Berlin Steglitz-Zehlendorf,Berlin,DE
 52.3204|10.2332:Peine,Niedersachsen,DE
-52.4699|13.3684:Berlin Tempelhof-Schoneberg,Berlin,DE
-44.879|8.187:Asti,Piemonte,IT
-52.4808|13.4354:Berlin Neukolln,Berlin,DE
-52.1607|10.5344:Wolfenbuttel,Niedersachsen,DE
 52.4938|13.4447:Berlin Treptow-Kopenick,Berlin,DE
-52.5644|13.5506:Berlin Marzahn-Hellersdorf,Berlin,DE
-52.5162|13.4809:Berlin Lichtenberg,Berlin,DE
-52.5755|13.3497:Berlin Reinickendorf,Berlin,DE
 52.4086|12.5629:Brandenburg a.d.Havel,Brandenburg,DE
 51.7728|14.3662:Cottbus,Brandenburg,DE
-51.5312|9.9381:Gottingen,Niedersachsen,DE
 52.3248|14.4903:Frankfurt (Oder),Brandenburg,DE
 52.4262|13.0285:Potsdam,Brandenburg,DE
-52.8237|13.7039:Barnim,Brandenburg,DE
-52.0432|13.8197:Dahme-Spreewald,Brandenburg,DE
 51.6127|13.4595:Elbe-Elster,Brandenburg,DE
 52.621|12.6282:Havelland,Brandenburg,DE
 52.6071|14.1463:Markisch-Oderland,Brandenburg,DE
 45.0134|11.8992:Rovigo,Veneto,IT
 51.617|13.9437:Oberspreewald-Lausitz,Brandenburg,DE
 52.2445|14.2187:Oder-Spree,Brandenburg,DE
-52.9921|12.6359:Ostprignitz-Ruppin,Brandenburg,DE
-52.2469|12.6892:Potsdam-Mittelmark,Brandenburg,DE
 53.1097|11.9619:Prignitz,Brandenburg,DE
 51.6231|14.4192:Spree-Neise,Brandenburg,DE
 40.4709|16.4461:Matera,Basilicata,IT
-52.0739|13.2761:Teltow-Flaming,Brandenburg,DE
 53.2065|13.8613:Uckermark,Brandenburg,DE
-53.9128|12.2206:Rostock,Mecklenburg-Vorpommern,DE
 53.6216|11.4165:Schwerin,Mecklenburg-Vorpommern,DE
 53.8219|11.2523:Nordwestmecklenburg,Mecklenburg-Vorpommern,DE
 38.6259|16.162:Vibo Valentia,Calabria,IT
 53.4508|11.5345:Ludwigslust-Parchim,Mecklenburg-Vorpommern,DE
 50.8367|12.9209:Chemnitz,Sachsen,DE
-43.9467|7.8088:Imperia,Liguria,IT
-50.6089|12.9449:Erzgebirgskreis,Sachsen,DE
 50.9559|13.1376:Mittelsachsen,Sachsen,DE
-50.4568|12.2348:Vogtlandkreis,Sachsen,DE
-50.7147|12.4976:Zwickau,Sachsen,DE
-51.0536|13.7408:Dresden,Sachsen,DE
-51.1796|14.4243:Bautzen,Sachsen,DE
 51.1549|14.9865:Gorlitz,Sachsen,DE
 50.5002|12.41:Meisen,Sachsen,DE
-50.9167|13.8727:Sachsische Schweiz-Osterzgebirge,Sachsen,DE
-51.3452|12.3859:Leipzig,Sachsen,DE
-43.1003|13.5776:Fermo,Marche,IT
-52.4219|9.7199:Region Hannover,Niedersachsen,DE
 41.6507|14.2507:Isernia,Molise,IT
 51.4728|12.7793:Nordsachsen,Sachsen,DE
 51.8361|12.2428:Dessau-Roslau,Sachsen-Anhalt,DE
-51.4822|11.9749:Halle,Sachsen-Anhalt,DE
 52.1167|11.6415:Magdeburg,Sachsen-Anhalt,DE
 52.6801|11.227:Altmarkkreis Salzwedel,Sachsen-Anhalt,DE
 51.7962|12.1431:Anhalt-Bitterfeld,Sachsen-Anhalt,DE
 52.2214|11.3479:Borde,Sachsen-Anhalt,DE
-51.1472|11.8836:Burgenlandkreis,Sachsen-Anhalt,DE
-51.8218|10.9584:Harz,Sachsen-Anhalt,DE
 52.2614|12.0267:Jerichower Land,Sachsen-Anhalt,DE
-51.5359|11.3564:Mansfeld-Sudharz,Sachsen-Anhalt,DE
-51.4258|11.8656:Saalekreis,Sachsen-Anhalt,DE
 51.8511|11.6413:Salzlandkreis,Sachsen-Anhalt,DE
 52.6976|11.8394:Stendal,Sachsen-Anhalt,DE
 51.8205|12.7014:Wittenberg,Sachsen-Anhalt,DE
 39.9986|8.7051:Oristano,Sardegna,IT
 50.9779|11.0235:Erfurt,Thuringen,DE
-50.8786|12.0779:Gera,Thuringen,DE
 50.927|11.5863:Jena,Thuringen,DE
 50.6101|10.6895:Suhl,Thuringen,DE
 50.977|11.3279:Weimar,Thuringen,DE
 50.9744|10.3254:Eisenach,Thuringen,DE
-51.3836|10.2533:Eichsfeld,Thuringen,DE
 51.5024|10.7949:Nordhausen,Thuringen,DE
-50.8936|10.2121:Wartburgkreis,Thuringen,DE
 51.1853|10.5519:Unstrut-Hainich-Kreis,Thuringen,DE
 51.3248|10.9849:Kyffhauserkreis,Thuringen,DE
-50.6309|10.3965:Schmalkalden-Meiningen,Thuringen,DE
 50.9498|10.7086:Gotha,Thuringen,DE
 51.1602|11.1195:Sommerda,Thuringen,DE
-50.4338|10.7342:Hildburghausen,Thuringen,DE
 50.7423|10.9747:Ilm-Kreis,Thuringen,DE
 51.051|11.5498:Weimarer Land,Thuringen,DE
-50.3559|11.1838:Sonneberg,Thuringen,DE
-50.6409|11.3126:Saalfeld-Rudolstadt,Thuringen,DE
-50.9042|11.7317:Saale-Holzland-Kreis,Thuringen,DE
 50.5808|11.7105:Saale-Orla-Kreis,Thuringen,DE
-50.6554|12.2029:Greiz,Thuringen,DE
-50.9563|12.3992:Altenburger Land,Thuringen,DE
 50.7107|37.7533:Belgorod Oblast,Central,RU
 57.1057|41.483:Ivanovo Oblast,Central,RU
 58.5653|41.5671:Kostroma Oblast,Central,RU
@@ -3893,7 +5593,6 @@
 49.5|17.0:,Moravian-Silesian Region,CZ
 49.7464|13.3841:,Plzen,CZ
 49.604|17.2776:,South Bohemian Region,CZ
-41.241|14.7521:Benevento,Campania,IT
 50.0373|15.7788:,Pardubice,CZ
 50.7702|15.0586:,Liberec,CZ
 49.5924|17.249:,Olomouc,CZ
@@ -3916,9 +5615,7 @@
 57.7742|26.0316:,Valga,EE
 58.7583|25.5642:,Jarva,EE
 58.7501|26.3976:,Jogeva,EE
-41.4286|13.1459:Latina,Lazio,IT
 52.0951|9.3899:Hameln-Pyrmont,Niedersachsen,DE
-52.1509|9.9515:Hildesheim,Niedersachsen,DE
 67.7193|26.2942:,Lappi Hospital District,FI
 7.3726|80.5246:,Central Ostrobothnia Hospital District,FI
 60.1712|24.9327:,Helsinki and Uusimaa Hospital District,FI
@@ -3941,119 +5638,87 @@
 64.5244|28.7403:,Kainuu Hospital District,FI
 51.8276|9.4505:Holzminden,Niedersachsen,DE
 46.1007|5.3484:Ain,Auvergne-Rhone-Alpes,FR
-48.3055|4.161:Aube,Grand Est,FR
-43.105|2.4054:Aude,Occitanie,FR
 44.2828|2.6781:Aveyron,Occitanie,FR
-43.5435|5.086:Bouches-du-Rhone,Provence-Alpes-Cote d'Azur,FR
-49.0998|-0.3617:Calvados,Normandy,FR
 52.6428|9.2067:Nienburg (Weser),Niedersachsen,DE
 45.0521|2.6692:Cantal,Auvergne-Rhone-Alpes,FR
-45.72|0.2035:Charente,Nouvelle-Aquitaine,FR
 45.7845|-0.6787:Charente-Maritime,Nouvelle-Aquitaine,FR
-47.068|2.4912:Cher,Centre-Val de Loire,FR
-45.3583|1.8782:Correze,Nouvelle-Aquitaine,FR
 49.5635|3.5601:Aisne,Hauts-de-France,FR
-47.4276|4.7712:Cote-d'Or,Bourgogne-Franche-Comte,FR
-48.4416|-2.8654:Cotes-d'Armor,Brittany,FR
-46.0915|2.018:Creuse,Nouvelle-Aquitaine,FR
-45.1065|0.7411:Dordogne,Nouvelle-Aquitaine,FR
-47.1671|6.3632:Doubs,Bourgogne-Franche-Comte,FR
 44.6875|5.1671:Drome,Auvergne-Rhone-Alpes,FR
-49.1138|0.9961:Eure,Normandy,FR
-48.3894|1.3699:Eure-et-Loir,Centre-Val de Loire,FR
-52.2928|9.2066:Schaumburg,Niedersachsen,DE
-48.2618|-4.0616:Finistere,Brittany,FR
 42.1514|9.106:Corse-du-Sud,Corsica,FR
 46.3945|3.1875:Allier,Auvergne-Rhone-Alpes,FR
-43.9945|4.1798:Gard,Occitanie,FR
-43.3607|1.1761:Haute-Garonne,Occitanie,FR
 43.6937|0.4527:Gers,Occitanie,FR
-44.8261|-0.5769:Gironde,Nouvelle-Aquitaine,FR
-43.5802|3.3686:Herault,Occitanie,FR
-48.155|-1.6382:Ille-et-Vilaine,Brittany,FR
 46.7796|1.5761:Indre,Centre-Val de Loire,FR
-47.2598|0.6909:Indre-et-Loire,Centre-Val de Loire,FR
-45.2657|5.5733:Isere,Auvergne-Rhone-Alpes,FR
-46.7311|5.6973:Jura,Bourgogne-Franche-Comte,FR
 44.1092|6.2484:Alpes-de-Haute-Provence,Provence-Alpes-Cote d'Azur,FR
 43.9674|-0.7837:Landes,Nouvelle-Aquitaine,FR
-47.6182|1.427:Loir-et-Cher,Centre-Val de Loire,FR
-45.7297|4.1639:Loire,Auvergne-Rhone-Alpes,FR
-45.1288|3.8062:Haute-Loire,Auvergne-Rhone-Alpes,FR
-47.3631|-1.6802:Loire-Atlantique,Pays de la Loire,FR
-47.9128|2.3437:Loiret,Centre-Val de Loire,FR
-44.6255|1.6058:Lot,Occitanie,FR
-44.3687|0.4608:Lot-et-Garonne,Nouvelle-Aquitaine,FR
 44.5186|3.4995:Lozere,Occitanie,FR
-47.3922|-0.5639:Maine-et-Loire,Pays de la Loire,FR
 44.666|6.2688:Hautes-Alpes,Provence-Alpes-Cote d'Azur,FR
-49.0813|-1.3292:Manche,Normandy,FR
-48.9509|4.2387:Marne,Grand Est,FR
-48.1125|5.2248:Haute-Marne,Grand Est,FR
-48.1486|-0.6571:Mayenne,Pays de la Loire,FR
-52.6252|10.0862:Celle,Niedersachsen,DE
-48.7915|6.1608:Meurthe-et-Moselle,Grand Est,FR
-48.9936|5.3813:Meuse,Grand Est,FR
-49.039|6.6602:Moselle,Grand Est,FR
-47.1172|3.5039:Nievre,Bourgogne-Franche-Comte,FR
-50.4503|3.2125:Nord,Hauts-de-France,FR
 43.94|7.117:Alpes-Maritimes,Provence-Alpes-Cote d'Azur,FR
-49.4109|2.4245:Oise,Hauts-de-France,FR
-48.6231|0.1278:Orne,Normandy,FR
-50.4961|2.2841:Pas-de-Calais,Hauts-de-France,FR
-45.7272|3.1397:Puy-de-Dome,Auvergne-Rhone-Alpes,FR
 43.2568|-0.7614:Pyrenees-Atlantiques,Nouvelle-Aquitaine,FR
 43.0544|0.1638:Hautes-Pyrenees,Occitanie,FR
 42.5982|2.5182:Pyrenees-Orientales,Occitanie,FR
-48.6732|7.5523:Bas-Rhin,Grand Est,FR
-47.8606|7.274:Haut-Rhin,Grand Est,FR
-45.8721|4.6406:Rhone,Auvergne-Rhone-Alpes,FR
 44.7543|4.4261:Ardeche,Auvergne-Rhone-Alpes,FR
 47.642|6.0876:Haute-Saone,Bourgogne-Franche-Comte,FR
-46.6461|4.543:Saone-et-Loire,Bourgogne-Franche-Comte,FR
-47.9961|0.2225:Sarthe,Pays de la Loire,FR
-46.0539|6.4367:Haute-Savoie,Auvergne-Rhone-Alpes,FR
-49.6546|1.0274:Seine-Maritime,Normandy,FR
-48.6293|2.9342:Seine-et-Marne,Ile-de-France,FR
-48.816|1.8413:Yvelines,Ile-de-France,FR
 46.5594|-0.3182:Deux-Sevres,Nouvelle-Aquitaine,FR
 49.6174|4.6407:Ardennes,Grand Est,FR
-49.9597|2.2733:Somme,Hauts-de-France,FR
 43.7866|2.1654:Tarn,Occitanie,FR
-53.8583|8.6978:Cuxhaven,Niedersachsen,DE
 44.0863|1.2825:Tarn-et-Garonne,Occitanie,FR
-43.4419|6.2447:Var,Provence-Alpes-Cote d'Azur,FR
-44.008|5.1767:Vaucluse,Provence-Alpes-Cote d'Azur,FR
-46.6756|-1.2999:Vendee,Pays de la Loire,FR
-46.5667|0.4591:Vienne,Nouvelle-Aquitaine,FR
 45.8938|1.2346:Haute-Vienne,Nouvelle-Aquitaine,FR
-48.1968|6.38:Vosges,Grand Est,FR
-47.8422|3.5626:Yonne,Bourgogne-Franche-Comte,FR
 42.921|1.5034:Ariege,Occitanie,FR
-47.632|6.9284:Territoire de Belfort,Bourgogne-Franche-Comte,FR
-48.5228|2.2434:Essonne,Ile-de-France,FR
-48.8474|2.2458:Hauts-de-Seine,Ile-de-France,FR
-48.9176|2.4779:Seine-Saint-Denis,Ile-de-France,FR
-48.7774|2.4688:Val-de-Marne,Ile-de-France,FR
-49.0827|2.1308:Val-d'Oise,Ile-de-France,FR
 16.1448|-61.6501:Guadeloupe,Guadeloupe,FR
 14.6531|-61.0184:Martinique,Martinique,FR
-5.1694|-52.6468:Guyane,French Guiana,FR
--21.1332|55.5324:La Reunion,Reunion,FR
-43.7655|-0.7102:Mayotte,Mayotte,FR
+37.4631|-4.5762:,Andalucia,ES
 53.3152|9.9612:Harburg,Niedersachsen,DE
+40.4046|-3.6788:,Canarias,ES
+41.7985|1.5289:,Cataluna,ES
+35.89|-5.3178:,Ceuta,ES
+41.4331|1.8611:,C. Valenciana,ES
+52.2671|4.7493:Aalsmeer,Noord-Holland,NL
+52.4052|4.6228:Bloemendaal,Noord-Holland,NL
+52.7037|5.2901:Enkhuizen,Noord-Holland,NL
+52.2568|5.2239:Laren,Noord-Holland,NL
+52.2967|4.9045:Ouder-Amstel,Noord-Holland,NL
+52.7849|4.795:Schagen,Noord-Holland,NL
+53.0546|4.792:Texel,Noord-Holland,NL
+52.5289|4.7141:Uitgeest,Noord-Holland,NL
+51.861|4.6589:Alblasserdam,Zuid-Holland,NL
 53.0189|11.1221:Luchow-Dannenberg,Niedersachsen,DE
+52.6946|5.1772:Drechterland,Noord-Holland,NL
+51.8462|4.631:Hendrik-Ido-Ambacht,Zuid-Holland,NL
+52.2914|4.5787:Hillegom,Zuid-Holland,NL
 53.2475|10.4142:Luneburg,Niedersachsen,DE
+52.1564|4.5352:Leiderdorp,Zuid-Holland,NL
+52.2573|4.5526:Lisse,Zuid-Holland,NL
+52.1495|4.7785:Nieuwkoop,Zuid-Holland,NL
+51.8236|4.7726:Sliedrecht,Zuid-Holland,NL
+51.8558|4.4199:Albrandswaard,Zuid-Holland,NL
+51.8702|4.0707:Westvoorne,Zuid-Holland,NL
+52.1248|4.4443:Voorschoten,Zuid-Holland,NL
+52.122|4.4971:Zoeterwoude,Zuid-Holland,NL
+51.7015|4.8578:Geertruidenberg,Noord-Brabant,NL
+51.5859|4.3146:Steenbergen,Noord-Brabant,NL
+52.4592|5.036:Waterland,Noord-Holland,NL
+51.4292|4.2992:Woensdrecht,Noord-Brabant,NL
+52.4983|4.8121:Wormerland,Noord-Holland,NL
+51.5998|6.0336:Bergen (L.),Limburg,NL
+52.24|5.1154:Wijdemeren,Noord-Holland,NL
+51.6271|5.8819:Sint Anthonis,Noord-Brabant,NL
+51.7081|4.8063:Drimmelen,Noord-Brabant,NL
 53.251|8.808:Osterholz,Niedersachsen,DE
+51.9772|4.3159:Midden-Delfland,Zuid-Holland,NL
+52.2044|4.6341:Kaag en Braassem,Zuid-Holland,NL
+52.0449|4.7224:Bodegraven-Reeuwijk,Zuid-Holland,NL
+47.8445|16.5258:Eisenstadt(Stadt),Burgenland,AT
 53.1124|9.4112:Rotenburg (Wumme),Niedersachsen,DE
 52.9285|9.7692:Heidekreis,Niedersachsen,DE
-53.6022|9.4784:Stade,Niedersachsen,DE
+54.3249|10.1323:Kiel,Schleswig-Holstein,DE
+54.0812|9.9845:Neumunster,Schleswig-Holstein,DE
+53.5894|10.602:Herzogtum Lauenburg,Schleswig-Holstein,DE
+54.1906|10.82:Ostholstein,Schleswig-Holstein,DE
+54.2437|10.3638:Plon,Schleswig-Holstein,DE
+54.2904|9.782:Rendsburg-Eckernforde,Schleswig-Holstein,DE
 52.9656|10.5607:Uelzen,Niedersachsen,DE
-52.9733|9.1754:Verden,Niedersachsen,DE
-53.0472|8.6288:Delmenhorst,Niedersachsen,DE
 53.3668|7.2058:Emden,Niedersachsen,DE
 53.1388|8.2112:Oldenburg,Niedersachsen,DE
-52.2719|8.0448:Osnabruck,Niedersachsen,DE
 53.5196|8.1117:Wilhelmshaven,Niedersachsen,DE
 53.2183|8.0133:Ammerland,Niedersachsen,DE
 53.4677|7.4801:Aurich,Niedersachsen,DE
@@ -4061,102 +5726,24 @@
 52.7383|7.4026:Emsland,Niedersachsen,DE
 53.5118|7.9841:Friesland,Niedersachsen,DE
 52.476|7.0199:Grafschaft Bentheim,Niedersachsen,DE
-53.2409|7.4784:Leer,Niedersachsen,DE
-52.729|8.2864:Vechta,Niedersachsen,DE
-53.3556|8.3903:Wesermarsch,Niedersachsen,DE
-53.5753|7.7835:Wittmund,Niedersachsen,DE
-53.1198|8.7804:Bremen,Bremen,DE
-53.5382|8.5885:Bremerhaven,Bremen,DE
-51.2156|6.7767:Dusseldorf,Nordrhein-Westfalen,DE
-51.4315|6.7636:Duisburg,Nordrhein-Westfalen,DE
-51.4518|7.0111:Essen,Nordrhein-Westfalen,DE
-51.334|6.5626:Krefeld,Nordrhein-Westfalen,DE
-51.1955|6.4427:Monchengladbach,Nordrhein-Westfalen,DE
-50.9616|7.0056:Mulheim,Nordrhein-Westfalen,DE
 51.4699|6.8552:Oberhausen,Nordrhein-Westfalen,DE
-51.1793|7.1932:Remscheid,Nordrhein-Westfalen,DE
-51.1668|7.0884:Solingen,Nordrhein-Westfalen,DE
-51.2716|7.1967:Wuppertal,Nordrhein-Westfalen,DE
-51.7904|6.1378:Kleve,Nordrhein-Westfalen,DE
-51.2517|6.9786:Mettmann,Nordrhein-Westfalen,DE
-51.1426|6.6471:Rhein-Kreis Neuss,Nordrhein-Westfalen,DE
-51.2573|6.3909:Viersen,Nordrhein-Westfalen,DE
-51.6557|6.6168:Wesel,Nordrhein-Westfalen,DE
-50.7324|7.1019:Bonn,Nordrhein-Westfalen,DE
-50.9417|6.9552:Koln,Nordrhein-Westfalen,DE
-51.0332|6.9817:Leverkusen,Nordrhein-Westfalen,DE
-50.7539|6.2419:StadtRegion Aachen,Nordrhein-Westfalen,DE
-50.8048|6.4833:Duren,Nordrhein-Westfalen,DE
-50.9051|6.7162:Rhein-Erft-Kreis,Nordrhein-Westfalen,DE
-50.6615|6.7855:Euskirchen,Nordrhein-Westfalen,DE
-51.0595|6.0954:Heinsberg,Nordrhein-Westfalen,DE
-51.0126|7.5165:Oberbergischer Kreis,Nordrhein-Westfalen,DE
-51.023|7.1946:Rheinisch-Bergischer Kreis,Nordrhein-Westfalen,DE
-50.7608|7.235:Rhein-Sieg-Kreis,Nordrhein-Westfalen,DE
 51.5247|6.9252:Bottrop,Nordrhein-Westfalen,DE
-51.5115|7.0931:Gelsenkirchen,Nordrhein-Westfalen,DE
-51.963|7.6178:Munster,Nordrhein-Westfalen,DE
-51.8421|6.8561:Borken,Nordrhein-Westfalen,DE
-51.9457|7.1695:Coesfeld,Nordrhein-Westfalen,DE
-51.6136|7.1933:Recklinghausen,Nordrhein-Westfalen,DE
-52.1501|7.339:Steinfurt,Nordrhein-Westfalen,DE
 51.9497|7.9882:Warendorf,Nordrhein-Westfalen,DE
 52.0155|8.5323:Bielefeld,Nordrhein-Westfalen,DE
-51.9093|8.3809:Gutersloh,Nordrhein-Westfalen,DE
 52.1164|8.6693:Herford,Nordrhein-Westfalen,DE
-51.7735|9.3825:Hoxter,Nordrhein-Westfalen,DE
 51.9813|8.9509:Lippe,Nordrhein-Westfalen,DE
-52.3525|8.7395:Minden-Lubbecke,Nordrhein-Westfalen,DE
-54.3249|10.1323:Kiel,Schleswig-Holstein,DE
-54.0812|9.9845:Neumunster,Schleswig-Holstein,DE
-54.1335|9.1079:Dithmarschen,Schleswig-Holstein,DE
-53.5894|10.602:Herzogtum Lauenburg,Schleswig-Holstein,DE
-54.6108|8.8866:Nordfriesland,Schleswig-Holstein,DE
-54.2437|10.3638:Plon,Schleswig-Holstein,DE
-54.2904|9.782:Rendsburg-Eckernforde,Schleswig-Holstein,DE
-54.6197|9.4888:Schleswig-Flensburg,Schleswig-Holstein,DE
-53.9292|9.5194:Steinburg,Schleswig-Holstein,DE
-53.7212|10.3318:Stormarn,Schleswig-Holstein,DE
-51.7181|8.752:Paderborn,Nordrhein-Westfalen,DE
-51.4864|7.2108:Bochum,Nordrhein-Westfalen,DE
-51.5166|7.4583:Dortmund,Nordrhein-Westfalen,DE
-51.3599|7.4713:Hagen,Nordrhein-Westfalen,DE
 51.6801|7.8175:Hamm,Nordrhein-Westfalen,DE
 51.5403|7.2198:Herne,Nordrhein-Westfalen,DE
 51.3466|7.324:Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,DE
 51.3069|8.3848:Hochsauerlandkreis,Nordrhein-Westfalen,DE
-51.2626|7.7129:Markischer Kreis,Nordrhein-Westfalen,DE
 51.0289|7.847:Olpe,Nordrhein-Westfalen,DE
-50.9378|8.1949:Siegen-Wittgenstein,Nordrhein-Westfalen,DE
-51.5725|8.1083:Soest,Nordrhein-Westfalen,DE
-51.5325|7.6869:Unna,Nordrhein-Westfalen,DE
 49.8726|8.6501:Darmstadt,Hessen,DE
-50.1121|8.6834:Frankfurt am Main,Hessen,DE
-50.1006|8.7665:Offenbach,Hessen,DE
-50.0847|8.2421:Wiesbaden,Hessen,DE
-50.8052|9.6043:Bergstrase,Hessen,DE
-49.8555|8.7952:Darmstadt-Dieburg,Hessen,DE
-49.9227|8.4821:Gros-Gerau,Hessen,DE
-50.2815|8.5046:Hochtaunuskreis,Hessen,DE
-50.2439|9.286:Main-Kinzig-Kreis,Hessen,DE
-50.1027|8.4355:Main-Taunus-Kreis,Hessen,DE
-49.6717|8.9795:Odenwaldkreis,Hessen,DE
-50.1437|8.0823:Rheingau-Taunus-Kreis,Hessen,DE
-50.3548|8.9075:Wetteraukreis,Hessen,DE
-50.8596|9.7162:Giesen,Hessen,DE
+50.5862|8.6758:Gieszen,Hessen,DE
 50.6482|8.3654:Lahn-Dill-Kreis,Hessen,DE
 50.4275|8.1993:Limburg-Weilburg,Hessen,DE
 50.8368|8.7379:Marburg-Biedenkopf,Hessen,DE
-50.6381|9.2714:Vogelsbergkreis,Hessen,DE
-51.3185|9.5118:Kassel,Hessen,DE
-50.5536|9.6746:Fulda,Hessen,DE
-50.9063|9.7525:Hersfeld-Rotenburg,Hessen,DE
-51.0238|9.3736:Schwalm-Eder-Kreis,Hessen,DE
 51.1904|8.8887:Waldeck-Frankenberg,Hessen,DE
-51.1908|9.9286:Werra-Meisner-Kreis,Hessen,DE
 50.3609|7.5928:Koblenz,Rheinland-Pfalz,DE
-50.4672|7.044:Ahrweiler,Rheinland-Pfalz,DE
-49.4431|7.3228:Altenkirchen,Rheinland-Pfalz,DE
 49.8431|7.8633:Bad Kreuznach,Rheinland-Pfalz,DE
 49.7126|7.2776:Birkenfeld,Rheinland-Pfalz,DE
 50.1329|7.1743:Cochem-Zell,Rheinland-Pfalz,DE
@@ -4166,103 +5753,292 @@
 50.264|7.8441:Rhein-Lahn-Kreis,Rheinland-Pfalz,DE
 50.5525|7.8658:Westerwaldkreis,Rheinland-Pfalz,DE
 49.7573|6.6363:Trier,Rheinland-Pfalz,DE
-49.9249|6.9675:Bernkastel-Wittlich,Rheinland-Pfalz,DE
 50.2069|6.4245:Bitburg-Prum,Rheinland-Pfalz,DE
 50.3391|7.1597:Vulkaneifel,Rheinland-Pfalz,DE
 49.6968|6.6955:Trier-Saarburg,Rheinland-Pfalz,DE
-49.4421|7.7605:Kaiserslautern,Rheinland-Pfalz,DE
-49.1939|8.1162:Landau i.d.Pfalz,Rheinland-Pfalz,DE
+49.5348|8.3507:Frankenthal,Rheinland-Pfalz,DE
 49.4809|8.4473:Ludwigshafen,Rheinland-Pfalz,DE
-50.0006|8.2724:Mainz,Rheinland-Pfalz,DE
-49.354|8.1349:Neustadt a.d.Weinstrase,Rheinland-Pfalz,DE
+49.354|8.1349:Neustadt a.d.Weinstrasze,Rheinland-Pfalz,DE
 49.2036|7.6045:Pirmasens,Rheinland-Pfalz,DE
 49.3199|8.4308:Speyer,Rheinland-Pfalz,DE
 49.6305|8.362:Worms,Rheinland-Pfalz,DE
-49.7594|8.156:Alzey-Worms,Rheinland-Pfalz,DE
-49.453|8.1102:Bad Durkheim,Rheinland-Pfalz,DE
-49.6319|7.9149:Donnersbergkreis,Rheinland-Pfalz,DE
-49.2214|8.3751:Germersheim,Rheinland-Pfalz,DE
+49.2426|7.3676:Zweibrucken,Rheinland-Pfalz,DE
 49.5498|7.4713:Kusel,Rheinland-Pfalz,DE
-49.1904|8.0479:Sudliche Weinstrase,Rheinland-Pfalz,DE
+49.1904|8.0479:Sudliche Weinstrasze,Rheinland-Pfalz,DE
 49.4169|8.3598:Rhein-Pfalz-Kreis,Rheinland-Pfalz,DE
-49.921|8.0797:Mainz-Bingen,Rheinland-Pfalz,DE
-49.1815|7.7687:Sudwestpfalz,Rheinland-Pfalz,DE
-48.6854|9.0096:Boblingen,Baden-Wurttemberg,DE
-48.8942|9.1919:Ludwigsburg,Baden-Wurttemberg,DE
-48.8989|9.5013:Rems-Murr-Kreis,Baden-Wurttemberg,DE
-49.1431|9.2193:Heilbronn,Baden-Wurttemberg,DE
-49.2716|9.6143:Hohenlohekreis,Baden-Wurttemberg,DE
-49.1448|9.9091:Schwabisch Hall,Baden-Wurttemberg,DE
 49.5606|9.7251:Main-Tauber-Kreis,Baden-Wurttemberg,DE
-48.6622|10.1818:Heidenheim,Baden-Wurttemberg,DE
-48.8775|10.0902:Ostalbkreis,Baden-Wurttemberg,DE
 48.8573|8.2014:Rastatt,Baden-Wurttemberg,DE
-49.4665|9.2801:Neckar-Odenwald-Kreis,Baden-Wurttemberg,DE
-49.3685|8.7677:Rhein-Neckar-Kreis,Baden-Wurttemberg,DE
-48.8764|8.7128:Pforzheim,Baden-Wurttemberg,DE
-48.7143|8.7404:Calw,Baden-Wurttemberg,DE
-48.9148|8.8276:Enzkreis,Baden-Wurttemberg,DE
 48.4746|8.4653:Freudenstadt,Baden-Wurttemberg,DE
 47.9985|7.8497:Freiburg i.Breisgau,Baden-Wurttemberg,DE
 47.9249|7.9259:Breisgau-Hochschwarzwald,Baden-Wurttemberg,DE
 48.1209|7.8495:Emmendingen,Baden-Wurttemberg,DE
-48.4205|8.0174:Ortenaukreis,Baden-Wurttemberg,DE
 48.1679|8.6275:Rottweil,Baden-Wurttemberg,DE
-48.0192|8.4109:Schwarzwald-Baar-Kreis,Baden-Wurttemberg,DE
-48.0114|8.7942:Tuttlingen,Baden-Wurttemberg,DE
-47.6639|9.1776:Konstanz,Baden-Wurttemberg,DE
 47.6128|7.6642:Lorrach,Baden-Wurttemberg,DE
 47.6973|8.2189:Waldshut,Baden-Wurttemberg,DE
-48.4067|9.3657:Reutlingen,Baden-Wurttemberg,DE
-48.2672|8.9374:Zollernalbkreis,Baden-Wurttemberg,DE
-48.4017|9.8275:Alb-Donau-Kreis,Baden-Wurttemberg,DE
-48.1075|9.7744:Biberach,Baden-Wurttemberg,DE
 47.7334|9.401:Bodenseekreis,Baden-Wurttemberg,DE
-47.782|9.6146:Ravensburg,Baden-Wurttemberg,DE
 48.0391|9.2411:Sigmaringen,Baden-Wurttemberg,DE
 48.7624|11.4252:Ingolstadt,Bayern,DE
-48.1364|11.5775:Munchen,Bayern,DE
-47.8565|12.1288:Rosenheim,Bayern,DE
-48.2096|12.7051:Altotting,Bayern,DE
-47.6984|12.902:Berchtesgadener Land,Bayern,DE
 47.7276|11.4833:Bad Tolz-Wolfratshausen,Bayern,DE
-48.2594|11.4343:Dachau,Bayern,DE
-48.0762|11.9135:Ebersberg,Bayern,DE
-48.8981|11.3704:Eichstatt,Bayern,DE
-48.3087|11.9082:Erding,Bayern,DE
-48.4008|11.7438:Freising,Bayern,DE
-48.1792|11.2546:Furstenfeldbruck,Bayern,DE
-47.4929|11.0868:Garmisch-Partenkirchen,Bayern,DE
-48.0494|10.8768:Landsberg a.Lech,Bayern,DE
-47.7409|11.8097:Miesbach,Bayern,DE
 48.2394|12.382:Muhldorf a.Inn,Bayern,DE
-48.664|11.1975:Neuburg-Schrobenhausen,Bayern,DE
-48.5231|11.5115:Pfaffenhofen a.d.Ilm,Bayern,DE
-47.9997|11.3422:Starnberg,Bayern,DE
-47.8943|12.5795:Traunstein,Bayern,DE
-47.7874|11.0485:Weilheim-Schongau,Bayern,DE
 48.5369|12.152:Landshut,Bayern,DE
-48.5733|13.4579:Passau,Bayern,DE
-48.882|12.5738:Straubing,Bayern,DE
-48.8313|12.9622:Deggendorf,Bayern,DE
 48.8269|13.5132:Freyung-Grafenau,Bayern,DE
 48.8246|11.8575:Kelheim,Bayern,DE
-49.0229|13.0999:Regen,Bayern,DE
-48.4245|12.8675:Rottal-Inn,Bayern,DE
-48.986|12.6864:Straubing-Bogen,Bayern,DE
 48.6415|12.6106:Dingolfing-Landau,Bayern,DE
 49.447|11.8626:Amberg,Bayern,DE
-49.0149|12.1017:Regensburg,Bayern,DE
-50.0299|11.2499:Weiden i.d.OPf.,Bayern,DE
-49.4855|11.8013:Amberg-Sulzbach,Bayern,DE
 49.2371|12.6958:Cham,Bayern,DE
-49.2779|11.433:Neumarkt i.d.OPf.,Bayern,DE
-49.7275|11.8707:Neustadt a.d.Waldnaab,Bayern,DE
-49.328|12.1083:Schwandorf,Bayern,DE
-49.5348|8.3507:Frankenthal,Rheinland-Pfalz,DE
-49.2426|7.3676:Zweibrucken,Rheinland-Pfalz,DE
-54.785|9.4385:Flensburg,Schleswig-Holstein,DE
-54.1906|10.82:Ostholstein,Schleswig-Holstein,DE32.5395|-86.6441:Autauga,Alabama,US
+51.1646|13.4726:Meiszen,Sachsen,DE
+49.8394|18.2888:Ostrava,Moravian-Silesian Region,CZ
+49.8559|18.5388:Karvina,Moravian-Silesian Region,CZ
+49.3076|14.1476:Pisek,South Bohemian Region,CZ
+49.2791|16.2635:Otmarov,South Moravian Region,CZ
+49.1952|16.608:Brno,South Moravian Region,CZ
+50.2409|17.7376:Kasnice,South Moravian Region,CZ
+50.3482|14.4995:Melnik,Central Bohemian Region,CZ
+49.4873|12.9075:Domazlice,Plzen Region,CZ
+50.6571|14.1401:Litomerice,Usti nad Labem Region,CZ
+49.5972|15.5115:Hurtova Lhota,Vysocina Region,CZ
+49.9394|17.9049:Opava,Moravian-Silesian Region,CZ
+49.2775|16.999:Vyskov,South Moravian Region,CZ
+49.5933|18.0092:Novy Jicin,Moravian-Silesian Region,CZ
+49.6773|18.3406:Frydek-Mistek,Moravian-Silesian Region,CZ
+50.2043|15.0895:Nymburk,Central Bohemian Region,CZ
+49.9492|15.2661:Kutna Hora,Central Bohemian Region,CZ
+49.4737|17.1153:Prostejov,Olomouc Region,CZ
+49.6889|14.0097:Pribram,Central Bohemian Region,CZ
+49.4871|16.7319:Velenov,South Moravian Region,CZ
+49.34|17.9934:Vsetin,Zlin Region,CZ
+49.4548|17.4489:Prerov,Olomouc Region,CZ
+50.1446|14.1098:Kladno,Central Bohemian Region,CZ
+50.0268|15.2035:Kolin,Central Bohemian Region,CZ
+49.9035|14.0065:Beroun,Central Bohemian Region,CZ
+49.3959|13.2942:Klatovy,Plzen Region,CZ
+49.2972|17.3908:Kromeriz,Zlin Region,CZ
+49.4059|15.8442:Meziricko,Vysocina Region,CZ
+49.7383|13.3608:Plzen South,Plzen Region,CZ
+49.7465|16.4548:Svitavy,Pardubice Region,CZ
+48.8489|17.1324:Hodonin,South Moravian Region,CZ
+49.9939|16.4753:Usti nad Orlici,Pardubice Region,CZ
+50.0419|17.4602:Bruntal,Moravian-Silesian Region,CZ
+49.7171|14.7766:Benesov,Central Bohemian Region,CZ
+50.7467|15.1257:Jablonec nad Nisou,Liberec Region,CZ
+48.9883|13.8853:Prachatice,South Bohemian Region,CZ
+48.8318|16.0554:Novy Saldorf-Sedlesovice,South Moravian Region,CZ
+49.1516|15.0103:Jindrichuv Hradec,South Bohemian Region,CZ
+49.3736|15.4893:Dvorce,Vysocina Region,CZ
+50.0966|13.7207:Rakovnik,Central Bohemian Region,CZ
+54.2897|9.7819:Rendsburg-Eckernförde,Schleswig-Holstein,DE
+52.2207|11.3472:Börde,Sachsen-Anhalt,DE
+50.9616|7.0056:Mulheim,Nordrhein-Westfalen,DE
+50.8596|9.7162:Giesen,Hessen,DE
+50.6381|9.2714:Vogelsbergkreis,Hessen,DE
+49.1939|8.1162:Landau i.d.Pfalz,Rheinland-Pfalz,DE
+49.1815|7.7687:Sudwestpfalz,Rheinland-Pfalz,DE
+39.102|35.1735:,,TR
+49.0901|31.3664:,,UA
+51.063|-1.3168:Winchester,Hampshire,England,GB
+52.2238|-2.1692:Wychavon,Worcestershire,England,GB
+51.6291|-0.7476:Wycombe,Buckinghamshire,England,GB
+52.3713|-2.3297:Wyre Forest,Worcestershire,England,GB
+53.7895|-2.885:Wyre,Lancashire,England,GB
+54.7156|-6.2166:Mid and East Antrim,Northern Ireland,GB
+54.4623|-5.9325:Mid-Ulster,Northern Ireland,GB
+52.2528|-4.0003:Ceredigion,Wales,GB
+53.0867|-3.3544:Denbighshire,Wales,GB
+52.8333|-3.9167:Gwynedd,Wales,GB
+51.845|-4.8422:Pembrokeshire,Wales,GB
+51.65|-3.44:Rhondda Cynon Taf,Wales,GB
+51.4167|-3.4167:Vale of Glamorgan,Wales,GB
+55.1312|-6.6656:Causeway Coast and Glens,Northern Ireland,GB
+54.6571|-3.3755:Allerdale,Cumbria,England,GB
+53.0775|-1.4788:Amber Valley,Derbyshire,England,GB
+52.9207|-1.2012:Ashfield,Nottinghamshire,England,GB
+51.1466|0.876:Ashford,Kent,England,GB
+51.8189|-0.8121:Aylesbury,Buckinghamshire,England,GB
+52.0666|0.7665:Babergh,Suffolk,England,GB
+54.111|-3.2258:Barrow-in-Furness,Cumbria,England,GB
+51.5678|0.4448:Basildon,Essex,England,GB
+51.2582|-1.216:Basingstoke and Deane,Hampshire,England,GB
+53.3173|-1.1104:Bassetlaw,Nottinghamshire,England,GB
+52.5734|-1.1647:Blaby,Leicestershire,England,GB
+51.8778|0.5532:Braintree,Essex,England,GB
+52.6457|1.2218:Breckland,Norfolk,England,GB
+51.6207|0.3035:Brentwood,Essex,England,GB
+52.5619|1.5704:Broadland,Norfolk,England,GB
+52.3366|-2.0581:Bromsgrove,Worcestershire,England,GB
+53.0454|-1.2107:Broxtowe,Nottinghamshire,England,GB
+52.7784|-2.0747:Cannock Chase,Staffordshire,England,GB
+51.276|1.0756:Canterbury,Kent,England,GB
+54.8965|-2.9363:Carlisle,Cumbria,England,GB
+52.5743|-1.2001:Charnwood,Leicestershire,England,GB
+51.7321|0.478:Chelmsford,Essex,England,GB
+52.0615|-1.3347:Cherwell,Oxfordshire,England,GB
+53.2429|-1.4353:Chesterfield,Derbyshire,England,GB
+51.6514|-0.7119:Chiltern,Buckinghamshire,England,GB
+53.652|-2.6321:Chorley,Lancashire,England,GB
+51.8853|0.9035:Colchester,Essex,England,GB
+54.5295|-3.5819:Copeland,Cumbria,England,GB
+52.4861|-0.703:Corby,Northamptonshire,England,GB
+54.0868|-1.3983:Craven,North Yorkshire,England,GB
+51.1185|-0.1848:Crawley,West Sussex,England,GB
+51.755|-0.4743:Dacorum,Hertfordshire,England,GB
+51.4446|0.2206:Dartford,Kent,England,GB
+51.1258|1.3177:Dover,Kent,England,GB
+52.3431|0.2946:East Cambridgeshire,Cambridgeshire,England,GB
+52.3919|-0.5378:East Northamptonshire,Northamptonshire,England,GB
+52.8631|-1.8122:East Staffordshire,Staffordshire,England,GB
+52.2188|1.0622:East Suffolk,Suffolk,England,GB
+51.3081|-0.5532:Elmbridge,Surrey,England,GB
+52.9642|-1.2934:Erewash,Derbyshire,England,GB
+50.7198|-3.5302:Exeter,Devon,England,GB
+50.8527|-1.1741:Fareham,Hampshire,England,GB
+52.4576|0.309:Fenland,Cambridgeshire,England,GB
+51.0763|1.1657:Folkestone and Hythe,Kent,England,GB
+53.7648|-2.7131:Fylde,Lancashire,England,GB
+50.7944|-1.1217:Gosport,Hampshire,England,GB
+51.4381|0.3706:Gravesham,Kent,England,GB
+52.6127|1.7241:Great Yarmouth,Norfolk,England,GB
+51.2371|-0.5705:Guildford,Surrey,England,GB
+51.5404|-0.0461:Hackney,Greater London,England,GB
+53.7705|-1.1657:Hambleton,North Yorkshire,England,GB
+52.4788|-0.9211:Harborough,Leicestershire,England,GB
+53.3218|-1.9975:High Peak,Derbyshire,England,GB
+52.6028|-1.3645:Hinckley and Bosworth,Leicestershire,England,GB
+52.3312|-0.1747:Huntingdonshire,Cambridgeshire,England,GB
+52.0579|1.1454:Ipswich,Suffolk,England,GB
+52.3988|-0.7258:Kettering,Northamptonshire,England,GB
+52.7126|0.4893:King's Lynn and West Norfolk,Norfolk,England,GB
+54.0475|-2.7976:Lancaster,Lancashire,England,GB
+50.8732|0.0106:Lewes,East Sussex,England,GB
+51.2738|0.5246:Maidstone,Kent,England,GB
+53.1442|-1.202:Mansfield,Nottinghamshire,England,GB
+52.5358|-0.9388:Melton,Leicestershire,England,GB
+50.8762|-3.5561:Mid Devon,Devon,England,GB
+50.9833|-0.7459:Mid Sussex,West Sussex,England,GB
+53.1087|-0.9205:Newark and Sherwood,Nottinghamshire,England,GB
+53.0092|-2.228:Newcastle-under-Lyme,Staffordshire,England,GB
+51.0692|-3.9135:North Devon,Devon,England,GB
+53.1626|-1.4409:North East Derbyshire,Derbyshire,England,GB
+52.0465|-0.0254:North Hertfordshire,Hertfordshire,England,GB
+52.9426|1.2105:North Norfolk,Norfolk,England,GB
+52.5268|-1.4776:North Warwickshire,Warwickshire,England,GB
+52.7237|-1.3684:North West Leicestershire,Leicestershire,England,GB
+52.2339|-0.8953:Northampton,Northamptonshire,England,GB
+52.6225|1.2949:Norwich,Norfolk,England,GB
+52.5224|-1.4782:Nuneaton and Bedworth,Warwickshire,England,GB
+52.591|-1.0942:Oadby and Wigston,Leicestershire,England,GB
+51.7563|-1.2595:Oxford,Oxfordshire,England,GB
+53.7579|-2.7057:Preston,Lancashire,England,GB
+52.3073|-1.9413:Redditch,Worcestershire,England,GB
+51.2667|-0.1833:Reigate and Banstead,Surrey,England,GB
+54.375|-1.7242:Richmondshire,North Yorkshire,England,GB
+53.709|-2.2748:Rossendale,Lancashire,England,GB
+51.4362|-0.5375:Runnymede,Surrey,England,GB
+52.9366|-1.1237:Rushcliffe,Nottinghamshire,England,GB
+51.2752|-0.7474:Rushmoor,Hampshire,England,GB
+54.2778|-0.4107:Scarborough,North Yorkshire,England,GB
+51.0091|-2.9595:Sedgemoor,Somerset,England,GB
+51.0073|-3.1316:Somerset West and Taunton,Somerset,England,GB
+52.1728|0.0812:South Cambridgeshire,Cambridgeshire,England,GB
+52.831|-1.5595:South Derbyshire,Derbyshire,England,GB
+52.6594|-0.4767:South Holland,Lincolnshire,England,GB
+52.6624|-0.4757:South Kesteven,Lincolnshire,England,GB
+54.3273|-2.7447:South Lakeland,Cumbria,England,GB
+52.5147|1.2765:South Norfolk,Norfolk,England,GB
+53.7516|-2.6774:South Ribble,Lancashire,England,GB
+50.9525|-2.8024:South Somerset,Somerset,England,GB
+52.6256|-2.1767:South Staffordshire,Staffordshire,England,GB
+51.4248|-0.468:Spelthorne,Surrey,England,GB
+51.7536|-0.3373:St Albans,Hertfordshire,England,GB
+52.8041|-2.122:Stafford,Staffordshire,England,GB
+52.8577|-2.0369:Staffordshire Moorlands,Staffordshire,England,GB
+52.1942|-1.7075:Stratford-on-Avon,Warwickshire,England,GB
+51.3738|-0.1803:Surrey Heath,Surrey,England,GB
+51.3894|0.747:Swale,Kent,England,GB
+50.4287|-3.5878:Teignbridge,Devon,England,GB
+51.8749|1.117:Tendring,Essex,England,GB
+51.1698|0.8176:Thanet,Kent,England,GB
+51.2712|0.3653:Tonbridge and Malling,Kent,England,GB
+50.4783|-3.5675:Torridge,Devon,England,GB
+51.1334|0.2636:Tunbridge Wells,Kent,England,GB
+51.6025|-1.5565:Vale of White Horse,Oxfordshire,England,GB
+52.2818|-1.591:Warwick,Warwickshire,England,GB
+51.6521|-0.3907:Watford,Hertfordshire,England,GB
+51.0607|0.1668:Wealden,East Sussex,England,GB
+52.3024|-0.6963:Wellingborough,Northamptonshire,England,GB
+51.7614|-0.2327:Welwyn Hatfield,Hertfordshire,England,GB
+53.6003|-2.8703:West Lancashire,Lancashire,England,GB
+52.2323|0.7094:West Suffolk,Suffolk,England,GB
+51.0695|-0.3167:Arun,West Sussex,England,GB
+53.2293|-1.2907:Bolsover,Derbyshire,England,GB
+52.9748|-0.0294:Boston,Lincolnshire,England,GB
+53.788|-2.2438:Burnley,Lancashire,England,GB
+51.5524|0.612:Castle Point,Essex,England,GB
+53.13|-1.7055:Derbyshire Dales,Derbyshire,England,GB
+50.7931|-1.096:East Hampshire,Hampshire,England,GB
+51.8651|-0.0082:East Hertfordshire,Hertfordshire,England,GB
+52.6592|-0.4753:East Lindsey,Lincolnshire,England,GB
+50.7669|0.2854:Eastbourne,East Sussex,England,GB
+51.7891|-2.5432:Forest of Dean,Gloucestershire,England,GB
+52.9798|-1.0854:Gedling,Nottinghamshire,England,GB
+50.8562|-1.3893:Hart,Hampshire,England,GB
+50.8571|0.5778:Hastings,East Sussex,England,GB
+52.65|-0.6333:Rutland,England,GB
+53.7865|-2.3876:Hyndburn,Lancashire,England,GB
+52.6842|-1.8189:Lichfield,Staffordshire,England,GB
+51.1825|-2.5297:Mendip,Somerset,England,GB
+51.2351|-0.3254:Mole Valley,Surrey,England,GB
+50.8723|-1.573:New Forest,Hampshire,England,GB
+53.7877|-2.8797:Pendle,Lancashire,England,GB
+53.7511|-2.7102:Ribble Valley,Lancashire,England,GB
+52.3704|-1.2608:Rugby,Warwickshire,England,GB
+54.1344|-0.7803:Ryedale,North Yorkshire,England,GB
+51.2702|0.193:Sevenoaks,Kent,England,GB
+52.1334|-0.9891:South Northamptonshire,Northamptonshire,England,GB
+51.9056|-0.1887:Stevenage,Hertfordshire,England,GB
+51.7449|-2.2324:Stroud,Gloucestershire,England,GB
+52.6348|-1.687:Tamworth,Staffordshire,England,GB
+51.1523|-1.4401:Test Valley,Hampshire,England,GB
+51.6396|-0.4696:Three Rivers,Hertfordshire,England,GB
+51.4267|-0.2625:Waverley,Surrey,England,GB
+51.8377|-1.5069:West Oxfordshire,Oxfordshire,England,GB
+51.3222|-0.5586:Woking,Surrey,England,GB
+52.1911|-2.2222:Worcester,Worcestershire,England,GB
+50.8401|-0.4195:Adur,West Sussex,England,GB
+50.8362|-0.7754:Chichester,West Sussex,England,GB
+52.2605|-1.1618:Daventry,Northamptonshire,England,GB
+50.9692|-1.3505:Eastleigh,Hampshire,England,GB
+54.9061|-2.8188:Eden,Cumbria,England,GB
+51.7947|0.6288:Epping Forest,Essex,England,GB
+51.7734|0.0991:Harlow,Essex,England,GB
+51.0652|-0.3291:Horsham,West Sussex,England,GB
+51.7314|0.6754:Maldon,Essex,England,GB
+52.2761|0.7022:Mid Suffolk,Suffolk,England,GB
+51.5832|0.7014:Rochford,Essex,England,GB
+53.7839|-1.0699:Selby,North Yorkshire,England,GB
+51.9958|-0.7337:South Bucks,Buckinghamshire,England,GB
+51.6337|-1.0715:South Oxfordshire,Oxfordshire,England,GB
+51.239|-0.0347:Tandridge,Surrey,England,GB
+51.9347|0.2797:Uttlesford,Essex,England,GB
+50.8137|-0.3753:Worthing,West Sussex,England,GB
+51.898|-2.0784:Cheltenham,Gloucestershire,England,GB
+51.9291|-1.7235:Cotswolds,Gloucestershire,England,GB
+53.9947|-1.5444:Harrogate,North Yorkshire,England,GB
+51.6847|-0.3907:Hertsmere,Hertfordshire,England,GB
+58.937|-2.7429:Orkney,Scotland,GB
+58.134|-6.6577:Outer Hebrides (Eileanan Siar, Western Isles),Scotland,GB
+51.993|-2.1495:Tewkesbury,Gloucestershire,England,GB
+51.7432|-0.0204:Broxbourne,Hertfordshire,England,GB
+51.3438|-0.2513:Epsom and Ewell,Surrey,England,GB
+51.8638|-2.2495:Gloucester,Gloucestershire,England,GB
+53.5923|28.0652:,,BY
+51.5085|-0.1257:City of London,Greater London,England,GB
+50.7638|-3.2253:East Devon,Devon,England,GB
+50.9925|0.4811:Rother,East Sussex,England,GB
+50.8555|-0.9859:Havant,Hampshire,England,GB
+52.2973|-2.0753:Malvern Hills,Worcestershire,England,GB
+53.2255|-0.5424:Lincoln,Lincolnshire,England,GB
+50.3741|-3.8218:South Hams,Devon,England,GB
+50.6562|-4.0461:West Devon,Devon,England,GB32.5395|-86.6441:Autauga,Alabama,US
 30.7277|-87.7221:Baldwin,Alabama,US
 31.8683|-85.3871:Barbour,Alabama,US
 32.9964|-87.1251:Bibb,Alabama,US
