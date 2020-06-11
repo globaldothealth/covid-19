@@ -196,7 +196,7 @@ def compile_location_info(in_data, out_file,
 
     output = []
     for geoid in location_info:
-        output.append(geoid + ":" + ",".join(location_info[geoid]))
+        output.append(geoid + ":" + "|".join(location_info[geoid]))
     with open(out_file, "w") as f:
         f.write("\n".join(output))
         f.close()
