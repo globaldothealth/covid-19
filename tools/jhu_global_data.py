@@ -39,10 +39,10 @@ def code_for_nonstandard_country_name(name):
 
 def get_latest_data(outfile):
     date = (datetime.now() - timedelta(days=1)).strftime('%m-%d-%Y')
-    return main(date, outfile)
+    return fetch_one_day(date, outfile)
 
 # Returns whether the operation was successful.
-def main(date, outfile):
+def fetch_one_day(date, outfile):
     url_base = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/{}.csv'
     url = url_base.format(date)
 
@@ -110,4 +110,4 @@ def main(date, outfile):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    get_latest_data(sys.argv[1])
