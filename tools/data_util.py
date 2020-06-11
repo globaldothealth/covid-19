@@ -83,7 +83,7 @@ def retrieve_generable_data(out_dir, should_overwrite=False, quiet=False):
         success &= scrape_total_count.scrape_total_count(out_path)
     out_path = os.path.join(out_dir, "jhu.json")
     if not os.path.exists(out_path) or should_overwrite:
-        success &= jhu_global_data.main(out_path)
+        success &= jhu_global_data.get_latest_data(out_path)
 
     return success
 

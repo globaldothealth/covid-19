@@ -37,10 +37,13 @@ def code_for_nonstandard_country_name(name):
     return None
 
 
-# Returns whether the operation was successful.
-def main(outfile):
-    url_base = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/{}.csv'
+def get_latest_data(outfile):
     date = (datetime.now() - timedelta(days=1)).strftime('%m-%d-%Y')
+    return main(date, outfile)
+
+# Returns whether the operation was successful.
+def main(date, outfile):
+    url_base = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/{}.csv'
     url = url_base.format(date)
 
     req = requests.get(url)
