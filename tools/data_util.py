@@ -190,6 +190,11 @@ def compile_location_info(in_data, out_file,
                 code = ""
             else:
                 code = country_code_from_name(name)
+            # Some special cases.
+            if code == "" and item[keys[1]] == "Taiwan":
+                code = "TW"
+            if code == "":
+                print("Oops, I couldn't find a code: " + str(item))
             location_info[geo_id] = [(str(item[key]) if str(item[key]) != "nan"
                                       else "") for key in
                                      [keys[2], keys[1]]] + [code]
