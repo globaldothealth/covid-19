@@ -32,10 +32,7 @@ def normalize_date(date):
 
 def write_out(json_data, out_path, overwrite=True):
     if not overwrite and os.path.exists(out_path):
-        print(
-            "I will not clobber '" + out_path + "', "
-            "please delete it first."
-        )
+        print("I won't clobber '" + out_path + "', please delete it first.")
         return
     with open(out_path, "w") as f:
         f.write(json.dumps(json_data))
@@ -122,6 +119,8 @@ def write_single_country_data(iso_code, data_frame, out_dir, overwrite=True):
 def slice_by_country_and_export(data_frame, out_dir, overwrite=True, quiet=False):
 
     groups = data_frame.groupby("country")
+    if not os.path.exists(out_dir):
+        os.mkdir(out_dir)
     for g in groups:
         (country, frame) = g
         code = data_util.country_code_from_name(country.lower())
