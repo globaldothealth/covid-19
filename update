@@ -21,6 +21,8 @@ def update():
     data_util.retrieve_generable_data(".", should_overwrite=True, quiet=False)
     # Note sure why there are two lines merged together
     os.system("sed -i 's/GB32/GB\\n32/' location_info.data")
+    # Add any new daily file.
+    os.system("git add d/*.json")
 
 if __name__ == "__main__":
     clean()
