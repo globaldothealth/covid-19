@@ -34,8 +34,10 @@ for country_file in COUNTRY_FILES:
         LATEST_DATE_TO_COUNTRY_LAST_UPDATED_THEN[latest_date].append(code)
 
 COUNTRIES = data_util.get_all_countries()
+print("Date       | Countries where latest known data is from this date")
+print("-------------------------------------------------------------  ")
 for date in sorted(LATEST_DATE_TO_COUNTRY_LAST_UPDATED_THEN.keys(),
                    reverse=True):
-    print(date + ": " + ", ".join(
+    print(date + " | " + ", ".join(
         [COUNTRIES[c] for c in \
          LATEST_DATE_TO_COUNTRY_LAST_UPDATED_THEN[date]]))
