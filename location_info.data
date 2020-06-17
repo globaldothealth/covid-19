@@ -1255,14 +1255,14 @@
 46.9433|10.3592:Upper Engadine|Graubunden|CH
 46.6559|9.6289:|Graubunden|CH
 47.3529|7.1575:|Jura|CH
-47.0495|8.3044:16|Lucerne|CH
+47.0495|8.3044:$16.00|Lucerne|CH
 47.0693|8.1178:|Lucerne|CH
 46.9974|6.7824:|Neuchatel|CH
 46.9261|8.4109:|Nidwalden|CH
 46.8524|8.2439:|Obwalden|CH
 47.4265|9.3736:18+|Sankt Gallen|CH
 47.23|9.2687:|Sankt Gallen|CH
-47.0618|8.7567:26|Schwyz|CH
+47.0618|8.7567:$26.00|Schwyz|CH
 47.0643|8.7616:|Schwyz|CH
 47.6237|9.1585:Kreuzlingen|Thurgau|CH
 47.5408|9.3444:Arbon|Thurgau|CH
@@ -1272,7 +1272,7 @@
 46.2124|7.6119:|Valais|CH
 46.5725|6.6588:|Vaud|CH
 46.5067|6.6252:Riviera Vaudoise|Vaud|CH
-47.1715|8.5162:21|Zug|CH
+47.1715|8.5162:$21.00|Zug|CH
 47.1614|8.5388:|Zug|CH
 47.8667|12.6333:Traunstein|Bavaria|DE
 46.8062|8.2315:||CH
@@ -1731,208 +1731,577 @@
 -4.0401|39.7127:|Mombasa, Nairobi or Nyandarua|KE
 -1.1952|36.9331:|Nairobi, Mombasa or Homabay|KE
 10.4518|40.7305:Gewane|Afar|ET
-18.9402|72.8348:Mumbai|Maharashtra|IN
-19.2|72.9667:Thane|Maharashtra|IN
-18.25|73.4333:Raigad|Maharashtra|IN
-19.995|73.7965:Nashik|Maharashtra|IN
-18.5042|73.853:Pune|Maharashtra|IN
-17.658|75.9069:Solapur|Maharashtra|IN
-16.7045|74.2414:Kolhapur|Maharashtra|IN
-19.8701|75.346:Aurangabad|Maharashtra|IN
-22.2297|84.8608:Rourkela|Odisha|IN
-23.5517|74.4443:Banswara|Rajasthan|IN
+10.3333|123.75:Cebu|Cebu Province|PH
+11.8161|122.8484:||PH
+14.63|121.03:Quezon|Metro Manila|PH
+10.2538|123.8297:Talisay|Cebu Province|PH
+14.45|120.98:Las Pinas|Metro Manila|PH
+10.3394|123.9636:Mandaue|Cebu Province|PH
+14.5863|121.1687:Antipolo||PH
+14.3426|121.0531:San Pedro|Laguna|PH
+10.2877|123.9769:Lapu-Lapu Opon|Cebu Province|PH
+13.83|121.0:Batangas|Batangas|PH
+14.47|121.02:Paranaque|Metro Manila|PH
+10.3961|124.0019:Liloan|Cebu Province|PH
+13.1371|123.7615:Legazpi|Albay|PH
+10.3766|123.9573:Consolacion|Cebu Province|PH
+10.5335|124.0284:Danao|Cebu Province|PH
+14.181|121.2854:Bay|Laguna|PH
+14.55|121.0:Pasay|Metro Manila|PH
+14.58|121.03:Mandaluyong|Metro Manila|PH
+10.2667|123.7667:Minglanilla|Cebu Province|PH
+13.7624|121.0571:|Batangas|PH
+14.1746|121.1097:Calamba|Laguna|PH
+11.2679|124.011:Daanbantayan|Cebu Province|PH
+14.5842|121.1763:Antipolo|Rizal|PH
+13.93|121.62:Lucena|Quezon|PH
+14.4297|120.9367:Imus|Cavite|PH
+14.65|121.1:Marikina|Metro Manila|PH
+14.6|121.03:San Juan|Metro Manila|PH
+6.9213|122.0745:Zamboanga|Zamboanga Del Sur|PH
+10.7051|122.5679:Iloilo|Iloilo Province|PH
+14.7|120.98:Valenzuela|Metro Manila|PH
+13.1733|121.2777:Victoria|Oriental Mindoro|PH
+14.32|121.12:Santa Rosa|Laguna|PH
+7.07|125.6:Davao|Davao Del Sur|PH
+14.1703|120.922:Amadeo|Cavite|PH
+18.0338|120.6808:Marcos|Ilocos Norte|PH
+7.4495|125.8058:Tagum|Davao Del Norte|PH
+14.73|120.95:Meycauayan|Bulacan|PH
+14.5886|120.9845:|Metro Manila|PH
+8.4859|124.648:Cagayan De Oro|Misamis Oriental|PH
+14.7811|120.8784:|Bulacan|PH
+13.9411|121.1622:Lipa|Batangas|PH
+14.575|121.0833:Pasig|Metro Manila|PH
+13.1311|123.6957:Daraga Locsin|Albay|PH
+14.1448|121.4726:Majayjay|Laguna|PH
+14.38|121.05:Muntinlupa|Metro Manila|PH
+14.1323|121.4155:Nagcarlan|Laguna|PH
+14.3144|121.0598:Carmona|Cavite|PH
+14.2721|121.124:Cabuyao|Laguna|PH
+14.95|120.9:Baliuag|Bulacan|PH
+11.8173|124.8412:Catbalogan|Samar|PH
+14.1064|121.1428:Santo Tomas|Batangas|PH
+14.65|120.97:Caloocan|Metro Manila|PH
+14.1637|121.3028:Calauan|Laguna|PH
+13.8648|121.0065:Alitagtag|Batangas|PH
+14.2059|121.4293:Magdalena|Laguna|PH
+14.55|121.03:Makati|Metro Manila|PH
+14.6969|121.1219:San Mateo|Rizal|PH
+14.235|121.3634:Pila|Laguna|PH
+8.1481|123.8405:Ozamiz|Misamis Occidental|PH
+14.5985|120.3949:Bagac|Bataan|PH
+14.0634|121.2432:Alaminos|Laguna|PH
+13.9126|122.2828:Lopez|Quezon|PH
+14.6582|120.9476:Navotas|Metro Manila|PH
+14.8|120.53:Orani|Bataan|PH
+14.7229|120.5353:Abucay|Bataan|PH
+14.1855|121.5097:Luisiana|Laguna|PH
+14.1861|121.5295:San Pablo|Laguna|PH
+14.6825|120.5409:Balanga|Bataan|PH
+14.2545|120.8711:Cavite|Cavite|PH
+15.1819|120.5231:Mabalacat|Pampanga|PH
+15.1654|120.6085:Angeles|Pampanga|PH
+10.6584|122.2799:Dingle|Iloilo Province|PH
+15.03|120.68:San Fernando|Pampanga|PH
+13.3208|121.3011:Naujan|Oriental Mindoro|PH
+14.1099|121.3944:Rizal|Laguna|PH
+13.4143|121.1807:Calapan|Oriental Mindoro|PH
+14.1819|121.2252:Los Banos|Laguna|PH
+6.4106|125.6144:Malita|Davao Occidental|PH
+16.3027|121.1587:City|Nueva Vizcaya|PH
+14.4624|120.9645:Bacoor|Cavite|PH
+11.6392|122.3346:Banga|Aklan|PH
+14.7532|120.9548:Marilao|Bulacan|PH
+15.0011|120.7266:Santo Tomas|Pampanga|PH
+11.7239|122.0938:Pandan|Antique|PH
+14.3288|121.0899:Binan|Laguna|PH
+14.8422|120.2879:Olongapo|Zambales|PH
+14.8139|121.0453:San Jose Del Monte|Bulacan|PH
+14.6574|120.9511:Malabon|Metro Manila|PH
+14.7714|120.5435:Samal|Bataan|PH
+14.4445|120.9043:Kawit|Cavite|PH
+8.3337|123.8487:Jimenez|Misamis Occidental|PH
+14.42|120.85:Rosario|Cavite|PH
+10.6765|122.9509:Bacolod|Negros Occidental|PH
+15.5|120.5:|Tarlac Province|PH
+10.309|122.9861:City|Negros Occidental|PH
+10.323|123.019:La Castellana|Negros Occidental|PH
+10.5176|121.9452:Tobias Fornier|Antique|PH
+14.5692|121.1325:Taytay|Rizal|PH
+14.4359|120.9498:Trece Martires|Cavite|PH
+10.8|122.5167:Pavia|Iloilo Province|PH
+11.8884|124.8293:Tarangnan|Samar|PH
+13.635|123.4966:Tigaon|Camarines Sur|PH
+13.249|123.5633:Ligao|Albay|PH
+14.8655|120.958:Pandi|Bulacan|PH
+14.9832|120.9272:San Rafael|Bulacan|PH
+14.8433|120.8114:Malolos|Bulacan|PH
+13.9287|121.4249:Candelaria|Quezon|PH
+13.8254|121.3967:San Juan|Batangas|PH
+13.8186|121.132:Ibaan|Batangas|PH
+14.2306|120.975:Silang|Cavite|PH
+14.33|120.94:Dasmarinas|Cavite|PH
+14.2496|121.3445:|Laguna|PH
+14.0747|120.6317:Nasugbu|Batangas|PH
+14.9069|121.0419:Norzagaray|Bulacan|PH
+16.4615|120.5868:La Trinidad|Benguet|PH
+14.1583|122.8314:Labo|Camarines Norte|PH
+12.9313|121.7088:Concepcion|Romblon|PH
+10.6995|121.9811:Hamtic|Antique|PH
+12.5888|121.5182:Roxas|Oriental Mindoro|PH
+13.038|121.4802:Pinamalayan|Oriental Mindoro|PH
+14.4817|121.1874:Binangonan|Rizal|PH
+12.3121|121.1474:Magsaysay|Occidental Mindoro|PH
+12.5206|121.4396:Mansalay|Oriental Mindoro|PH
+14.5425|121.0644:Pateros|Metro Manila|PH
+11.142|122.0411:Laua-An|Antique|PH
+16.413|120.5908:Baguio|Benguet|PH
+9.7667|123.5333:Dalaguete|Cebu Province|PH
+14.2953|121.0072:General Mariano Alvarez|Cavite|PH
+13.4996|120.9546:Puerto Galera|Oriental Mindoro|PH
+14.8164|120.9094:Balagtas Bigaa|Bulacan|PH
+14.5349|121.1508:Angono|Rizal|PH
+9.6351|123.4835:Boljoon|Cebu Province|PH
+14.4708|121.4271:Santa Maria|Laguna|PH
+16.6945|121.1858:Lamut|Ifugao|PH
+13.92|120.88:Lemery|Batangas|PH
+16.5299|120.691:Sudipen|Benguet|PH
+10.8818|123.0021:Enrique B Magalona Saravia|Negros Occidental|PH
+11.371|124.3736:Banate|Iloilo Province|PH
+7.8975|123.7693:Kapatagan|Lanao Del Norte|PH
+14.8012|121.124:Rodriguez Montalban|Rizal|PH
+12.9698|121.4778:Gloria|Oriental Mindoro|PH
+10.4635|122.8238:Valladolid|Negros Occidental|PH
+10.5158|122.9601:Bago|Negros Occidental|PH
+7.8236|123.4334:Pagadian|Zamboanga Del Sur|PH
+14.989|120.8592:San Simon|Pampanga|PH
+10.274|122.8518:Hinigaran|Negros Occidental|PH
+13.435|123.1884:Minalabac|Camarines Sur|PH
+14.5369|121.582:Real|Quezon|PH
+13.9706|121.6837:Pagbilao|Quezon|PH
+13.8921|121.4823:Sariaya|Quezon|PH
+14.93|120.5:Floridablanca|Pampanga|PH
+14.036|120.6533:Lian|Batangas|PH
+14.8302|120.7351:Hagonoy|Bulacan|PH
+14.5593|121.2071:Teresa|Rizal|PH
+15.3255|120.6572:Concepcion|Tarlac Province|PH
+14.3944|120.8531:Tanza|Cavite|PH
+7.0779|125.7119:Island Garden of Samal|Davao Del Norte|PH
+12.9666|120.8914:|Occidental Mindoro|PH
+14.83|120.88:Guiguinto|Bulacan|PH
+15.3089|120.9453:Gapan|Nueva Ecija|PH
+7.2015|124.2508:Cotabato|Cotabato|PH
+13.7901|121.0132:Bauan|Batangas|PH
+7.5687|125.6292:Island|Davao Del Norte|PH
+13.8364|121.978:Unisan|Quezon|PH
+14.2126|121.341:Victoria|Laguna|PH
+16.3405|120.4316:Tubao|La Union|PH
+13.7416|122.4614:Buenavista|Quezon|PH
+15.2901|120.142:|Zambales|PH
+13.4785|123.6547:Naga|Albay|PH
+11.1677|123.9986:Badian|Cebu Province|PH
+9.5322|123.3049:Samboan|Cebu Province|PH
+6.0776|124.4617:Maitum|Sarangani|PH
+10.3848|123.6394:Toledo|Cebu Province|PH
+11.2108|124.9483:San|Cebu Province|PH
+14.7879|120.9316:Bocaue|Bulacan|PH
+6.945|124.8873:M'Lang|Cotabato|PH
+12.6136|124.053:Matnog|Sorsogon|PH
+6.244|125.0337:Polomolok|South Cotabato|PH
+7.4255|124.7369:Banisilan|Cotabato|PH
+15.0719|120.5419:Porac|Pampanga|PH
+14.886|120.8602:Plaridel|Bulacan|PH
+14.6682|120.5527:Pilar|Bataan|PH
+15.5437|120.7629:Licab|Nueva Ecija|PH
+15.48|120.97:Cabanatuan|Nueva Ecija|PH
+14.6633|120.4482:|Bataan|PH
+14.8374|120.7835:Paombong|Bulacan|PH
+14.8304|120.5084:Hermosa|Bataan|PH
+15.0667|120.7231:Mexico|Pampanga|PH
+9.9111|123.9182:Mandaue|Bohol|PH
+9.3333|123.6667:|Cebu Province|PH
+14.0431|122.3399:Calauag|Quezon|PH
+17.5081|120.4008:Poro|Cebu Province|PH
+11.3684|124.4899:|Leyte|PH
+10.3833|123.6333:Carmen|Cebu Province|PH
+13.7948|121.1897:Taysan|Batangas|PH
+12.3529|121.066:San Jose|Occidental Mindoro|PH
+10.2519|123.9494:Cordova|Cebu Province|PH
+14.4279|120.8806:Noveleta|Cavite|PH
+14.8671|120.4564:Dinalupihan|Bataan|PH
+10.8056|122.4298:Alimodian|Iloilo Province|PH
+14.2727|121.4558:Pagsanjan|Laguna|PH
+9.7756|125.4835:Surigao|Surigao Del Norte|PH
+15.6324|121.1448:Bongabon|Nueva Ecija|PH
+14.6215|120.577:Orion|Bataan|PH
+14.4366|120.4936:Mariveles|Bataan|PH
+14.3644|121.4788:Paete|Laguna|PH
+14.248|121.5008:Cavinti|Laguna|PH
+14.0133|120.7277:Tuy|Batangas|PH
+14.3246|121.4784:Kalayaan|Laguna|PH
+14.1551|121.9513:Perez|Quezon|PH
+13.9399|120.7904:Calaca|Batangas|PH
+15.0585|120.6443:|Pampanga|PH
+15.7044|121.0983:|Rizal|PH
+15.1593|120.9731:San Miguel|Bulacan|PH
+13.8826|120.9529:Taal|Batangas|PH
+9.0609|125.5837:Remedios T Romualdez|Agusan Del Norte|PH
+13.5582|123.273:Pili|Camarines Sur|PH
+11.7242|122.2732:Makato|Aklan|PH
+13.9502|120.7204:Balayan|Batangas|PH
+6.7551|125.3558:Digos|Davao Del Sur|PH
+14.5616|120.5955:Limay|Bataan|PH
+14.4857|121.2291:Cardona|Rizal|PH
+14.904|120.2326:Subic|Zambales|PH
+13.65|120.8701:Tingloy|Batangas|PH
+15.3294|120.5912:Capas|Tarlac Province|PH
+10.9041|123.0747:Victorias|Negros Occidental|PH
+15.6596|120.7668:Guimba|Nueva Ecija|PH
+14.7077|120.9387:Obando|Bulacan|PH
+10.6667|124.8162:Baybay|Leyte|PH
+11.1203|122.0673:|Antique|PH
+16.1108|120.5441:Pozorrubio|Pangasinan|PH
+15.2898|120.0317:Botolan|Zambales|PH
+15.0032|120.6539:Bacolor|Pampanga|PH
+14.8292|120.3393:Morong|Bataan|PH
+8.3676|124.8663:Manolo Fortich|Bukidnon|PH
+15.7583|120.5487:Moncada|Tarlac Province|PH
+13.4767|122.0269:Santa Cruz|Marinduque|PH
+7.9057|125.0931:Valencia|Bukidnon|PH
+14.979|120.6159:Guagua|Pampanga|PH
+10.2061|122.9897:Isabela|Negros Occidental|PH
+14.5007|121.2839:Tanay|Rizal|PH
+14.38|120.88:General Trias|Cavite|PH
+15.7805|120.6845:Cuyapo|Nueva Ecija|PH
+8.2329|124.2415:Iligan|Lanao Del Norte|PH
+10.2667|123.6167:Pinamungahan|Cebu Province|PH
+14.3478|121.3861:Pakil|Laguna|PH
+16.7088|121.6698:Echague|Isabela|PH
+14.3233|120.7714:Naic|Cavite|PH
+13.7048|123.1826:Calabanga|Camarines Sur|PH
+16.616|120.3167:San Fernando|La Union|PH
+14.9411|120.6223:Sasmuan Sexmoan|Pampanga|PH
+13.7006|123.2678:|Camarines Sur|PH
+6.6831|125.3496:Hagonoy|Davao Del Sur|PH
+15.2147|120.6618:Magalang|Pampanga|PH
+7.6037|125.9632:Nabunturan|Compostela Valley|PH
+13.3584|121.0954:Baco|Oriental Mindoro|PH
+15.4334|119.9093:Palauig|Zambales|PH
+14.1953|120.8783:Indang|Cavite|PH
+15.1583|120.0553:Cabangan|Zambales|PH
+15.3695|119.9527:Iba|Zambales|PH
+15.2408|120.85:San Antonio Ecijo|Nueva Ecija|PH
+13.919|122.0964:Gumaca|Quezon|PH
+15.0167|120.0792:San Narciso|Zambales|PH
+11.583|122.7524:Roxas|Capiz|PH
+11.0948|122.4887:Lambunao|Iloilo Province|PH
+9.6021|123.0332:|Negros Oriental|PH
+7.0267|125.3579:|Davao Del Sur|PH
+17.62|121.72:Tuguegarao|Cagayan|PH
+16.3603|120.6775:Itogon|Benguet|PH
+6.6574|126.0775:Governor Generoso|Davao Oriental|PH
+17.7403|121.3819:Conner|Apayao|PH
+9.4176|123.3282:Santander|Cebu Province|PH
+15.0654|120.0688:San Felipe|Zambales|PH
+10.057|123.4361:Dumanjug|Cebu Province|PH
+16.046|120.3443:Dagupan|Pangasinan|PH
+9.938|123.393:Moalboal|Cebu Province|PH
+10.7161|122.2652:Igbaras|Iloilo Province|PH
+9.8517|124.1984:|Bohol|PH
+15.9953|120.3136:|Pangasinan|PH
+14.3124|120.8767:Tagaytay|Cavite|PH
+12.3804|122.6843:Sogod|Cebu Province|PH
+11.8426|124.9428:|Samar|PH
+6.6321|124.0663:Lebak|Sultan Kudarat|PH
+11.0|122.6667:|Iloilo Province|PH
+6.4546|124.8796:Tampakan|South Cotabato|PH
+9.8662|123.1463:Ayungon|Negros Oriental|PH
+15.0789|120.9419:San Ildefonso|Bulacan|PH
+6.5002|124.8437:Koronadal|South Cotabato|PH
+17.0854|120.4583:Santa Cruz|Ilocos Sur|PH
+7.6744|124.9956:Don Carlos|Bukidnon|PH
+14.3581|121.3263:Jala-Jala|Rizal|PH
+15.5029|120.8709:Aliaga|Nueva Ecija|PH
+10.011|123.6209:Sibonga|Cebu Province|PH
+12.2039|123.7752:Uson|Masbate|PH
+15.3147|120.9509:San Leonardo|Nueva Ecija|PH
+10.6272|123.7733:Asturias|Cebu Province|PH
+11.4585|123.2499:San Fernando|Cebu Province|PH
+10.1406|123.5342:Barili|Cebu Province|PH
+10.0981|123.6374:Carcar|Cebu Province|PH
+8.0513|123.6163:Bonifacio|Misamis Occidental|PH
+10.0003|123.4112:Ronda|Cebu Province|PH
+8.1144|123.9006:Kolambugan|Lanao Del Norte|PH
+9.8892|123.6085:Argao|Cebu Province|PH
+9.4921|123.3962:Oslob|Cebu Province|PH
+6.8958|124.4281:Shariff Aguak Maganoy|Maguindanao|PH
+17.5806|120.8038:|Abra|PH
+13.2908|123.7892:Bacacay|Albay|PH
+15.8609|121.0178:Pantabangan|Nueva Ecija|PH
+6.1189|125.1742:General Santos City|South Cotabato|PH
+6.8021|124.6329:Lambayong Mariano Marcos|Sultan Kudarat|PH
+16.0653|120.0945:Sual|Pangasinan|PH
+9.9764|122.589:Cauayan|Negros Occidental|PH
+16.4849|121.1406:Bayombong|Nueva Vizcaya|PH
+16.1095|119.829:Agno|Pangasinan|PH
+14.6477|121.0515:Quezon|Quezon|PH
+10.9235|124.4462:Isabel|Leyte|PH
+13.5927|122.3278:Catanauan|Quezon|PH
+9.9811|118.7485:Puerto|Palawan|PH
+16.1839|119.8616:Bani|Pangasinan|PH
+16.071|119.9381:Mabini|Pangasinan|PH
+14.0526|122.4222:Guinayangan|Quezon|PH
+11.2694|124.9645:Tacloban|Leyte|PH
+23.7978|87.9864:|West Bengal|IN
+25.3464|74.6352:Bhilwara|Rajasthan|IN
+24.5898|76.16:Jhalawar|Rajasthan|IN
 26.2669|73.0305:Jodhpur|Rajasthan|IN
 25.1653|75.8512:Kota|Rajasthan|IN
-27.202|73.7339:Nagaur|Rajasthan|IN
-26.023|76.3441:Sawai Madhopur|Rajasthan|IN
-29.9479|78.1603:Haridwar|Uttarakhand|IN
-29.3929|79.4522:Nainital|Uttarakhand|IN
-28.6147|77.2091:|Delhi|IN
-19.6833|72.75:Palghar|Maharashtra|IN
-21.1571|79.0822:Nagpur|Maharashtra|IN
-23.3506|85.3138:Ranchi|Jharkhand|IN
-23.7978|87.9864:|West Bengal|IN
-26.4655|74.6317:Ajmer|Rajasthan|IN
-24.8864|74.6457:Chittorgarh|Rajasthan|IN
-25.386|91.8117:East Khasi Hills|Meghalaya|IN
-14.6837|77.5815:Anantapur|Andhra Pradesh|IN
+26.1611|75.7863:Tonk|Rajasthan|IN
 13.2059|79.0881:Chittoor|Andhra Pradesh|IN
-16.9333|82.2167:East Godavari|Andhra Pradesh|IN
-16.3|80.45:Guntur|Andhra Pradesh|IN
-14.4673|78.8542:Y.S.R. Kadapa|Andhra Pradesh|IN
-16.1667|81.1333:Krishna|Andhra Pradesh|IN
-15.8255|78.0301:Kurnool|Andhra Pradesh|IN
-14.4398|79.9936:S.P.S. Nellore|Andhra Pradesh|IN
-16.7|81.1:West Godavari|Andhra Pradesh|IN
-26.5865|73.8457:Other state|Rajasthan|IN
-28.6077|76.6525:Jhajjar|Haryana|IN
-27.2109|77.4815:Bharatpur|Rajasthan|IN
-28.1256|75.4004:Jhunjhunu|Rajasthan|IN
-21.501|86.9181:Balasore|Odisha|IN
-20.1742|85.6139:Khordha|Odisha|IN
-21.0633|86.4995:Bhadrak|Odisha|IN
-11.8747|75.3752:Kannur|Kerala|IN
-12.5023|74.9909:Kasaragod|Kerala|IN
+28.9952|77.0222:Sonipat|Haryana|IN
+28.3925|77.3128:Faridabad|Haryana|IN
+28.0165|73.3118:Bikaner|Rajasthan|IN
+28.3042|74.9672:Churu|Rajasthan|IN
+28.105|77.0092:Nuh|Haryana|IN
+34.3054|74.6694:Bandipora|Jammu and Kashmir|IN
+33.7194|74.8313:Shopiyan|Jammu and Kashmir|IN
+34.209|74.3429:Baramulla|Jammu and Kashmir|IN
 33.7258|75.1526:Anantnag|Jammu and Kashmir|IN
 34.0844|74.7991:Srinagar|Jammu and Kashmir|IN
-33.7194|74.8313:Shopiyan|Jammu and Kashmir|IN
-34.5269|74.2574:Kupwara|Jammu and Kashmir|IN
-34.3054|74.6694:Bandipora|Jammu and Kashmir|IN
-34.209|74.3429:Baramulla|Jammu and Kashmir|IN
 34.2165|74.7704:Ganderbal|Jammu and Kashmir|IN
-31.6335|74.8751:Amritsar|Punjab|IN
-30.9073|75.8492:Ludhiana|Punjab|IN
-30.409|74.0348:Fazilka|Punjab|IN
-30.9257|74.6131:Ferozepur|Punjab|IN
-30.7141|76.7184:S.A.S. Nagar|Punjab|IN
-31.3308|75.5901:Jalandhar|Punjab|IN
-13.0836|80.2825:Chennai|Tamil Nadu|IN
-10.9942|76.9663:Coimbatore|Tamil Nadu|IN
-11.7451|79.7589:Cuddalore|Tamil Nadu|IN
-9.9242|78.1242:Madurai|Tamil Nadu|IN
-10.7769|79.8406:Nagapattinam|Tamil Nadu|IN
-8.9635|77.3082:Tenkasi|Tamil Nadu|IN
-13.1246|79.9182:Thiruvallur|Tamil Nadu|IN
-10.7745|79.6369:Thiruvarur|Tamil Nadu|IN
-8.7264|77.7335:Tirunelveli|Tamil Nadu|IN
-11.0893|77.3626:Tiruppur|Tamil Nadu|IN
-11.9378|79.5021:Viluppuram|Tamil Nadu|IN
-28.3925|77.3128:Faridabad|Haryana|IN
-29.5394|75.0311:Sirsa|Haryana|IN
-28.105|77.0092:Nuh|Haryana|IN
-28.8976|76.5745:Rohtak|Haryana|IN
+32.9203|75.1287:Udhampur|Jammu and Kashmir|IN
+23.3506|85.3138:Ranchi|Jharkhand|IN
 23.0278|72.6003:Ahmedabad|Gujarat|IN
-23.1884|73.6471:Mahisagar|Gujarat|IN
-22.7205|73.6293:Panchmahal|Gujarat|IN
 21.1858|72.8368:Surat|Gujarat|IN
+22.5667|72.9333:Anand|Gujarat|IN
+23.2408|72.6373:Gandhinagar|Gujarat|IN
+22.7205|73.6293:Panchmahal|Gujarat|IN
 22.3095|73.1799:Vadodara|Gujarat|IN
 17.3949|78.4708:Hyderabad|Telangana|IN
-22.5667|72.9333:Anand|Gujarat|IN
-23.7833|85.9667:Bokaro|Jharkhand|IN
-23.42|76.2809:Shajapur|Madhya Pradesh|IN
+26.8547|80.9214:Lucknow|Uttar Pradesh|IN
+28.3615|77.507:Gautam Buddha Nagar|Uttar Pradesh|IN
+26.388|80.2117:Kanpur Nagar|Uttar Pradesh|IN
+28.8389|78.7768:Moradabad|Uttar Pradesh|IN
+28.9986|77.7044:Meerut|Uttar Pradesh|IN
+28.4072|77.8491:Bulandshahr|Uttar Pradesh|IN
+27.1591|78.3958:Firozabad|Uttar Pradesh|IN
+28.0364|79.123:Budaun|Uttar Pradesh|IN
+27.8863|78.0739:Aligarh|Uttar Pradesh|IN
+19.0921|74.7383:Ahmednagar|Maharashtra|IN
+18.9402|72.8348:Mumbai|Maharashtra|IN
+19.995|73.7965:Nashik|Maharashtra|IN
+28.6625|77.4378:Ghaziabad|Uttar Pradesh|IN
+28.9451|77.2208:Baghpat|Uttar Pradesh|IN
+26.7968|82.7399:Basti|Uttar Pradesh|IN
+28.7304|77.7814:Hapur|Uttar Pradesh|IN
+28.877|78.4685:Amroha|Uttar Pradesh|IN
 22.7162|75.8651:Indore|Madhya Pradesh|IN
 23.2647|77.4052:Bhopal|Madhya Pradesh|IN
 23.1809|75.7882:Ujjain|Madhya Pradesh|IN
 23.1742|79.9314:Jabalpur|Madhya Pradesh|IN
-21.8257|75.6213:Khargone|Madhya Pradesh|IN
 23.3301|77.7845:Raisen|Madhya Pradesh|IN
+22.0319|74.9041:Barwani|Madhya Pradesh|IN
+27.202|73.7339:Nagaur|Rajasthan|IN
+24.8864|74.6457:Chittorgarh|Rajasthan|IN
+23.5517|74.4443:Banswara|Rajasthan|IN
+26.9195|70.9143:Jaisalmer|Rajasthan|IN
+28.1256|75.4004:Jhunjhunu|Rajasthan|IN
+20.1742|85.6139:Khordha|Odisha|IN
+26.5865|73.8457:Evacuees|Rajasthan|IN
+31.4596|74.9221:Tarn Taran|Punjab|IN
+31.3778|75.391:Kapurthala|Punjab|IN
+31.6335|74.8751:Amritsar|Punjab|IN
+30.7141|76.7184:S.A.S. Nagar|Punjab|IN
+30.9073|75.8492:Ludhiana|Punjab|IN
+28.6147|77.2091:|Delhi|IN
+20.9333|77.75:Amravati|Maharashtra|IN
+18.5042|73.853:Pune|Maharashtra|IN
+19.2|72.9667:Thane|Maharashtra|IN
+26.4655|74.6317:Ajmer|Rajasthan|IN
+26.1246|74.6685:Dholpur|Rajasthan|IN
+19.8701|75.346:Aurangabad|Maharashtra|IN
+21.1571|79.0822:Nagpur|Maharashtra|IN
+19.1557|77.3111:Nanded|Maharashtra|IN
+19.6833|72.75:Palghar|Maharashtra|IN
+18.25|73.4333:Raigad|Maharashtra|IN
+17.658|75.9069:Solapur|Maharashtra|IN
+20.4|78.1333:Yavatmal|Maharashtra|IN
+11.5057|92.642:South Andaman|Andaman and Nicobar Islands|IN
+16.3|80.45:Guntur|Andhra Pradesh|IN
+15.8255|78.0301:Kurnool|Andhra Pradesh|IN
+28.6077|76.6525:Jhajjar|Haryana|IN
+28.1426|77.3344:Palwal|Haryana|IN
+30.7046|76.864:Panchkula|Haryana|IN
+34.0826|76.119:Sankoo|Ladakh|IN
+33.8735|74.8994:Pulwama|Jammu and Kashmir|IN
+32.7027|74.8787:Jammu|Jammu and Kashmir|IN
+32.5611|75.1249:Samba|Jammu and Kashmir|IN
+25.4244|86.1337:Begusarai|Bihar|IN
+26.2215|84.3588:Siwan|Bihar|IN
+22.3|70.7833:Rajkot|Gujarat|IN
+22.1667|71.6667:Botad|Gujarat|IN
+21.7|72.9667:Bharuch|Gujarat|IN
+22.5953|75.3006:Dhar|Madhya Pradesh|IN
+23.2927|81.3586:Shahdol|Madhya Pradesh|IN
+24.5259|81.3026:Rewa|Madhya Pradesh|IN
+30.3095|78.0489:Dehradun|Uttarakhand|IN
+25.3329|82.9965:Varanasi|Uttar Pradesh|IN
+25.7451|82.6824:Jaunpur|Uttar Pradesh|IN
+29.4448|77.3171:Shamli|Uttar Pradesh|IN
+22.3139|74.0139:Chhota Udaipur|Gujarat|IN
+31.3308|75.5901:Jalandhar|Punjab|IN
+26.4603|79.511:Auraiya|Uttar Pradesh|IN
+27.5619|80.6827:Sitapur|Uttar Pradesh|IN
+27.4919|77.6742:Mathura|Uttar Pradesh|IN
+26.7882|83.0228:Sant Kabir Nagar|Uttar Pradesh|IN
+29.4703|77.7076:Muzaffarnagar|Uttar Pradesh|IN
+23.796|86.4306:Dhanbad|Jharkhand|IN
+21.0167|75.5667:Jalgaon|Maharashtra|IN
+17.6833|73.9833:Satara|Maharashtra|IN
+19.7217|77.1518:Hingoli|Maharashtra|IN
+18.4|76.5833:Latur|Maharashtra|IN
+20.7064|77.0029:Akola|Maharashtra|IN
+20.5399|76.1707:Buldhana|Maharashtra|IN
+13.0836|80.2825:Chennai|Tamil Nadu|IN
+10.9942|76.9663:Coimbatore|Tamil Nadu|IN
+10.7745|79.6369:Thiruvarur|Tamil Nadu|IN
+9.8502|78.4856:Sivaganga|Tamil Nadu|IN
+8.8063|78.1433:Thoothukkudi|Tamil Nadu|IN
+11.0132|78.4097:|Tamil Nadu|IN
+9.9242|78.1242:Madurai|Tamil Nadu|IN
+11.6655|78.1516:Salem|Tamil Nadu|IN
+13.1246|79.9182:Thiruvallur|Tamil Nadu|IN
+14.6837|77.5815:Anantapur|Andhra Pradesh|IN
+16.1667|81.1333:Krishna|Andhra Pradesh|IN
+14.4398|79.9936:S.P.S. Nellore|Andhra Pradesh|IN
+34.0413|74.7263:Budgam|Jammu and Kashmir|IN
+34.5269|74.2574:Kupwara|Jammu and Kashmir|IN
+11.1393|79.0843:Ariyalur|Tamil Nadu|IN
+12.6822|79.9801:Chengalpattu|Tamil Nadu|IN
+10.3621|77.9695:Dindigul|Tamil Nadu|IN
+11.3406|77.7172:Erode|Tamil Nadu|IN
+12.8242|79.7011:Kancheepuram|Tamil Nadu|IN
+8.0901|77.5384:Kanyakumari|Tamil Nadu|IN
+10.7769|79.8406:Nagapattinam|Tamil Nadu|IN
+11.2213|78.1652:Namakkal|Tamil Nadu|IN
+9.3602|78.8372:Ramanathapuram|Tamil Nadu|IN
+8.9635|77.3082:Tenkasi|Tamil Nadu|IN
+10.7686|79.1291:Thanjavur|Tamil Nadu|IN
+11.0893|77.3626:Tiruppur|Tamil Nadu|IN
+10.8058|78.6947:Tiruchirappalli|Tamil Nadu|IN
+31.1105|76.1548:Shahid Bhagat Singh Nagar|Punjab|IN
+30.6555|74.7695:Faridkot|Punjab|IN
+31.5324|75.908:Hoshiarpur|Punjab|IN
+30.3449|76.4:Patiala|Punjab|IN
+30.2071|74.9414:Bathinda|Punjab|IN
+20.9532|72.96:Navsari|Gujarat|IN
+21.77|72.1459:Bhavnagar|Gujarat|IN
+25.4486|78.5696:Jhansi|Uttar Pradesh|IN
+21.8257|75.6213:Khargone|Madhya Pradesh|IN
+21.8212|76.3564:Khandwa|Madhya Pradesh|IN
+22.75|77.7167:Hoshangabad|Madhya Pradesh|IN
+23.42|76.2809:Shajapur|Madhya Pradesh|IN
+22.0667|78.9333:Chhindwara|Madhya Pradesh|IN
+25.6734|76.6966:Sheopur|Madhya Pradesh|IN
+21.7408|73.6438:Narmada|Gujarat|IN
+29.5818|74.3294:Hanumangarh|Rajasthan|IN
+25.7728|73.3234:Pali|Rajasthan|IN
+16.8544|74.5642:Sangli|Maharashtra|IN
+16.9333|82.2167:East Godavari|Andhra Pradesh|IN
+28.809|79.029:Rampur|Uttar Pradesh|IN
+28.5844|78.5718:Sambhal|Uttar Pradesh|IN
+29.9657|77.5461:Saharanpur|Uttar Pradesh|IN
+26.4694|90.5608:Bongaigaon|Assam|IN
+25.3656|86.4877:Munger|Bihar|IN
+25.5723|83.9721:Buxar|Bihar|IN
+25.1259|85.4537:Nalanda|Bihar|IN
+11.7451|79.7589:Cuddalore|Tamil Nadu|IN
+9.5892|77.9537:Virudhunagar|Tamil Nadu|IN
+32.0409|75.4014:Gurdaspur|Punjab|IN
+30.4678|74.5182:Sri Muktsar Sahib|Punjab|IN
+30.2461|75.8469:Sangrur|Punjab|IN
+30.973|76.5327:Rupnagar|Punjab|IN
+33.6451|75.0177:Kulgam|Jammu and Kashmir|IN
+23.608|72.3746:Mehsana|Gujarat|IN
+24.2839|72.0332:Banaskantha|Gujarat|IN
+23.1884|73.6471:Mahisagar|Gujarat|IN
+16.7045|74.2414:Kolhapur|Maharashtra|IN
+22.2297|84.8608:Rourkela|Odisha|IN
+26.023|76.3441:Sawai Madhopur|Rajasthan|IN
+29.9479|78.1603:Haridwar|Uttarakhand|IN
+29.3929|79.4522:Nainital|Uttarakhand|IN
+25.386|91.8117:East Khasi Hills|Meghalaya|IN
+14.4673|78.8542:Y.S.R. Kadapa|Andhra Pradesh|IN
+16.7|81.1:West Godavari|Andhra Pradesh|IN
+27.2109|77.4815:Bharatpur|Rajasthan|IN
+21.501|86.9181:Balasore|Odisha|IN
+21.0633|86.4995:Bhadrak|Odisha|IN
+11.8747|75.3752:Kannur|Kerala|IN
+12.5023|74.9909:Kasaragod|Kerala|IN
+30.409|74.0348:Fazilka|Punjab|IN
+30.9257|74.6131:Ferozepur|Punjab|IN
+8.7264|77.7335:Tirunelveli|Tamil Nadu|IN
+11.9378|79.5021:Viluppuram|Tamil Nadu|IN
+29.5394|75.0311:Sirsa|Haryana|IN
+28.8976|76.5745:Rohtak|Haryana|IN
+23.7833|85.9667:Bokaro|Jharkhand|IN
 22.9667|76.0667:Dewas|Madhya Pradesh|IN
 24.0726|75.066:Mandsaur|Madhya Pradesh|IN
 23.3303|75.0403:Ratlam|Madhya Pradesh|IN
 22.3438|77.0897:Harda|Madhya Pradesh|IN
 23.1157|81.6961:Anuppur|Madhya Pradesh|IN
-21.8212|76.3564:Khandwa|Madhya Pradesh|IN
-22.75|77.7167:Hoshangabad|Madhya Pradesh|IN
-22.0319|74.9041:Barwani|Madhya Pradesh|IN
-24.5898|76.16:Jhalawar|Rajasthan|IN
-26.1611|75.7863:Tonk|Rajasthan|IN
-26.8547|80.9214:Lucknow|Uttar Pradesh|IN
-28.6625|77.4378:Ghaziabad|Uttar Pradesh|IN
-28.3615|77.507:Gautam Buddha Nagar|Uttar Pradesh|IN
-26.388|80.2117:Kanpur Nagar|Uttar Pradesh|IN
-28.9986|77.7044:Meerut|Uttar Pradesh|IN
-26.7968|82.7399:Basti|Uttar Pradesh|IN
-28.7304|77.7814:Hapur|Uttar Pradesh|IN
-27.1591|78.3958:Firozabad|Uttar Pradesh|IN
 25.8955|81.9478:Pratapgarh|Uttar Pradesh|IN
-29.9657|77.5461:Saharanpur|Uttar Pradesh|IN
 25.4753|80.3358:Banda|Uttar Pradesh|IN
-26.7882|83.0228:Sant Kabir Nagar|Uttar Pradesh|IN
 27.5737|78.6523:Etah|Uttar Pradesh|IN
 27.2734|82.8633:Siddharthnagar|Uttar Pradesh|IN
-28.8389|78.7768:Moradabad|Uttar Pradesh|IN
-28.4072|77.8491:Bulandshahr|Uttar Pradesh|IN
 27.8129|78.6502:Kasganj|Uttar Pradesh|IN
-28.877|78.4685:Amroha|Uttar Pradesh|IN
-27.4919|77.6742:Mathura|Uttar Pradesh|IN
 29.3732|78.1357:Bijnor|Uttar Pradesh|IN
-21.0167|75.5667:Jalgaon|Maharashtra|IN
 31.6677|76.5265:Hamirpur|Himachal Pradesh|IN
-19.7217|77.1518:Hingoli|Maharashtra|IN
-20.5399|76.1707:Buldhana|Maharashtra|IN
-25.1259|85.4537:Nalanda|Bihar|IN
 15.506|80.0499:Prakasam|Andhra Pradesh|IN
 23.9263|91.8438:Ambassa|Tripura|IN
 27.5561|76.6124:Alwar|Rajasthan|IN
 24.587|73.6985:Udaipur|Rajasthan|IN
 30.7034|76.7894:Chandigarh|Chandigarh|IN
-32.5611|75.1249:Samba|Jammu and Kashmir|IN
-30.3449|76.4:Patiala|Punjab|IN
-31.5324|75.908:Hoshiarpur|Punjab|IN
 30.6422|76.3767:Fatehgarh Sahib|Punjab|IN
 30.8188|75.1777:Moga|Punjab|IN
-30.4678|74.5182:Sri Muktsar Sahib|Punjab|IN
 31.5801|76.2112:Una|Himachal Pradesh|IN
-30.3095|78.0489:Dehradun|Uttarakhand|IN
-11.1393|79.0843:Ariyalur|Tamil Nadu|IN
-10.7686|79.1291:Thanjavur|Tamil Nadu|IN
 10.0102|77.4771:Theni|Tamil Nadu|IN
 12.9136|79.1325:Vellore|Tamil Nadu|IN
 11.2341|78.8802:Perambalur|Tamil Nadu|IN
-21.77|72.1459:Bhavnagar|Gujarat|IN
-22.1667|71.6667:Botad|Gujarat|IN
-23.2408|72.6373:Gandhinagar|Gujarat|IN
 22.7526|72.6865:Kheda|Gujarat|IN
-20.9532|72.96:Navsari|Gujarat|IN
 23.8507|72.1296:Patan|Gujarat|IN
-24.2839|72.0332:Banaskantha|Gujarat|IN
 23.4715|73.3304:Aravalli|Gujarat|IN
-23.608|72.3746:Mehsana|Gujarat|IN
 25.2916|79.8711:Mahoba|Uttar Pradesh|IN
 27.2281|79.025:Mainpuri|Uttar Pradesh|IN
 24.4891|86.6995:Deoghar|Jharkhand|IN
 28.3543|79.4162:Bareilly|Uttar Pradesh|IN
 25.4361|81.8472:Prayagraj|Uttar Pradesh|IN
-27.8863|78.0739:Aligarh|Uttar Pradesh|IN
 27.5768|81.6025:Bahraich|Uttar Pradesh|IN
-25.4486|78.5696:Jhansi|Uttar Pradesh|IN
-11.5057|92.642:South Andaman|Andaman and Nicobar Islands|IN
 17.136|78.4141:Ranga Reddy|Telangana|IN
 17.1524|79.6212:Suryapet|Telangana|IN
 17.2521|77.7465:Vikarabad|Telangana|IN
-22.5953|75.3006:Dhar|Madhya Pradesh|IN
 21.3|76.2333:Burhanpur|Madhya Pradesh|IN
 26.4905|77.9857:Morena|Madhya Pradesh|IN
-28.809|79.029:Rampur|Uttar Pradesh|IN
 27.0316|79.9212:Kannauj|Uttar Pradesh|IN
-20.7064|77.0029:Akola|Maharashtra|IN
-17.6833|73.9833:Satara|Maharashtra|IN
-20.9333|77.75:Amravati|Maharashtra|IN
 16.9921|73.2919:Ratnagiri|Maharashtra|IN
 19.8333|75.8833:Jalna|Maharashtra|IN
 25.6013|85.1375:Patna|Bihar|IN
-25.3656|86.4877:Munger|Bihar|IN
 33.6557|78.0048:Chuchot Yokma|Ladakh|IN
 24.0394|74.7777:Pratapgarh|Rajasthan|IN
-25.5723|83.9721:Buxar|Bihar|IN
-28.9952|77.0222:Sonipat|Haryana|IN
 29.3901|76.9695:Panipat|Haryana|IN
 29.5139|75.4498:Fatehabad|Haryana|IN
 26.8997|76.3304:Dausa|Rajasthan|IN
-34.0413|74.7263:Budgam|Jammu and Kashmir|IN
-32.9203|75.1287:Udhampur|Jammu and Kashmir|IN
 29.9908|75.4:Mansa|Punjab|IN
 30.3721|75.5454:Barnala|Punjab|IN
-30.2461|75.8469:Sangrur|Punjab|IN
-31.1105|76.1548:Shahid Bhagat Singh Nagar|Punjab|IN
-32.0409|75.4014:Gurdaspur|Punjab|IN
-30.2071|74.9414:Bathinda|Punjab|IN
-30.973|76.5327:Rupnagar|Punjab|IN
-28.1426|77.3344:Palwal|Haryana|IN
 30.1291|77.2805:Yamunanagar|Haryana|IN
 29.3162|76.3144:Jind|Haryana|IN
 22.1285|69.4555:Devbhumi Dwarka|Gujarat|IN
-22.3139|74.0139:Chhota Udaipur|Gujarat|IN
 20.6109|72.9316:Valsad|Gujarat|IN
-25.3329|82.9965:Varanasi|Uttar Pradesh|IN
-26.4603|79.511:Auraiya|Uttar Pradesh|IN
-28.5844|78.5718:Sambhal|Uttar Pradesh|IN
 23.845|91.9269:Dhalai|Tripura|IN
-28.0364|79.123:Budaun|Uttar Pradesh|IN
 21.1991|81.2897:Durg|Chhattisgarh|IN
 22.0105|81.2414:Kawardha|Chhattisgarh|IN
-19.1557|77.3111:Nanded|Maharashtra|IN
-25.7728|73.3234:Pali|Rajasthan|IN
 25.0595|73.8832:Rajsamand|Rajasthan|IN
 17.7198|83.2628:Visakhapatnam|Andhra Pradesh|IN
 30.7206|76.8175:Bapu Dham Colony, Sector 26|Chandigarh|IN
@@ -1942,14 +2311,10 @@
 11.2588|75.7808:Kozhikode|Kerala|IN
 11.0429|76.0804:Malappuram|Kerala|IN
 8.5052|76.9514:Thiruvananthapuram|Kerala|IN
-9.5892|77.9537:Virudhunagar|Tamil Nadu|IN
-31.4596|74.9221:Tarn Taran|Punjab|IN
-30.6555|74.7695:Faridkot|Punjab|IN
 32.2705|75.6491:Pathankot|Punjab|IN
 30.3628|76.7952:Ambala|Haryana|IN
 22.8556|74.2576:Dahod|Gujarat|IN
 22.4692|70.071:Jamnagar|Gujarat|IN
-22.3|70.7833:Rajkot|Gujarat|IN
 23.8073|73.0353:Sabarkantha|Gujarat|IN
 22.0325|87.7797:Purba Medinipur|West Bengal|IN
 22.5963|88.2561:Howrah|West Bengal|IN
@@ -1967,37 +2332,24 @@
 27.067|88.4701:Kalimpong|West Bengal|IN
 26.5242|88.7198:Jalpaiguri|West Bengal|IN
 26.7778|79.0216:Etawah|Uttar Pradesh|IN
-26.1246|74.6685:Dholpur|Rajasthan|IN
 20.9029|74.7724:Dhule|Maharashtra|IN
 21.3667|74.25:Nandurbar|Maharashtra|IN
-16.8544|74.5642:Sangli|Maharashtra|IN
-18.4|76.5833:Latur|Maharashtra|IN
-20.4|78.1333:Yavatmal|Maharashtra|IN
 26.2191|81.245:Rae Bareli|Uttar Pradesh|IN
 22.3059|74.3555:Alirajpur|Madhya Pradesh|IN
 24.6932|84.0027:Rohtas|Bihar|IN
-25.3464|74.6352:Bhilwara|Rajasthan|IN
 30.7362|76.7209:Bapu Dham colony|Chandigarh|IN
 11.7109|76.0874:Wayanad|Kerala|IN
-31.3778|75.391:Kapurthala|Punjab|IN
 23.3594|85.3196:Hindpiri|Jharkhand|IN
 29.6901|76.9884:Karnal|Haryana|IN
-8.0901|77.5384:Kanyakumari|Tamil Nadu|IN
 21.5167|70.4667:Junagadh|Gujarat|IN
-29.4448|77.3171:Shamli|Uttar Pradesh|IN
 27.1358|81.9598:Gonda|Uttar Pradesh|IN
-21.7408|73.6438:Narmada|Gujarat|IN
-29.4703|77.7076:Muzaffarnagar|Uttar Pradesh|IN
-19.0921|74.7383:Ahmednagar|Maharashtra|IN
 24.2684|87.2489:Dumka|Jharkhand|IN
 23.8416|73.7144:Dungarpur|Rajasthan|IN
 28.0338|94.6604:Other State|Andhra Pradesh|IN
 25.08|72.29:Jalore|Rajasthan|IN
 19.4513|76.1109:Other State|Maharashtra|IN
-32.7027|74.8787:Jammu|Jammu and Kashmir|IN
 26.2201|78.1762:Gwalior|Madhya Pradesh|IN
 24.4585|74.8625:Neemuch|Madhya Pradesh|IN
-10.3621|77.9695:Dindigul|Tamil Nadu|IN
 12.9193|79.3387:Ranipet|Tamil Nadu|IN
 23.825|76.073:Agar Malwa|Madhya Pradesh|IN
 23.8333|78.7167:Sagar|Madhya Pradesh|IN
@@ -2007,10 +2359,6 @@
 26.9347|70.8958:BSF Camp|Rajasthan|IN
 18.1184|83.418:Vizianagaram|Andhra Pradesh|IN
 32.5554|76.1249:Chamba|Himachal Pradesh|IN
-9.3602|78.8372:Ramanathapuram|Tamil Nadu|IN
-10.8058|78.6947:Tiruchirappalli|Tamil Nadu|IN
-33.8735|74.8994:Pulwama|Jammu and Kashmir|IN
-33.6451|75.0177:Kulgam|Jammu and Kashmir|IN
 24.2031|84.1693:Palamu|Jharkhand|IN
 27.5962|78.0524:Hathras|Uttar Pradesh|IN
 26.1569|81.8053:Amethi|Uttar Pradesh|IN
@@ -2021,53 +2369,39 @@
 24.9899|83.6038:Kaimur|Bihar|IN
 25.474|84.5365:Bhojpur|Bihar|IN
 24.753|84.374:Aurangabad|Bihar|IN
-25.4244|86.1337:Begusarai|Bihar|IN
-21.7|72.9667:Bharuch|Gujarat|IN
 26.1722|91.7458:Guwahati|Assam|IN
 24.8114|92.8541:Cachar|Assam|IN
 19.2051|72.9553:Vasai Virar|Maharashtra|IN
-11.2213|78.1652:Namakkal|Tamil Nadu|IN
-11.6655|78.1516:Salem|Tamil Nadu|IN
-28.9451|77.2208:Baghpat|Uttar Pradesh|IN
-27.5619|80.6827:Sitapur|Uttar Pradesh|IN
 27.1733|81.2165:Fatehpur|Uttar Pradesh|IN
 27.7213|81.8999:Shrawasti|Uttar Pradesh|IN
 24.4678|85.5941:Koderma|Jharkhand|IN
 24.1589|83.8008:Garhwa|Jharkhand|IN
-28.3042|74.9672:Churu|Rajasthan|IN
 29.0367|79.4856:Udham Singh Nagar|Uttarakhand|IN
 26.4665|84.4428:Gopalganj|Bihar|IN
 26.726|84.6076:West Champaran|Bihar|IN
 25.9204|84.811:Saran|Bihar|IN
-12.6822|79.9801:Chengalpattu|Tamil Nadu|IN
 9.9547|78.1324:Nilgiris|Tamil Nadu|IN
 12.2353|79.0748:Tiruvannamalai|Tamil Nadu|IN
 28.1972|76.6176:Rewari|Haryana|IN
 24.7443|78.8331:Tikamgarh|Madhya Pradesh|IN
-23.796|86.4306:Dhanbad|Jharkhand|IN
 19.0368|73.0158:|Maharashtra|IN
 26.7675|94.2068:Jorhat|Assam|IN
 31.3391|76.7634:Bilaspur|Himachal Pradesh|IN
 10.5108|76.2112:Thrissur|Kerala|IN
 34.5516|76.1306:Kargil|Ladakh|IN
-12.8242|79.7011:Kancheepuram|Tamil Nadu|IN
 25.9403|87.987:Uttar Dinajpur|West Bengal|IN
 22.4497|86.997:Jhargram|West Bengal|IN
-30.7046|76.864:Panchkula|Haryana|IN
 28.7919|76.1411:Bhiwani|Haryana|IN
 20.9641|70.7771:Gir Somnath|Gujarat|IN
 22.7|71.6833:Surendranagar|Gujarat|IN
 25.1677|86.0956:Lakhisarai|Bihar|IN
-26.2215|84.3588:Siwan|Bihar|IN
 25.0961|76.509:Baran|Rajasthan|IN
-26.9195|70.9143:Jaisalmer|Rajasthan|IN
 25.1343|82.5671:Mirzapur|Uttar Pradesh|IN
 20.1082|77.1409:Washim|Maharashtra|IN
 26.5285|76.9629:Karauli|Rajasthan|IN
 24.1871|86.3046:Giridih|Jharkhand|IN
 23.2139|82.8682:Surajpur|Chhattisgarh|IN
 22.0909|81.2248:Kabeerdham|Chhattisgarh|IN
-25.7451|82.6824:Jaunpur|Uttar Pradesh|IN
 26.26|82.0731:Sultanpur|Uttar Pradesh|IN
 24.8903|72.8565:Sirohi|Rajasthan|IN
 25.752|71.4138:Barmer|Rajasthan|IN
@@ -2077,7 +2411,6 @@
 32.3859|75.5176:Kathua|Jammu and Kashmir|IN
 25.2455|84.6638:Arwal|Bihar|IN
 25.2134|84.9854:Jehanabad|Bihar|IN
-26.4694|90.5608:Bongaigaon|Assam|IN
 23.543|78.2975:171|Madhya Pradesh|IN
 26.5671|78.7855:Bhind|Madhya Pradesh|IN
 24.1761|88.273:Murshidabad|West Bengal|IN
@@ -2086,7 +2419,6 @@
 27.6121|75.14:Sikar|Rajasthan|IN
 19.3877|85.0501:Ganjam|Odisha|IN
 33.082|74.833:Reasi|Jammu and Kashmir|IN
-23.2927|81.3586:Shahdol|Madhya Pradesh|IN
 23.6241|69.9589:Kutch|Gujarat|IN
 23.9988|85.3673:Hazaribagh|Jharkhand|IN
 17.4484|78.9803:Yadadri Bhuvanagiri|Telangana|IN
@@ -2113,7 +2445,6 @@
 33.0902|75.3283:Ramban|Jammu and Kashmir|IN
 15.1951|74.1186:South Goa|Goa|IN
 22.7699|74.5975:Jhabua|Madhya Pradesh|IN
-24.5259|81.3026:Rewa|Madhya Pradesh|IN
 24.4074|81.8826:Sidhi|Madhya Pradesh|IN
 27.9481|80.7778:Lakhimpur Kheri|Uttar Pradesh|IN
 26.3829|81.2757:Maharajganj|Uttar Pradesh|IN
@@ -2128,7 +2459,6 @@
 25.6651|78.4609:Datia|Madhya Pradesh|IN
 18.1853|76.0407:Osmanabad|Maharashtra|IN
 19.2608|76.777:Parbhani|Maharashtra|IN
-29.5818|74.3294:Hanumangarh|Rajasthan|IN
 25.7583|84.1479:Ballia|Uttar Pradesh|IN
 26.4395|79.8596:Kanpur Dehat|Uttar Pradesh|IN
 26.7925|82.2002:Ayodhya|Uttar Pradesh|IN
@@ -2137,6 +2467,7 @@
 21.9005|82.7269:Janjgir Champa|Chhattisgarh|IN
 21.8949|86.412:Mayurbhanj|Odisha|IN
 20.4665|85.8961:Cuttack|Odisha|IN
+35.106|135.7298:Kyoto|Kyoto Prefecture|JP
 12.5265|78.2141:Krishnagiri|Tamil Nadu|IN
 10.1111|78.6002:Tirupathur|Tamil Nadu|IN
 24.1039|92.208:North Tripura|Tripura|IN
@@ -2146,18 +2477,49 @@
 26.5025|83.7792:Deoria|Uttar Pradesh|IN
 25.3945|82.5686:Bhadohi|Uttar Pradesh|IN
 26.9288|80.5637:|Uttar Pradesh|IN
-28.0165|73.3118:Bikaner|Rajasthan|IN
 20.7064|83.4897:Balangir|Odisha|IN
 29.9742|76.832:Kurukshetra|Haryana|IN
-8.8063|78.1433:Thoothukkudi|Tamil Nadu|IN
+9.5907|123.1213:Bais|Negros Oriental|PH
+13.7|123.07:Libmanan|Camarines Sur|PH
+9.92|123.15:Tayasan|Negros Oriental|PH
 25.3665|88.574:Dakshin Dinajpur|West Bengal|IN
+17.43|120.7:Manabo|Abra|PH
+15.4802|120.5979:Tarlac|Tarlac|PH
+7.15|125.95:Pantukan|Davao de Oro|PH
+7.22|124.25:Cotabato|Maguindanao|PH
+10.3|123.9:Cebu|Cebu|PH
 26.7501|83.9144:Kushinagar|Uttar Pradesh|IN
+8.0|124.3:Marawi|Lanao del Sur|PH
 27.8814|79.9109:Shahjahanpur|Uttar Pradesh|IN
 24.5636|87.2503:Ramgarh|Jharkhand|IN
 20.7269|81.2054:Balod|Chhattisgarh|IN
+14.08|121.15:Tanauan|Batangas|PH
+16.4316|120.3446:Caba|La Union|PH
 18.9895|75.7562:Beed|Maharashtra|IN
 21.1712|79.6563:Bhandara|Maharashtra|IN
+9.75|118.75:Puerto Princesa|Palawan|PH
+10.67|122.32:Guimbal|Iloilo|PH
+15.27|120.9:San Isidro|Nueva Ecija|PH
+14.82|120.96:Santa Maria|Bulacan|PH
+43.2775|76.8958:Almaty|Almaty|KZ
+51.1667|71.4333:Nur-Sultan||KZ
+49.8333|73.1667:Karaganda|Karaganda|KZ
+43.1994|76.6215:Karasay|Almaty|KZ
+48.4384|67.2873:||KZ
+45.0|78.0:|Almaty|KZ
+50.2833|57.1667:|Aktobe|KZ
+43.0|68.5:|Shymkent|KZ
+44.0|72.0:|Jambyl|KZ
+54.8833|69.1667:|North Kazakhstan|KZ
+42.3075|69.5723:Nur-Sultan|Shymkent|KZ
+47.1167|51.8833:|Atyrau|KZ
+52.0|69.0:|Akmola|KZ
 21.6571|82.1597:Baloda Bazar|Chhattisgarh|IN
+52.3|76.95:|Pavlodar|KZ
+43.8667|52.0:|Mangystau|KZ
+49.95|82.6167:|East Kazakhstan|KZ
+45.0|64.0:|Kyzylorda|KZ
+51.2333|51.3667:|West Kazakhstan|KZ
 15.3626|74.0542:|Goa|IN
 20.2|86.3:Jagatsinghpur|Odisha|IN
 26.5072|93.9736:Golaghat|Assam|IN
@@ -2167,13 +2529,35 @@
 29.149|75.7368:Hisar|Haryana|IN
 34.3395|78.4278:Leh|Ladakh|IN
 24.422|83.0623:Sonbhadra|Uttar Pradesh|IN
+14.4332|121.031:Lucena|Metro Manila|PH
+12.4342|124.6376:Catarman|Northern Samar|PH
+7.8303|124.116:Iligan|Lanao Del Sur|PH
 17.552|78.5629:Medchal Malkajgiri|Telangana|IN
+15.6032|121.0508:General Mamerto Natividad|Nueva Ecija|PH
 23.946|86.8399:Jamtara|Jharkhand|IN
+14.6388|120.9744:Cainta|Metro Manila|PH
+11.411|122.5173:Jamindan|Capiz|PH
+14.5762|121.0173:Carmona|Metro Manila|PH
+15.6068|120.5981:Gerona|Tarlac|PH
+14.8996|120.715:Macabebe|Pampanga|PH
+15.6703|120.586:Paniqui|Tarlac|PH
+17.7386|121.455:Tuao|Cagayan|PH
+18.0675|121.6447:Gattaran|Cagayan|PH
+14.2926|121.4618:Lumban|Laguna|PH
+15.8144|120.4556:Bayambang|Pangasinan|PH
+16.5179|121.1804:Solano|Nueva Vizcaya|PH
+10.8942|122.7043:Barotac Nuevo|Iloilo|PH
 21.8963|83.394:Raigarh|Chhattisgarh|IN
 20.8268|71.0451:Unassigned|State Unassigned|IN
+14.633|121.0986:Marikinia|Metro Manila|PH
+16.8179|121.7271:Alicia|Isabel|PH
+14.4191|120.9748:Bacoor|Metro Manila|PH
 20.8393|85.1005:Angul|Odisha|IN
 21.45|83.9667:Sambalpur|Odisha|IN
-35.106|135.7298:Kyoto|Kyoto Prefecture|JP
+10.6442|122.2435:Miagao|Iloilo|PH
+11.6968|122.367:Kalibo|Aklan|PH
+11.9|121.9098:Malay|Aklan|PH
+11.4431|122.3319:Libacao|Aklan|PH
 26.1056|91.404:Kamrup|Assam|IN
 26.7438|93.1624:Biswanath|Assam|IN
 26.4446|91.4382:Nalbari|Assam|IN
@@ -2187,189 +2571,18 @@
 22.947|81.0751:Dindori|Madhya Pradesh|IN
 32.1013|76.2731:Kangra|Himachal Pradesh|IN
 26.3261|92.8302:|Assam|IN
+15.3466|120.5934:Capas|Tarlac|PH
+10.4242|122.9212:La Carlota|Negros Occidental|PH
 28.5968|76.2734:Charkhi Dadri|Haryana|IN
 23.7444|84.5081:Latehar|Jharkhand|IN
-14.55|121.03:Makati|Metro Manila|PH
-14.575|121.0833:Pasig|Metro Manila|PH
-14.65|121.1:Marikina|Metro Manila|PH
-14.63|121.03:Quezon|Metro Manila|PH
-14.6|121.03:San Juan|Metro Manila|PH
-14.4297|120.9367:Imus|Cavite|PH
-14.8139|121.0453:San Jose Del Monte|Bulacan|PH
-9.5907|123.1213:Bais|Negros Oriental|PH
-13.7|123.07:Libmanan|Camarines Sur|PH
-14.45|120.98:Las Pinas|Metro Manila|PH
-9.92|123.15:Tayasan|Negros Oriental|PH
-14.65|120.97:Caloocan|Metro Manila|PH
-14.58|121.03:Mandaluyong|Metro Manila|PH
-13.83|121.0:Batangas|Batangas|PH
-14.47|121.02:Paranaque|Metro Manila|PH
-15.0789|120.9419:San Ildefonso|Bulacan|PH
-15.0719|120.5419:Porac|Pampanga|PH
-14.8|120.53:Orani|Bataan|PH
-13.93|121.62:Lucena|Quezon|PH
-20.1826|80.0062:Gadchiroli|Maharashtra|IN
-14.32|121.12:Santa Rosa|Laguna|PH
-14.5842|121.1763:Antipolo|Rizal|PH
-21.0975|81.0341:Rajnandgaon|Chhattisgarh|IN
-14.33|120.94:Dasmarinas|Cavite|PH
-14.55|121.0:Pasay|Metro Manila|PH
-15.03|120.68:San Fernando|Pampanga|PH
-14.93|120.5:Floridablanca|Pampanga|PH
-13.9411|121.1622:Lipa|Batangas|PH
-13.92|120.88:Lemery|Batangas|PH
-17.43|120.7:Manabo|Abra|PH
-14.8433|120.8114:Malolos|Bulacan|PH
-14.83|120.88:Guiguinto|Bulacan|PH
-15.4802|120.5979:Tarlac|Tarlac|PH
-7.15|125.95:Pantukan|Davao de Oro|PH
-14.2306|120.975:Silang|Cavite|PH
-7.22|124.25:Cotabato|Maguindanao|PH
-14.38|121.05:Muntinlupa|Metro Manila|PH
-14.95|120.9:Baliuag|Bulacan|PH
-14.4624|120.9645:Bacoor|Cavite|PH
-10.3|123.9:Cebu|Cebu|PH
-14.5692|121.1325:Taytay|Rizal|PH
-8.0|124.3:Marawi|Lanao del Sur|PH
-14.3944|120.8531:Tanza|Cavite|PH
-14.7|120.98:Valenzuela|Metro Manila|PH
-14.38|120.88:General Trias|Cavite|PH
-23.7465|91.7401:|Tripura|IN
-20.8386|84.3224:Boudh|Odisha|IN
-14.42|120.85:Rosario|Cavite|PH
-18.3591|81.887:Malkangiri|Odisha|IN
-14.08|121.15:Tanauan|Batangas|PH
-16.4316|120.3446:Caba|La Union|PH
-14.6969|121.1219:San Mateo|Rizal|PH
-7.07|125.6:Davao|Davao Del Sur|PH
-26.1027|87.9431:Kishanganj|Bihar|IN
-10.6765|122.9509:Bacolod|Negros Occidental|PH
-9.75|118.75:Puerto Princesa|Palawan|PH
-17.62|121.72:Tuguegarao|Cagayan|PH
-14.73|120.95:Meycauayan|Bulacan|PH
-10.67|122.32:Guimbal|Iloilo|PH
-15.27|120.9:San Isidro|Nueva Ecija|PH
-15.48|120.97:Cabanatuan|Nueva Ecija|PH
-14.82|120.96:Santa Maria|Bulacan|PH
-11.8161|122.8484:||PH
-43.2775|76.8958:Almaty|Almaty|KZ
-51.1667|71.4333:Nur-Sultan||KZ
-49.8333|73.1667:Karaganda|Karaganda|KZ
-43.1994|76.6215:Karasay|Almaty|KZ
-48.4384|67.2873:||KZ
-45.0|78.0:|Almaty|KZ
-50.2833|57.1667:|Aktobe|KZ
-43.0|68.5:|Shymkent|KZ
-44.0|72.0:|Jambyl|KZ
-54.8833|69.1667:|North Kazakhstan|KZ
-9.2646|76.7867:Pathanamthitta|Kerala|IN
-42.3075|69.5723:Nur-Sultan|Shymkent|KZ
-24.3481|93.701:Churachandpur|Manipur|IN
-47.1167|51.8833:|Atyrau|KZ
-52.0|69.0:|Akmola|KZ
-52.3|76.95:|Pavlodar|KZ
-43.8667|52.0:|Mangystau|KZ
-10.9592|78.0772:Karur|Tamil Nadu|IN
-10.3849|78.7929:Pudukkottai|Tamil Nadu|IN
-26.8042|92.9403:Sonitpur|Assam|IN
-49.95|82.6167:|East Kazakhstan|KZ
-45.0|64.0:|Kyzylorda|KZ
-51.2333|51.3667:|West Kazakhstan|KZ
-24.5761|77.7307:Ashoknagar|Madhya Pradesh|IN
-23.8357|79.4436:Damoh|Madhya Pradesh|IN
-24.9086|79.5963:Chhatarpur|Madhya Pradesh|IN
-14.5616|120.5955:Limay|Bataan|PH
-14.5425|121.0644:Pateros|Metro Manila|PH
-30.4342|78.5374:Tehri Garhwal|Uttarakhand|IN
-14.8012|121.124:Rodriguez|Rizal|PH
-14.4817|121.1874:Binangonan|Rizal|PH
-33.3162|75.7651:Kishtwar|Jammu and Kashmir|IN
-14.2721|121.124:Cabuyao|Laguna|PH
-14.7811|120.8784:Bulacan|Bulacan|PH
-21.4588|80.1963:Gondia|Maharashtra|IN
-14.3426|121.0531:San Pedro|Laguna|PH
-14.3288|121.0899:Binan|Laguna|PH
-14.1746|121.1097:Calamba|Laguna|PH
-14.3233|120.7714:Naic|Cavite|PH
-14.6574|120.9511:Malabon|Metro Manila|PH
-16.413|120.5908:Baguio|Benguet|PH
-14.4332|121.031:Lucena|Metro Manila|PH
-13.8921|121.4823:Sariaya|Quezon|PH
-12.4342|124.6376:Catarman|Northern Samar|PH
-7.8303|124.116:Iligan|Lanao Del Sur|PH
-15.6032|121.0508:General Mamerto Natividad|Nueva Ecija|PH
-14.6215|120.577:Orion|Bataan|PH
-31.7092|76.932:Mandi|Himachal Pradesh|IN
-14.6388|120.9744:Cainta|Metro Manila|PH
-26.5471|80.4878:Unnao|Uttar Pradesh|IN
-23.654|85.56:|Jharkhand|IN
-11.411|122.5173:Jamindan|Capiz|PH
-26.1136|91.7603:Sarusajai Quarantine Centre|Assam|IN
-10.7051|122.5679:Iloilo|Iloilo|PH
-15.7044|121.0983:|Rizal|PH
-22.7989|86.1756:East Singhbhum|Jharkhand|IN
-14.5762|121.0173:Carmona|Metro Manila|PH
-8.4859|124.648:Cagayan De Oro|Misamis Oriental|PH
-6.8021|124.6329:Lambayong|Sultan Kudarat|PH
-6.9213|122.0745:Zamboanga|Zamboanga Del Sur|PH
-15.0032|120.6539:Bacolor|Pampanga|PH
-15.6068|120.5981:Gerona|Tarlac|PH
-15.3089|120.9453:Gapan|Nueva Ecija|PH
-14.8996|120.715:Macabebe|Pampanga|PH
-15.2408|120.85:San Antonio|Nueva Ecija|PH
-19.9665|79.2968:Chandrapur|Maharashtra|IN
-15.6703|120.586:Paniqui|Tarlac|PH
-17.7386|121.455:Tuao|Cagayan|PH
-18.0675|121.6447:Gattaran|Cagayan|PH
-14.2926|121.4618:Lumban|Laguna|PH
-19.8683|83.109:Kalahandi|Odisha|IN
-15.8144|120.4556:Bayambang|Pangasinan|PH
-16.5179|121.1804:Solano|Nueva Vizcaya|PH
-10.8942|122.7043:Barotac Nuevo|Iloilo|PH
-16.7088|121.6698:Echague|Isabela|PH
-14.633|121.0986:Marikinia|Metro Manila|PH
-9.5013|76.3323:Alappuzha|Kerala|IN
-15.1583|120.0553:Cabangan|Zambales|PH
-16.8179|121.7271:Alicia|Isabel|PH
-26.404|90.2698:Kokrajhar|Assam|IN
-26.9899|94.6401:Sivasagar|Assam|IN
-26.0257|89.9721:Dhubri|Assam|IN
-30.9189|77.0976:Solan|Himachal Pradesh|IN
-14.4191|120.9748:Bacoor|Metro Manila|PH
-10.6442|122.2435:Miagao|Iloilo|PH
-11.6968|122.367:Kalibo|Aklan|PH
-14.8422|120.2879:Olongapo|Zambales|PH
-14.7879|120.9316:Bocaue|Bulacan|PH
-11.9|121.9098:Malay|Aklan|PH
-22.6954|71.577:Other State|Gujarat|IN
-23.4594|85.0896:Mandar|Jharkhand|IN
-11.4431|122.3319:Libacao|Aklan|PH
-14.0747|120.6317:Nasugbu|Batangas|PH
-13.4143|121.1807:Calapan|Oriental Mindoro|PH
-30.9686|78.6076:Uttarkashi|Uttarakhand|IN
-25.9609|80.1453:Hamirpur|Uttar Pradesh|IN
-25.9385|83.5652:Mau|Uttar Pradesh|IN
-22.8453|85.9511:Saraikela-Kharsawan|Jharkhand|IN
-14.7532|120.9548:Marilao|Bulacan|PH
-22.0833|82.15:Bilaspur|Chhattisgarh|IN
-15.3466|120.5934:Capas|Tarlac|PH
-14.7714|120.5435:Samal|Bataan|PH
-10.4242|122.9212:La Carlota|Negros Occidental|PH
-11.0948|122.4887:Lambunao|Iloilo|PH
 14.5687|121.0282:Makati|Metro Maniila|PH
-16.4849|121.1406:Bayombong|Nueva Vizcaya|PH
-27.1688|94.1199:Lakhimpur|Assam|IN
 15.6869|120.4157:Camiling|Tarlac|PH
-22.0662|81.6862:Mungeli|Chhattisgarh|IN
 15.7928|121.3038:Alfonso Castaneda|Nueva Vizcaya|PH
-15.5437|120.7629:Licab|Nueva Ecija|PH
-10.8818|123.0021:Enrique B. Magalona|Negros Occidental|PH
-15.1593|120.9731:San Miguel|Bulacan|PH
 14.1306|120.9046:Mendez|Cavite|PH
 15.9758|120.5671:Urdaneta|Pangasinan|PH
 7.972|124.1929:Marantao|Lanao del Sur|PH
-8.2329|124.2415:Iligan|Lanao del Norte|PH
 16.5228|120.4547:Burgos|La Union|PH
+9.5013|76.3323:Alappuzha|Kerala|IN
 28.6092|77.3005:East Delhi (Mayur Vihar)|Delhi|IN
 28.6279|77.0906:Janakpuri|Delhi|IN
 28.6174|77.0528:Uttam Nagar|Delhi|IN
@@ -2390,8 +2603,6 @@
 19.2132|73.1057:Kalyan-Dombivali|Maharashtra|IN
 19.0166|73.0926:Panvel (Kamothe)|Maharashtra|IN
 19.0326|73.0296:Navi Mumbai|Maharashtra|IN
-25.8636|85.7787:Samastipur|Bihar|IN
-25.511|86.4724:Khagaria|Bihar|IN
 10.0743|77.0625:Munnar|Kerala|IN
 12.5|74.9833:Kalanadu|Kerala|IN
 28.5241|77.2068:Saket|Delhi|IN
@@ -2417,7 +2628,6 @@
 28.706|77.1909:West Delhi|Delhi|IN
 22.8467|88.6618:Habra|West Bengal|IN
 13.6111|77.5164:Gowribidanur|Karnataka|IN
-34.0826|76.119:Sankoo Valley|Ladakh|IN
 11.2756|77.5828:Perundurai|Tamil Nadu|IN
 31.1245|76.1185:Nawanshahr|Punjab|IN
 31.2168|76.143:Garhshankar|Punjab|IN
@@ -2431,26 +2641,21 @@
 28.4876|77.4957:Greater Noida|Uttar Pradesh|IN
 15.4527|75.0171:Hosayellapur|Karnataka|IN
 19.1183|72.9312:Mumbai City|Maharashtra|IN
+20.1826|80.0062:Gadchiroli|Maharashtra|IN
 17.5433|80.619:Kothagudem|Telangana|IN
 17.4874|78.4209:Kukatpally|Telangana|IN
 13.9936|74.5509:Bhatkal|Karnataka|IN
+21.0975|81.0341:Rajnandgaon|Chhattisgarh|IN
 11.0513|75.9834:Vengara|Kerala|IN
 11.1393|75.8312:Kadalundi|Kerala|IN
 11.7686|75.4908:Koduvally|Kerala|IN
 10.4567|76.404:|Kerala|IN
-24.8854|86.924:Banka|Bihar|IN
-24.785|84.9927:Gaya|Bihar|IN
-24.9214|86.2254:Jamui|Bihar|IN
-24.8867|85.5439:Nawada|Bihar|IN
-25.1419|85.8628:Sheikhpura|Bihar|IN
-26.0046|85.0791:Vaishali|Bihar|IN
-25.9164|86.7934:Madhepura|Bihar|IN
-26.5797|85.5093:Sitamarhi|Bihar|IN
 27.5685|76.6378:Shashtri Nagar|Rajasthan|IN
 17.4485|78.4492:Balkampet|Telangana|IN
 18.3415|79.5129:Saidabad|Telangana|IN
 17.4207|78.463:Somajiguda|Telangana|IN
 17.4318|78.3864:Gachibowli|Telangana|IN
+9.2646|76.7867:Pathanamthitta|Kerala|IN
 26.4356|80.3299:Kanpur|Uttar Pradesh|IN
 18.0895|74.0507:Khandala|Maharashtra|IN
 24.8076|93.9286:Imphal|Manipur|IN
@@ -2464,9 +2669,13 @@
 17.4059|78.3303:Kokapet|Telangana|IN
 17.3387|78.3082:Chandanagar|Telangana|IN
 18.6358|79.55:Begumpet|Telangana|IN
+23.7465|91.7401:|Tripura|IN
+20.8386|84.3224:Boudh|Odisha|IN
 34.049|74.8131:Natipora|Jammu and Kashmir|IN
 31.023|75.7887:Phillaur|Punjab|IN
+18.3591|81.887:Malkangiri|Odisha|IN
 13.7518|79.7071:Srikalahasti|Andhra Pradesh|IN
+26.1027|87.9431:Kishanganj|Bihar|IN
 13.0203|80.2213:Saidapet|Tamil Nadu|IN
 17.4014|78.3916:Manikonda|Telangana|IN
 17.6707|80.7064:Bhadradri Kothagudem|Telangana|IN
@@ -2477,30 +2686,35 @@
 29.8072|78.6098:Dugadda|Uttarakhand|IN
 12.9256|79.364:Walajapet|Tamil Nadu|IN
 22.4839|88.4128:Nayabad|West Bengal|IN
+22.0833|82.15:Bilaspur|Chhattisgarh|IN
 21.2203|81.38:Bhilai|Chhattisgarh|IN
 17.5054|78.4675:Qutbullapur|Telangana|IN
 17.41|78.4823:Domalguda|Telangana|IN
+24.3481|93.701:Churachandpur|Manipur|IN
 14.7059|76.1705:Other State|Karnataka|IN
 13.0|77.5833:Bengaluru Urban|Karnataka|IN
-11.3406|77.7172:Erode|Tamil Nadu|IN
 17.442|78.5019:Secunderabad|Telangana|IN
-24.1947|82.6656:Singrauli|Madhya Pradesh|IN
 12.841|92.8692:North and Middle Andaman|Andaman and Nicobar Islands|IN
+21.4588|80.1963:Gondia|Maharashtra|IN
 12.8927|75.0404:Bantwal|Karnataka|IN
 13.34|77.1015:Tumkur|Karnataka|IN
-22.7951|86.1839:West Singhbhum|Jharkhand|IN
-20.4484|82.2365:Gariaband|Chhattisgarh|IN
-22.35|82.6833:Korba|Chhattisgarh|IN
-20.264|81.4974:Uttar Bastar Kanker|Chhattisgarh|IN
+10.9592|78.0772:Karur|Tamil Nadu|IN
+10.3849|78.7929:Pudukkottai|Tamil Nadu|IN
+26.8042|92.9403:Sonitpur|Assam|IN
 10.6742|76.074:Prakulam|Kerala|IN
 19.6529|73.147:Palghar Rural|Maharashtra|IN
 14.4669|75.9269:Davangere|Karnataka|IN
 12.8677|75.2515:Dakshina Kannada|Karnataka|IN
 12.9681|80.1336:Pammal|Tamil Nadu|IN
 13.0836|80.2102:Anna Nagar|Tamil Nadu|IN
+24.5761|77.7307:Ashoknagar|Madhya Pradesh|IN
+23.8357|79.4436:Damoh|Madhya Pradesh|IN
+24.9086|79.5963:Chhatarpur|Madhya Pradesh|IN
 10.9595|79.3788:Kumbakonam|Tamil Nadu|IN
 12.9599|79.1386:Katpadi|Tamil Nadu|IN
+30.4342|78.5374:Tehri Garhwal|Uttarakhand|IN
 13.6101|77.5172:Gauribidanur|Karnataka|IN
+33.3162|75.7651:Kishtwar|Jammu and Kashmir|IN
 34.295|74.6202:Hajin|Jammu and Kashmir|IN
 10.773|76.378:Ottapalam|Kerala|IN
 9.4448|77.5541:Rajapalayam|Tamil Nadu|IN
@@ -2508,26 +2722,19 @@
 16.4758|79.4365:Macherla|Andhra Pradesh|IN
 15.8275|80.3556:Chirala|Andhra Pradesh|IN
 12.1167|76.674:Nanjangud|Karnataka|IN
-19.1748|84.1612:Gajapati|Odisha|IN
-20.1275|84.0478:Kandhamal|Odisha|IN
-25.3773|93.0329:Dima Hasao|Assam|IN
 9.9405|76.324:Maradu|Kerala|IN
 10.4349|76.2641:Temple Gate|Kerala|IN
-29.5993|79.6597:Almora|Uttarakhand|IN
-29.5852|80.2163:Pithoragarh|Uttarakhand|IN
-29.3359|80.0907:Champawat|Uttarakhand|IN
-23.0415|84.543:Gumla|Jharkhand|IN
-26.2696|92.2894:Morigaon|Assam|IN
 21.6448|69.621:Porbandar|Gujarat|IN
-9.8502|78.4856:Sivaganga|Tamil Nadu|IN
-26.383|91.0217:Barpeta|Assam|IN
 28.5861|77.2485:Nizamuddin area|Delhi|IN
-29.1965|76.3401:|Haryana|IN
+31.7092|76.932:Mandi|Himachal Pradesh|IN
+26.5471|80.4878:Unnao|Uttar Pradesh|IN
+23.654|85.56:|Jharkhand|IN
+26.1136|91.7603:Sarusajai Quarantine Centre|Assam|IN
+22.7989|86.1756:East Singhbhum|Jharkhand|IN
 13.0942|80.2854:Broadway|Tamil Nadu|IN
-21.1764|73.6194:Tapi|Gujarat|IN
-21.6052|71.2163:Amreli|Gujarat|IN
-30.2856|78.9814:Rudraprayag|Uttarakhand|IN
-29.8769|78.7664:Pauri Garhwal|Uttarakhand|IN
+19.9665|79.2968:Chandrapur|Maharashtra|IN
+19.8683|83.109:Kalahandi|Odisha|IN
+22.35|82.6833:Korba|Chhattisgarh|IN
 15.2688|76.3909:Hospet|Karnataka|IN
 22.5901|88.4113:Salt Lake|West Bengal|IN
 22.4978|88.3483:Tollygugne|West Bengal|IN
@@ -2536,19 +2743,18 @@
 15.9182|80.3496:Kunkala Marru|Andhra Pradesh|IN
 14.5833|77.6333:Kandukuru|Andhra Pradesh|IN
 24.8128|92.7976:Silchar|Assam|IN
-21.8166|80.1847:Balaghat|Madhya Pradesh|IN
+26.404|90.2698:Kokrajhar|Assam|IN
+26.9899|94.6401:Sivasagar|Assam|IN
+26.0257|89.9721:Dhubri|Assam|IN
+30.9189|77.0976:Solan|Himachal Pradesh|IN
 19.2741|72.9131:Mira-Bhayandar|Maharashtra|IN
-22.9406|83.1235:Surguja|Chhattisgarh|IN
-23.4675|82.2383:Koriya|Chhattisgarh|IN
-22.7729|81.9615:Gaurela Pendra Marwahi|Chhattisgarh|IN
-23.5207|91.6339:Gomati|Tripura|IN
-23.5847|91.3324:Sipahijala|Tripura|IN
-23.2013|91.5826:South Tripura|Tripura|IN
-23.8903|91.4025:West Tripura|Tripura|IN
-26.6519|90.6269:Chirang|Assam|IN
-27.4877|95.3568:Tinsukia|Assam|IN
-24.6788|92.5654:Hailakandi|Assam|IN
-22.6105|84.5017:Simdega|Jharkhand|IN
+22.6954|71.577:Other State|Gujarat|IN
+23.4594|85.0896:Mandar|Jharkhand|IN
+24.785|84.9927:Gaya|Bihar|IN
+30.9686|78.6076:Uttarkashi|Uttarakhand|IN
+25.9609|80.1453:Hamirpur|Uttar Pradesh|IN
+25.9385|83.5652:Mau|Uttar Pradesh|IN
+22.8453|85.9511:Saraikela-Kharsawan|Jharkhand|IN
 11.8924|79.8136:Ariyankuppam|Puducherry|IN
 28.631|77.2172:New Delhi|Delhi|IN
 10.582|76.9338:Annaimalai|Tamil Nadu|IN
@@ -2560,18 +2766,15 @@
 13.0649|80.2383:Bodi|Tamil Nadu|IN
 9.8396|77.385:Chinnamanur|Tamil Nadu|IN
 9.8055|77.3339:Uthamapalayam|Tamil Nadu|IN
-24.7316|93.8839:|Manipur|IN
 10.1237|77.5476:Periyakulam|Tamil Nadu|IN
-31.9237|77.25:|Himachal Pradesh|IN
 10.3528|77.9627:Begampur|Tamil Nadu|IN
 12.1429|78.1689:Thirupathur|Tamil Nadu|IN
 9.9558|78.8134:Devakottai|Tamil Nadu|IN
 9.5443|78.5877:Ilayankudi|Tamil Nadu|IN
-9.8368|78.092:Airport Quarantine|Tamil Nadu|IN
-30.4113|79.3215:Chamoli|Uttarakhand|IN
+27.1688|94.1199:Lakhimpur|Assam|IN
+22.0662|81.6862:Mungeli|Chhattisgarh|IN
 12.7619|75.2027:Puttur|Karnataka|IN
 26.1621|90.6229:Goalpara|Assam|IN
-17.9295|79.8893:Foreign Evacuees|Telangana|IN
 24.7902|93.9579:Imphal East|Manipur|IN
 18.5025|73.9271:Hadapsar - Pune|Maharashtra|IN
 27.5642|76.6104:Ramganj|Rajasthan|IN
@@ -2580,27 +2783,26 @@
 17.9017|77.533:Lalwani Rd|Karnataka|IN
 17.8668|76.9477:Basavakalyan|Karnataka|IN
 17.9|77.55:Bidar|Karnataka|IN
+25.8636|85.7787:Samastipur|Bihar|IN
+25.511|86.4724:Khagaria|Bihar|IN
 9.8982|76.714:Thodupuzha|Kerala|IN
-26.3495|92.6846:Nagaon|Assam|IN
-26.0628|93.147:West Karbi Anglong|Assam|IN
-22.0667|78.9333:Chhindwara|Madhya Pradesh|IN
+24.8854|86.924:Banka|Bihar|IN
 15.145|76.9282:Bellary|Karnataka|IN
-23.6079|83.6189:Balrampur|Chhattisgarh|IN
-21.2651|82.0416:|Chhattisgarh|IN
+24.9214|86.2254:Jamui|Bihar|IN
+24.8867|85.5439:Nawada|Bihar|IN
+25.1419|85.8628:Sheikhpura|Bihar|IN
+26.0046|85.0791:Vaishali|Bihar|IN
+25.9164|86.7934:Madhepura|Bihar|IN
+26.5797|85.5093:Sitamarhi|Bihar|IN
 11.9189|79.6654:Thiruvandarkoil|Puducherry|IN
 16.1662|75.6542:Bagalkote|Karnataka|IN
-24.8601|92.3765:Karimganj|Assam|IN
-21.5382|84.7335:Deogarh|Odisha|IN
-18.8113|82.7125:Koraput|Odisha|IN
-27.4753|94.5618:Dhemaji|Assam|IN
+24.1947|82.6656:Singrauli|Madhya Pradesh|IN
 25.71|89.8971:South Salmara Mankachar|Assam|IN
-31.1032|77.1585:Shimla|Himachal Pradesh|IN
-23.2348|87.0671:Bankura|West Bengal|IN
-20.7065|81.5494:Dhamtari|Chhattisgarh|IN
-20.7349|78.5977:Wardha|Maharashtra|IN
-23.3769|85.8648:Silli|Jharkhand|IN
 15.867|74.5117:Belagavi|Karnataka|IN
 20.2845|85.8591:Bomikhal|Odisha|IN
+22.7951|86.1839:West Singhbhum|Jharkhand|IN
+20.4484|82.2365:Gariaband|Chhattisgarh|IN
+20.264|81.4974:Uttar Bastar Kanker|Chhattisgarh|IN
 18.4183|78.7706:Rajanna Sircilla|Telangana|IN
 17.2506|80.1559:Khammam|Telangana|IN
 18.0439|79.4721:Warangal Urban|Telangana|IN
@@ -2609,24 +2811,43 @@
 18.509|73.8732:Bhawani Peth Pune|Maharashtra|IN
 18.487|73.8501:Parvati - Pune|Maharashtra|IN
 19.4208|76.0501:Limboni Nagar Pune|Maharashtra|IN
+26.2696|92.2894:Morigaon|Assam|IN
 21.0649|75.5701:Jalgaon Rural|Maharashtra|IN
 15.5501|73.9821:North Goa|Goa|IN
 15.853|77.485:Nandavaram|Andhra Pradesh|IN
 16.9833|79.9667:Kodaru|Andhra Pradesh|IN
 13.6367|79.3965:Prakasam Nagar|Andhra Pradesh|IN
-23.5214|77.8064:Vidisha|Madhya Pradesh|IN
-23.5307|80.8279:Umaria|Madhya Pradesh|IN
-20.653|85.5991:Dhenkanal|Odisha|IN
-21.7191|81.5333:Bametara|Chhattisgarh|IN
+19.1748|84.1612:Gajapati|Odisha|IN
+20.1275|84.0478:Kandhamal|Odisha|IN
+25.3773|93.0329:Dima Hasao|Assam|IN
+29.5993|79.6597:Almora|Uttarakhand|IN
+29.5852|80.2163:Pithoragarh|Uttarakhand|IN
+29.3359|80.0907:Champawat|Uttarakhand|IN
+23.0415|84.543:Gumla|Jharkhand|IN
+26.383|91.0217:Barpeta|Assam|IN
+29.1965|76.3401:|Haryana|IN
+21.1764|73.6194:Tapi|Gujarat|IN
+21.6052|71.2163:Amreli|Gujarat|IN
+30.2856|78.9814:Rudraprayag|Uttarakhand|IN
+29.8769|78.7664:Pauri Garhwal|Uttarakhand|IN
 13.8333|77.4939:Hindupur|Andhra Pradesh|IN
 32.312|75.6015:Sujjanpur|Punjab|IN
 25.3874|87.0976:Naugachia|Bihar|IN
-26.1153|86.5954:Supaul|Bihar|IN
 18.0475|78.2668:Medak|Telangana|IN
 16.9047|78.814:Mahabubnagar|Telangana|IN
 17.5961|80.0008:Mahabubabad|Telangana|IN
-24.071|91.6023:Khowai|Tripura|IN
-22.9458|79.1963:Narsinghpur|Madhya Pradesh|IN
+21.8166|80.1847:Balaghat|Madhya Pradesh|IN
+22.9406|83.1235:Surguja|Chhattisgarh|IN
+23.4675|82.2383:Koriya|Chhattisgarh|IN
+22.7729|81.9615:Gaurela Pendra Marwahi|Chhattisgarh|IN
+23.5207|91.6339:Gomati|Tripura|IN
+23.5847|91.3324:Sipahijala|Tripura|IN
+23.2013|91.5826:South Tripura|Tripura|IN
+23.8903|91.4025:West Tripura|Tripura|IN
+26.6519|90.6269:Chirang|Assam|IN
+27.4877|95.3568:Tinsukia|Assam|IN
+24.6788|92.5654:Hailakandi|Assam|IN
+22.6105|84.5017:Simdega|Jharkhand|IN
 15.3161|78.2363:Banaganapalli|Andhra Pradesh|IN
 15.8221|78.0554:Chittari|Andhra Pradesh|IN
 17.9289|78.5175:Sangaih Pet|Andhra Pradesh|IN
@@ -2652,11 +2873,14 @@
 17.5328|82.5195:Nelamalipudi,Ozhili|Andhra Pradesh|IN
 14.4352|79.9778:Magunta Layout|Andhra Pradesh|IN
 13.2232|77.574:Bengaluru Rural|Karnataka|IN
-22.8876|84.1384:Jashpur|Chhattisgarh|IN
 18.1653|74.5922:Baramati|Maharashtra|IN
 19.0965|74.7678:Ahmednagar Rural|Maharashtra|IN
 20.2412|85.8249:Bhimatangi, Bhubaneswar|Odisha|IN
 30.5871|76.8468:Dera Bassi, Mohali|Punjab|IN
+24.7316|93.8839:|Manipur|IN
+31.9237|77.25:|Himachal Pradesh|IN
+9.8368|78.092:Airport Quarantine|Tamil Nadu|IN
+30.4113|79.3215:Chamoli|Uttarakhand|IN
 18.4086|83.6991:Budhavur Petta|Andhra Pradesh|IN
 15.4445|78.524:Ayyaluru|Andhra Pradesh|IN
 17.3609|82.7149:Chandabada|Andhra Pradesh|IN
@@ -2669,22 +2893,19 @@
 15.8556|78.2648:Nandikotkur|Andhra Pradesh|IN
 15.7115|77.59:Ganigalli|Andhra Pradesh|IN
 15.5093|78.3415:Panyam|Andhra Pradesh|IN
-24.6387|87.8407:Pakur|Jharkhand|IN
-26.4729|92.0296:Darrang|Assam|IN
-25.5365|91.2796:|Meghalaya|IN
+17.9295|79.8893:Foreign Evacuees|Telangana|IN
 19.0868|78.3397:Nirmal|Telangana|IN
 18.6095|79.3817:Peddapalli|Telangana|IN
 22.8078|70.8236:Morbi|Gujarat|IN
 14.6505|77.5816:R K Function Hall Backside|Andhra Pradesh|IN
 14.8186|77.666:Narsapuram|Andhra Pradesh|IN
-20.7765|82.5461:Nuapada|Odisha|IN
 13.652|78.7909:Gandhi Nagar|Andhra Pradesh|IN
 17.6668|82.6095:Narsipatnam|Andhra Pradesh|IN
 17.6808|83.2021:Gajuwaka|Andhra Pradesh|IN
 17.7342|83.2971:Akkayyapelem|Andhra Pradesh|IN
 33.9167|76.6667:Kashmir Division|Jammu and Kashmir|IN
-28.0537|76.1056:Narnaul|Haryana|IN
-26.7437|93.1613:Charaideo|Assam|IN
+26.3495|92.6846:Nagaon|Assam|IN
+26.0628|93.147:West Karbi Anglong|Assam|IN
 9.2248|76.6785:Pandalam|Kerala|IN
 17.6927|83.2915:Kotaveedhi|Andhra Pradesh|IN
 14.1475|79.8471:Gudur|Andhra Pradesh|IN
@@ -2696,55 +2917,68 @@
 32.3892|75.7201:Kot Kar Khan|Punjab|IN
 30.968|76.5235:Ropar|Punjab|IN
 19.177|73.9481:Dadra and Nagar Haveli|Maharashtra|IN
-24.0057|76.7272:Rajgarh|Madhya Pradesh|IN
+23.6079|83.6189:Balrampur|Chhattisgarh|IN
+21.2651|82.0416:|Chhattisgarh|IN
+24.8601|92.3765:Karimganj|Assam|IN
+21.5382|84.7335:Deogarh|Odisha|IN
+18.8113|82.7125:Koraput|Odisha|IN
+23.5214|77.8064:Vidisha|Madhya Pradesh|IN
 23.5414|91.4921:Udaipur|Tripura|IN
-26.1329|87.4573:Araria|Bihar|IN
 32.8322|76.1537:Tissa|Himachal Pradesh|IN
 16.2893|80.4336:Srinivasaraopeta|Andhra Pradesh|IN
+27.4753|94.5618:Dhemaji|Assam|IN
+31.1032|77.1585:Shimla|Himachal Pradesh|IN
 16.3373|75.282:Mudhol|Karnataka|IN
 15.4331|75.6355:Gadag|Karnataka|IN
 12.5274|76.8947:Mandya|Karnataka|IN
 20.5344|86.1639:Jharpada|Odisha|IN
 30.5538|76.8346:Jawaharpur|Punjab|IN
+23.2348|87.0671:Bankura|West Bengal|IN
 30.0983|75.6821:Cheeda|Punjab|IN
+20.7065|81.5494:Dhamtari|Chhattisgarh|IN
+20.7349|78.5977:Wardha|Maharashtra|IN
 11.7064|75.5337:Mahe|Kerala|IN
-29.9201|73.875:Ganganagar|Rajasthan|IN
+23.3769|85.8648:Silli|Jharkhand|IN
 19.8674|75.5412:Aurangabad Rural|Maharashtra|IN
-20.8473|83.8931:Subarnapur|Odisha|IN
 16.6371|81.658:Koretipadu|Andhra Pradesh|IN
 15.3418|79.3451:Vedigadla|Andhra Pradesh|IN
 16.2902|80.6742:Buchayathota|Andhra Pradesh|IN
-27.4844|94.9231:Dibrugarh|Assam|IN
 13.6319|79.4182:Tirupati|Andhra Pradesh|IN
-25.6768|94.1094:Kohima|Nagaland|IN
-25.914|93.7285:Dimapur|Nagaland|IN
-25.6734|76.6966:Sheopur|Madhya Pradesh|IN
+23.5307|80.8279:Umaria|Madhya Pradesh|IN
 13.95|80.1167:Mallam|Andhra Pradesh|IN
 17.8076|83.3551:Haripriya Garden|Andhra Pradesh|IN
 13.5882|80.0355:Tada|Andhra Pradesh|IN
 15.5468|79.0425:Turimella|Andhra Pradesh|IN
 16.518|80.6152:Islamapet|Andhra Pradesh|IN
+20.653|85.5991:Dhenkanal|Odisha|IN
+21.7191|81.5333:Bametara|Chhattisgarh|IN
 17.0571|79.2685:Nalgonda|Telangana|IN
 16.4868|78.3129:Nagarkurnool|Telangana|IN
 18.2852|80.3362:Mulugu|Telangana|IN
+26.1153|86.5954:Supaul|Bihar|IN
 16.5149|80.6313:Arundalpet|Andhra Pradesh|IN
 14.6821|77.5426:Kalyana Durgam|Andhra Pradesh|IN
-13.1602|80.2977:Railway Quarantine|Tamil Nadu|IN
-14.4594|75.9154:Davanagere|Karnataka|IN
+24.071|91.6023:Khowai|Tripura|IN
+22.9458|79.1963:Narsinghpur|Madhya Pradesh|IN
+22.8876|84.1384:Jashpur|Chhattisgarh|IN
 26.9198|75.8318:Ghat Gate|Rajasthan|IN
 15.4511|75.0052:Dharwad|Karnataka|IN
-23.0767|85.2787:Khunti|Jharkhand|IN
-25.4456|89.9502:South West Garo Hills|Meghalaya|IN
-24.7723|93.8667:Imphal West|Manipur|IN
+24.6387|87.8407:Pakur|Jharkhand|IN
+26.4729|92.0296:Darrang|Assam|IN
+25.5365|91.2796:|Meghalaya|IN
+20.7765|82.5461:Nuapada|Odisha|IN
 18.3242|78.3326:Kamareddy|Telangana|IN
-26.5164|89.533:Alipurduar|West Bengal|IN
 20.55|74.5333:Malegaon|Maharashtra|IN
+28.0537|76.1056:Narnaul|Haryana|IN
+26.7437|93.1613:Charaideo|Assam|IN
 17.2429|82.3344:Kathipudi|Andhra Pradesh|IN
 16.0662|80.5517:Ponnur Mandal|Andhra Pradesh|IN
 16.2366|80.0555:Narsaraopet|Andhra Pradesh|IN
 19.9815|82.8166:Golamunda|Odisha|IN
 14.6689|77.5938:Aravinda Nagar|Andhra Pradesh|IN
 14.1882|77.7669:Kothacheruvu|Andhra Pradesh|IN
+24.0057|76.7272:Rajgarh|Madhya Pradesh|IN
+26.1329|87.4573:Araria|Bihar|IN
 11.9283|79.7828:Moolakulam|Puducherry|IN
 30.7377|76.7496:Sector 37|Chandigarh|IN
 12.1439|75.5471:Kudiyanmala|Kerala|IN
@@ -2752,10 +2986,14 @@
 17.729|83.2998:Kummari Bazar|Andhra Pradesh|IN
 16.6025|79.7234:Dachepalli|Andhra Pradesh|IN
 15.7355|79.2698:Markapur|Andhra Pradesh|IN
+29.9201|73.875:Ganganagar|Rajasthan|IN
 18.439|79.8683:Jayashankar Bhupalapally|Telangana|IN
 17.7231|79.1608:Jangaon|Telangana|IN
+20.8473|83.8931:Subarnapur|Odisha|IN
+27.4844|94.9231:Dibrugarh|Assam|IN
+25.6768|94.1094:Kohima|Nagaland|IN
+25.914|93.7285:Dimapur|Nagaland|IN
 20.2783|85.8401:Madhusudan|Odisha|IN
-26.7448|92.0944:Udalguri|Assam|IN
 11.8194|75.5602:Kottayam-Malabar|Kerala|IN
 10.1356|76.2393:Naravoor|Kerala|IN
 11.7861|75.5331:Kadirur|Kerala|IN
@@ -2763,11 +3001,15 @@
 11.6637|75.6212:Edacheri|Kerala|IN
 15.2541|78.8899:Devanagar|Andhra Pradesh|IN
 16.8667|77.6167:Maddur|Andhra Pradesh|IN
-26.3196|89.4545:Cooch Behar|West Bengal|IN
+13.1602|80.2977:Railway Quarantine|Tamil Nadu|IN
+14.4594|75.9154:Davanagere|Karnataka|IN
 19.3557|79.4412:Komaram Bheem|Telangana|IN
-33.1446|75.5447:Doda|Jammu and Kashmir|IN
+23.0767|85.2787:Khunti|Jharkhand|IN
+25.4456|89.9502:South West Garo Hills|Meghalaya|IN
+24.7723|93.8667:Imphal West|Manipur|IN
 16.8288|75.7144:Vijayapura|Karnataka|IN
 16.3011|74.7228:Hirebagewadi|Karnataka|IN
+26.5164|89.533:Alipurduar|West Bengal|IN
 18.9982|73.1232:Panvel|Maharashtra|IN
 17.7174|83.2897:Sujata Convent|Andhra Pradesh|IN
 16.2475|80.3895:Kortepadu|Andhra Pradesh|IN
@@ -2776,13 +3018,6 @@
 18.0448|83.511:Pedda|Andhra Pradesh|IN
 14.9634|78.5865:Chagala Marri|Andhra Pradesh|IN
 13.5451|79.5255:Vadamalapeta|Andhra Pradesh|IN
-24.708|80.1764:Panna|Madhya Pradesh|IN
-23.4414|84.6865:Lohardaga|Jharkhand|IN
-21.3377|83.6212:Bargarh|Odisha|IN
-26.6472|91.2866:Baksa|Assam|IN
-25.0984|94.3611:Ukhrul|Manipur|IN
-24.8305|93.5635:Noney|Manipur|IN
-24.6433|93.9972:Thoubal|Manipur|IN
 19.2971|73.0635:Bhiwandi|Maharashtra|IN
 21.1571|79.0731:Nagpur Rural|Maharashtra|IN
 16.4974|80.6375:Ranihari Thotta|Andhra Pradesh|IN
@@ -2791,23 +3026,33 @@
 12.3821|77.0613:Malavalli|Karnataka|IN
 16.4927|74.7749:Raibag|Karnataka|IN
 13.2881|77.5318:Doddaballapura|Karnataka|IN
-23.333|86.367:Purulia|West Bengal|IN
 12.0379|75.2466:Madayi|Kerala|IN
 11.7111|75.5277:New Mahe|Kerala|IN
 10.6756|76.0219:Chathanur|Kerala|IN
 14.4027|79.9348:Chandrababu Nagar|Andhra Pradesh|IN
 17.7186|83.295:Pedda Bazar|Andhra Pradesh|IN
 16.3002|80.0796:Narasarao Peta|Andhra Pradesh|IN
-21.1106|82.0955:Mahasamund|Chhattisgarh|IN
-24.1971|92.0362:Unokoti|Tripura|IN
-25.242|87.6378:Sahibganj|Jharkhand|IN
+26.7448|92.0944:Udalguri|Assam|IN
+26.3196|89.4545:Cooch Behar|West Bengal|IN
 25.5731|91.8878:Shillong|Meghalaya|IN
+33.1446|75.5447:Doda|Jammu and Kashmir|IN
 18.5029|83.837:Anandpeta|Andhra Pradesh|IN
 20.2333|85.8333:Bhubaneshwar|Odisha|IN
 11.8435|75.6862:Cheruvanchery|Kerala|IN
-27.3742|96.3545:Changlang|Arunachal Pradesh|IN
+24.708|80.1764:Panna|Madhya Pradesh|IN
+23.4414|84.6865:Lohardaga|Jharkhand|IN
+21.3377|83.6212:Bargarh|Odisha|IN
+26.6472|91.2866:Baksa|Assam|IN
+25.0984|94.3611:Ukhrul|Manipur|IN
+24.8305|93.5635:Noney|Manipur|IN
+24.6433|93.9972:Thoubal|Manipur|IN
+23.333|86.367:Purulia|West Bengal|IN
+21.1106|82.0955:Mahasamund|Chhattisgarh|IN
+24.1971|92.0362:Unokoti|Tripura|IN
+25.242|87.6378:Sahibganj|Jharkhand|IN
 16.429|74.588:Chikkodi|Karnataka|IN
 19.114|72.9177:MCGM|Maharashtra|IN
+27.3742|96.3545:Changlang|Arunachal Pradesh|IN
 22.505|82.5454:Katghora|Chhattisgarh|IN
 11.7154|92.7161:Bombooflat|Andaman and Nicobar Islands|IN
 12.8333|75.25:Uppinangadi|Karnataka|IN
@@ -2928,7 +3173,6 @@
 23.1536|79.9463:Sadarbazar, Jamalpur|Bihar|IN
 18.0326|73.4167:Kurla|Maharashtra|IN
 20.2841|85.8321:Madhusudan Nagar|Odisha|IN
-11.0132|78.4097:|Tamil Nadu|IN
 16.2348|74.6024:Hukkeri|Karnataka|IN
 21.6421|86.878:Panchapalli|Odisha|IN
 21.8167|83.9167:Brajrajnagar|Odisha|IN
@@ -3539,6 +3783,145 @@
 11.2615|75.9539:Mavoor|Kerala|IN
 27.6526|91.9526:Tawang|Arunachal Pradesh|IN
 27.6654|95.8773:Namsai|Arunachal Pradesh|IN
+14.928|120.2108:Castillejos|Zambales|PH
+14.5784|121.0328:Mandaluyong|Davao Del Sur|PH
+15.4284|120.9958:Santa Rosa|Nueva Ecija|PH
+14.9023|120.8523:Pulilan|Bulacan|PH
+13.4741|121.862:Mogpog|Marinduque|PH
+13.3205|122.0852:Torrijos|Marinduque|PH
+15.8929|120.6326:Rosales|Pangasinan|PH
+15.548|121.0907:Palayan|Nueva Ecija|PH
+7.8579|123.5024:Labangan|Zamboanga Del Sur|PH
+14.1622|121.6387:Sampaloc|Quezon|PH
+14.5534|121.0534:City|Metro Manila|PH
+16.9372|120.4445:Tagudin|Ilocos Sur|PH
+16.0074|120.6863:Asingan|Pangasinan|PH
+15.5863|121.1844:Laur|Nueva Ecija|PH
+9.3101|123.3051:Dumaguete|Negros Oriental|PH
+9.9803|123.2008:Jimalalud|Negros Oriental|PH
+15.8229|120.3302:Urbiztondo|Pangasinan|PH
+14.9453|120.7581:Apalit|Pampanga|PH
+14.9379|120.6007:Lubao|Pampanga|PH
+12.8412|120.7753:Sablayan|Occidental Mindoro|PH
+13.8228|120.9936:San Pascual|Batangas|PH
+16.5253|120.3298:Bauang|La Union|PH
+14.9543|120.9187:Bustos|Bulacan|PH
+13.6279|123.1875:Naga|Camarines Sur|PH
+6.5377|124.8718:Lutayan|Sultan Kudarat|PH
+15.0928|120.8278:Candaba|Pampanga|PH
+6.9548|126.2168:Mati|Davao Oriental|PH
+15.9197|120.4194:Malasiqui|Pangasinan|PH
+13.648|121.2104:Lobo|Batangas|PH
+17.4276|121.773:Cabagan|Isabela|PH
+6.2275|124.8186:T'Boli|South Cotabato|PH
+14.2856|120.7183:Ternate|Cavite|PH
+16.02|120.2313:Lingayen|Pangasinan|PH
+15.5782|120.8319:Quezon|Nueva Ecija|PH
+16.1556|119.9794:Alaminos|Pangasinan|PH
+17.4636|120.8031:Sallapadan|Abra|PH
+14.9149|120.7654:Calumpit|Bulacan|PH
+15.7576|120.4511:Tarlac|Tarlac Province|PH
+16.6693|120.337:San Juan|La Union|PH
+18.0626|120.5199:Paoay|Ilocos Norte|PH
+18.0593|120.5585:Batac|Ilocos Norte|PH
+14.5237|121.2602:Baras|Rizal|PH
+14.5142|121.239:Morong|Rizal|PH
+16.2785|120.3907:Santo Tomas|La Union|PH
+16.3226|120.3672:Agoo|La Union|PH
+15.0044|120.6053:Santa Rita|Pampanga|PH
+14.4712|121.022:Paranaque||PH
+11.4527|122.5933:Mambusao|Capiz|PH
+15.6136|121.0192:San|Nueva Ecija|PH
+13.5266|123.0469:Pasacao|Camarines Sur|PH
+15.7941|120.3357:Camiling|Tarlac Province|PH
+16.5309|120.3912:Naguilian|La Union|PH
+13.8774|121.2139:Padre Garcia|Batangas|PH
+12.4532|123.3821:Paniqui|Tarlac Province|PH
+12.1975|124.5782:Calbayog|Samar|PH
+17.7577|121.4905:Piat|Cagayan|PH
+13.2175|123.6194:Guinobatan|Albay|PH
+8.0482|123.7988:Tubod|Lanao Del Norte|PH
+11.5372|122.4804:Altavas|Aklan|PH
+14.2782|121.4161:Santa Cruz|Laguna|PH
+13.8961|121.0464:Cuenca|Batangas|PH
+15.245|120.8561:Cabiao|Nueva Ecija|PH
+15.5737|120.6759:Victoria|Tarlac Province|PH
+18.199|120.5956:Laoag|Ilocos Norte|PH
+15.868|120.5686:Santo Tomas|Pangasinan|PH
+7.8173|123.3632:Dumalinao|Zamboanga Del Sur|PH
+15.6747|120.3315:Bamban|Tarlac Province|PH
+10.6619|122.3219:Guimbal|Iloilo Province|PH
+15.9257|120.348:San Carlos|Pangasinan|PH
+14.9715|120.156:San Marcelino|Zambales|PH
+13.5517|122.5964:Quezon|Rizal|PH
+6.4278|124.7693:Banga|South Cotabato|PH
+14.027|121.592:Tayabas|Quezon|PH
+16.4996|120.6796:Bokod|Benguet|PH
+16.0462|120.591:Binalonan|Pangasinan|PH
+7.1159|124.2336:Datu Odin Sinsuat Dinaig|Maguindanao|PH
+7.2038|124.5417:Midsayap|Cotabato|PH
+7.2708|124.3261:City|Sultan Kudarat|PH
+14.1342|121.4346:Liliw|Laguna|PH
+7.0211|125.0903:Kidapawan|Cotabato|PH
+9.1557|124.7885:Mahinog|Camiguin|PH
+14.4374|120.9506:Trece|Cavite|PH
+7.5091|125.9174:Mawab|Compostela Valley|PH
+14.7387|121.6438:Infanta|Quezon|PH
+8.9476|125.5411:Butuan|Agusan Del Norte|PH
+13.9597|121.3226:Tiaong|Quezon|PH
+12.9719|121.2568:Puerto|Oriental Mindoro|PH
+15.1004|120.7694:Santa Ana|Pampanga|PH
+16.6881|121.5499:Santiago|Isabela|PH
+8.2454|123.845:Tudela|Misamis Occidental|PH
+11.9274|121.5667:Caluya|Antique|PH
+16.4714|121.7609:San Agustin|Isabela|PH
+16.0527|120.5412:Laoac|Pangasinan|PH
+14.4369|121.4497:Famy|Laguna|PH
+12.7477|121.485:Bongabong|Oriental Mindoro|PH
+14.9713|121.0635:Angat|Bulacan|PH
+13.8762|121.099:San Jose|Batangas|PH
+14.2721|120.7388:Maragondon|Cavite|PH
+14.4278|120.88:General Alvarez|Cavite|PH
+13.8193|122.0992:Pitogo|Quezon|PH
+16.3187|120.4687:Pugo|La Union|PH
+16.9353|121.7665:Cauayan|Isabela|PH
+13.8454|121.2065:Rosario|Batangas|PH
+15.4473|120.7873:Zaragoza|Nueva Ecija|PH
+15.7793|120.8083:Talugtug|Nueva Ecija|PH
+16.069|120.7617:San Nicolas|Pangasinan|PH
+13.357|123.7001:Tabaco|Albay|PH
+15.3661|120.8738:Jaen|Nueva Ecija|PH
+15.6049|119.9387:Candelaria|Zambales|PH
+14.0539|121.1554:Malvar|Batangas|PH
+16.0699|120.4039:Mangaldan|Pangasinan|PH
+15.327|120.6638:San Jose|Tarlac Province|PH
+10.9774|124.8941:Burauen|Leyte|PH
+10.9151|122.4885:Tigbauan|Iloilo Province|PH
+13.6188|124.1915:Virac|Catanduanes|PH
+13.1372|123.7344:Legazpi||PH
+14.051|120.9336:Laurel|Batangas|PH
+14.1142|121.555:Lucban|Quezon|PH
+13.1469|123.6457:Camalig|Albay|PH
+10.7982|122.9754:Silay|Negros Occidental|PH
+14.4831|121.3108:Pililla|Rizal|PH
+9.8266|122.6303:Candoni|Negros Occidental|PH
+16.2955|121.0352:Aritao|Nueva Vizcaya|PH
+16.7792|120.4566:Santo|La Union|PH
+16.8219|120.4029:Balaoan|La Union|PH
+14.1265|120.8619:Alfonso|Cavite|PH
+13.3214|121.8471:Gasan|Marinduque|PH
+6.6907|122.0232:|Isabela|PH
+10.8221|122.6094:Zarraga|Iloilo Province|PH
+17.9803|121.9781:Baggao|Cagayan|PH
+13.9965|121.9151:Atimonan|Quezon|PH
+12.5756|122.2702:|Romblon|PH
+12.0529|124.6375:Naga|Cebu Province|PH
+7.9533|123.5841:Aurora|Zamboanga Del Sur|PH
+17.9093|120.5322:City|Albay|PH
+14.92|122.0153:City|Pangasinan|PH
+14.7|121.55:Bantayan|Cebu Province|PH
+5.9726|120.9667:Indanan|Sulu|PH
+11.55|124.8667:Catmon|Cebu Province|PH
 48.2722|15.7514:|Lower Austria|AT
 48.2082|16.3738:|Vienna|AT
 47.8095|13.055:|Salzburg|AT
@@ -4960,12 +5343,12 @@
 43.5047|13.156:Ancona|Marche|IT
 50.0629|10.6066:Hasberge|Bayern|DE
 42.889|13.5556:Ascoli Piceno|Marche|IT
-52.256|6.7892:Hengelo|Overijssel|NL
 49.7388|10.1607:Kitzingen|Bayern|DE
+52.256|6.7892:Hengelo|Overijssel|NL
+43.1904|13.24:Macerata|Marche|IT
 52.6328|4.7518:Alkmaar|Noord-Holland|NL
 52.3049|4.8568:Amstelveen|Noord-Holland|NL
 52.3699|4.9079:Amsterdam|Noord-Holland|NL
-43.1904|13.24:Macerata|Marche|IT
 52.5487|4.9105:Beemster|Noord-Holland|NL
 52.67|4.701:Bergen (NH.)|Noord-Holland|NL
 52.4869|4.6573:Beverwijk|Noord-Holland|NL
@@ -5001,6 +5384,7 @@
 51.8306|4.969:Gorinchem|Zuid-Holland|NL
 52.01|4.7107:Gouda|Zuid-Holland|NL
 52.0841|4.3173:s-Gravenhage|Zuid-Holland|NL
+49.7573|9.2347:Miltenberg|Bayern|DE
 51.8306|4.1474:Hellevoetsluis|Zuid-Holland|NL
 52.6987|5.2494:Stede Broec|Noord-Holland|NL
 52.2052|4.3966:Katwijk|Zuid-Holland|NL
@@ -5023,7 +5407,6 @@
 51.4497|4.9263:Baarle-Nassau|Noord-Brabant|NL
 51.496|4.282:Bergen op Zoom|Noord-Brabant|NL
 51.5128|5.3955:Best|Noord-Brabant|NL
-49.7573|9.2347:Miltenberg|Bayern|DE
 51.6029|5.6737:Boekel|Noord-Brabant|NL
 51.6462|5.9504:Boxmeer|Noord-Brabant|NL
 51.5916|5.3228:Boxtel|Noord-Brabant|NL
@@ -5054,6 +5437,7 @@
 51.5104|5.4917:Son en Breugel|Noord-Brabant|NL
 51.5554|5.1058:Tilburg|Noord-Brabant|NL
 51.6574|5.6183:Uden|Noord-Brabant|NL
+41.7037|14.7773:Campobasso|Molise|IT
 51.3505|5.459:Valkenswaard|Noord-Brabant|NL
 51.4217|5.4045:Veldhoven|Noord-Brabant|NL
 51.6605|5.2977:Vught|Noord-Brabant|NL
@@ -5063,7 +5447,6 @@
 52.2239|4.519:Teylingen|Zuid-Holland|NL
 52.6276|4.9456:Koggenland|Noord-Holland|NL
 52.013|4.5312:Lansingerland|Zuid-Holland|NL
-41.7037|14.7773:Campobasso|Molise|IT
 51.5562|5.6825:Gemert-Bakel|Noord-Brabant|NL
 51.5888|4.5296:Halderberge|Noord-Brabant|NL
 51.3796|5.5778:Heeze-Leende|Noord-Brabant|NL
@@ -5131,6 +5514,7 @@
 47.8421|13.1857:Salzburg-Umgebung|Salzburg|AT
 47.8007|13.0453:Salzburg(Stadt)|Salzburg|AT
 47.308|13.2677:Sankt Johann im Pongau|Salzburg|AT
+49.9938|9.6629:Main-Spessart|Bayern|DE
 48.1637|15.7054:Sankt Polten(Land)|Lower Austria|AT
 48.2|15.6167:Sankt Polten(Stadt)|Lower Austria|AT
 47.9282|15.0893:Scheibbs|Lower Austria|AT
@@ -5156,7 +5540,6 @@
 46.57|14.2948:Klagenfurt Land|Carinthia|AT
 48.4322|16.2663:Korneuburg|Lower Austria|AT
 48.6099|16.5386:Mistelbach|Lower Austria|AT
-49.9938|9.6629:Main-Spessart|Bayern|DE
 48.4316|13.5887:Scharding|Upper Austria|AT
 46.8987|13.2715:Spittal an der Drau|Carinthia|AT
 47.8677|16.0101:Wiener Neustadt(Land)|Lower Austria|AT
@@ -5193,10 +5576,11 @@
 48.0333|14.4167:Steyr(Stadt)|Upper Austria|AT
 47.8797|10.624:Kaufbeuren|Bayern|DE
 37.49|14.0632:Caltanissetta|Sicilia|IT
-46.647|13.1207:Hermagor|Carinthia|AT
 47.7243|10.3152:Kempten|Bayern|DE
+46.647|13.1207:Hermagor|Carinthia|AT
 47.9863|10.1805:Memmingen|Bayern|DE
 48.4277|11.0529:Aichach-Friedberg|Bayern|DE
+48.5966|10.5281:Dillingen a.d.Donau|Bayern|DE
 54.785|9.4385:Flensburg|Schleswig-Holstein|DE
 54.1335|9.1079:Dithmarschen|Schleswig-Holstein|DE
 54.6108|8.8866:Nordfriesland|Schleswig-Holstein|DE
@@ -5210,7 +5594,6 @@
 52.9733|9.1754:Verden|Niedersachsen|DE
 53.0472|8.6288:Delmenhorst|Niedersachsen|DE
 52.2719|8.0448:Osnabruck|Niedersachsen|DE
-48.5966|10.5281:Dillingen a.d.Donau|Bayern|DE
 52.729|8.2864:Vechta|Niedersachsen|DE
 53.3556|8.3903:Wesermarsch|Niedersachsen|DE
 53.5753|7.7835:Wittmund|Niedersachsen|DE
@@ -5303,6 +5686,7 @@
 48.1075|9.7744:Biberach|Baden-Wurttemberg|DE
 47.782|9.6146:Ravensburg|Baden-Wurttemberg|DE
 48.1364|11.5775:Munchen|Bayern|DE
+48.3527|10.381:Gunzburg|Bayern|DE
 47.8565|12.1288:Rosenheim|Bayern|DE
 48.2096|12.7051:Altotting|Bayern|DE
 47.6984|12.902:Berchtesgadener Land|Bayern|DE
@@ -5352,7 +5736,6 @@
 53.9128|12.2206:Rostock|Mecklenburg-Vorpommern|DE
 50.6089|12.9449:Erzgebirgskreis|Sachsen|DE
 50.4568|12.2348:Vogtlandkreis|Sachsen|DE
-48.3527|10.381:Gunzburg|Bayern|DE
 50.7147|12.4976:Zwickau|Sachsen|DE
 51.0536|13.7408:Dresden|Sachsen|DE
 51.1796|14.4243:Bautzen|Sachsen|DE
@@ -5460,16 +5843,27 @@
 44.4679|9.1227:Genova|Liguria|IT
 43.9467|7.8088:Imperia|Liguria|IT
 44.283|8.2918:Savona|Liguria|IT
-44.879|8.187:Asti|Piemonte|IT
 47.548|9.6851:Lindau|Bayern|DE
+44.879|8.187:Asti|Piemonte|IT
 41.4286|13.1459:Latina|Lazio|IT
 43.1003|13.5776:Fermo|Marche|IT
 45.9415|13.6218:Gorizia|Friuli Venezia Giulia|IT
-41.241|14.7521:Benevento|Campania|IT
 47.7699|10.6399:Ostallgau|Bayern|DE
+41.241|14.7521:Benevento|Campania|IT
 48.0399|10.3896:Unterallgau|Bayern|DE
+60.5527|22.5403:|Varsinais-Suomi Hospital District|FI
+61.6821|24.0395:|Ita-Savo Hospital District|FI
+60.1712|24.9327:|Helsinki and Uusimaa Hospital District|FI
+61.6679|23.0676:|Pirkanmaa Hospital District|FI
+63.0948|30.5859:|South Karelia Hospital District|FI
+7.3726|80.5246:|Central Ostrobothnia Hospital District|FI
+56.2796|15.1988:|Blekinge|SE
+57.6371|18.304:|Gotland|SE
+62.0351|14.3748:|Jamtland Harjedalen|SE
 47.5728|10.2586:Oberallgau|Bayern|DE
+56.793|14.5824:|Kronoberg|SE
 51.9068|10.432:Goslar|Niedersachsen|DE
+59.1815|17.5878:|Sormland|SE
 38.8977|16.4911:Catanzaro|Calabria|IT
 49.4958|6.6805:Merzig-Wadern|Saarland|DE
 39.1782|16.9465:Crotone|Calabria|IT
@@ -5581,11 +5975,6 @@
 49.9448|143.6201:Sakhalin Oblast|Far Eastern|RU
 66.427|170.6854:Chukotka AO|Far Eastern|RU
 50.2798|127.5095:Jewish AO|Far Eastern|RU
-56.2796|15.1988:|Blekinge|SE
-57.6371|18.304:|Gotland|SE
-62.0351|14.3748:|Jamtland Harjedalen|SE
-56.793|14.5824:|Kronoberg|SE
-59.1815|17.5878:|Sormland|SE
 50.0791|14.433:|Prague|CZ
 50.6618|14.0454:|Usti nad Labem|CZ
 -32.3897|-71.09:|Central Bohemian Region|CZ
@@ -5617,14 +6006,9 @@
 58.7501|26.3976:|Jogeva|EE
 52.0951|9.3899:Hameln-Pyrmont|Niedersachsen|DE
 67.7193|26.2942:|Lappi Hospital District|FI
-7.3726|80.5246:|Central Ostrobothnia Hospital District|FI
-60.1712|24.9327:|Helsinki and Uusimaa Hospital District|FI
-61.6679|23.0676:|Pirkanmaa Hospital District|FI
 60.9188|24.3252:|Kanta-Hame Hospital District|FI
-63.0948|30.5859:|South Karelia Hospital District|FI
 64.5225|26.1588:|North Ostrobothnia Hospital District|FI
 63.1888|27.4783:|Pohjois-Savo Hospital District|FI
-60.5527|22.5403:|Varsinais-Suomi Hospital District|FI
 63.0|30.0:|North Karelia Hospital District|FI
 62.5|25.5:|Central Finland Hospital District|FI
 37.4374|-100.9865:|Satakunta Hospital District|FI
@@ -5632,7 +6016,6 @@
 61.1954|25.7234:|Paijat-Hame Hospital District|FI
 60.821|26.887:|Kymenlaakso Hospital District|FI
 63.0984|21.6261:|Vaasa Hospital District|FI
-61.6821|24.0395:|Ita-Savo Hospital District|FI
 60.219|20.1386:|Aland Hospital District|FI
 61.7291|24.789:|Lansi-Pohja Hospital District|FI
 64.5244|28.7403:|Kainuu Hospital District|FI
@@ -5834,32 +6217,26 @@
 49.1939|8.1162:Landau i.d.Pfalz|Rheinland-Pfalz|DE
 49.1815|7.7687:Sudwestpfalz|Rheinland-Pfalz|DE
 39.102|35.1735:||TR
-49.0901|31.3664:||UA
-51.063|-1.3168:Winchester,Hampshire|England|GB
+53.5923|28.0652:||BY
+51.8377|-1.5069:West Oxfordshire,Oxfordshire|England|GB
+52.2323|0.7094:West Suffolk,Suffolk|England|GB
 52.2238|-2.1692:Wychavon,Worcestershire|England|GB
-51.6291|-0.7476:Wycombe,Buckinghamshire|England|GB
-52.3713|-2.3297:Wyre Forest,Worcestershire|England|GB
-53.7895|-2.885:Wyre,Lancashire|England|GB
-54.7156|-6.2166:Mid and East Antrim|Northern Ireland|GB
-54.4623|-5.9325:Mid-Ulster|Northern Ireland|GB
 52.2528|-4.0003:Ceredigion|Wales|GB
 53.0867|-3.3544:Denbighshire|Wales|GB
 52.8333|-3.9167:Gwynedd|Wales|GB
 51.845|-4.8422:Pembrokeshire|Wales|GB
 51.65|-3.44:Rhondda Cynon Taf|Wales|GB
 51.4167|-3.4167:Vale of Glamorgan|Wales|GB
-55.1312|-6.6656:Causeway Coast and Glens|Northern Ireland|GB
-54.6571|-3.3755:Allerdale,Cumbria|England|GB
 53.0775|-1.4788:Amber Valley,Derbyshire|England|GB
 52.9207|-1.2012:Ashfield,Nottinghamshire|England|GB
 51.1466|0.876:Ashford,Kent|England|GB
 51.8189|-0.8121:Aylesbury,Buckinghamshire|England|GB
 52.0666|0.7665:Babergh,Suffolk|England|GB
-54.111|-3.2258:Barrow-in-Furness,Cumbria|England|GB
 51.5678|0.4448:Basildon,Essex|England|GB
 51.2582|-1.216:Basingstoke and Deane,Hampshire|England|GB
 53.3173|-1.1104:Bassetlaw,Nottinghamshire|England|GB
 52.5734|-1.1647:Blaby,Leicestershire|England|GB
+53.2293|-1.2907:Bolsover,Derbyshire|England|GB
 51.8778|0.5532:Braintree,Essex|England|GB
 52.6457|1.2218:Breckland,Norfolk|England|GB
 51.6207|0.3035:Brentwood,Essex|England|GB
@@ -5869,175 +6246,196 @@
 52.7784|-2.0747:Cannock Chase,Staffordshire|England|GB
 51.276|1.0756:Canterbury,Kent|England|GB
 54.8965|-2.9363:Carlisle,Cumbria|England|GB
+51.5524|0.612:Castle Point,Essex|England|GB
 52.5743|-1.2001:Charnwood,Leicestershire|England|GB
 51.7321|0.478:Chelmsford,Essex|England|GB
 52.0615|-1.3347:Cherwell,Oxfordshire|England|GB
 53.2429|-1.4353:Chesterfield,Derbyshire|England|GB
+50.8362|-0.7754:Chichester,West Sussex|England|GB
 51.6514|-0.7119:Chiltern,Buckinghamshire|England|GB
 53.652|-2.6321:Chorley,Lancashire|England|GB
 51.8853|0.9035:Colchester,Essex|England|GB
-54.5295|-3.5819:Copeland,Cumbria|England|GB
 52.4861|-0.703:Corby,Northamptonshire|England|GB
+51.9291|-1.7235:Cotswolds,Gloucestershire|England|GB
 54.0868|-1.3983:Craven,North Yorkshire|England|GB
-51.1185|-0.1848:Crawley,West Sussex|England|GB
 51.755|-0.4743:Dacorum,Hertfordshire|England|GB
-51.4446|0.2206:Dartford,Kent|England|GB
-51.1258|1.3177:Dover,Kent|England|GB
+52.2605|-1.1618:Daventry,Northamptonshire|England|GB
 52.3431|0.2946:East Cambridgeshire,Cambridgeshire|England|GB
+51.8651|-0.0082:East Hertfordshire,Hertfordshire|England|GB
+52.6592|-0.4753:East Lindsey,Lincolnshire|England|GB
 52.3919|-0.5378:East Northamptonshire,Northamptonshire|England|GB
-52.8631|-1.8122:East Staffordshire,Staffordshire|England|GB
 52.2188|1.0622:East Suffolk,Suffolk|England|GB
+50.9692|-1.3505:Eastleigh,Hampshire|England|GB
 51.3081|-0.5532:Elmbridge,Surrey|England|GB
 52.9642|-1.2934:Erewash,Derbyshire|England|GB
-50.7198|-3.5302:Exeter,Devon|England|GB
-50.8527|-1.1741:Fareham,Hampshire|England|GB
 52.4576|0.309:Fenland,Cambridgeshire|England|GB
 51.0763|1.1657:Folkestone and Hythe,Kent|England|GB
 53.7648|-2.7131:Fylde,Lancashire|England|GB
-50.7944|-1.1217:Gosport,Hampshire|England|GB
+52.9798|-1.0854:Gedling,Nottinghamshire|England|GB
+51.8638|-2.2495:Gloucester,Gloucestershire|England|GB
 51.4381|0.3706:Gravesham,Kent|England|GB
 52.6127|1.7241:Great Yarmouth,Norfolk|England|GB
 51.2371|-0.5705:Guildford,Surrey|England|GB
-51.5404|-0.0461:Hackney,Greater London|England|GB
-53.7705|-1.1657:Hambleton,North Yorkshire|England|GB
-52.4788|-0.9211:Harborough,Leicestershire|England|GB
+50.8562|-1.3893:Hart,Hampshire|England|GB
+50.8571|0.5778:Hastings,East Sussex|England|GB
+51.6847|-0.3907:Hertsmere,Hertfordshire|England|GB
 53.3218|-1.9975:High Peak,Derbyshire|England|GB
 52.6028|-1.3645:Hinckley and Bosworth,Leicestershire|England|GB
+51.0652|-0.3291:Horsham,West Sussex|England|GB
 52.3312|-0.1747:Huntingdonshire,Cambridgeshire|England|GB
+53.7865|-2.3876:Hyndburn,Lancashire|England|GB
 52.0579|1.1454:Ipswich,Suffolk|England|GB
 52.3988|-0.7258:Kettering,Northamptonshire|England|GB
-52.7126|0.4893:King's Lynn and West Norfolk,Norfolk|England|GB
 54.0475|-2.7976:Lancaster,Lancashire|England|GB
-50.8732|0.0106:Lewes,East Sussex|England|GB
+52.6842|-1.8189:Lichfield,Staffordshire|England|GB
 51.2738|0.5246:Maidstone,Kent|England|GB
-53.1442|-1.202:Mansfield,Nottinghamshire|England|GB
-52.5358|-0.9388:Melton,Leicestershire|England|GB
-50.8762|-3.5561:Mid Devon,Devon|England|GB
-50.9833|-0.7459:Mid Sussex,West Sussex|England|GB
+52.2973|-2.0753:Malvern Hills,Worcestershire|England|GB
+52.2761|0.7022:Mid Suffolk,Suffolk|England|GB
+51.2351|-0.3254:Mole Valley,Surrey|England|GB
+50.8723|-1.573:New Forest,Hampshire|England|GB
 53.1087|-0.9205:Newark and Sherwood,Nottinghamshire|England|GB
 53.0092|-2.228:Newcastle-under-Lyme,Staffordshire|England|GB
-51.0692|-3.9135:North Devon,Devon|England|GB
 53.1626|-1.4409:North East Derbyshire,Derbyshire|England|GB
 52.0465|-0.0254:North Hertfordshire,Hertfordshire|England|GB
-52.9426|1.2105:North Norfolk,Norfolk|England|GB
 52.5268|-1.4776:North Warwickshire,Warwickshire|England|GB
 52.7237|-1.3684:North West Leicestershire,Leicestershire|England|GB
 52.2339|-0.8953:Northampton,Northamptonshire|England|GB
-52.6225|1.2949:Norwich,Norfolk|England|GB
 52.5224|-1.4782:Nuneaton and Bedworth,Warwickshire|England|GB
 52.591|-1.0942:Oadby and Wigston,Leicestershire|England|GB
 51.7563|-1.2595:Oxford,Oxfordshire|England|GB
 53.7579|-2.7057:Preston,Lancashire|England|GB
 52.3073|-1.9413:Redditch,Worcestershire|England|GB
-51.2667|-0.1833:Reigate and Banstead,Surrey|England|GB
-54.375|-1.7242:Richmondshire,North Yorkshire|England|GB
-53.709|-2.2748:Rossendale,Lancashire|England|GB
+53.7511|-2.7102:Ribble Valley,Lancashire|England|GB
+51.5832|0.7014:Rochford,Essex|England|GB
+50.9925|0.4811:Rother,East Sussex|England|GB
 51.4362|-0.5375:Runnymede,Surrey|England|GB
 52.9366|-1.1237:Rushcliffe,Nottinghamshire|England|GB
-51.2752|-0.7474:Rushmoor,Hampshire|England|GB
+54.1344|-0.7803:Ryedale,North Yorkshire|England|GB
 54.2778|-0.4107:Scarborough,North Yorkshire|England|GB
-51.0091|-2.9595:Sedgemoor,Somerset|England|GB
-51.0073|-3.1316:Somerset West and Taunton,Somerset|England|GB
-52.1728|0.0812:South Cambridgeshire,Cambridgeshire|England|GB
 52.831|-1.5595:South Derbyshire,Derbyshire|England|GB
-52.6594|-0.4767:South Holland,Lincolnshire|England|GB
 52.6624|-0.4757:South Kesteven,Lincolnshire|England|GB
 54.3273|-2.7447:South Lakeland,Cumbria|England|GB
 52.5147|1.2765:South Norfolk,Norfolk|England|GB
-53.7516|-2.6774:South Ribble,Lancashire|England|GB
-50.9525|-2.8024:South Somerset,Somerset|England|GB
+52.1334|-0.9891:South Northamptonshire,Northamptonshire|England|GB
 52.6256|-2.1767:South Staffordshire,Staffordshire|England|GB
-51.4248|-0.468:Spelthorne,Surrey|England|GB
 51.7536|-0.3373:St Albans,Hertfordshire|England|GB
 52.8041|-2.122:Stafford,Staffordshire|England|GB
 52.8577|-2.0369:Staffordshire Moorlands,Staffordshire|England|GB
 52.1942|-1.7075:Stratford-on-Avon,Warwickshire|England|GB
 51.3738|-0.1803:Surrey Heath,Surrey|England|GB
 51.3894|0.747:Swale,Kent|England|GB
-50.4287|-3.5878:Teignbridge,Devon|England|GB
+52.6348|-1.687:Tamworth,Staffordshire|England|GB
+51.239|-0.0347:Tandridge,Surrey|England|GB
 51.8749|1.117:Tendring,Essex|England|GB
+51.1523|-1.4401:Test Valley,Hampshire|England|GB
 51.1698|0.8176:Thanet,Kent|England|GB
-51.2712|0.3653:Tonbridge and Malling,Kent|England|GB
-50.4783|-3.5675:Torridge,Devon|England|GB
+51.6396|-0.4696:Three Rivers,Hertfordshire|England|GB
 51.1334|0.2636:Tunbridge Wells,Kent|England|GB
+51.9347|0.2797:Uttlesford,Essex|England|GB
 51.6025|-1.5565:Vale of White Horse,Oxfordshire|England|GB
 52.2818|-1.591:Warwick,Warwickshire|England|GB
 51.6521|-0.3907:Watford,Hertfordshire|England|GB
 51.0607|0.1668:Wealden,East Sussex|England|GB
 52.3024|-0.6963:Wellingborough,Northamptonshire|England|GB
 51.7614|-0.2327:Welwyn Hatfield,Hertfordshire|England|GB
-53.6003|-2.8703:West Lancashire,Lancashire|England|GB
-52.2323|0.7094:West Suffolk,Suffolk|England|GB
-51.0695|-0.3167:Arun,West Sussex|England|GB
-53.2293|-1.2907:Bolsover,Derbyshire|England|GB
+51.063|-1.3168:Winchester,Hampshire|England|GB
+52.1911|-2.2222:Worcester,Worcestershire|England|GB
+51.6291|-0.7476:Wycombe,Buckinghamshire|England|GB
+52.3713|-2.3297:Wyre Forest,Worcestershire|England|GB
+53.7895|-2.885:Wyre,Lancashire|England|GB
+54.111|-3.2258:Barrow-in-Furness,Cumbria|England|GB
 52.9748|-0.0294:Boston,Lincolnshire|England|GB
+58.937|-2.7429:Orkney|Scotland|GB
 53.788|-2.2438:Burnley,Lancashire|England|GB
-51.5524|0.612:Castle Point,Essex|England|GB
-53.13|-1.7055:Derbyshire Dales,Derbyshire|England|GB
+58.134|-6.6577:Outer Hebrides (Eileanan Siar, Western Isles)|Scotland|GB
 50.7931|-1.096:East Hampshire,Hampshire|England|GB
-51.8651|-0.0082:East Hertfordshire,Hertfordshire|England|GB
-52.6592|-0.4753:East Lindsey,Lincolnshire|England|GB
+52.8631|-1.8122:East Staffordshire,Staffordshire|England|GB
+51.5404|-0.0461:Hackney,Greater London|England|GB
+53.7705|-1.1657:Hambleton,North Yorkshire|England|GB
+52.4788|-0.9211:Harborough,Leicestershire|England|GB
+53.9947|-1.5444:Harrogate,North Yorkshire|England|GB
+52.7126|0.4893:King's Lynn and West Norfolk,Norfolk|England|GB
+50.8732|0.0106:Lewes,East Sussex|England|GB
+53.1442|-1.202:Mansfield,Nottinghamshire|England|GB
+52.5358|-0.9388:Melton,Leicestershire|England|GB
+51.1825|-2.5297:Mendip,Somerset|England|GB
+50.8762|-3.5561:Mid Devon,Devon|England|GB
+52.9426|1.2105:North Norfolk,Norfolk|England|GB
+52.6225|1.2949:Norwich,Norfolk|England|GB
+53.7877|-2.8797:Pendle,Lancashire|England|GB
+51.2667|-0.1833:Reigate and Banstead,Surrey|England|GB
+54.375|-1.7242:Richmondshire,North Yorkshire|England|GB
+53.709|-2.2748:Rossendale,Lancashire|England|GB
+51.2752|-0.7474:Rushmoor,Hampshire|England|GB
+51.0091|-2.9595:Sedgemoor,Somerset|England|GB
+53.7839|-1.0699:Selby,North Yorkshire|England|GB
+51.2702|0.193:Sevenoaks,Kent|England|GB
+52.1728|0.0812:South Cambridgeshire,Cambridgeshire|England|GB
+53.7516|-2.6774:South Ribble,Lancashire|England|GB
+51.4248|-0.468:Spelthorne,Surrey|England|GB
+51.993|-2.1495:Tewkesbury,Gloucestershire|England|GB
+51.2712|0.3653:Tonbridge and Malling,Kent|England|GB
+55.1312|-6.6656:Causeway Coast and Glens|Northern Ireland|GB
+51.4267|-0.2625:Waverley,Surrey|England|GB
+53.6003|-2.8703:West Lancashire,Lancashire|England|GB
+54.7156|-6.2166:Mid and East Antrim|Northern Ireland|GB
+54.4623|-5.9325:Mid-Ulster|Northern Ireland|GB
+54.6571|-3.3755:Allerdale,Cumbria|England|GB
+54.5295|-3.5819:Copeland,Cumbria|England|GB
+51.1185|-0.1848:Crawley,West Sussex|England|GB
+51.4446|0.2206:Dartford,Kent|England|GB
+51.1258|1.3177:Dover,Kent|England|GB
+50.7198|-3.5302:Exeter,Devon|England|GB
+50.8527|-1.1741:Fareham,Hampshire|England|GB
+50.7944|-1.1217:Gosport,Hampshire|England|GB
+50.9833|-0.7459:Mid Sussex,West Sussex|England|GB
+51.0692|-3.9135:North Devon,Devon|England|GB
+51.0073|-3.1316:Somerset West and Taunton,Somerset|England|GB
+52.6594|-0.4767:South Holland,Lincolnshire|England|GB
+50.9525|-2.8024:South Somerset,Somerset|England|GB
+50.4287|-3.5878:Teignbridge,Devon|England|GB
+50.4783|-3.5675:Torridge,Devon|England|GB
+51.0695|-0.3167:Arun,West Sussex|England|GB
+53.13|-1.7055:Derbyshire Dales,Derbyshire|England|GB
 50.7669|0.2854:Eastbourne,East Sussex|England|GB
 51.7891|-2.5432:Forest of Dean,Gloucestershire|England|GB
-52.9798|-1.0854:Gedling,Nottinghamshire|England|GB
-50.8562|-1.3893:Hart,Hampshire|England|GB
-50.8571|0.5778:Hastings,East Sussex|England|GB
-52.65|-0.6333:Rutland|England|GB
-53.7865|-2.3876:Hyndburn,Lancashire|England|GB
-52.6842|-1.8189:Lichfield,Staffordshire|England|GB
-51.1825|-2.5297:Mendip,Somerset|England|GB
-51.2351|-0.3254:Mole Valley,Surrey|England|GB
-50.8723|-1.573:New Forest,Hampshire|England|GB
-53.7877|-2.8797:Pendle,Lancashire|England|GB
-53.7511|-2.7102:Ribble Valley,Lancashire|England|GB
 52.3704|-1.2608:Rugby,Warwickshire|England|GB
-54.1344|-0.7803:Ryedale,North Yorkshire|England|GB
-51.2702|0.193:Sevenoaks,Kent|England|GB
-52.1334|-0.9891:South Northamptonshire,Northamptonshire|England|GB
 51.9056|-0.1887:Stevenage,Hertfordshire|England|GB
 51.7449|-2.2324:Stroud,Gloucestershire|England|GB
-52.6348|-1.687:Tamworth,Staffordshire|England|GB
-51.1523|-1.4401:Test Valley,Hampshire|England|GB
-51.6396|-0.4696:Three Rivers,Hertfordshire|England|GB
-51.4267|-0.2625:Waverley,Surrey|England|GB
-51.8377|-1.5069:West Oxfordshire,Oxfordshire|England|GB
 51.3222|-0.5586:Woking,Surrey|England|GB
-52.1911|-2.2222:Worcester,Worcestershire|England|GB
 50.8401|-0.4195:Adur,West Sussex|England|GB
-50.8362|-0.7754:Chichester,West Sussex|England|GB
-52.2605|-1.1618:Daventry,Northamptonshire|England|GB
-50.9692|-1.3505:Eastleigh,Hampshire|England|GB
 54.9061|-2.8188:Eden,Cumbria|England|GB
 51.7947|0.6288:Epping Forest,Essex|England|GB
 51.7734|0.0991:Harlow,Essex|England|GB
-51.0652|-0.3291:Horsham,West Sussex|England|GB
 51.7314|0.6754:Maldon,Essex|England|GB
-52.2761|0.7022:Mid Suffolk,Suffolk|England|GB
-51.5832|0.7014:Rochford,Essex|England|GB
-53.7839|-1.0699:Selby,North Yorkshire|England|GB
 51.9958|-0.7337:South Bucks,Buckinghamshire|England|GB
 51.6337|-1.0715:South Oxfordshire,Oxfordshire|England|GB
-51.239|-0.0347:Tandridge,Surrey|England|GB
-51.9347|0.2797:Uttlesford,Essex|England|GB
 50.8137|-0.3753:Worthing,West Sussex|England|GB
 51.898|-2.0784:Cheltenham,Gloucestershire|England|GB
-51.9291|-1.7235:Cotswolds,Gloucestershire|England|GB
-53.9947|-1.5444:Harrogate,North Yorkshire|England|GB
-51.6847|-0.3907:Hertsmere,Hertfordshire|England|GB
-58.937|-2.7429:Orkney|Scotland|GB
-58.134|-6.6577:Outer Hebrides (Eileanan Siar, Western Isles)|Scotland|GB
-51.993|-2.1495:Tewkesbury,Gloucestershire|England|GB
+52.65|-0.6333:Rutland|England|GB
 51.7432|-0.0204:Broxbourne,Hertfordshire|England|GB
 51.3438|-0.2513:Epsom and Ewell,Surrey|England|GB
-51.8638|-2.2495:Gloucester,Gloucestershire|England|GB
-53.5923|28.0652:||BY
-51.5085|-0.1257:City of London,Greater London|England|GB
-50.7638|-3.2253:East Devon,Devon|England|GB
-50.9925|0.4811:Rother,East Sussex|England|GB
-50.8555|-0.9859:Havant,Hampshire|England|GB
-52.2973|-2.0753:Malvern Hills,Worcestershire|England|GB
 53.2255|-0.5424:Lincoln,Lincolnshire|England|GB
 50.3741|-3.8218:South Hams,Devon|England|GB
+50.8555|-0.9859:Havant,Hampshire|England|GB
+49.0901|31.3664:||UA
+50.5|28.5:|Zhytomyr Oblast|UA
+48.266|25.9712:|Chernivtsi Oblast|UA
+50.4506|30.5243:|Kyiv|UA
+46.0506|14.5028:|Ljubljana|SI
+46.1275|14.8201:||SI
+47.0246|28.8324:|Chisinau|MD
+47.2186|28.464:||MD
+41.153|20.0619:||AL
+45.046|16.3917:||HR
+47.1793|19.4225:||HU
+42.7801|19.2372:||ME
+44.2485|20.7733:||RS
+48.7145|19.4886:||SK
+44.1852|17.7856:||BA
+41.5958|21.6927:||MK
+51.5085|-0.1257:City of London,Greater London|England|GB
+50.7638|-3.2253:East Devon,Devon|England|GB
 50.6562|-4.0461:West Devon,Devon|England|GB
 32.5395|-86.6441:Autauga|Alabama|US
 30.7277|-87.7221:Baldwin|Alabama|US
