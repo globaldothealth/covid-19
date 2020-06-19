@@ -10,6 +10,11 @@ import requests
 
 from tools import data_util
 
+IGNORED_COUNTRY_NAMES = [
+    "Diamond Princess",
+    "MS Zaandam",
+]
+
 def code_for_nonstandard_country_name(name):
     if "Brunei" in name:
         return "BN"
@@ -58,12 +63,7 @@ def fetch_one_day(date, outfile):
                   "status code = " + str(req.status_code))
             return False
 
-    df = pd.read_csv(StringIO(req.text), usecols=['Lat', 'Long_',
-                                                  'Country_Region', 'Confirmed'])
-    df = df[~(df.Lat.isna() | df.Long_.isna())]
-
-    central_us_lat  = '39.8283'
-    central_us_long = '98.5795'
+    df = pd.read_csv(StringIO(req.text), usecols=['Country_Region', 'Confirmed'])
 
     counts = df[['Country_Region', 'Confirmed']].groupby('Country_Region', as_index=False).sum()
 
@@ -72,15 +72,14 @@ def fetch_one_day(date, outfile):
 
     counts = counts.merge(df, on='Country_Region', how='left')
     counts['Confirmed'] = counts.Confirmed.map('{:,}'.format)
-    counts[counts.Country_Region == 'US'][['Lat', 'Long_']] = [central_us_lat, central_us_long]
     counts[counts.Country_Region == 'US']['Country_Region'] = 'United States of America'
-    counts['Lat'] = counts.Lat.round(4)
-    counts['Long_'] = counts.Long_.round(4)
     counts.Country_Region = counts.Country_Region.apply(
         lambda x: 'United States of America' if x == 'US' else x)
     features = []
     for i, row in counts.iterrows():
         name = row['Country_Region']
+        if name in IGNORED_COUNTRY_NAMES:
+            continue
         code = data_util.country_code_from_name(name)
         if not code:
             code = code_for_nonstandard_country_name(name)
@@ -91,12 +90,7 @@ def fetch_one_day(date, outfile):
             'attributes': {
                 'cum_conf': row['Confirmed'],
                 'code': code,
-            },
-            'centroid': {
-                "x" : row['Long_'],
-                "y" : row['Lat']
-                }
-              }
+            }}
         features.append(entry)
 
     features = sorted(features,
