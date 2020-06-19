@@ -6449,8 +6449,10 @@
 11.2266|-74.1987:Santa Marta|Santa Marta DT y C|CO
 6.3464|-75.508:Copacabana|Antioquia|CO
 4.086|-76.1963:Tulua|Valle del Cauca|CO
+3.3215|-76.235:Florida|Valle del Cauca|CO
 -12.1625|-76.9706:San Juan de Miraflores|Lima|PE
 3.5776|-76.4862:Yumbo|Valle del Cauca|CO
+9.2433|-75.8054:Lorica|Cordoba|CO
 -12.0727|-76.9957:San Luis|Lima|PE
 -12.0103|-77.0854:San Martin de Porres|Lima|PE
 -12.078|-77.0959:San Miguel|Lima|PE
@@ -6486,6 +6488,7 @@
 -14.8285|-74.9423:NAZCA|NAZCA|PE
 -16.4195|-71.4747:Paucarpata|Arequipa|PE
 4.2604|-73.5654:Restrepo|Meta|CO
+4.2059|-74.6429:Melgar|Tolima|CO
 -4.2089|-69.9381:Leticia|Amazonas|CO
 5.7099|-76.6202:Quibdo|Choco|CO
 -7.1809|-76.7303:Juanjui|Mariscal Caceres|PE
@@ -6504,6 +6507,7 @@
 1.8073|-78.7716:San Andres de Tumaco|Narino|CO
 10.3339|-73.1794:San Diego|Cesar|CO
 5.0258|-74.0029:Zipaquira|Cundinamarca|CO
+10.8636|-74.7763:Malambo|Atlantico|CO
 4.8094|-74.3544:Facatativa|Cundinamarca|CO
 -12.04|-76.9938:El Agustino|Lima|PE
 -12.0789|-77.0469:Jesus Maria|Lima|PE
@@ -6511,6 +6515,7 @@
 -12.2867|-76.8303:Lurin|Lima|PE
 -6.7768|-79.8442:Chiclayo|Chiclayo|PE
 -12.2152|-76.9422:Villa El Salvador|Lima|PE
+8.0022|-73.5116:San Martin|Cesar|CO
 9.9741|-73.887:Bosconia|Cesar|CO
 -12.1102|-77.0365:Miraflores|Lima|PE
 -12.5912|-69.2229:Tambopata|Tambopata|PE
@@ -6520,16 +6525,20 @@
 -13.5164|-71.9785:Cusco|Cusco|PE
 3.6867|-76.314:El Cerrito|Valle del Cauca|CO
 -12.0382|-76.8932:Ate|Lima|PE
+3.1749|-76.4613:Villa rica|Cauca|CO
 -11.0702|-77.6001:Huaura|Huaura|PE
 10.3906|-73.1694:La Paz|Cesar|CO
+8.2928|-73.3855:Rio de Oro|Cesar|CO
 7.0672|-73.1002:Floridablanca|Santander|CO
 -6.2735|-79.604:SALAS|Lambayeque|PE
 -12.7667|-74.9833:Huancavelica|Huancavelica|PE
 -5.1922|-80.6283:Piura|Piura|PE
 11.5449|-72.9063:Riohacha|La Guajira|CO
+10.9937|-74.2823:Puebloviejo|Magdalena|CO
 -11.7416|-77.1385:Ancon|Lima|PE
 -8.3782|-74.5397:Calleria|Coronel Portillo|PE
 10.0362|-73.2365:Agustin Codazzi|Cesar|CO
+8.311|-73.6234:Aguachica|Cesar|CO
 -3.8243|-73.3329:San Juan Bautista|Maynas|PE
 -14.0638|-75.7302:Ica|Ica|PE
 -9.5278|-77.5327:Huaraz|Huaraz|PE
@@ -6556,19 +6565,19 @@
 -4.5806|-81.2685:PARINAS|TALARA|PE
 -12.1167|-77.05:San Isidro|Lima|PE
 -6.8716|-79.8683:Monsefu|Chiclayo|PE
+4.675|-75.7826:Alcala|Valle del Cauca|CO
 3.2301|-76.416:Puerto Tejada|Cauca|CO
 10.4455|-74.9593:Manati|Atlantico|CO
-10.8636|-74.7763:Malambo|Atlantico|CO
 7.3102|-72.4836:Toledo|Norte de Santander|CO
 -9.0737|-78.5771:Chimbote|Santa|PE
 -6.0048|-77.2557:Rioja|Rioja|PE
 4.5809|-74.4433:El Colegio|Cundinamarca|CO
 -8.0864|-78.9587:Laredo|Trujillo|PE
 -3.6545|-80.2551:Zarumilla|Zarumilla|PE
+4.03|-74.9687:Guamo|Tolima|CO
 -9.1862|-75.9626:LUYANDO|LEONCIO PRADO|PE
 -12.6557|-76.6297:Mala|Canete|PE
 -11.4946|-77.2102:Huaral|Huaral|PE
-9.2433|-75.8054:Lorica|Cordoba|CO
 -12.085|-77.0368:Lince|Lima|PE
 1.5957|-77.0154:Belen|Narino|CO
 -12.0948|-77.0677:Magdalena del Mar|Lima|PE
@@ -6576,9 +6585,9 @@
 8.242|-73.3547:Ocana|Norte de Santander|CO
 -11.8383|-77.0986:Puente Piedra|Lima|PE
 2.4493|-75.7741:Paicol|Huila|CO
-8.311|-73.6234:Aguachica|Cesar|CO
 -12.043|-76.9625:Santa Anita|Lima|PE
 1.0864|-77.6181:Tuquerres|Narino|CO
+0.8072|-77.5723:Potosi|Narino|CO
 5.7142|-72.9286:Sogamoso|Boyaca|CO
 3.3736|-73.8757:San Juan de Arama|Meta|CO
 -5.1795|-80.6782:Veintiseis de Octubre|Piura|PE
@@ -6586,12 +6595,14 @@
 2.3896|-75.8911:La Plata|Huila|CO
 3.0354|-76.4079:Caloto|Cauca|CO
 -7.5073|-77.9687:SITACOCHA|CAJABAMBA|PE
+3.6583|-76.6917:Dagua|Valle del Cauca|CO
 5.4131|-74.9923:Samana|Caldas|CO
 -6.0327|-76.9723:Moyobamba|Moyobamba|PE
 -15.645|-71.6039:CHIVAY|Caylloma|PE
 -4.8666|-80.7186:MARCAVELIca|Sullana|PE
 11.1638|-72.5912:Albania|La Guajira|CO
 11.3808|-72.2383:Maicao|La Guajira|CO
+10.7738|-73.0011:San Juan del Cesar|La Guajira|CO
 -6.548|-79.8639:MOCHUMI|Lambayeque|PE
 1.8509|-76.0459:Pitalito|Huila|CO
 2.5227|-75.3163:Algeciras|Huila|CO
@@ -6606,19 +6617,20 @@
 -5.1516|-80.7674:MIGUEL CHECA|Sullana|PE
 -8.4275|-78.7771:VIRU|VIRU|PE
 -8.0627|-79.057:La Esperanza|Trujillo|PE
-3.3215|-76.235:Florida|Valle del Cauca|CO
 10.631|-74.921:Sabanalarga|Atlantico|CO
+10.9944|-74.9442:Puerto Colombia|Atlantico|CO
+7.0011|-72.1089:Cubara|Boyaca|CO
 8.7861|-76.2425:Canalete|Cordoba|CO
 5.6335|-73.524:Villa de Leyva|Boyaca|CO
 5.8376|-73.0224:Duitama|Boyaca|CO
+5.0833|-73.3642:Garagoa|Boyaca|CO
 3.9003|-76.3033:Guadalajara de Buga|Valle del Cauca|CO
 -4.9291|-80.3429:Tambo Grande|Piura|PE
 -13.6347|-72.8843:ABANCAY|ABANCAY|PE
-7.0011|-72.1089:Cubara|Boyaca|CO
+5.4941|-73.4844:Samaca|Boyaca|CO
 1.299|-77.4059:La Florida|Narino|CO
 0.9587|-77.7339:Guachucal|Narino|CO
 -16.4007|-71.5365:Arequipa|Arequipa|PE
-4.2059|-74.6429:Melgar|Tolima|CO
 -10.2285|-76.2335:Ambo|Ambo|PE
 3.5421|-76.2783:Palmira|Valle del Cauca|CO
 -18.1077|-70.2409:Coronel Gregorio Albarracin|Tacna|PE
@@ -6627,14 +6639,15 @@
 9.0031|-73.9738:El Banco|Magdalena|CO
 1.2626|-77.5139:Ancuya|Narino|CO
 10.7936|-74.9154:Baranoa|Atlantico|CO
+4.4133|-76.1527:Roldanillo|Valle del Cauca|CO
 -9.9221|-76.2326:Amarilis|Huanuco|PE
 -9.5177|-77.5296:Independencia|Huaraz|PE
 5.2814|-76.6335:Union Panamericana|Choco|CO
 7.2686|-72.6416:Cacota|Norte de Santander|CO
+8.081|-73.2205:abrego|Norte de Santander|CO
 8.6372|-72.7333:Tibu|Norte de Santander|CO
 5.4749|-75.5993:Marmato|Caldas|CO
 5.2967|-75.0536:Marquetalia|Caldas|CO
-10.9937|-74.2823:Puebloviejo|Magdalena|CO
 9.5615|-73.3332:La Jagua de Ibirico|Cesar|CO
 9.3619|-73.6023:Chiriguana|Cesar|CO
 10.9002|-74.883:Galapa|Atlantico|CO
@@ -6665,12 +6678,13 @@
 9.9829|-75.301:Maria la Baja|Bolivar|CO
 3.8223|-76.5222:Restrepo|Valle del Cauca|CO
 -5.4423|-80.7368:BERNAL|Sechura|PE
-10.9944|-74.9442:Puerto Colombia|Atlantico|CO
 -12.0765|-77.0673:Pueblo Libre|Lima|PE
+5.5753|-74.8884:Norcasia|Caldas|CO
 6.0809|-75.3346:El Carmen de Viboral|Antioquia|CO
 -16.2387|-71.4675:Cayma|Arequipa|PE
 10.7776|-74.8534:Polonuevo|Atlantico|CO
 -16.4498|-71.5912:TIABAYA|Arequipa|PE
+1.3506|-77.5234:Linares|Narino|CO
 -11.9832|-76.7736:Chaclacayo|Lima|PE
 10.4602|-74.8792:Candelaria|Atlantico|CO
 4.5664|-75.7506:Montenegro|Quindio|CO
@@ -6687,6 +6701,7 @@
 9.2454|-74.7582:Magangue|Bolivar|CO
 4.4034|-74.3839:Silvania|Cundinamarca|CO
 9.381|-75.2708:Los Palmitos|Sucre|CO
+10.3263|-74.962:Santa Lucia|Atlantico|CO
 7.9778|-75.4187:Montelibano|Cordoba|CO
 -17.6429|-71.3296:ILO|ILO|PE
 -11.0197|-77.6365:VEGUETA|Huaura|PE
@@ -6699,25 +6714,27 @@
 5.4215|-75.7031:Riosucio|Caldas|CO
 4.1736|-76.1648:Andalucia|Valle del Cauca|CO
 7.8343|-72.5064:Los Patios|Norte de Santander|CO
-0.8072|-77.5723:Potosi|Narino|CO
 4.9926|-73.8713:Gachancipa|Cundinamarca|CO
 -14.0076|-75.7661:SUBTANJALLA|Ica|PE
 -8.0816|-79.1169:Huanchaco|Trujillo|PE
 -0.194|-74.7814:Puerto Leguizamo|Putumayo|CO
 -4.8398|-80.6502:QUERECOTILLO|Sullana|PE
+8.1726|-76.0595:Tierralta|Cordoba|CO
 4.1525|-74.8857:Espinal|Tolima|CO
+-3.77|-70.3871:Puerto Narino|Amazonas|CO
 3.2225|-75.2374:Aipe|Huila|CO
+1.7653|-78.1824:Magui|Narino|CO
 2.0271|-75.9929:Oporapa|Huila|CO
+1.9317|-76.2161:Isnos|Huila|CO
 1.8822|-76.2728:San Agustin|Huila|CO
 1.8051|-75.8906:Acevedo|Huila|CO
-10.7738|-73.0011:San Juan del Cesar|La Guajira|CO
 5.8876|-73.5768:Moniquira|Boyaca|CO
 7.3771|-72.6472:Pamplona|Norte de Santander|CO
 4.2387|-75.2396:Rovira|Tolima|CO
+10.887|-72.8461:Fonseca|La Guajira|CO
 9.2451|-75.1479:San Luis de Since|Sucre|CO
 -8.1866|-76.5185:TOCACHE|TOCACHE|PE
 -14.1842|-75.7146:Santiago|Ica|PE
-10.887|-72.8461:Fonseca|La Guajira|CO
 -5.0795|-78.4012:Bagua|Bagua|PE
 5.8751|-72.983:Santa Rosa de Viterbo|Boyaca|CO
 -6.1522|-79.7147:MOTUPE|Lambayeque|PE
@@ -6727,16 +6744,18 @@
 4.3902|-75.686:Cordoba|Quindio|CO
 5.534|-74.1031:Muzo|Boyaca|CO
 6.0579|-75.1864:Cocorna|Antioquia|CO
-3.6583|-76.6917:Dagua|Valle del Cauca|CO
 -12.8665|-72.6936:Santa Ana|La Convencion|PE
 -4.2793|-80.4629:LAnconES|Sullana|PE
+8.9485|-75.4451:Sahagun|Cordoba|CO
 2.3996|-78.1897:La Tola|Narino|CO
 5.58|-73.6474:Tinjaca|Boyaca|CO
 10.7765|-74.7204:Sitionuevo|Magdalena|CO
+2.5085|-78.4511:Mosquera|Narino|CO
 0.9629|-76.4077:Puerto Guzman|Putumayo|CO
 13.353|-81.3704:Providencia|Archipielago de San Andres Providencia y Santa Catalina|CO
 12.55|-81.7:San Andres|Archipielago de San Andres Providencia y Santa Catalina|CO
 3.1962|-75.645:Planadas|Tolima|CO
+3.4194|-76.2421:Pradera|Valle del Cauca|CO
 7.0869|-70.7587:Arauca|Arauca|CO
 -8.6974|-78.638:GUADALUPITO|VIRU|PE
 5.6122|-75.4565:Aguadas|Caldas|CO
@@ -6745,19 +6764,20 @@
 7.1711|-75.7635:Ituango|Antioquia|CO
 5.1922|-76.9511:Medio Baudo|Choco|CO
 7.9382|-72.6051:El Zulia|Norte de Santander|CO
+4.0865|-72.9598:Puerto Lopez|Meta|CO
 1.2587|-70.237:Mitu|Vaupes|CO
 10.6106|-74.2681:El Reten|Magdalena|CO
 4.6099|-72.9275:Villanueva|Casanare|CO
 5.1962|-73.1452:Miraflores|Boyaca|CO
-5.0833|-73.3642:Garagoa|Boyaca|CO
 5.4354|-73.2962:Viracacha|Boyaca|CO
+5.5424|-73.453:Cucaita|Boyaca|CO
 5.5344|-73.3615:Tunja|Boyaca|CO
+10.4945|-75.128:Repelon|Atlantico|CO
 -13.9967|-71.5632:POMACANCHI|ACOMAYO|PE
 4.6235|-75.7636:Quimbaya|Quindio|CO
 3.0163|-76.6424:Buenos Aires|Cauca|CO
 7.5999|-74.8128:El Bagre|Antioquia|CO
 4.3126|-72.0819:Puerto Gaitan|Meta|CO
-8.9485|-75.4451:Sahagun|Cordoba|CO
 -5.0064|-81.0654:COLAN|Paita|PE
 -6.3227|-78.0779:LUYA|LUYA|PE
 -4.8468|-80.6739:SALITRAL|Sullana|PE
@@ -6767,7 +6787,6 @@
 -12.5152|-75.9023:YAUYOS|YAUYOS|PE
 -1.7883|-73.4123:PUTUMAYO|PUTUMAYO|PE
 4.2968|-74.8055:Girardot|Cundinamarca|CO
-10.3263|-74.962:Santa Lucia|Atlantico|CO
 -11.7654|-75.1297:Concepcion|Concepcion|PE
 10.642|-74.7508:Ponedera|Atlantico|CO
 -6.4082|-78.7179:CHIGUIRIP|CHOTA|PE
@@ -6788,7 +6807,6 @@
 4.1329|-75.0946:San Luis|Tolima|CO
 -6.4832|-76.3684:Tarapoto|San Martin|PE
 -12.1465|-76.818:Pachacamac|Lima|PE
-2.5085|-78.4511:Mosquera|Narino|CO
 -6.8668|-78.1438:CELENDIN|CELENDIN|PE
 -16.3149|-71.5824:Cerro Colorado|Arequipa|PE
 7.9882|-75.1978:Caucasia|Antioquia|CO
@@ -6800,7 +6818,6 @@
 5.5184|-72.8838:Aquitania|Boyaca|CO
 6.4212|-72.692:Tipacoque|Boyaca|CO
 5.6338|-73.3239:Combita|Boyaca|CO
-5.4941|-73.4844:Samaca|Boyaca|CO
 2.6843|-75.3257:Campoalegre|Huila|CO
 3.7116|-73.2427:San Carlos de Guaroa|Meta|CO
 -9.0563|-76.0763:JOSE CRESPO Y CASTILLO|LEONCIO PRADO|PE
@@ -6809,14 +6826,13 @@
 4.9742|-74.2889:San Francisco|Cundinamarca|CO
 4.3068|-74.62:Nilo|Cundinamarca|CO
 -17.998|-70.2277:POCOLLAY|Tacna|PE
-4.0865|-72.9598:Puerto Lopez|Meta|CO
 10.8296|-75.034:Juan de Acosta|Atlantico|CO
+10.4616|-74.6152:Pivijay|Magdalena|CO
 -16.3876|-71.4804:Mariano Melgar|Arequipa|PE
 -12.4721|-76.7468:Chilca|Canete|PE
 -14.0227|-73.8407:QUEROBAMBA|SUCRE|PE
 -12.0667|-75.2333:Huancayo|Huancayo|PE
 4.7218|-73.9679:La Calera|Cundinamarca|CO
--3.77|-70.3871:Puerto Narino|Amazonas|CO
 4.2822|-74.8148:Flandes|Tolima|CO
 -10.6726|-76.2695:SIMON BOLIVAR|Pasco|PE
 -14.8782|-70.5936:AYAVIRI|MELGAR|PE
@@ -6827,6 +6843,7 @@
 5.1521|-76.6858:Istmina|Choco|CO
 4.921|-75.0653:Libano|Tolima|CO
 -5.8947|-76.1157:Yurimaguas|Alto Amazonas|PE
+8.392|-73.3812:Gonzalez|Cesar|CO
 5.6248|-72.4236:Paya|Boyaca|CO
 -4.6398|-79.7152:AYABACA|AYABACA|PE
 -6.4814|-76.3857:MORALES|San Martin|PE
@@ -6835,15 +6852,12 @@
 6.2248|-77.4039:Bahia Solano|Choco|CO
 10.6105|-75.1436:Luruaco|Atlantico|CO
 4.3089|-74.3026:Pasca|Cundinamarca|CO
-5.5424|-73.453:Cucaita|Boyaca|CO
 9.3353|-75.3054:Morroa|Sucre|CO
 4.5438|-74.8781:Piedras|Tolima|CO
 10.5675|-75.3269:Clemencia|Bolivar|CO
-1.9317|-76.2161:Isnos|Huila|CO
 -7.1553|-78.5207:Cajamarca|Cajamarca|PE
 -12.9365|-74.2504:HUANTA|HUANTA|PE
 -14.3431|-75.6771:OCUCAJE|Ica|PE
-3.4194|-76.2421:Pradera|Valle del Cauca|CO
 4.5349|-76.1034:La Union|Valle del Cauca|CO
 -14.5209|-75.2019:RIO GRANDE|Palpa|PE
 -13.4275|-76.164:SUNAMPE|Chincha|PE
@@ -6867,7 +6881,6 @@
 4.8721|-74.1447:Tenjo|Cundinamarca|CO
 -13.5301|-71.9543:Wanchaq|Cusco|PE
 9.7029|-73.2786:Becerril|Cesar|CO
-4.03|-74.9687:Guamo|Tolima|CO
 4.2872|-72.792:Cabuyaro|Meta|CO
 5.4745|-74.0447:Coper|Boyaca|CO
 4.4053|-73.9466:Caqueza|Cundinamarca|CO
@@ -6885,13 +6898,11 @@
 0.6677|-76.871:Orito|Putumayo|CO
 -10.6194|-76.1889:YAnaCANCHA|Pasco|PE
 10.1524|-73.9547:El Copey|Cesar|CO
-1.7653|-78.1824:Magui|Narino|CO
 2.3481|-78.327:Olaya Herrera|Narino|CO
 1.6691|-77.0111:San Pablo|Narino|CO
 -6.7696|-79.7749:POMALCA|Chiclayo|PE
 10.4044|-74.8236:El Pinon|Magdalena|CO
 9.2994|-75.3946:Sincelejo|Sucre|CO
-8.2928|-73.3855:Rio de Oro|Cesar|CO
 5.1039|-73.7987:Suesca|Cundinamarca|CO
 8.8717|-75.619:Cienaga de Oro|Cordoba|CO
 7.7537|-76.6541:Carepa|Antioquia|CO
@@ -6902,7 +6913,6 @@
 -14.3709|-75.1743:Palpa|Palpa|PE
 -13.0589|-76.3517:Imperial|Canete|PE
 4.7266|-76.1218:Argelia|Valle del Cauca|CO
-8.392|-73.3812:Gonzalez|Cesar|CO
 -16.2262|-73.6115:ATICO|Caraveli|PE
 -8.1398|-79.0456:Victor Larco Herrera|Trujillo|PE
 10.7481|-75.1084:Piojo|Atlantico|CO
@@ -6912,6 +6922,7 @@
 2.1973|-75.628:Garzon|Huila|CO
 4.6205|-75.6332:Circasia|Quindio|CO
 5.3551|-73.4576:Nuevo Colon|Boyaca|CO
+5.9091|-72.781:Tasco|Boyaca|CO
 5.2158|-73.5939:Villapinzon|Cundinamarca|CO
 5.0093|-73.5405:Manta|Cundinamarca|CO
 4.7605|-74.4632:Anolaima|Cundinamarca|CO
@@ -6921,10 +6932,12 @@
 -14.0094|-72.7973:CHUQUIBAMBILLA|GRAU|PE
 -11.4315|-74.4876:PANGOA|SATIPO|PE
 -13.9311|-75.3464:ANDAYMARCA|Tayacaja|PE
+5.4649|-74.6583:Puerto Salgar|Cundinamarca|CO
 -4.5057|-73.5802:Nauta|Loreto|PE
 5.0887|-76.6525:Condoto|Choco|CO
 5.3737|-76.6131:Certegui|Choco|CO
 4.484|-73.934:Ubaque|Cundinamarca|CO
+5.1922|-74.8915:San Sebastian de Mariquita|Tolima|CO
 5.2022|-75.8673:Belen de Umbria|Risaralda|CO
 9.717|-75.1208:El Carmen de Bolivar|Bolivar|CO
 9.9536|-75.0837:San Juan Nepomuceno|Bolivar|CO
@@ -6932,11 +6945,13 @@
 5.2488|-74.2901:El Penon|Cundinamarca|CO
 6.599|-75.0104:Yolombo|Antioquia|CO
 3.8712|-67.9225:Inirida|Guainia|CO
+0.3436|-76.912:San Miguel|Putumayo|CO
 -15.8351|-70.0223:Puno|Puno|PE
 4.0897|-74.478:Venecia|Cundinamarca|CO
 6.1877|-67.4838:Puerto Carreno|Vichada|CO
 5.5118|-73.9419:Buenavista|Boyaca|CO
 -6.4737|-79.8556:Illimo|Lambayeque|PE
+1.673|-78.1386:Barbacoas|Narino|CO
 6.6807|-75.9534:Giraldo|Antioquia|CO
 6.0926|-75.6369:Caldas|Antioquia|CO
 4.656|-74.3899:Tena|Cundinamarca|CO
@@ -6945,19 +6960,19 @@
 -9.1464|-78.2816:Nepena|Santa|PE
 11.0691|-72.7609:Hatonuevo|La Guajira|CO
 -10.6767|-77.8162:PARAMONGA|Barranca|PE
+10.3259|-74.8693:Cerro de San Antonio|Magdalena|CO
 2.6112|-76.3816:Silvia|Cauca|CO
 5.5194|-76.9493:Rioquito|Choco|CO
 5.4582|-74.3376:Yacopi|Cundinamarca|CO
 0.8533|-77.5183:Cordoba|Narino|CO
 1.1157|-77.4017:Yacuanquer|Narino|CO
 -12.3366|-76.823:Punta Hermosa|Lima|PE
+4.577|-75.9737:Obando|Valle del Cauca|CO
 -11.9988|-75.1176:El Tambo|Huancayo|PE
-1.673|-78.1386:Barbacoas|Narino|CO
 -12.7283|-74.6664:PAUCARA|Acobamba|PE
 3.05|-77.55:Lopez de Micay|Cauca|CO
 6.75|-76.0247:Canasgordas|Antioquia|CO
 9.2394|-74.3514:San Sebastian de Buenavista|Magdalena|CO
-0.3436|-76.912:San Miguel|Putumayo|CO
 -16.2455|-69.0926:YUNGUYO|YUNGUYO|PE
 -10.9283|-74.8726:Pichanaqui|Chanchamayo|PE
 -11.0599|-75.3347:Chanchamayo|Chanchamayo|PE
@@ -6984,7 +6999,6 @@
 5.9305|-73.6161:Barbosa|Santander|CO
 7.9624|-74.0516:Santa Rosa del Sur|Bolivar|CO
 2.4772|-78.111:El Charco|Narino|CO
-5.1922|-74.8915:San Sebastian de Mariquita|Tolima|CO
 -14.8491|-74.9463:VISTA ALEGRE|NAZCA|PE
 8.4084|-75.5842:Planeta Rica|Cordoba|CO
 9.2372|-75.7243:Purisima de la Concepcion|Cordoba|CO
@@ -6996,12 +7010,11 @@
 -12.9468|-76.3827:QUILMAna|Canete|PE
 -4.1064|-81.0475:MANCORA|TALARA|PE
 -4.1772|-81.1268:LOS ORGANOS|TALARA|PE
-10.3259|-74.8693:Cerro de San Antonio|Magdalena|CO
 10.9589|-72.7917:Barrancas|La Guajira|CO
 2.1255|-76.9759:Patia|Cauca|CO
 3.9851|-74.4843:Cabrera|Cundinamarca|CO
 5.565|-73.1842:Toca|Boyaca|CO
-8.0022|-73.5116:San Martin|Cesar|CO
+3.7642|-76.3329:Guacari|Valle del Cauca|CO
 -14.2129|-72.1896:HAQUIRA|COTABAMBAS|PE
 -13.5565|-71.8549:SAYLLA|Cusco|PE
 1.4728|-77.58:La Llanada|Narino|CO
@@ -7015,7 +7028,6 @@
 -10.0562|-78.1581:Huarmey|Huarmey|PE
 5.0813|-73.6073:Macheta|Cundinamarca|CO
 10.2356|-75.1953:Mahates|Bolivar|CO
-3.1749|-76.4613:Villa rica|Cauca|CO
 -4.5135|-80.002:SUYO|AYABACA|PE
 4.2713|-73.4873:Cumaral|Meta|CO
 0.8844|-77.5038:Puerres|Narino|CO
@@ -7028,7 +7040,7 @@
 8.4687|-73.3375:Convencion|Norte de Santander|CO
 5.6658|-75.7134:Tamesis|Antioquia|CO
 5.6695|-72.9933:Firavitoba|Boyaca|CO
-4.577|-75.9737:Obando|Valle del Cauca|CO
+1.1909|-76.9724:Colon|Putumayo|CO
 9.2736|-75.243:San Juan de Betulia|Sucre|CO
 8.7907|-75.1169:Caimito|Sucre|CO
 8.6636|-75.1315:San Marcos|Sucre|CO
@@ -7056,6 +7068,7 @@
 8.3134|-75.146:Ayapel|Cordoba|CO
 -13.0521|-76.4298:San Luis|Canete|PE
 5.8294|-72.8446:Corrales|Boyaca|CO
+4.2794|-74.7646:Ricaurte|Cundinamarca|CO
 4.4391|-74.5219:Viota|Cundinamarca|CO
 -16.3357|-72.1915:Majes|Caylloma|PE
 5.5328|-76.6273:Atrato|Choco|CO
@@ -7116,6 +7129,7 @@
 5.9456|-75.5238:Montebello|Antioquia|CO
 6.6472|-75.4602:Santa Rosa de Osos|Antioquia|CO
 -13.3921|-73.679:ONGOY|CHINCHEROS|PE
+5.965|-75.101:San Francisco|Antioquia|CO
 5.5949|-73.3083:Oicata|Boyaca|CO
 8.361|-72.4094:Puerto Santander|Norte de Santander|CO
 -9.2721|-76.7767:RAPAYAN|Huari|PE
@@ -7126,12 +7140,12 @@
 -11.1334|-73.0349:SEPAHUA|ATALAYA|PE
 4.5282|-73.9234:Choachi|Cundinamarca|CO
 -9.7384|-77.3496:TIcaPAMPA|RECUAY|PE
-3.7642|-76.3329:Guacari|Valle del Cauca|CO
 -14.2534|-72.5679:OROPESA|ANTABAMBA|PE
 -10.4913|-76.5151:YAnaHUANCA|Daniel Alcides Carrion|PE
 4.8511|-74.1261:San Juan de Rioseco|Cundinamarca|CO
 6.8855|-75.3349:Angostura|Antioquia|CO
 5.0767|-73.4207:Tenza|Boyaca|CO
+3.7252|-76.2668:Ginebra|Valle del Cauca|CO
 5.7134|-73.6026:Santa Sofia|Boyaca|CO
 1.6028|-77.1312:La Union|Narino|CO
 6.3139|-73.9502:Cimitarra|Santander|CO
@@ -7143,14 +7157,15 @@
 6.1389|-75.2652:El Santuario|Antioquia|CO
 -10.6946|-77.7752:Pativilca|Barranca|PE
 -15.4853|-70.1304:JULIACA|SAN ROMAN|PE
-8.1726|-76.0595:Tierralta|Cordoba|CO
 2.259|-75.7721:Agrado|Huila|CO
 -6.4284|-79.8401:Pacora|Lambayeque|PE
 8.2764|-76.3796:San Pedro de Uraba|Antioquia|CO
 10.3946|-75.0657:San Cristobal|Bolivar|CO
 5.6563|-75.8782:Andes|Antioquia|CO
 -5.8895|-78.2538:JAMALCA|UTCUBAMBA|PE
+6.1417|-75.1834:Granada|Antioquia|CO
 5.718|-75.3089:Sonson|Antioquia|CO
+8.9457|-74.1061:Barranco de Loba|Bolivar|CO
 -13.6533|-73.4288:TALAVERA|Andahuaylas|PE
 -12.0718|-77.1178:La Perla|Callao|PE
 -6.1387|-77.1424:YORONGOS|Rioja|PE

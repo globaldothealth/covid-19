@@ -44,6 +44,10 @@ def code_for_nonstandard_country_name(name):
 
 def get_latest_data(outfile):
     date = (datetime.now() - timedelta(days=1)).strftime('%m-%d-%Y')
+    if fetch_one_day(date, outfile):
+        return True
+    # If that didn't work, try the previous day instead
+    date = (datetime.now() - timedelta(days=2)).strftime('%m-%d-%Y')
     return fetch_one_day(date, outfile)
 
 # Returns whether the operation was successful.
@@ -53,15 +57,8 @@ def fetch_one_day(date, outfile):
 
     req = requests.get(url)
     if req.status_code != 200:
-        # Try the previous day instead
-        date = (datetime.now() - timedelta(days=2)).strftime('%m-%d-%Y')
-        url = url_base.format(date)
-        req = requests.get(url)
-        if req.status_code != 200:
-            print("Couldn't get Global JHU data, aborting. "
-                  "URL was " + url + ", "
-                  "status code = " + str(req.status_code))
-            return False
+        print("Got status " + str(req.status_code) + " for '" + url + "'")
+        return False
 
     df = pd.read_csv(StringIO(req.text), usecols=['Country_Region', 'Confirmed'])
 
@@ -104,4 +101,5 @@ def fetch_one_day(date, outfile):
 
 
 if __name__ == '__main__':
-    get_latest_data(sys.argv[1])
+    if not get_latest_data(sys.argv[1]):
+        print("Couldn't get Global JHU data, aborting.")
