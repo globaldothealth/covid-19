@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
 from datetime import datetime, timedelta
+import csv
 import sys
-from io import StringIO
 import json
 
-import pandas as pd
 import requests
 
 from tools import data_util
@@ -60,43 +59,39 @@ def fetch_one_day(date, outfile):
         print("Got status " + str(req.status_code) + " for '" + url + "'")
         return False
 
-    df = pd.read_csv(StringIO(req.text), usecols=['Country_Region', 'Confirmed'])
-
-    counts = df[['Country_Region', 'Confirmed']].groupby('Country_Region', as_index=False).sum()
-
-    df = df.drop('Confirmed', axis=1)
-    df = df.drop_duplicates(subset='Country_Region')
-
-    counts = counts.merge(df, on='Country_Region', how='left')
-    counts['Confirmed'] = counts.Confirmed.map('{:,}'.format)
-    counts[counts.Country_Region == 'US']['Country_Region'] = 'United States of America'
-    counts.Country_Region = counts.Country_Region.apply(
-        lambda x: 'United States of America' if x == 'US' else x)
+    reader = csv.DictReader(req.text.split("\n"), delimiter=',', quotechar='"')
     features = []
-    for i, row in counts.iterrows():
-        name = row['Country_Region']
-        if name in IGNORED_COUNTRY_NAMES:
+
+    # A dictionary with country codes as keys, and values are arrays of
+    # [confirmed, deaths, recovered, active]
+    data = {}
+    for row in reader:
+        country_name = row['Country_Region'].replace('"', '')
+        if country_name in IGNORED_COUNTRY_NAMES:
             continue
-        code = data_util.country_code_from_name(name)
+        code = data_util.country_code_from_name(country_name)
         if not code:
-            code = code_for_nonstandard_country_name(name)
+            code = code_for_nonstandard_country_name(country_name)
         if not code:
-            print("I couldn't find country '" + name + "', please fix me.")
+            print("I couldn't find country '" + country_name + "', please fix me.")
             sys.exit(1)
-        entry = {
-            'attributes': {
-                'cum_conf': row['Confirmed'],
-                'code': code,
-            }}
+        if not code in data:
+            data[code] = [0, 0, 0, 0]
+        data[code][0] += int(row["Confirmed"].replace(",", ""))
+        data[code][1] += int(row["Deaths"].replace(",", ""))
+        data[code][2] += int(row["Recovered"].replace(",", ""))
+        data[code][3] += int(row["Active"].replace(",", ""))
+    for code in data:
+        entry = {"attributes": {"cum_conf": data[code][0], "code": code}}
         features.append(entry)
 
-    features = sorted(features,
-                      key=lambda x: int(x['attributes']['cum_conf'].replace(',','')),
-                      reverse=True)
+    features = sorted(features, key=lambda x: x['attributes']['cum_conf'], reverse=True)
     data = {'features': features}
 
     with open(outfile, 'w') as f:
         json.dump(data, f)
+        f.close()
+
     return True
 
 
