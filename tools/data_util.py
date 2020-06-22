@@ -1,7 +1,5 @@
-import glob
 import os
 import pandas
-import sys
 
 from tools import generate_full_data
 from tools import jhu_global_data
@@ -110,58 +108,6 @@ def make_country_pages():
         with open(index_file, "w") as i:
             i.write(output)
             i.close()
-
-def prepare_for_local_development(quiet=False):
-    success = True
-    if not os.path.exists(COUNTRIES_DIR):
-        os.mkdir(COUNTRIES_DIR)
-    if not os.path.exists(DAILIES_DIR):
-        os.mkdir(DAILIES_DIR)
-
-    countries = [f for f in os.listdir(COUNTRIES_DIR) if f.endswith(".json")]
-    dailies = [f for f in os.listdir(DAILIES_DIR) if f.endswith(".json")]
-    if len(countries) > 0 and len(dailies) > 0:
-        if not quiet:
-            print(
-                "I found some daily data ready to use. To re-generate, "
-                "empty the '" + DAILIES_DIR + "' directory (or "
-                "run './clean') and start me again."
-            )
-    else:
-        generate_data(quiet=quiet)
-
-    success &= retrieve_generable_data(
-        os.path.join(self_dir, "app"), should_overwrite=False, quiet=quiet
-    )
-    make_country_pages()
-
-    return success
-
-
-def prepare_for_deployment(quiet=False):
-
-    success = True
-    if not retrieve_generable_data(
-            os.path.join(self_dir, "app"), should_overwrite=True, quiet=quiet
-    ):
-        print("I wasn't able to retrieve necessary data, aborting")
-        success = False
-
-    if not os.path.exists(DAILIES_DIR):
-        os.mkdir(DAILIES_DIR)
-    if not os.path.exists(COUNTRIES_DIR):
-        os.mkdir(COUNTRIES_DIR)
-
-    # Clean whatever is left over.
-    for daily in glob.glob("dailies/*.json"):
-        os.remove(daily)
-    for country in glob.glob("countries/*.json"):
-        os.remove(country)
-
-    generate_data(overwrite=True, quiet=quiet)
-    make_country_pages()
-    return success
-
 
 def generate_data(overwrite=False, quiet=False):
     if not quiet:
