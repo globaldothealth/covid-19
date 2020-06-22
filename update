@@ -19,8 +19,9 @@ def update():
         os.path.join(SELF_DIR, "c"),
         overwrite=True, quiet=False)
     data_util.retrieve_generable_data(".", should_overwrite=True, quiet=False)
-    # Note sure why there are two lines merged together
+    # Note sure why there are two lines merged together for a couple of locations
     os.system("sed -i 's/GB32/GB\\n32/' location_info.data")
+    os.system("sed -i 's/PE32/PE\\n32/' location_info.data")
     # Add any new daily file.
     os.system("git add d/*.json")
 
