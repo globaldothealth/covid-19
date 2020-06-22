@@ -86,29 +86,6 @@ def retrieve_generable_data(out_dir, should_overwrite=False, quiet=False):
     return success
 
 
-def make_country_pages():
-    countries = get_all_countries()
-    with open("app/country.html") as f:
-        template = f.read().strip()
-        f.close()
-    for code in countries:
-        directory = os.path.join("app", "c", code)
-        if not os.path.exists(directory):
-            os.makedirs(directory)
-        index_file = os.path.join(directory, "index.html")
-        if os.path.exists(index_file):
-            os.remove(index_file)
-        tokens = {
-            "code": code,
-            "title": countries[code],
-        }
-        output = template
-        for t in tokens:
-            output = output.replace("{{" + t + "}}", tokens[t])
-        with open(index_file, "w") as i:
-            i.write(output)
-            i.close()
-
 def generate_data(overwrite=False, quiet=False):
     if not quiet:
         print(
