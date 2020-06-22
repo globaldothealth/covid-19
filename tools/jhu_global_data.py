@@ -13,6 +13,7 @@ IGNORED_COUNTRY_NAMES = [
     "Cruise Ship",
     "Diamond Princess",
     "MS Zaandam",
+    "Others",
 ]
 
 def code_for_nonstandard_country_name(name):
@@ -40,10 +41,18 @@ def code_for_nonstandard_country_name(name):
         return "CW"
     if "Gambia" in name:
         return "GM"
+    if "Hong" in name:
+        return "HK"
     if "Iran" in name:
         return "IR"
-    if "Macau" in name:
+    if "Macau" in name or "Macao" in name:
         return "MO"
+    if "Moldova" in name:
+        return "MD"
+    if "Russia" in name:
+        return "RU"
+    if name.startswith("Saint Barth"):
+        return "BL"
     if "Syria" in name:
         return "SY"
     if "Taiwan" in name:
@@ -54,6 +63,10 @@ def code_for_nonstandard_country_name(name):
         return "US"
     if "Timor" in name:
         return "TL"
+    if "Vatican" in name:
+        return "VA"
+    if "Viet" in name:
+        return "VN"
     if ("West Bank" in name and "Gaza" in name) or "Palestin" in name:
         return "PS"
     return None
@@ -108,7 +121,7 @@ def fetch_one_day(date):
         key = "Country_Region"
         if key not in row:
             key = "Country/Region"
-        country_name = row[key].replace('"', '')
+        country_name = row[key].replace('"', '').strip()
         if country_name in IGNORED_COUNTRY_NAMES:
             continue
         code = data_util.country_code_from_name(country_name)
