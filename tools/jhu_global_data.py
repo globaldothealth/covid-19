@@ -10,6 +10,7 @@ import requests
 from tools import data_util
 
 IGNORED_COUNTRY_NAMES = [
+    "Cruise Ship",
     "Diamond Princess",
     "MS Zaandam",
 ]
@@ -22,12 +23,27 @@ def code_for_nonstandard_country_name(name):
     if "Congo" in name:
         if "Brazzaville" in name:
             return "CG"
-        if "Kinshasa" in name:
+        if "Kinshasa" in name or "Democratic" in name:
             return "CD"
+        return "CG"
     if "Czechia" in name:
         return "CZ"
     if "Laos" in name:
         return "LA"
+    if "Bahamas" in name:
+        return "BS"
+    if name.startswith("Ca") and "Verde" in name:
+        return "CV"
+    if "China" in name:
+        return "CN"
+    if name.startswith("Cura") and name.endswith("ao"):
+        return "CW"
+    if "Gambia" in name:
+        return "GM"
+    if "Iran" in name:
+        return "IR"
+    if "Macau" in name:
+        return "MO"
     if "Syria" in name:
         return "SY"
     if "Taiwan" in name:
@@ -36,13 +52,16 @@ def code_for_nonstandard_country_name(name):
         return "KR"
     if "United States" in name and "America" in name:
         return "US"
-    if "West Bank" in name and "Gaza" in name:
+    if "Timor" in name:
+        return "TL"
+    if ("West Bank" in name and "Gaza" in name) or "Palestin" in name:
         return "PS"
     return None
 
 
 def get_aggregate_data(outfile):
-    max_days = 1
+    print("Fetching aggregate data...")
+    max_days = 365
     one_successful_fetch = False
     data = {}
 
@@ -72,7 +91,7 @@ def get_aggregate_data(outfile):
 def fetch_one_day(date):
     url_base = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/{}.csv'
     url = url_base.format(date)
-    print(url + "...")
+    print(date, end="  ", flush=True)
 
     req = requests.get(url)
     if req.status_code != 200:
@@ -86,7 +105,10 @@ def fetch_one_day(date):
     # [confirmed, deaths, recovered, active]
     data = {}
     for row in reader:
-        country_name = row['Country_Region'].replace('"', '')
+        key = "Country_Region"
+        if key not in row:
+            key = "Country/Region"
+        country_name = row[key].replace('"', '')
         if country_name in IGNORED_COUNTRY_NAMES:
             continue
         code = data_util.country_code_from_name(country_name)
@@ -94,13 +116,14 @@ def fetch_one_day(date):
             code = code_for_nonstandard_country_name(country_name)
         if not code:
             print("I couldn't find country '" + country_name + "', please fix me.")
-            sys.exit(1)
+            continue
         if not code in data:
             data[code] = [0, 0, 0, 0]
-        data[code][0] += int(row["Confirmed"].replace(",", ""))
-        data[code][1] += int(row["Deaths"].replace(",", ""))
-        data[code][2] += int(row["Recovered"].replace(",", ""))
-        data[code][3] += int(row["Active"].replace(",", ""))
+        keys = ["Confirmed", "Deaths", "Recovered", "Active"]
+        for i in range(len(keys)):
+            key = keys[i]
+            if key in row and row[key] != "":
+                data[code][i] += int(row[key].replace(",", ""))
     for code in data:
         entry = {"cum_conf": data[code][0], "code": code}
         features.append(entry)
