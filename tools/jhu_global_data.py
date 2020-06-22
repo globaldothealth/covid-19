@@ -45,6 +45,10 @@ def code_for_nonstandard_country_name(name):
         return "HK"
     if "Iran" in name:
         return "IR"
+    if "Ireland" in name:
+        return "IE"
+    if "Ivo" in name:
+        return "CI"
     if "Macau" in name or "Macao" in name:
         return "MO"
     if "Moldova" in name:
