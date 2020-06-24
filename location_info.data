@@ -6737,6 +6737,7 @@
 -14.1842|-75.7146:Santiago|Ica|PE
 -5.0795|-78.4012:Bagua|Bagua|PE
 5.8751|-72.983:Santa Rosa de Viterbo|Boyaca|CO
+5.5344|-73.3615:Tunja|Boyaca|CO
 -6.1522|-79.7147:MOTUPE|Lambayeque|PE
 -8.4092|-74.5557:MAnaNTAY|Coronel Portillo|PE
 10.4447|-75.2726:Villanueva|Bolivar|CO
@@ -6771,7 +6772,6 @@
 5.1962|-73.1452:Miraflores|Boyaca|CO
 5.4354|-73.2962:Viracacha|Boyaca|CO
 5.5424|-73.453:Cucaita|Boyaca|CO
-5.5344|-73.3615:Tunja|Boyaca|CO
 10.4945|-75.128:Repelon|Atlantico|CO
 -13.9967|-71.5632:POMACANCHI|ACOMAYO|PE
 4.6235|-75.7636:Quimbaya|Quindio|CO
@@ -7089,51 +7089,387 @@
 8.0957|-74.7751:Nechi|Antioquia|CO
 7.1136|-73.2182:Lebrija|Santander|CO
 9.1857|-75.5563:Tuchin|Cordoba|CO
+-34.6109|-58.4864:COMUNA 1|CABA|AR
+-31.3506|-62.5275:San Justo|Cordoba|AR
+-34.5648|-58.602:Tres de Febrero|Buenos Aires|AR
+-40.7935|-63.7669:Adolfo Alsina|Rio Negro|AR
+-27.7137|-59.1223:San Fernando|Chaco|AR
+-34.5211|-58.4731:Vicente Lopez|Buenos Aires|AR
+-33.3022|-66.3376:La Capital|San Luis|AR
+-34.7702|-58.6255:La Matanza|Buenos Aires|AR
+-34.4716|-58.5147:San Isidro|Buenos Aires|AR
+-31.4227|-64.1854:Capital|Cordoba|AR
+-33.1403|-59.3131:Gualeguay|Entre Rios|AR
+-34.5657|-59.1149:Lujan|Buenos Aires|AR
+-54.808|-68.3325:Ushuaia|Tierra del Fuego|AR
+-32.9678|-60.6592:Rosario|Santa Fe|AR
+-34.7558|-58.3918:Lomas de Zamora|Buenos Aires|AR
+-37.9661|-57.7431:General Pueyrredon|Buenos Aires|AR
+-34.8312|-58.4769:Esteban Echeverria|Buenos Aires|AR
+-34.7251|-58.2601:Quilmes|Buenos Aires|AR
+-34.4454|-58.5599:San Fernando|Buenos Aires|AR
+-31.3827|-58.0155:Concordia|Entre Rios|AR
+-34.4483|-59.449:San Andres de Giles|Buenos Aires|AR
+-26.8096|-65.3128:Yerba Buena|Tucuman|AR
+-24.1881|-65.296:Dr. Manuel Belgrano|Jujuy|AR
+-34.7|-58.3839:Lanus|Buenos Aires|AR
+-24.7774|-65.4057:Capital|Salta|AR
+-49.8325|-72.0031:Lago Argentino|Santa Cruz|AR
+-34.6413|-59.4292:Mercedes|Buenos Aires|AR
+-39.0289|-67.5759:General Roca|Rio Negro|AR
+-34.8196|-58.394:Almirante Brown|Buenos Aires|AR
+-31.7106|-64.3068:Santa Maria|Cordoba|AR
+-34.587|-60.95:Junin|Buenos Aires|AR
+-34.4258|-58.5863:Tigre|Buenos Aires|AR
 -13.5541|-71.8733:SAN JERONIMO|Cusco|PE
+-29.9371|-62.3497:Rivadavia|Santiago del Estero|AR
+-34.6517|-58.7906:Moreno|Buenos Aires|AR
+-34.9139|-57.9464:La Plata|Buenos Aires|AR
+-34.7792|-58.2233:Berazategui|Buenos Aires|AR
+-38.718|-62.2667:Bahia Blanca|Buenos Aires|AR
+-32.5145|-63.2564:General San Martin|Cordoba|AR
+-33.0026|-58.5217:Gualeguaychu|Entre Rios|AR
+-38.9513|-68.0607:Confluencia|Neuquen|AR
+-34.2479|-59.471:San Antonio de Areco|Buenos Aires|AR
+-33.8836|-65.5634:General Pedernera|San Luis|AR
+-37.0137|-62.4181:Guamini|Buenos Aires|AR
+-34.6357|-58.6814:Ituzaingo|Buenos Aires|AR
+-35.115|-60.4895:Bragado|Buenos Aires|AR
+-32.688|-62.0985:Marcos Juarez|Cordoba|AR
+-34.4593|-58.9153:Pilar|Buenos Aires|AR
+-32.9458|-60.638:La Capital|Santa Fe|AR
+-27.4801|-58.8282:Capital|Corrientes|AR
+-31.2315|-61.6573:Castellanos|Santa Fe|AR
+-34.8075|-58.2783:Florencio Varela|Buenos Aires|AR
+-30.7199|-64.8067:Cruz del Eje|Cordoba|AR
+-34.6011|-58.377:Capital|Tucuman|AR
+-25.9167|-54.5833:1º de Mayo|Chaco|AR
+-32.9844|-68.789:Maipu|Mendoza|AR
+-32.871|-68.8275:Capital|Mendoza|AR
+-33.0393|-68.8792:Lujan de Cuyo|Mendoza|AR
+-34.3496|-58.7911:Escobar|Buenos Aires|AR
+-26.9208|-64.9736:Cruz Alta|Tucuman|AR
+-27.4896|-65.5076:Rio Chico|Tucuman|AR
+-27.1689|-65.5004:Monteros|Tucuman|AR
+-33.117|-64.3449:Rio Cuarto|Cordoba|AR
+-34.646|-58.618:Moron|Buenos Aires|AR
+-36.8976|-56.7044:La Costa|Buenos Aires|AR
+-32.1516|-61.0563:San Jeronimo|Santa Fe|AR
+-31.3127|-61.1092:Las Colonias|Santa Fe|AR
+-31.1002|-60.0942:Garay|Santa Fe|AR
+-34.5426|-58.7115:San Miguel|Buenos Aires|AR
+-25.2138|-61.3373:General Guemes|Chaco|AR
+-34.5778|-58.5393:General San Martin|Buenos Aires|AR
+-34.4971|-58.7031:Malvinas Argentinas|Buenos Aires|AR
+-31.1445|-64.1524:Colon|Cordoba|AR
+-32.8921|-68.7327:Guaymallen|Mendoza|AR
+-34.9299|-58.3982:Presidente Peron|Buenos Aires|AR
+-34.5746|-58.471:Capital|La Pampa|AR
+-32.6105|-61.7047:Belgrano|Santa Fe|AR
+-32.8796|-62.7928:Union|Cordoba|AR
+-34.6627|-58.3675:Avellaneda|Buenos Aires|AR
+-36.3157|-57.6752:Dolores|Buenos Aires|AR
+-26.5364|-59.342:Libertador General San Martin|Chaco|AR
+-41.1416|-71.2996:Bariloche|Rio Negro|AR
+-35.3515|-65.8277:Gobernador Dupuy|San Luis|AR
+-36.777|-59.8637:Azul|Buenos Aires|AR
+-34.8554|-58.5256:Ezeiza|Buenos Aires|AR
+-32.734|-60.7421:San Lorenzo|Santa Fe|AR
+-34.0963|-59.0376:Zarate|Buenos Aires|AR
+-35.031|-60.2806:Alberti|Buenos Aires|AR
+-31.7263|-60.5315:Parana|Entre Rios|AR
+-35.1691|-58.2301:Brandsen|Buenos Aires|AR
+-32.3907|-59.7925:Nogoya|Entre Rios|AR
+-47.3322|-68.0262:Deseado|Santa Cruz|AR
+-48.8395|-68.4675:Magallanes|Santa Cruz|AR
+24.6166|-107.4451:|SIN ESPECIFIcaR|AR
+-34.6626|-58.7271:Merlo|Buenos Aires|AR
+-30.5811|-59.9281:San Javier|Santa Fe|AR
+-38.5751|-70.3714:Picunches|Neuquen|AR
+-31.8579|-59.0369:Villaguay|Entre Rios|AR
+-31.2238|-64.588:Punilla|Cordoba|AR
+-35.0532|-58.752:Canuelas|Buenos Aires|AR
+-34.7861|-58.8276:Marcos Paz|Buenos Aires|AR
+-32.0678|-60.6388:Diamante|Entre Rios|AR
+-24.2551|-65.1975:Palpala|Jujuy|AR
+-33.9167|-61.939:General Lopez|Santa Fe|AR
+-33.2189|-61.5258:Caseros|Santa Fe|AR
+-33.4868|-60.85:Constitucion|Santa Fe|AR
+-30.7406|-59.6438:La Paz|Entre Rios|AR
+-38.7191|-61.288:Coronel Dorrego|Buenos Aires|AR
+-34.1625|-58.9593:Campana|Buenos Aires|AR
+-29.0909|-62.228:Belgrano|Santiago del Estero|AR
+-32.9258|-68.8448:Godoy Cruz|Mendoza|AR
+-38.5549|-58.7385:Necochea|Buenos Aires|AR
+-34.6123|-58.4044:Capital|Misiones|AR
+-38.163|-58.7825:Loberia|Buenos Aires|AR
+-29.4597|-60.215:Vera|Santa Fe|AR
+-34.5934|-58.6362:Hurlingham|Buenos Aires|AR
+-40.3133|-71.1876:Lacar|Neuquen|AR
+-38.9002|-70.0651:Zapala|Neuquen|AR
+-34.8604|-57.912:Ensenada|Buenos Aires|AR
+-34.6332|-58.4061:Capital|La Rioja|AR
+-31.5668|-68.5325:Rawson|San Juan|AR
+-37.3296|-59.1371:Tandil|Buenos Aires|AR
+-33.4864|-60.2951:San Nicolas|Buenos Aires|AR
+-38.3453|-59.6075:San Cayetano|Buenos Aires|AR
+-33.5773|-69.0163:Tunuyan|Mendoza|AR
+-34.5226|-58.7523:Jose C. Paz|Buenos Aires|AR
+-32.7061|-61.2735:Iriondo|Santa Fe|AR
+-35.9738|-62.7322:Trenque Lauquen|Buenos Aires|AR
+-38.9846|-61.3087:Monte Hermoso|Buenos Aires|AR
+-32.2028|-64.6176:Calamuchita|Cordoba|AR
+-34.6168|-64.3768:General Roca|Cordoba|AR
+-33.8968|-61.0994:Colon|Buenos Aires|AR
+-34.2951|-59.1561:Exaltacion de la Cruz|Buenos Aires|AR
+-33.6196|-58.9398:Islas del Ibicuy|Entre Rios|AR
 -12.963|-76.1407:LUNAHUAna|Canete|PE
+-35.622|-61.3657:Carlos Casares|Buenos Aires|AR
+-25.8751|-54.403:Iguazu|Misiones|AR
+-53.765|-67.7123:Rio Grande|Tierra del Fuego|AR
+-34.1402|-63.4193:Presidente Roque Saenz Pena|Cordoba|AR
+-34.6133|-58.3847:Capital|Santiago del Estero|AR
+-32.8414|-68.8337:Las Heras|Mendoza|AR
 -16.4272|-71.5241:Jose Luis Bustamante y Rivero|Arequipa|PE
+-33.8978|-60.5756:Pergamino|Buenos Aires|AR
+-32.2218|-58.1408:Colon|Entre Rios|AR
+-24.9778|-65.5792:Rosario de Lerma|Salta|AR
+-27.1179|-61.3089:Chacabuco|Chaco|AR
+-41.1237|-70.7208:Pilcaniyeu|Rio Negro|AR
+-36.8921|-60.3252:Olavarria|Buenos Aires|AR
+-37.1115|-56.8653:Pinamar|Buenos Aires|AR
+-40.7583|-71.4819:Los Lagos|Neuquen|AR
+-37.7433|-57.4294:Mar Chiquita|Buenos Aires|AR
+-39.4107|-66.2076:Avellaneda|Rio Negro|AR
+-51.4145|-70.5525:Guer Aike|Santa Cruz|AR
+-35.4436|-60.8855:9 de julio|Buenos Aires|AR
+-26.7313|-65.2548:Tafi Viejo|Tucuman|AR
+-34.8958|-60.0187:Chivilcoy|Buenos Aires|AR
+-38.0702|-70.6148:Loncopue|Neuquen|AR
+-35.1849|-59.0979:Lobos|Buenos Aires|AR
+-36.5992|-61.7478:Daireaux|Buenos Aires|AR
+-35.4762|-69.5853:Malargue|Mendoza|AR
+-35.6864|-63.661:Maraco|La Pampa|AR
 -11.9137|-76.6676:Santa EULALIA|HUAROCHIRI|PE
+-35.8104|-61.8985:Pehuajo|Buenos Aires|AR
+-34.6176|-68.3256:San Rafael|Mendoza|AR
+-34.6071|-58.954:General Rodriguez|Buenos Aires|AR
+-39.4081|-64.4008:Pichi Mahuida|Rio Negro|AR
+-34.9774|-67.6895:General Alvear|Mendoza|AR
+-38.3771|-60.2752:Tres Arroyos|Buenos Aires|AR
+-35.0241|-58.4236:San Vicente|Buenos Aires|AR
+-31.5334|-68.5017:Santa Lucia|San Juan|AR
+-40.1472|-64.2959:Conesa|Rio Negro|AR
+-32.7209|-68.5956:Lavalle|Mendoza|AR
+-45.2838|-67.7081:Escalante|Chubut|AR
+-30.3129|-66.663:General Angel V. Penaloza|La Rioja|AR
+-34.8693|-57.8823:Berisso|Buenos Aires|AR
+-37.5444|-62.7666:Puan|Buenos Aires|AR
 -5.9881|-79.7469:Olmos|Lambayeque|PE
+-27.1409|-59.3475:General Donovan|Chaco|AR
+-27.75|-60.6667:Mayor Luis J. Fontana|Chaco|AR
+-35.0046|-59.2697:Navarro|Buenos Aires|AR
+-33.4847|-60.0058:Ramallo|Buenos Aires|AR
+-26.9538|-58.7121:Bermejo|Chaco|AR
 -16.428|-71.569:SACHACA|Arequipa|PE
+-33.3644|-69.144:Tupungato|Mendoza|AR
 -12.0303|-75.4992:San Jose DE QUERO|Concepcion|PE
+-27.5129|-58.5614:San Luis del Palmar|Corrientes|AR
+-27.0264|-54.2663:Guarani|Misiones|AR
+-40.1951|-62.8553:Patagones|Buenos Aires|AR
+-35.6385|-59.7799:Saladillo|Buenos Aires|AR
 -11.5051|-75.9339:Santa Rosa DE SACCO|YAULI|PE
+-35.766|-58.4976:General Belgrano|Buenos Aires|AR
+-34.9266|-58.9472:General Las Heras|Buenos Aires|AR
+-27.371|-58.5115:San Cosme|Corrientes|AR
+-34.2957|-60.262:Salto|Buenos Aires|AR
+-27.8619|-63.9132:Robles|Santiago del Estero|AR
+-38.8494|-61.8352:Coronel de Marina L. Rosales|Buenos Aires|AR
+-23.4994|-64.1461:Oran|Salta|AR
+-35.5789|-58.0134:Chascomus|Buenos Aires|AR
+-49.9488|-69.4397:Corpen Aike|Santa Cruz|AR
 -4.8551|-81.1185:VICHAYAL|Paita|PE
 -17.0181|-72.0134:MOLLENDO|ISLAY|PE
+-43.2976|-65.1029:Rawson|Chubut|AR
+-26.4042|-54.6313:Eldorado|Misiones|AR
+-35.3865|-62.4157:Carlos Tejedor|Buenos Aires|AR
+-34.6429|-60.4701:Chacabuco|Buenos Aires|AR
+-31.3304|-63.6255:Rio Primero|Cordoba|AR
+-34.5198|-61.3909:Leandro N. Alem|Buenos Aires|AR
+-31.6694|-68.3898:9 de julio|San Juan|AR
+-26.7871|-60.4619:Comandante Fernandez|Chaco|AR
 -12.9921|-70.5263:HUEPETUHE|MANU|PE
+-33.6807|-59.6671:San Pedro|Buenos Aires|AR
+-33.819|-59.5175:Baradero|Buenos Aires|AR
 -6.139|-79.6573:CHOCHOPE|Lambayeque|PE
 -3.7016|-80.2341:MATAPALO|Zarumilla|PE
 -14.1547|-75.6929:PACHACUTEC|Ica|PE
+-41.1327|-68.9057:25 de mayo|Rio Negro|AR
 -6.0085|-79.1596:PUCARA|Jaen|PE
+-39.1294|-62.7429:Villarino|Buenos Aires|AR
+-37.1982|-63.0602:Adolfo Alsina|Buenos Aires|AR
 -9.8313|-76.0961:CHURUBAMBA|Huanuco|PE
+-35.4329|-60.1716:25 de mayo|Buenos Aires|AR
 -5.5649|-80.8174:Sechura|Sechura|PE
 -11.5179|-75.9002:LA OROYA|YAULI|PE
 -7.7907|-79.2215:Chocope|Ascope|PE
 -6.7455|-79.8386:Jose Leonardo Ortiz|Chiclayo|PE
+-28.8892|-63.3345:Salavina|Santiago del Estero|AR
+-28.5338|-66.7182:Arauco|La Rioja|AR
 -3.5754|-80.3282:PAPAYAL|Zarumilla|PE
 -10.6774|-76.09:TICLACAYAN|Pasco|PE
 -5.1475|-79.0011:SAN IGNACIO|SAN IGNACIO|PE
+-26.321|-60.4554:Maipu|Chaco|AR
 -6.6317|-79.7896:Ferrenafe|Ferrenafe|PE
 -16.6967|-71.8725:LA JOYA|Arequipa|PE
+-26.8017|-59.5197:Sargento Cabral|Chaco|AR
+-37.5438|-60.8025:Laprida|Buenos Aires|AR
 -13.0757|-76.3196:Nuevo Imperial|Canete|PE
+-26.9999|-59.8444:Presidencia de la Plaza|Chaco|AR
+-34.6161|-58.3726:Capital|San Juan|AR
+-36.4073|-56.942:General Lavalle|Buenos Aires|AR
+-26.2334|-65.2765:Trancas|Tucuman|AR
+-37.8471|-58.2548:Balcarce|Buenos Aires|AR
+-37.2634|-56.9743:Villa Gesell|Buenos Aires|AR
+-26.9257|-65.3372:Lules|Tucuman|AR
+-36.0148|-59.1004:Las Flores|Buenos Aires|AR
 -9.9432|-76.2525:Pillco Marca|Huanuco|PE
+-23.7854|-64.8287:Ledesma|Jujuy|AR
+-30.9866|-57.9198:Federacion|Entre Rios|AR
+-34.1718|-59.7895:Capitan Sarmiento|Buenos Aires|AR
+-30.2489|-57.6296:Monte Caseros|Corrientes|AR
+-29.1829|-58.0799:Mercedes|Corrientes|AR
 -7.2441|-79.4711:GUADALUPE|Pacasmayo|PE
+-34.0611|-60.1024:Arrecifes|Buenos Aires|AR
 4.212|-76.3191:Trujillo|Valle del Cauca|CO
 6.0833|-75.5:Retiro|Antioquia|CO
+-37.1525|-58.488:Ayacucho|Buenos Aires|AR
+-28.6702|-59.5354:General Obligado|Santa Fe|AR
 3.9938|-76.2267:San Pedro|Valle del Cauca|CO
 3.931|-76.4841:Calima|Valle del Cauca|CO
+-34.3765|-59.8232:Carmen de Areco|Buenos Aires|AR
 -13.8846|-71.9161:PARURO|PARURO|PE
+-32.4479|-58.5843:Uruguay|Entre Rios|AR
 4.5093|-76.237:El Dovio|Valle del Cauca|CO
 -2.4049|-75.8309:TIGRE|Loreto|PE
 6.0575|-73.4809:Santana|Boyaca|CO
+-26.073|-65.9754:Cafayate|Salta|AR
+-38.264|-57.836:General Alvarado|Buenos Aires|AR
+-28.0562|-62.5417:Juan F. Ibarra|Santiago del Estero|AR
+-24.3877|-65.2628:El Carmen|Jujuy|AR
+-35.5103|-58.7696:Monte|Buenos Aires|AR
 -13.9469|-72.1756:TAmboBAMBA|COTABAMBAS|PE
 5.9456|-75.5238:Montebello|Antioquia|CO
 6.6472|-75.4602:Santa Rosa de Osos|Antioquia|CO
 -13.3921|-73.679:ONGOY|CHINCHEROS|PE
+-27.351|-59.2606:Libertad|Chaco|AR
 5.965|-75.101:San Francisco|Antioquia|CO
 5.5949|-73.3083:Oicata|Boyaca|CO
+-28.5537|-56.0417:Santo Tome|Corrientes|AR
+-27.5001|-55.1099:Obera|Misiones|AR
 8.361|-72.4094:Puerto Santander|Norte de Santander|CO
 -9.2721|-76.7767:RAPAYAN|Huari|PE
 4.7026|-75.7373:Ulloa|Valle del Cauca|CO
+-25.3432|-57.5175:San Lorenzo|Central|PY
+-25.3414|-56.7264:Mbocayaty del Yhaguy|Cordillera|PY
+-25.2974|-57.6277:Asuncion|Asuncion|PY
+-25.1686|-57.4619:Limpio|Central|PY
+-25.3284|-57.5506:Fernando de la Mora|Central|PY
+-25.2533|-57.4602:Luque|Central|PY
+-25.4084|-54.6419:Hernandarias|Alto Parana|PY
+-25.3949|-57.5357:Nemby|Central|PY
+-25.2059|-57.5357:Mariano Roque Alonso|Central|PY
+-25.4941|-54.6761:Ciudad del Este|Alto Parana|PY
+-25.4493|-56.4454:Coronel Oviedo|Caaguazu|PY
+-22.3513|-60.0349:Filadelfia|Boqueron|PY
+-26.8871|-56.8506:Santa Rosa|Misiones|PY
+-25.3943|-57.3508:Itaugua|Central|PY
+-25.3878|-57.1409:Caacupe|Cordillera|PY
+-22.3771|-59.8272:Loma Plata|Boqueron|PY
+-27.325|-55.875:Encarnacion|Itapua|PY
+-25.3502|-57.6141:Lambare|Central|PY
+-25.4682|-56.0142:Caaguazu|Caaguazu|PY
+-22.5591|-55.7311:Pedro Juan Caballero|Amambay|PY
+-25.4573|-57.5068:Ypane|Central|PY
+-25.7816|-56.4475:Villarrica|Guaira|PY
+-25.3706|-57.4591:Capiata|Central|PY
+-26.8691|-58.3002:Pilar|ñeembucu|PY
+-25.0574|-57.0936:Arroyos Y Esteros|Cordillera|PY
+-24.5277|-55.8679:Yasy Kañy|Canindeyu|PY
+-25.4451|-57.4426:J Augusto Saldivar|Central|PY
+-25.5114|-57.5656:Villeta|Central|PY
+-26.7526|-55.7677:Alto Vera|Itapua|PY
+-26.0372|-55.9455:Abai|Caazapa|PY
+-25.4104|-57.5648:San Antonio|Central|PY
+-25.3732|-57.5912:Villa Elisa|Central|PY
+-26.0213|-57.0166:Ybycui|Paraguari|PY
+-26.3989|-54.757:Carlos Antonio Lopez|Itapua|PY
+-25.308|-57.3894:Aregua|Central|PY
+-24.8|-56.0333:Capiibary|San Pedro|PY
+-25.5333|-54.6167:Presidente Franco|Alto Parana|PY
+-23.8237|-56.5379:Santa Rosa|San Pedro|PY
+-25.2712|-55.3307:Tembiapora|Caaguazu|PY
+-25.764|-57.2494:Carapegua|Paraguari|PY
+-26.6306|-55.5214:Itapua Poty|Itapua|PY
+-26.1796|-55.497:Tavai|Caazapa|PY
+-25.5308|-55.9951:Repatriacion|Caaguazu|PY
+-25.5667|-56.2833:Mauricio Jose Troche|Guaira|PY
+-23.4071|-57.4374:Concepcion|Concepcion|PY
+-25.4151|-55.4316:Jose Domingo Ocampos|Caaguazu|PY
+-24.8471|-56.3557:Yataity del Norte|San Pedro|PY
+-26.2203|-56.7573:Mbuyapey|Paraguari|PY
+-25.0577|-55.9206:Yhu|Caaguazu|PY
+-25.521|-54.6077:Juan E OLeary|Alto Parana|PY
+-25.4562|-57.5047:San Pedro del Ykuamandyju|San Pedro|PY
+-25.7948|-55.0864:Santa Rita|Alto Parana|PY
+-25.4884|-54.8188:Minga Guazu|Alto Parana|PY
+-26.5352|-57.0391:San Miguel|Misiones|PY
+-25.1526|-56.9283:Primero De Marzo|Cordillera|PY
+-27.3585|-55.7626:Cambyreta|Itapua|PY
+-24.6647|-56.4483:San Estanislao|San Pedro|PY
+-25.3838|-55.8315:Dr Juan Manuel Frutos|Caaguazu|PY
+-25.3824|-56.9584:Eusebio Ayala|Cordillera|PY
+-26.1129|-55.9369:San Juan Nepomuceno|Caazapa|PY
+-23.3436|-57.0498:Horqueta|Concepcion|PY
+-25.5637|-57.2887:Yaguaron|Paraguari|PY
+-25.0979|-57.5241:Villa Hayes|Pte Hayes|PY
+-25.9743|-55.1872:Naranjal|Alto Parana|PY
+-24.4717|-55.6959:Curuguaty|Canindeyu|PY
+-23.8275|-56.5227:Santa Rosa del Aguaray|San Pedro|PY
+-25.4396|-56.4441:J Eulogio Estigarribia|Caaguazu|PY
+-25.7155|-56.0016:Paso Yobai|Guaira|PY
+-25.2368|-54.6916:Santa Fe del Parana|Alto Parana|PY
+-26.532|-55.2593:Tomas Romero Pereira|Itapua|PY
+-25.2617|-57.0812:Tobati|Cordillera|PY
+-25.9507|-56.4957:Borja|Guaira|PY
+-23.8855|-56.4831:Lima|San Pedro|PY
+-25.4904|-57.4549:Guarambare|Central|PY
+-24.0333|-54.8333:Corpus Christi|Canindeyu|PY
+-24.9828|-55.149:Itakyry|Alto Parana|PY
+-23.2735|-55.5496:Capitan Bado|Amambay|PY
+-25.5074|-57.3661:Ita|Central|PY
+-26.6543|-54.9327:San Rafael del Parana|Itapua|PY
+-27.1604|-56.2423:Coronel Bogado|Itapua|PY
+-25.8853|-56.8411:La Colmena|Paraguari|PY
+-25.4297|-55.2545:Dr Juan Leon Mallorquin|Alto Parana|PY
+-24.9756|-56.2531:Santa Rosa del Mbutuy|Caaguazu|PY
+-26.7613|-55.1415:Natalio|Itapua|PY
+-26.8331|-56.208:San Pedro del Parana|Itapua|PY
+-24.081|-54.9353:Saltos del Guaira|Canindeyu|PY
+-24.1877|-56.5833:Chore|San Pedro|PY
+-25.56|-57.2811:San Roque Gonzalez|Paraguari|PY
+-25.1639|-57.4672:General Elizardo Aquino - Spn|San Pedro|PY
+-25.6592|-54.7184:Los Cedrales|Alto Parana|PY
+-24.0651|-56.4479:General Resquin|San Pedro|PY
+-25.4043|-57.289:Ypacarai|Central|PY
+-23.2748|-57.3262:Loreto|Concepcion|PY
+-24.9992|-55.8232:Vaqueria|Caaguazu|PY
+-27.3954|-56.8485:Ayolas|Misiones|PY
+-27.3155|-56.3334:San Cosme Y Damian|Itapua|PY
+-26.6742|-55.087:Yatytay|Itapua|PY
+-25.9101|-54.6277:Domingo Martinez De Irala|Alto Parana|PY
+-26.1463|-55.2632:Dr Raul Peña|Alto Parana|PY
+-24.1249|-55.6431:Villa Ygatimi|Canindeyu|PY
 5.2331|-75.786:Anserma|Caldas|CO
 -6.0383|-77.0777:CALZADA|Moyobamba|PE
 6.4864|-75.3943:Donmatias|Antioquia|CO
