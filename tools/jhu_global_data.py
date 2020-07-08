@@ -142,7 +142,7 @@ def fetch_one_day(date):
             if key in row and row[key] != "":
                 data[code][i] += int(row[key].replace(",", ""))
     for code in data:
-        entry = {"cum_conf": data[code][0], "code": code}
+        entry = {"cum_conf": data[code][0], "deaths": data[code][1], "code": code}
         features.append(entry)
 
     features = sorted(features, key=lambda x: x['cum_conf'], reverse=True)
