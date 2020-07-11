@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+"""
+Runs a local server serving the data for development purposes.
+"""
+import os
+
+os.system("python3 -m http.server 8002")
