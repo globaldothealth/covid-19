@@ -213,7 +213,7 @@
 44.2435|115.5438:Xilingol League City|Inner Mongolia|CN
 32.8204|130.4201:Kumamoto City|Kumamoto|JP
 33.8869|35.5131:Beirut|Beirut|LB
-49.5702|-123.0281:Fraser Valley|British Columbia|CA
+49.5581|-121.88:Fraser Valley|British Columbia|CA
 35.1833|136.9:Nagoya City|Aichi Prefecture|JP
 35.1795|140.1962:Katsuura|Chiba Prefecture|JP
 36.7735|136.7721:|Ishikawa|JP
@@ -412,7 +412,7 @@
 39.4231|108.6337:Ordos City|Inner Mongolia|CN
 22.1589|113.5611:|Macau|CN
 41.2167|14.4167:Caserta, Ruviano|Campania|IT
-40.6833|14.7667:Salerno|Campania|IT
+40.4427|15.2297:Salerno|Campania|IT
 42.2298|13.8547:|Abruzzo|IT
 35.9557|106.1836:Guyuan City|Ningxia|CN
 -33.7772|151.1241:Macquarie Park|New South Wales|AU
@@ -1016,7 +1016,6 @@
 19.486|110.3056:Ding'an County|Hainan|CN
 41.4535|107.567:Bayannur City|Inner Mongolia|CN
 13.2006|-61.2007:||VC
-23.1321|-82.3675:Havana||CU
 -21.1335|55.5327:||RE
 35.3124|118.2809:Linyi City|Shandong|CN
 45.0056|-64.6236:Kings County|Nova Scotia|CA
@@ -3922,11 +3921,11 @@
 14.7|121.55:Bantayan|Cebu Province|PH
 5.9726|120.9667:Indanan|Sulu|PH
 11.55|124.8667:Catmon|Cebu Province|PH
-48.2722|15.7514:|Lower Austria|AT
+48.1081|15.805:|Lower Austria|AT
 48.2082|16.3738:|Vienna|AT
 47.8095|13.055:|Salzburg|AT
 47.3593|14.47:|Styria|AT
-40.4196|-3.692:|Madrid|ES
+40.4163|-3.7034:|Madrid|ES
 50.6455|5.5725:Liege|Wallonia|BE
 50.9914|5.4292:Limburg|Flanders|BE
 49.9617|5.5134:Luxembourg|Wallonia|BE
@@ -3939,12 +3938,12 @@
 46.7222|14.1806:|Carinthia|AT
 50.8444|4.3561:Brussels|Brussels|BE
 50.4696|3.9595:Hainaut|Wallonia|BE
-48.1364|13.9646:|Upper Austria|AT
+48.0259|13.9724:|Upper Austria|AT
 47.2497|9.9797:|Vorarlberg|AT
 35.2923|-2.9381:|Melilla|ES
 37.9922|-1.1307:|Murcia|ES
 42.6954|-1.6761:|Navarre|ES
-43.0432|-2.617:|Basque Country|ES
+42.9896|-2.6189:|Basque Country|ES
 47.2537|11.6015:|Tyrol|AT
 61.0917|14.6664:|Dalarna|SE
 61.3012|16.1534:|Gavleborg|SE
@@ -4132,7 +4131,7 @@
 48.202|-2.9326:|Brittany|FR
 42.0396|9.0129:|Corsica|FR
 48.8799|0.1713:|Normandy|FR
-43.9587|6.0608:|Provence-Alpes-Cote d’Azur|FR
+43.9352|6.0679:|Provence-Alpes-Cote d’Azur|FR
 16.265|-61.551:|Guadeloupe|FR
 18.0826|-63.0523:|Saint-Martin|FR
 14.6415|-61.0242:|Martinique|FR
@@ -4167,7 +4166,7 @@
 52.1926|19.3788:||PL
 43.3614|-5.8593:|Asturias|ES
 38.6964|1.4531:|Balearic Islands|ES
-39.581|-3.0045:|Castilla–La Mancha|ES
+39.2796|-3.0977:|Castilla–La Mancha|ES
 41.8357|-4.3976:|Castile and Leon|ES
 59.6714|16.2159:|Vastmanland|SE
 55.6761|12.5683:Copenhagen City|Capital Region|DK
@@ -4689,7 +4688,6 @@
 26.648|-78.3761:|Grand Bahama|BS
 -1.6075|-78.6314:guano|chimborazo|EC
 -0.956|-80.6385:jaramijo|manabi|EC
--1.3661|-80.3881:24 de mayo|manabi|EC
 -0.9237|-80.4508:rocafuerte|manabi|EC
 -2.9103|-77.791:tiwintza|morona santiago|EC
 25.7018|-79.273:|Bimini|BS
@@ -5116,6 +5114,7 @@
 20.3645|-76.6408:Bayamo|Granma|CU
 20.6333|-75.7:Villa El Cocal|Holguin|CU
 20.0258|-75.8081:|Santiago de Cuba|CU
+23.1321|-82.3675:|Havana|CU
 23.1265|-82.3954:Plaza de la Revolucion|Havana|CU
 23.1348|-82.3695:Centro Habana|Havana|CU
 23.0409|-81.201:Cardenas|Matanzas|CU
