@@ -1,6 +1,7 @@
 import os
 import pandas
 
+from tools import calculate_data_freshness_per_country
 from tools import generate_full_data
 from tools import jhu_global_data
 
@@ -79,6 +80,9 @@ def retrieve_generable_data(out_dir, should_overwrite=False, quiet=False):
     out_path = os.path.join(out_dir, "aggregate.json")
     if not os.path.exists(out_path) or should_overwrite:
         success &= jhu_global_data.get_aggregate_data(out_path)
+    out_path = os.path.join(out_dir, "freshness.json")
+    if not os.path.exists(out_path) or should_overwrite:
+        success &= calculate_data_freshness_per_country.get_freshness(out_path)
 
     return success
 
