@@ -69,6 +69,9 @@ def code_for_nonstandard_country_name(name):
         return "FR"
     if "United States" in name and "America" in name:
         return "US"
+    if "Taipei" in name:
+        # Assume they meant Taiwan.
+        return "TW"
     if "Timor" in name:
         return "TL"
     if "Vatican" in name:
@@ -136,7 +139,7 @@ def fetch_one_day(date):
         if not code:
             code = code_for_nonstandard_country_name(country_name)
         if not code:
-            print("I couldn't find country '" + country_name + "', please fix me.")
+            print("Note: I couldn't find country '" + country_name + "'")
             continue
         if not code in data:
             data[code] = [0, 0, 0, 0]
