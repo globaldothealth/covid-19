@@ -51,6 +51,8 @@ def code_for_nonstandard_country_name(name):
         return "CI"
     if "Macau" in name or "Macao" in name:
         return "MO"
+    if "Martin" in name and ("Saint" in name or "St" in name):
+        return "MF"
     if "Moldova" in name:
         return "MD"
     if "Russia" in name:
