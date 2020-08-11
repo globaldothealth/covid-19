@@ -24,7 +24,7 @@ def scrape_total_count(out_path):
 
 
 if __name__ == "__main__":
-    self_dir = os.path.dirname(os.path.realpath(__file__))
-    out_path = os.path.join(self_dir, "latestCounts.json")
-    print("Saving file as " + out_path + "...")
-    scrape_total_count(out_path)
+    SELF_DIR = os.path.dirname(os.path.realpath(__file__))
+    OUT_PATH = os.path.join(SELF_DIR, "globals.json")
+    print("Saving file as " + OUT_PATH + "...")
+    scrape_total_count(OUT_PATH)

@@ -61,8 +61,10 @@ def code_for_nonstandard_country_name(name):
         return "SY"
     if "Taiwan" in name:
         return "TW"
-    if "Korea" in name and "South" in name:
-        return "KR"
+    if "Korea" in name:
+        if "North" in name or "Democratic" in name:
+            return "KP"
+        return "FR"
     if "United States" in name and "America" in name:
         return "US"
     if "Timor" in name:

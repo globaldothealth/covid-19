@@ -74,7 +74,7 @@ def retrieve_generable_data(out_dir, should_overwrite=False, quiet=False):
     from tools import scrape_total_count
 
     success = True
-    out_path = os.path.join(out_dir, "latestCounts.json")
+    out_path = os.path.join(out_dir, "globals.json")
     if not os.path.exists(out_path) or should_overwrite:
         success &= scrape_total_count.scrape_total_count(out_path)
     out_path = os.path.join(out_dir, "aggregate.json")
