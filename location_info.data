@@ -8237,84 +8237,6 @@
 -9.081|-76.063:Pueblo Nuevo|LEONCIO PRADO|PE
 -8.2028|-78.4227:HUASO|JULCAN|PE
 -12.5797|-74.4128:SAN PEDRO DE CORIS|CHURCAMPA|PE
-18.1801|-66.7544:Adjuntas|Puerto Rico|US
-18.3603|-67.1751:Aguada|Puerto Rico|US
-18.4597|-67.1208:Aguadilla|Puerto Rico|US
-18.2516|-66.1268:Aguas Buenas|Puerto Rico|US
-18.1314|-66.2641:Aibonito|Puerto Rico|US
-18.288|-67.1206:Anasco|Puerto Rico|US
-18.4066|-66.6751:Arecibo|Puerto Rico|US
-17.9985|-66.0565:Arroyo|Puerto Rico|US
-18.4455|-66.5605:Barceloneta|Puerto Rico|US
-18.2016|-66.3096:Barranquitas|Puerto Rico|US
-18.3495|-66.1684:Bayamon|Puerto Rico|US
-18.041|-67.1544:Cabo Rojo|Puerto Rico|US
-18.2116|-66.0508:Caguas|Puerto Rico|US
-18.4186|-66.8602:Camuy|Puerto Rico|US
-18.3288|-65.8876:Canovanas|Puerto Rico|US
-18.375|-65.9568:Carolina|Puerto Rico|US
-18.4373|-66.1433:Catano|Puerto Rico|US
-18.1029|-66.1491:Cayey|Puerto Rico|US
-18.2518|-65.6664:Ceiba|Puerto Rico|US
-18.2888|-66.5165:Ciales|Puerto Rico|US
-18.1736|-66.1612:Cidra|Puerto Rico|US
-18.0976|-66.3601:Coamo|Puerto Rico|US
-18.2247|-66.2216:Comerio|Puerto Rico|US
-18.3043|-66.3277:Corozal|Puerto Rico|US
-18.3159|-65.2881:Culebra|Puerto Rico|US
-18.4361|-66.2787:Dorado|Puerto Rico|US
-18.3184|-65.6669:Fajardo|Puerto Rico|US
-18.3737|-66.5605:Florida|Puerto Rico|US
-17.9824|-66.9196:Guanica|Puerto Rico|US
-18.0075|-66.1339:Guayama|Puerto Rico|US
-18.0399|-66.7919:Guayanilla|Puerto Rico|US
-18.3451|-66.1145:Guaynabo|Puerto Rico|US
-18.2665|-65.9797:Gurabo|Puerto Rico|US
-18.4109|-66.7963:Hatillo|Puerto Rico|US
-18.1345|-67.114:Hormigueros|Puerto Rico|US
-18.1452|-65.8102:Humacao|Puerto Rico|US
-18.4498|-67.0051:Isabela|Puerto Rico|US
-18.2114|-66.5888:Jayuya|Puerto Rico|US
-18.0508|-66.4946:Juana Diaz|Puerto Rico|US
-18.2238|-65.9091:Juncos|Puerto Rico|US
-18.0117|-67.0406:Lajas|Puerto Rico|US
-18.269|-66.8672:Lares|Puerto Rico|US
-18.2368|-66.9836:Las Marias|Puerto Rico|US
-18.1875|-65.8695:Las Piedras|Puerto Rico|US
-18.4257|-65.8994:Loiza|Puerto Rico|US
-18.3421|-65.7251:Luquillo|Puerto Rico|US
-18.4205|-66.4905:Manati|Puerto Rico|US
-18.1718|-66.9421:Maricao|Puerto Rico|US
-18.0179|-65.9222:Maunabo|Puerto Rico|US
-18.1755|-67.3365:Mayaguez|Puerto Rico|US
-18.3778|-67.081:Moca|Puerto Rico|US
-18.317|-66.4204:Morovis|Puerto Rico|US
-18.2306|-65.7539:Naguabo|Puerto Rico|US
-18.288|-66.2527:Naranjito|Puerto Rico|US
-18.215|-66.4336:Orocovis|Puerto Rico|US
-18.0317|-66.0122:Patillas|Puerto Rico|US
-18.0596|-66.7216:Penuelas|Puerto Rico|US
-18.0595|-66.6137:Ponce|Puerto Rico|US
-18.4397|-66.9261:Quebradillas|Puerto Rico|US
-18.3354|-67.2317:Rincon|Puerto Rico|US
-18.3463|-65.8137:Rio Grande|Puerto Rico|US
-18.0828|-66.9438:Sabana Grande|Puerto Rico|US
-18.0104|-66.2566:Salinas|Puerto Rico|US
-18.1115|-67.0386:San German|Puerto Rico|US
-18.3869|-66.0611:San Juan|Puerto Rico|US
-18.148|-65.9764:San Lorenzo|Puerto Rico|US
-18.3286|-66.9712:San Sebastian|Puerto Rico|US
-17.9945|-66.3889:Santa Isabel|Puerto Rico|US
-18.3624|-66.2466:Toa Alta|Puerto Rico|US
-18.4314|-66.2136:Toa Baja|Puerto Rico|US
-18.3362|-65.9989:Trujillo Alto|Puerto Rico|US
-18.2712|-66.703:Utuado|Puerto Rico|US
-18.4093|-66.3372:Vega Alta|Puerto Rico|US
-18.4283|-66.3979:Vega Baja|Puerto Rico|US
-18.1233|-65.441:Vieques|Puerto Rico|US
-18.128|-66.4731:Villalba|Puerto Rico|US
-18.0704|-65.8963:Yabucoa|Puerto Rico|US
-18.0804|-66.8588:Yauco|Puerto Rico|US
 32.5395|-86.6441:Autauga|Alabama|US
 30.7277|-87.7221:Baldwin|Alabama|US
 31.8683|-85.3871:Barbour|Alabama|US
@@ -8372,8 +8294,8 @@
 31.804|-85.9408:Pike|Alabama|US
 33.2953|-85.4571:Randolph|Alabama|US
 32.2873|-85.1842:Russell|Alabama|US
-33.719|-86.3103:St. Clair|Alabama|US
 33.2688|-86.6623:Shelby|Alabama|US
+33.719|-86.3103:St. Clair|Alabama|US
 32.5912|-88.1992:Sumter|Alabama|US
 33.3782|-86.1689:Talladega|Alabama|US
 32.867|-85.7983:Tallapoosa|Alabama|US
@@ -8487,13 +8409,13 @@
 34.8362|-91.5516:Prairie|Arkansas|US
 34.7705|-92.3136:Pulaski|Arkansas|US
 36.3416|-91.0246:Randolph|Arkansas|US
-35.022|-90.7483:St. Francis|Arkansas|US
 34.6492|-92.6758:Saline|Arkansas|US
 34.8559|-94.0632:Scott|Arkansas|US
 35.9109|-92.6994:Searcy|Arkansas|US
 35.1961|-94.2716:Sebastian|Arkansas|US
 33.9978|-94.2425:Sevier|Arkansas|US
 36.1626|-91.4782:Sharp|Arkansas|US
+35.022|-90.7483:St. Francis|Arkansas|US
 35.8625|-92.1568:Stone|Arkansas|US
 33.1689|-92.5975:Union|Arkansas|US
 35.581|-92.513:Van Buren|Arkansas|US
@@ -8579,8 +8501,8 @@
 37.7521|-108.5212:Dolores|Colorado|US
 39.3313|-104.93:Douglas|Colorado|US
 39.6275|-106.6934:Eagle|Colorado|US
-39.2866|-104.1359:Elbert|Colorado|US
 38.8324|-104.5251:El Paso|Colorado|US
+39.2866|-104.1359:Elbert|Colorado|US
 38.4736|-105.44:Fremont|Colorado|US
 39.5992|-107.9027:Garfield|Colorado|US
 39.8565|-105.5253:Gilpin|Colorado|US
@@ -8592,8 +8514,8 @@
 39.5864|-105.2518:Jefferson|Colorado|US
 38.4326|-102.7392:Kiowa|Colorado|US
 39.305|-102.6022:Kit Carson|Colorado|US
-39.2028|-106.3556:Lake|Colorado|US
 37.2863|-107.8429:La Plata|Colorado|US
+39.2028|-106.3556:Lake|Colorado|US
 40.6667|-105.4626:Larimer|Colorado|US
 37.3153|-104.0376:Las Animas|Colorado|US
 38.9875|-103.5137:Lincoln|Colorado|US
@@ -8689,11 +8611,11 @@
 27.9313|-82.7224:Pinellas|Florida|US
 27.9503|-81.6973:Polk|Florida|US
 29.6078|-81.7423:Putnam|Florida|US
-29.901|-81.4359:St. Johns|Florida|US
-27.3776|-80.4711:St. Lucie|Florida|US
 30.6934|-87.0246:Santa Rosa|Florida|US
 27.1855|-82.3317:Sarasota|Florida|US
 28.7159|-81.2406:Seminole|Florida|US
+29.901|-81.4359:St. Johns|Florida|US
+27.3776|-80.4711:St. Lucie|Florida|US
 28.7018|-82.0794:Sumter|Florida|US
 30.1975|-82.991:Suwannee|Florida|US
 30.0485|-83.6045:Taylor|Florida|US
@@ -8744,8 +8666,8 @@
 31.9229|-83.7681:Crisp|Georgia|US
 34.8549|-85.5049:Dade|Georgia|US
 34.4424|-84.1696:Dawson|Georgia|US
-30.8797|-84.5762:Decatur|Georgia|US
 33.7694|-84.224:DeKalb|Georgia|US
+30.8797|-84.5762:Decatur|Georgia|US
 32.1727|-83.1695:Dodge|Georgia|US
 32.1563|-83.7975:Dooly|Georgia|US
 31.5333|-84.2172:Dougherty|Georgia|US
@@ -8795,11 +8717,11 @@
 31.7522|-81.7495:Long|Georgia|US
 30.8357|-83.2706:Lowndes|Georgia|US
 34.5729|-84.0043:Lumpkin|Georgia|US
-33.4785|-82.4825:McDuffie|Georgia|US
-31.4968|-81.4016:McIntosh|Georgia|US
 32.3521|-84.0423:Macon|Georgia|US
 34.1292|-83.2122:Madison|Georgia|US
 32.3483|-84.5273:Marion|Georgia|US
+33.4785|-82.4825:McDuffie|Georgia|US
+31.4968|-81.4016:McIntosh|Georgia|US
 33.0416|-84.6886:Meriwether|Georgia|US
 31.1657|-84.7315:Miller|Georgia|US
 31.2248|-84.1938:Mitchell|Georgia|US
@@ -8928,8 +8850,8 @@
 41.8414|-87.8166:Cook|Illinois|US
 39.0032|-87.7595:Crawford|Illinois|US
 39.2743|-88.2401:Cumberland|Illinois|US
-41.8937|-88.7696:DeKalb|Illinois|US
 40.1751|-88.9096:De Witt|Illinois|US
+41.8937|-88.7696:DeKalb|Illinois|US
 39.7677|-88.2185:Douglas|Illinois|US
 41.8512|-88.0864:DuPage|Illinois|US
 39.6809|-87.7476:Edgar|Illinois|US
@@ -8958,15 +8880,12 @@
 41.1375|-87.8621:Kankakee|Illinois|US
 41.5908|-88.4287:Kendall|Illinois|US
 40.9315|-90.2133:Knox|Illinois|US
-42.3225|-88.0037:Lake|Illinois|US
 41.3443|-88.8863:LaSalle|Illinois|US
+42.3225|-88.0037:Lake|Illinois|US
 38.7199|-87.7288:Lawrence|Illinois|US
 41.7458|-89.2998:Lee|Illinois|US
 40.8919|-88.5578:Livingston|Illinois|US
 40.1258|-89.3664:Logan|Illinois|US
-40.4567|-90.6778:McDonough|Illinois|US
-42.3245|-88.4525:McHenry|Illinois|US
-40.49|-88.8462:McLean|Illinois|US
 39.8606|-88.9634:Macon|Illinois|US
 39.2612|-89.9242:Macoupin|Illinois|US
 38.8304|-89.9042:Madison|Illinois|US
@@ -8974,6 +8893,9 @@
 41.0328|-89.3451:Marshall|Illinois|US
 40.2392|-89.9182:Mason|Illinois|US
 37.2208|-88.7104:Massac|Illinois|US
+40.4567|-90.6778:McDonough|Illinois|US
+42.3245|-88.4525:McHenry|Illinois|US
+40.49|-88.8462:McLean|Illinois|US
 40.0274|-89.8025:Menard|Illinois|US
 41.206|-90.7429:Mercer|Illinois|US
 38.2759|-90.1776:Monroe|Illinois|US
@@ -8991,12 +8913,12 @@
 38.051|-89.8251:Randolph|Illinois|US
 38.7124|-88.0848:Richland|Illinois|US
 41.4661|-90.5704:Rock Island|Illinois|US
-38.47|-89.9306:St. Clair|Illinois|US
 37.7533|-88.5412:Saline|Illinois|US
 39.7584|-89.6587:Sangamon|Illinois|US
 40.1572|-90.6111:Schuyler|Illinois|US
 39.6429|-90.4781:Scott|Illinois|US
 39.3913|-88.8061:Shelby|Illinois|US
+38.47|-89.9306:St. Clair|Illinois|US
 41.0931|-89.7975:Stark|Illinois|US
 42.3513|-89.6626:Stephenson|Illinois|US
 40.5072|-89.514:Tazewell|Illinois|US
@@ -9026,9 +8948,9 @@
 40.3032|-86.4728:Clinton|Indiana|US
 38.2881|-86.4452:Crawford|Indiana|US
 38.7019|-87.0719:Daviess|Indiana|US
+41.398|-84.9991:DeKalb|Indiana|US
 39.1465|-84.9733:Dearborn|Indiana|US
 39.3071|-85.5009:Decatur|Indiana|US
-41.398|-84.9991:DeKalb|Indiana|US
 40.2279|-85.3973:Delaware|Indiana|US
 38.366|-86.8792:Dubois|Indiana|US
 41.5976|-85.8588:Elkhart|Indiana|US
@@ -9056,8 +8978,8 @@
 38.6886|-87.4195:Knox|Indiana|US
 41.2452|-85.8631:Kosciusko|Indiana|US
 41.6423|-85.4267:LaGrange|Indiana|US
-41.4187|-87.3828:Lake|Indiana|US
 41.5437|-86.7407:LaPorte|Indiana|US
+41.4187|-87.3828:Lake|Indiana|US
 38.8411|-86.4836:Lawrence|Indiana|US
 40.1614|-85.7196:Madison|Indiana|US
 39.7816|-86.1383:Marion|Indiana|US
@@ -9082,10 +9004,10 @@
 40.1573|-85.0114:Randolph|Indiana|US
 39.1024|-85.2621:Ripley|Indiana|US
 39.62|-85.4656:Rush|Indiana|US
-41.6176|-86.2904:St. Joseph|Indiana|US
 38.6867|-85.7463:Scott|Indiana|US
 39.5231|-85.7916:Shelby|Indiana|US
 38.0152|-87.008:Spencer|Indiana|US
+41.6176|-86.2904:St. Joseph|Indiana|US
 41.2789|-86.6469:Starke|Indiana|US
 41.6442|-85.001:Steuben|Indiana|US
 39.0895|-87.4141:Sullivan|Indiana|US
@@ -9259,9 +9181,9 @@
 38.2127|-94.8425:Linn|Kansas|US
 38.9174|-101.1485:Logan|Kansas|US
 38.4558|-96.1528:Lyon|Kansas|US
-38.3918|-97.6477:McPherson|Kansas|US
 38.3586|-97.0985:Marion|Kansas|US
 39.7836|-96.5228:Marshall|Kansas|US
+38.3918|-97.6477:McPherson|Kansas|US
 37.2386|-100.3648:Meade|Kansas|US
 38.5638|-94.8383:Miami|Kansas|US
 39.3933|-98.2091:Mitchell|Kansas|US
@@ -9380,15 +9302,15 @@
 37.2114|-88.348:Livingston|Kentucky|US
 36.8595|-86.8776:Logan|Kentucky|US
 37.0208|-88.0789:Lyon|Kentucky|US
-37.0535|-88.7045:McCracken|Kentucky|US
-36.7387|-84.481:McCreary|Kentucky|US
-37.5302|-87.268:McLean|Kentucky|US
 37.7166|-84.2722:Madison|Kentucky|US
 37.7082|-83.0658:Magoffin|Kentucky|US
 37.5522|-85.269:Marion|Kentucky|US
 36.8801|-88.328:Marshall|Kentucky|US
 37.7999|-82.5125:Martin|Kentucky|US
 38.5947|-83.8215:Mason|Kentucky|US
+37.0535|-88.7045:McCracken|Kentucky|US
+36.7387|-84.481:McCreary|Kentucky|US
+37.5302|-87.268:McLean|Kentucky|US
 37.9616|-86.2103:Meade|Kentucky|US
 37.9409|-83.5999:Menifee|Kentucky|US
 37.8147|-84.8749:Mercer|Kentucky|US
@@ -9455,9 +9377,9 @@
 32.3025|-92.5569:Jackson|Louisiana|US
 29.7408|-90.1112:Jefferson|Louisiana|US
 30.269|-92.8121:Jefferson Davis|Louisiana|US
+31.6788|-92.1591:LaSalle|Louisiana|US
 30.2049|-92.0696:Lafayette|Louisiana|US
 29.5247|-90.4098:Lafourche|Louisiana|US
-31.6788|-92.1591:LaSalle|Louisiana|US
 32.6003|-92.666:Lincoln|Louisiana|US
 30.4414|-90.7306:Livingston|Louisiana|US
 32.3692|-91.2397:Madison|Louisiana|US
@@ -9511,6 +9433,7 @@
 39.6236|-78.6928:Allegany|Maryland|US
 39.0067|-76.6033:Anne Arundel|Maryland|US
 39.4578|-76.6291:Baltimore|Maryland|US
+39.3021|-76.6115:Baltimore City|Maryland|US
 38.5396|-76.5682:Calvert|Maryland|US
 38.8717|-75.829:Caroline|Maryland|US
 39.5645|-77.0237:Carroll|Maryland|US
@@ -9525,13 +9448,12 @@
 39.1368|-77.2036:Montgomery|Maryland|US
 38.8307|-76.8496:Prince George's|Maryland|US
 39.062|-76.0353:Queen Anne's|Maryland|US
-38.3006|-76.6063:St. Mary's|Maryland|US
 38.1164|-75.7512:Somerset|Maryland|US
+38.3006|-76.6063:St. Mary's|Maryland|US
 38.7662|-76.1088:Talbot|Maryland|US
 39.6084|-77.82:Washington|Maryland|US
 38.373|-75.6271:Wicomico|Maryland|US
 38.2127|-75.332:Worcester|Maryland|US
-39.3021|-76.6115:Baltimore City|Maryland|US
 41.7298|-70.2885:Barnstable|Massachusetts|US
 42.3743|-73.2052:Berkshire|Massachusetts|US
 41.7923|-71.1087:Bristol|Massachusetts|US
@@ -9619,11 +9541,11 @@
 45.3402|-83.915:Presque Isle|Michigan|US
 44.3347|-84.6107:Roscommon|Michigan|US
 43.3343|-84.0513:Saginaw|Michigan|US
-42.9266|-82.6794:St. Clair|Michigan|US
-41.9144|-85.528:St. Joseph|Michigan|US
 43.4241|-82.8206:Sanilac|Michigan|US
 46.1924|-86.1997:Schoolcraft|Michigan|US
 42.9539|-84.1459:Shiawassee|Michigan|US
+42.9266|-82.6794:St. Clair|Michigan|US
+41.9144|-85.528:St. Joseph|Michigan|US
 43.4661|-83.419:Tuscola|Michigan|US
 42.2519|-86.0194:Van Buren|Michigan|US
 42.2531|-83.8385:Washtenaw|Michigan|US
@@ -9671,10 +9593,10 @@
 44.3714|-93.7284:Le Sueur|Minnesota|US
 44.4131|-96.2669:Lincoln|Minnesota|US
 44.4133|-95.8381:Lyon|Minnesota|US
-44.8237|-94.2729:McLeod|Minnesota|US
 47.3256|-95.8092:Mahnomen|Minnesota|US
 48.3583|-96.3702:Marshall|Minnesota|US
 43.6743|-94.551:Martin|Minnesota|US
+44.8237|-94.2729:McLeod|Minnesota|US
 45.1233|-94.5284:Meeker|Minnesota|US
 45.9371|-93.6324:Mille Lacs|Minnesota|US
 46.0127|-94.2734:Morrison|Minnesota|US
@@ -9697,10 +9619,10 @@
 44.3543|-93.2966:Rice|Minnesota|US
 43.6748|-96.253:Rock|Minnesota|US
 48.775|-95.8108:Roseau|Minnesota|US
-47.6048|-92.4688:St. Louis|Minnesota|US
 44.649|-93.5334:Scott|Minnesota|US
 45.4445|-93.7762:Sherburne|Minnesota|US
 44.5797|-94.2316:Sibley|Minnesota|US
+47.6048|-92.4688:St. Louis|Minnesota|US
 45.5519|-94.6108:Stearns|Minnesota|US
 44.0224|-93.2263:Steele|Minnesota|US
 45.5861|-96.0016:Stevens|Minnesota|US
@@ -9857,11 +9779,11 @@
 39.0535|-90.9559:Lincoln|Missouri|US
 39.87|-93.107:Linn|Missouri|US
 39.7811|-93.5465:Livingston|Missouri|US
-36.6287|-94.3487:McDonald|Missouri|US
 39.8305|-92.5645:Macon|Missouri|US
 37.4787|-90.3467:Madison|Missouri|US
 38.1619|-91.9225:Maries|Missouri|US
 39.806|-91.622:Marion|Missouri|US
+36.6287|-94.3487:McDonald|Missouri|US
 40.4221|-93.5683:Mercer|Missouri|US
 38.2145|-92.4261:Miller|Missouri|US
 36.8252|-89.2951:Mississippi|Missouri|US
@@ -9889,17 +9811,18 @@
 39.3537|-93.9891:Ray|Missouri|US
 37.3609|-90.9701:Reynolds|Missouri|US
 36.6546|-90.8599:Ripley|Missouri|US
-38.7788|-90.6666:St. Charles|Missouri|US
-38.037|-93.7763:St. Clair|Missouri|US
-37.8909|-90.195:Ste. Genevieve|Missouri|US
-37.8121|-90.476:St. Francois|Missouri|US
-38.6377|-90.4458:St. Louis|Missouri|US
 39.1373|-93.2026:Saline|Missouri|US
 40.4692|-92.5231:Schuyler|Missouri|US
 40.4521|-92.1471:Scotland|Missouri|US
 37.0559|-89.5647:Scott|Missouri|US
 37.1577|-91.4019:Shannon|Missouri|US
 39.7974|-92.0763:Shelby|Missouri|US
+38.7788|-90.6666:St. Charles|Missouri|US
+38.037|-93.7763:St. Clair|Missouri|US
+37.8121|-90.476:St. Francois|Missouri|US
+38.6377|-90.4458:St. Louis|Missouri|US
+38.6356|-90.2435:St. Louis City|Missouri|US
+37.8909|-90.195:Ste. Genevieve|Missouri|US
 36.8557|-89.9444:Stoddard|Missouri|US
 36.75|-93.4526:Stone|Missouri|US
 40.2099|-93.1115:Sullivan|Missouri|US
@@ -9912,7 +9835,6 @@
 37.2814|-92.8763:Webster|Missouri|US
 40.4795|-94.4233:Worth|Missouri|US
 37.2703|-92.4691:Wright|Missouri|US
-38.6356|-90.2435:St. Louis City|Missouri|US
 45.1343|-112.8985:Beaverhead|Montana|US
 45.4234|-107.4923:Big Horn|Montana|US
 48.4318|-108.9583:Blaine|Montana|US
@@ -9940,8 +9862,8 @@
 47.1261|-112.3947:Lewis and Clark|Montana|US
 48.5608|-111.0243:Liberty|Montana|US
 48.5427|-115.4046:Lincoln|Montana|US
-47.6447|-105.7945:McCone|Montana|US
 45.3008|-111.9173:Madison|Montana|US
+47.6447|-105.7945:McCone|Montana|US
 46.5991|-110.8899:Meagher|Montana|US
 47.1528|-115.0015:Mineral|Montana|US
 47.0373|-113.9214:Missoula|Montana|US
@@ -10027,8 +9949,8 @@
 41.0466|-100.7475:Lincoln|Nebraska|US
 41.5665|-100.4818:Logan|Nebraska|US
 41.9137|-99.4544:Loup|Nebraska|US
-41.568|-101.0599:McPherson|Nebraska|US
 41.9168|-97.6005:Madison|Nebraska|US
+41.568|-101.0599:McPherson|Nebraska|US
 41.1662|-98.0375:Merrick|Nebraska|US
 41.7171|-103.0061:Morrill|Nebraska|US
 41.3975|-97.9933:Nance|Nebraska|US
@@ -10062,6 +9984,7 @@
 40.1764|-98.5002:Webster|Nebraska|US
 41.9148|-98.528:Wheeler|Nebraska|US
 40.8727|-97.5971:York|Nebraska|US
+39.1551|-119.748:Carson City|Nevada|US
 39.5811|-118.3395:Churchill|Nevada|US
 36.2146|-115.013:Clark|Nevada|US
 38.9129|-119.6171:Douglas|Nevada|US
@@ -10078,7 +10001,6 @@
 39.4488|-119.525:Storey|Nevada|US
 40.6656|-119.6632:Washoe|Nevada|US
 39.4416|-114.9:White Pine|Nevada|US
-39.1551|-119.748:Carson City|Nevada|US
 43.5164|-71.4168:Belknap|New Hampshire|US
 43.875|-71.2043:Carroll|New Hampshire|US
 42.9202|-72.2531:Cheshire|New Hampshire|US
@@ -10133,9 +10055,9 @@
 35.104|-103.5482:Quay|New Mexico|US
 36.5107|-106.6932:Rio Arriba|New Mexico|US
 34.021|-103.4799:Roosevelt|New Mexico|US
-35.6886|-106.8688:Sandoval|New Mexico|US
 36.5084|-108.3204:San Juan|New Mexico|US
 35.4801|-104.8164:San Miguel|New Mexico|US
+35.6886|-106.8688:Sandoval|New Mexico|US
 35.5071|-105.9775:Santa Fe|New Mexico|US
 33.1303|-107.1926:Sierra|New Mexico|US
 34.0072|-106.9298:Socorro|New Mexico|US
@@ -10187,12 +10109,12 @@
 42.7135|-73.5109:Rensselaer|New York|US
 40.5858|-74.1481:Richmond|New York|US
 41.1503|-74.0256:Rockland|New York|US
-44.4976|-75.0655:St. Lawrence|New York|US
 43.109|-73.8665:Saratoga|New York|US
 42.8167|-74.0528:Schenectady|New York|US
 42.5883|-74.4434:Schoharie|New York|US
 42.3918|-76.8773:Schuyler|New York|US
 42.7808|-76.825:Seneca|New York|US
+44.4976|-75.0655:St. Lawrence|New York|US
 42.2689|-77.383:Steuben|New York|US
 40.8832|-72.8012:Suffolk|New York|US
 41.7158|-74.7639:Sullivan|New York|US
@@ -10260,10 +10182,10 @@
 35.4762|-79.1757:Lee|North Carolina|US
 35.2403|-77.6425:Lenoir|North Carolina|US
 35.4851|-81.2174:Lincoln|North Carolina|US
-35.6774|-82.0482:McDowell|North Carolina|US
 35.1487|-83.417:Macon|North Carolina|US
 35.854|-82.7135:Madison|North Carolina|US
 35.8433|-77.1086:Martin|North Carolina|US
+35.6774|-82.0482:McDowell|North Carolina|US
 35.2447|-80.8318:Mecklenburg|North Carolina|US
 36.0106|-82.1582:Mitchell|North Carolina|US
 35.3316|-79.9042:Montgomery|North Carolina|US
@@ -10489,12 +10411,12 @@
 35.7027|-96.8812:Lincoln|Oklahoma|US
 35.919|-97.4435:Logan|Oklahoma|US
 33.9527|-97.2391:Love|Oklahoma|US
-35.0112|-97.4457:McClain|Oklahoma|US
-34.1166|-94.7722:McCurtain|Oklahoma|US
-35.3724|-95.666:McIntosh|Oklahoma|US
 36.3115|-98.5347:Major|Oklahoma|US
 34.0231|-96.7686:Marshall|Oklahoma|US
 36.3018|-95.2318:Mayes|Oklahoma|US
+35.0112|-97.4457:McClain|Oklahoma|US
+34.1166|-94.7722:McCurtain|Oklahoma|US
+35.3724|-95.666:McIntosh|Oklahoma|US
 34.4812|-97.0683:Murray|Oklahoma|US
 35.6132|-95.378:Muskogee|Oklahoma|US
 36.3895|-97.2293:Noble|Oklahoma|US
@@ -10626,6 +10548,84 @@
 40.3138|-79.4662:Westmoreland|Pennsylvania|US
 41.5196|-76.0107:Wyoming|Pennsylvania|US
 39.921|-76.7304:York|Pennsylvania|US
+18.1801|-66.7544:Adjuntas|Puerto Rico|US
+18.3603|-67.1751:Aguada|Puerto Rico|US
+18.4597|-67.1208:Aguadilla|Puerto Rico|US
+18.2516|-66.1268:Aguas Buenas|Puerto Rico|US
+18.1314|-66.2641:Aibonito|Puerto Rico|US
+18.288|-67.1206:Anasco|Puerto Rico|US
+18.4066|-66.6751:Arecibo|Puerto Rico|US
+17.9985|-66.0565:Arroyo|Puerto Rico|US
+18.4455|-66.5605:Barceloneta|Puerto Rico|US
+18.2016|-66.3096:Barranquitas|Puerto Rico|US
+18.3495|-66.1684:Bayamon|Puerto Rico|US
+18.041|-67.1544:Cabo Rojo|Puerto Rico|US
+18.2116|-66.0508:Caguas|Puerto Rico|US
+18.4186|-66.8602:Camuy|Puerto Rico|US
+18.3288|-65.8876:Canovanas|Puerto Rico|US
+18.375|-65.9568:Carolina|Puerto Rico|US
+18.4373|-66.1433:Catano|Puerto Rico|US
+18.1029|-66.1491:Cayey|Puerto Rico|US
+18.2518|-65.6664:Ceiba|Puerto Rico|US
+18.2888|-66.5165:Ciales|Puerto Rico|US
+18.1736|-66.1612:Cidra|Puerto Rico|US
+18.0976|-66.3601:Coamo|Puerto Rico|US
+18.2247|-66.2216:Comerio|Puerto Rico|US
+18.3043|-66.3277:Corozal|Puerto Rico|US
+18.3159|-65.2881:Culebra|Puerto Rico|US
+18.4361|-66.2787:Dorado|Puerto Rico|US
+18.3184|-65.6669:Fajardo|Puerto Rico|US
+18.3737|-66.5605:Florida|Puerto Rico|US
+17.9824|-66.9196:Guanica|Puerto Rico|US
+18.0075|-66.1339:Guayama|Puerto Rico|US
+18.0399|-66.7919:Guayanilla|Puerto Rico|US
+18.3451|-66.1145:Guaynabo|Puerto Rico|US
+18.2665|-65.9797:Gurabo|Puerto Rico|US
+18.4109|-66.7963:Hatillo|Puerto Rico|US
+18.1345|-67.114:Hormigueros|Puerto Rico|US
+18.1452|-65.8102:Humacao|Puerto Rico|US
+18.4498|-67.0051:Isabela|Puerto Rico|US
+18.2114|-66.5888:Jayuya|Puerto Rico|US
+18.0508|-66.4946:Juana Diaz|Puerto Rico|US
+18.2238|-65.9091:Juncos|Puerto Rico|US
+18.0117|-67.0406:Lajas|Puerto Rico|US
+18.269|-66.8672:Lares|Puerto Rico|US
+18.2368|-66.9836:Las Marias|Puerto Rico|US
+18.1875|-65.8695:Las Piedras|Puerto Rico|US
+18.4257|-65.8994:Loiza|Puerto Rico|US
+18.3421|-65.7251:Luquillo|Puerto Rico|US
+18.4205|-66.4905:Manati|Puerto Rico|US
+18.1718|-66.9421:Maricao|Puerto Rico|US
+18.0179|-65.9222:Maunabo|Puerto Rico|US
+18.1755|-67.3365:Mayaguez|Puerto Rico|US
+18.3778|-67.081:Moca|Puerto Rico|US
+18.317|-66.4204:Morovis|Puerto Rico|US
+18.2306|-65.7539:Naguabo|Puerto Rico|US
+18.288|-66.2527:Naranjito|Puerto Rico|US
+18.215|-66.4336:Orocovis|Puerto Rico|US
+18.0317|-66.0122:Patillas|Puerto Rico|US
+18.0596|-66.7216:Penuelas|Puerto Rico|US
+18.0595|-66.6137:Ponce|Puerto Rico|US
+18.4397|-66.9261:Quebradillas|Puerto Rico|US
+18.3354|-67.2317:Rincon|Puerto Rico|US
+18.3463|-65.8137:Rio Grande|Puerto Rico|US
+18.0828|-66.9438:Sabana Grande|Puerto Rico|US
+18.0104|-66.2566:Salinas|Puerto Rico|US
+18.1115|-67.0386:San German|Puerto Rico|US
+18.3869|-66.0611:San Juan|Puerto Rico|US
+18.148|-65.9764:San Lorenzo|Puerto Rico|US
+18.3286|-66.9712:San Sebastian|Puerto Rico|US
+17.9945|-66.3889:Santa Isabel|Puerto Rico|US
+18.3624|-66.2466:Toa Alta|Puerto Rico|US
+18.4314|-66.2136:Toa Baja|Puerto Rico|US
+18.3362|-65.9989:Trujillo Alto|Puerto Rico|US
+18.2712|-66.703:Utuado|Puerto Rico|US
+18.4093|-66.3372:Vega Alta|Puerto Rico|US
+18.4283|-66.3979:Vega Baja|Puerto Rico|US
+18.1233|-65.441:Vieques|Puerto Rico|US
+18.128|-66.4731:Villalba|Puerto Rico|US
+18.0704|-65.8963:Yabucoa|Puerto Rico|US
+18.0804|-66.8588:Yauco|Puerto Rico|US
 41.7102|-71.2865:Bristol|Rhode Island|US
 41.6711|-71.5764:Kent|Rhode Island|US
 41.5642|-71.2657:Newport|Rhode Island|US
@@ -10663,9 +10663,9 @@
 34.4824|-82.0049:Laurens|South Carolina|US
 34.1639|-80.2569:Lee|South Carolina|US
 33.8967|-81.2715:Lexington|South Carolina|US
-33.9016|-82.3079:McCormick|South Carolina|US
 34.0786|-79.364:Marion|South Carolina|US
 34.5991|-79.6756:Marlboro|South Carolina|US
+33.9016|-82.3079:McCormick|South Carolina|US
 34.2863|-81.5994:Newberry|South Carolina|US
 34.7523|-83.0674:Oconee|South Carolina|US
 33.4391|-80.7989:Orangeburg|South Carolina|US
@@ -10719,9 +10719,9 @@
 44.3592|-103.7929:Lawrence|South Dakota|US
 43.2784|-96.7204:Lincoln|South Dakota|US
 43.8952|-99.852:Lyman|South Dakota|US
+45.7587|-97.5986:Marshall|South Dakota|US
 43.6743|-97.3686:McCook|South Dakota|US
 45.7663|-99.2212:McPherson|South Dakota|US
-45.7587|-97.5986:Marshall|South Dakota|US
 44.5668|-102.7163:Meade|South Dakota|US
 43.5808|-100.7563:Mellette|South Dakota|US
 44.022|-97.6099:Miner|South Dakota|US
@@ -10762,8 +10762,8 @@
 35.8183|-89.1492:Crockett|Tennessee|US
 35.9527|-84.9984:Cumberland|Tennessee|US
 36.1701|-86.7865:Davidson|Tennessee|US
-35.6005|-88.1104:Decatur|Tennessee|US
 35.9762|-85.8369:DeKalb|Tennessee|US
+35.6005|-88.1104:Decatur|Tennessee|US
 36.1467|-87.3589:Dickson|Tennessee|US
 36.0593|-89.4154:Dyer|Tennessee|US
 35.1962|-89.414:Fayette|Tennessee|US
@@ -10796,13 +10796,13 @@
 35.5285|-87.4902:Lewis|Tennessee|US
 35.1374|-86.5891:Lincoln|Tennessee|US
 35.7394|-84.3115:Loudon|Tennessee|US
-35.4281|-84.6152:McMinn|Tennessee|US
-35.1747|-88.5648:McNairy|Tennessee|US
 36.5316|-86.0078:Macon|Tennessee|US
 35.6118|-88.8408:Madison|Tennessee|US
 35.13|-85.6227:Marion|Tennessee|US
 35.458|-86.7642:Marshall|Tennessee|US
 35.6187|-87.0746:Maury|Tennessee|US
+35.4281|-84.6152:McMinn|Tennessee|US
+35.1747|-88.5648:McNairy|Tennessee|US
 35.5156|-84.8148:Meigs|Tennessee|US
 35.4455|-84.249:Monroe|Tennessee|US
 36.4961|-87.3855:Montgomery|Tennessee|US
@@ -10896,10 +10896,10 @@
 36.2779|-102.6021:Dallam|Texas|US
 32.7667|-96.778:Dallas|Texas|US
 32.7426|-101.9477:Dawson|Texas|US
+29.081|-97.3568:DeWitt|Texas|US
 34.9652|-102.6054:Deaf Smith|Texas|US
 33.3857|-95.6692:Delta|Texas|US
 33.2052|-97.1169:Denton|Texas|US
-29.081|-97.3568:DeWitt|Texas|US
 33.6162|-100.7789:Dickens|Texas|US
 28.4227|-99.7565:Dimmit|Texas|US
 34.9652|-100.814:Donley|Texas|US
@@ -10907,8 +10907,8 @@
 32.3274|-98.8324:Eastland|Texas|US
 31.869|-102.5429:Ector|Texas|US
 29.982|-100.3043:Edwards|Texas|US
-32.3489|-96.7937:Ellis|Texas|US
 31.7698|-106.2363:El Paso|Texas|US
+32.3489|-96.7937:Ellis|Texas|US
 32.236|-98.2177:Erath|Texas|US
 31.2535|-96.9363:Falls|Texas|US
 33.5956|-96.1075:Fannin|Texas|US
@@ -10976,10 +10976,10 @@
 29.3497|-100.4187:Kinney|Texas|US
 27.4244|-97.6989:Kleberg|Texas|US
 33.6052|-99.7423:Knox|Texas|US
+28.3445|-99.0991:La Salle|Texas|US
 33.6698|-95.574:Lamar|Texas|US
 34.0686|-102.3516:Lamb|Texas|US
 31.1953|-98.2421:Lampasas|Texas|US
-28.3445|-99.0991:La Salle|Texas|US
 29.3851|-96.9319:Lavaca|Texas|US
 30.3112|-96.9705:Lee|Texas|US
 31.2987|-95.9936:Leon|Texas|US
@@ -10991,15 +10991,15 @@
 31.8495|-103.5819:Loving|Texas|US
 33.6101|-101.8205:Lubbock|Texas|US
 33.1766|-101.8163:Lynn|Texas|US
-31.1925|-99.3468:McCulloch|Texas|US
-31.5526|-97.2022:McLennan|Texas|US
-28.3525|-98.5677:McMullen|Texas|US
 30.9669|-95.93:Madison|Texas|US
 32.7987|-94.3566:Marion|Texas|US
 32.306|-101.9514:Martin|Texas|US
 30.7178|-99.2263:Mason|Texas|US
 28.8196|-96.0123:Matagorda|Texas|US
 28.7429|-100.3158:Maverick|Texas|US
+31.1925|-99.3468:McCulloch|Texas|US
+31.5526|-97.2022:McLennan|Texas|US
+28.3525|-98.5677:McMullen|Texas|US
 29.3557|-99.1103:Medina|Texas|US
 30.8899|-99.8205:Menard|Texas|US
 31.869|-102.0316:Midland|Texas|US
@@ -11137,6 +11137,7 @@
 43.5801|-72.586:Windsor|Vermont|US
 37.7671|-75.6323:Accomack|Virginia|US
 38.0208|-78.5548:Albemarle|Virginia|US
+38.814|-77.0818:Alexandria|Virginia|US
 37.7864|-80.0022:Alleghany|Virginia|US
 37.3408|-77.9858:Amelia|Virginia|US
 37.6031|-79.1455:Amherst|Virginia|US
@@ -11147,28 +11148,41 @@
 37.308|-79.5282:Bedford|Virginia|US
 37.1313|-81.136:Bland|Virginia|US
 37.5553|-79.8098:Botetourt|Virginia|US
+36.6163|-82.1636:Bristol|Virginia|US
 36.7637|-77.8593:Brunswick|Virginia|US
 37.2682|-82.0375:Buchanan|Virginia|US
 37.5724|-78.5252:Buckingham|Virginia|US
+37.7348|-79.353:Buena Vista|Virginia|US
 37.2055|-79.0968:Campbell|Virginia|US
 38.0268|-77.349:Caroline|Virginia|US
 36.7307|-80.7346:Carroll|Virginia|US
 37.3536|-77.0563:Charles City|Virginia|US
 37.0191|-78.6631:Charlotte|Virginia|US
+38.0353|-78.4857:Charlottesville|Virginia|US
+36.6767|-76.3055:Chesapeake|Virginia|US
 37.3737|-77.5868:Chesterfield|Virginia|US
 39.1127|-77.992:Clarke|Virginia|US
+37.2642|-77.3961:Colonial Heights|Virginia|US
+37.7825|-79.9863:Covington|Virginia|US
 37.4813|-80.2107:Craig|Virginia|US
 38.482|-77.9563:Culpeper|Virginia|US
 37.5133|-78.244:Cumberland|Virginia|US
+36.5802|-79.404:Danville|Virginia|US
 37.1256|-82.3512:Dickenson|Virginia|US
 37.0754|-77.6345:Dinwiddie|Virginia|US
+36.6946|-77.5341:Emporia|Virginia|US
 37.9336|-76.9423:Essex|Virginia|US
 38.8368|-77.2757:Fairfax|Virginia|US
+38.8516|-77.2978:Fairfax City|Virginia|US
+38.8849|-77.1756:Falls Church|Virginia|US
 38.7356|-77.8065:Fauquier|Virginia|US
 36.9302|-80.3674:Floyd|Virginia|US
 37.8416|-78.2772:Fluvanna|Virginia|US
 36.9954|-79.8802:Franklin|Virginia|US
+36.6831|-76.9386:Franklin City|Virginia|US
 39.2017|-78.2597:Frederick|Virginia|US
+38.2978|-77.4922:Fredericksburg|Virginia|US
+36.666|-80.917:Galax|Virginia|US
 37.3123|-80.7064:Giles|Virginia|US
 37.4081|-76.5352:Gloucester|Virginia|US
 37.7171|-77.9038:Goochland|Virginia|US
@@ -11176,98 +11190,84 @@
 38.2955|-78.4653:Greene|Virginia|US
 36.6788|-77.5635:Greensville|Virginia|US
 36.7665|-78.9351:Halifax|Virginia|US
+37.0351|-76.3588:Hampton|Virginia|US
 37.7583|-77.4946:Hanover|Virginia|US
+38.4354|-78.8754:Harrisonburg|Virginia|US
 37.5346|-77.3933:Henrico|Virginia|US
 36.6854|-79.8763:Henry|Virginia|US
 38.358|-79.5612:Highland|Virginia|US
+37.2919|-77.2975:Hopewell|Virginia|US
 36.9058|-76.7084:Isle of Wight|Virginia|US
 37.3116|-76.7695:James City|Virginia|US
-37.7104|-76.8869:King and Queen|Virginia|US
 38.2682|-77.1585:King George|Virginia|US
 37.7097|-77.0938:King William|Virginia|US
+37.7104|-76.8869:King and Queen|Virginia|US
 37.7189|-76.464:Lancaster|Virginia|US
 36.7059|-83.1261:Lee|Virginia|US
+37.7826|-79.4426:Lexington|Virginia|US
 39.0899|-77.6348:Loudoun|Virginia|US
 37.9785|-77.9627:Louisa|Virginia|US
 36.9462|-78.2413:Lunenburg|Virginia|US
+37.4002|-79.1989:Lynchburg|Virginia|US
 38.4153|-78.2822:Madison|Virginia|US
+38.7464|-77.4851:Manassas|Virginia|US
+38.7706|-77.444:Manassas Park|Virginia|US
+36.6821|-79.8635:Martinsville|Virginia|US
 37.4416|-76.341:Mathews|Virginia|US
 36.6788|-78.3613:Mecklenburg|Virginia|US
 37.6319|-76.5506:Middlesex|Virginia|US
 37.1775|-80.3787:Montgomery|Virginia|US
 37.7879|-78.885:Nelson|Virginia|US
 37.5069|-76.9983:New Kent|Virginia|US
+37.0817|-76.5175:Newport News|Virginia|US
+36.8993|-76.2642:Norfolk|Virginia|US
 37.3406|-75.8775:Northampton|Virginia|US
 37.892|-76.4195:Northumberland|Virginia|US
+36.9336|-82.6275:Norton|Virginia|US
 37.1436|-78.0507:Nottoway|Virginia|US
 38.2453|-78.0156:Orange|Virginia|US
 38.6181|-78.488:Page|Virginia|US
 36.6802|-80.2866:Patrick|Virginia|US
+37.2053|-77.3937:Petersburg|Virginia|US
 36.8198|-79.3973:Pittsylvania|Virginia|US
+37.1426|-76.358:Poquoson|Virginia|US
+36.8591|-76.3597:Portsmouth|Virginia|US
 37.5502|-77.9127:Powhatan|Virginia|US
 37.2255|-78.436:Prince Edward|Virginia|US
 37.185|-77.2292:Prince George|Virginia|US
 38.7092|-77.4871:Prince William|Virginia|US
 37.0647|-80.7123:Pulaski|Virginia|US
+37.1222|-80.5603:Radford|Virginia|US
 38.683|-78.1583:Rappahannock|Virginia|US
 37.9376|-76.7292:Richmond|Virginia|US
+37.5326|-77.4797:Richmond City|Virginia|US
 37.2687|-80.064:Roanoke|Virginia|US
+37.2779|-79.9619:Roanoke City|Virginia|US
 37.812|-79.4461:Rockbridge|Virginia|US
 38.5101|-78.8726:Rockingham|Virginia|US
 36.9303|-82.101:Russell|Virginia|US
+37.2836|-80.0622:Salem|Virginia|US
 36.7147|-82.6017:Scott|Virginia|US
 38.8591|-78.5681:Shenandoah|Virginia|US
 36.8446|-81.5334:Smyth|Virginia|US
 36.7223|-77.1064:Southampton|Virginia|US
 38.1857|-77.6554:Spotsylvania|Virginia|US
 38.4176|-77.4592:Stafford|Virginia|US
+38.1597|-79.0598:Staunton|Virginia|US
+36.7016|-76.636:Suffolk|Virginia|US
 37.1178|-76.8845:Surry|Virginia|US
 36.9243|-77.2579:Sussex|Virginia|US
 37.1219|-81.5669:Tazewell|Virginia|US
+36.7329|-76.0457:Virginia Beach|Virginia|US
 38.9085|-78.2028:Warren|Virginia|US
 36.7234|-81.9567:Washington|Virginia|US
+38.0645|-78.9029:Waynesboro|Virginia|US
 38.1102|-76.8021:Westmoreland|Virginia|US
+37.2813|-76.7091:Williamsburg|Virginia|US
+39.1705|-78.1733:Winchester|Virginia|US
 36.9746|-82.6241:Wise|Virginia|US
 36.9158|-81.0783:Wythe|Virginia|US
 37.2437|-76.5441:York|Virginia|US
-38.814|-77.0818:Alexandria|Virginia|US
-36.6163|-82.1636:Bristol|Virginia|US
-37.7348|-79.353:Buena Vista|Virginia|US
-38.0353|-78.4857:Charlottesville|Virginia|US
-36.6767|-76.3055:Chesapeake|Virginia|US
-37.2642|-77.3961:Colonial Heights|Virginia|US
-37.7825|-79.9863:Covington|Virginia|US
-36.5802|-79.404:Danville|Virginia|US
-36.6946|-77.5341:Emporia|Virginia|US
-38.8516|-77.2978:Fairfax City|Virginia|US
-38.8849|-77.1756:Falls Church|Virginia|US
-36.6831|-76.9386:Franklin City|Virginia|US
-38.2978|-77.4922:Fredericksburg|Virginia|US
-36.666|-80.917:Galax|Virginia|US
-37.0351|-76.3588:Hampton|Virginia|US
-38.4354|-78.8754:Harrisonburg|Virginia|US
-37.2919|-77.2975:Hopewell|Virginia|US
-37.7826|-79.4426:Lexington|Virginia|US
-37.4002|-79.1989:Lynchburg|Virginia|US
-38.7464|-77.4851:Manassas|Virginia|US
-38.7706|-77.444:Manassas Park|Virginia|US
-36.6821|-79.8635:Martinsville|Virginia|US
-37.0817|-76.5175:Newport News|Virginia|US
-36.8993|-76.2642:Norfolk|Virginia|US
-36.9336|-82.6275:Norton|Virginia|US
-37.2053|-77.3937:Petersburg|Virginia|US
-37.1426|-76.358:Poquoson|Virginia|US
-36.8591|-76.3597:Portsmouth|Virginia|US
-37.1222|-80.5603:Radford|Virginia|US
-37.5326|-77.4797:Richmond City|Virginia|US
-37.2779|-79.9619:Roanoke City|Virginia|US
-37.2836|-80.0622:Salem|Virginia|US
-38.1597|-79.0598:Staunton|Virginia|US
-36.7016|-76.636:Suffolk|Virginia|US
-36.7329|-76.0457:Virginia Beach|Virginia|US
-38.0645|-78.9029:Waynesboro|Virginia|US
-37.2813|-76.7091:Williamsburg|Virginia|US
-39.1705|-78.1733:Winchester|Virginia|US
 46.983|-118.5602:Adams|Washington|US
 46.1889|-117.2023:Asotin|Washington|US
 46.2395|-119.5121:Benton|Washington|US
@@ -11330,10 +11330,10 @@
 38.9947|-80.4999:Lewis|West Virginia|US
 38.1722|-82.0702:Lincoln|West Virginia|US
 37.83|-81.9353:Logan|West Virginia|US
-37.38|-81.6508:McDowell|West Virginia|US
 39.5098|-80.2424:Marion|West Virginia|US
 39.8606|-80.6659:Marshall|West Virginia|US
 38.7707|-82.0252:Mason|West Virginia|US
+37.38|-81.6508:McDowell|West Virginia|US
 37.4048|-81.1102:Mercer|West Virginia|US
 39.4156|-78.941:Mineral|West Virginia|US
 37.7305|-82.1334:Mingo|West Virginia|US
@@ -11417,11 +11417,11 @@
 43.3763|-90.4301:Richland|Wisconsin|US
 42.6715|-89.0715:Rock|Wisconsin|US
 45.475|-91.1333:Rusk|Wisconsin|US
-45.0344|-92.45:St. Croix|Wisconsin|US
 43.4257|-89.9497:Sauk|Wisconsin|US
 45.8793|-91.145:Sawyer|Wisconsin|US
 44.789|-88.7644:Shawano|Wisconsin|US
 43.721|-87.9458:Sheboygan|Wisconsin|US
+45.0344|-92.45:St. Croix|Wisconsin|US
 45.2118|-90.5004:Taylor|Wisconsin|US
 44.3036|-91.3589:Trempealeau|Wisconsin|US
 43.5942|-90.8325:Vernon|Wisconsin|US
