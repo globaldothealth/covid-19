@@ -86,7 +86,6 @@ def extract_location_info(cases, out_path):
             geo_id_to_location_info, geo_id, "|".join(info))
 
     output = []
-    print(geo_id_to_location_info)
     for geo_id in geo_id_to_location_info:
         output.append(geo_id + ":" + geo_id_to_location_info[geo_id])
 
@@ -95,7 +94,8 @@ def extract_location_info(cases, out_path):
         f.close()
 
 def prune_cases(cases):
-    # Let's only keep the data we need.
+    # Let's only keep the data we need. Discard textual location info, it can
+    # be retrieved from the geo ID.
     pruned_cases = []
     for c in cases:
         if "location" not in c:
@@ -104,9 +104,22 @@ def prune_cases(cases):
         if not confirm_date:
             continue
         pruned = {
-            "location": c["location"],
             "geo_id": get_geo_id(c),
             "date": confirm_date
         }
         pruned_cases.append(pruned)
     return pruned_cases
+
+def output_daily_slices(cases, out_dir):
+    cases_by_date = {}
+    for c in cases:
+        date = c["date"]
+        if date not in cases_by_date:
+            cases_by_date[date] = []
+        cases_by_date[date].append(c)
+
+    for date in cases_by_date:
+        cur_cases = cases_by_date[date]
+
+def output_country_slices(cases, out_dir):
+    pass
