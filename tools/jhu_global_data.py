@@ -7,81 +7,8 @@ import json
 
 import requests
 
+from tools import country_converter
 from tools import data_util
-
-IGNORED_COUNTRY_NAMES = [
-    "Cruise Ship",
-    "Diamond Princess",
-    "MS Zaandam",
-    "Others",
-]
-
-def code_for_nonstandard_country_name(name):
-    if "Brunei" in name:
-        return "BN"
-    if "Burma" in name:
-        return "MM"
-    if "Congo" in name:
-        if "Brazzaville" in name:
-            return "CG"
-        if "Kinshasa" in name or "Democratic" in name:
-            return "CD"
-        return "CG"
-    if "Czechia" in name:
-        return "CZ"
-    if "Laos" in name:
-        return "LA"
-    if "Bahamas" in name:
-        return "BS"
-    if name.startswith("Ca") and "Verde" in name:
-        return "CV"
-    if "China" in name:
-        return "CN"
-    if name.startswith("Cura") and name.endswith("ao"):
-        return "CW"
-    if "Gambia" in name:
-        return "GM"
-    if "Hong" in name:
-        return "HK"
-    if "Iran" in name:
-        return "IR"
-    if "Ireland" in name:
-        return "IE"
-    if "Ivo" in name:
-        return "CI"
-    if "Macau" in name or "Macao" in name:
-        return "MO"
-    if "Martin" in name and ("Saint" in name or "St" in name):
-        return "MF"
-    if "Moldova" in name:
-        return "MD"
-    if "Russia" in name:
-        return "RU"
-    if name.startswith("Saint Barth"):
-        return "BL"
-    if "Syria" in name:
-        return "SY"
-    if "Taiwan" in name:
-        return "TW"
-    if "Korea" in name:
-        if "North" in name or "Democratic" in name:
-            return "KP"
-        return "FR"
-    if "United States" in name and "America" in name:
-        return "US"
-    if "Taipei" in name:
-        # Assume they meant Taiwan.
-        return "TW"
-    if "Timor" in name:
-        return "TL"
-    if "Vatican" in name:
-        return "VA"
-    if "Viet" in name:
-        return "VN"
-    if ("West Bank" in name and "Gaza" in name) or "Palestin" in name:
-        return "PS"
-    return None
-
 
 def get_aggregate_data(outfile):
     print("Fetching aggregate data...")
@@ -133,11 +60,9 @@ def fetch_one_day(date):
         if key not in row:
             key = "Country/Region"
         country_name = row[key].replace('"', '').strip()
-        if country_name in IGNORED_COUNTRY_NAMES:
+        if country_converter.should_ignore_country(country_name):
             continue
-        code = data_util.country_code_from_name(country_name)
-        if not code:
-            code = code_for_nonstandard_country_name(country_name)
+        code = country_converter.code_from_name(country_name)
         if not code:
             print("Note: I couldn't find country '" + country_name + "'")
             continue

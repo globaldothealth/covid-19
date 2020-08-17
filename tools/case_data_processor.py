@@ -1,5 +1,8 @@
 import json
 
+from tools import country_converter
+from tools import data_util
+
 LAT_LNG_DECIMAL_PLACES = 5
 LOCATION_INFO_KEYS = ["administrativeAreaLevel" + str(n) for n in [1, 2, 3]]
 
@@ -41,11 +44,21 @@ def extract_location_info(cases, out_path):
             continue
         loc = c["location"]
         info = []
+        country_code = country_converter.code_from_name(loc["country"])
+        if not country_code:
+            continue
         for k in LOCATION_INFO_KEYS:
             if k in loc:
                 info.append(loc[k])
-            geo_id_to_location_info[geo_id] = "|".join(info)
-    print(geo_id_to_location_info)
+        info.append(country_code)
+        geo_id_to_location_info[geo_id] = "|".join(info)
+    output = []
+    for geo_id, loc_info in enumerate(geo_id_to_location_info):
+        output += geo_id + ":" + loc_info
+
+    with open(out_path, "w") as f:
+        f.write("\n".join(output))
+        f.close()
 
 def prune_cases(cases):
     # Let's only keep the data we need.
