@@ -114,6 +114,29 @@ def prune_cases(cases):
         pruned_cases.append(pruned)
     return pruned_cases
 
+def format_single_feature(geo_id, total, new):
+    if new > 0:
+        return {"properties": {"geoid": geo_id, "total": total, "new": new}}
+    return {"properties": {"geoid": geo_id, "total": total}}
+
+def write_daily_slice_from_accumulator(out_dir, date, acc):
+    out_file = os.path.join(out_dir, date + ".json")
+    print(out_file)
+    out_object = {"date": date, "features": []}
+    # Iterate over sorted keys to minimize file update diffs
+    for geo_id in sorted(acc.keys()):
+        cases = acc[geo_id]
+        out_object["features"].append(format_single_feature(geo_id, cases[0], cases[1]))
+    # print(out_object)
+    with open(out_file, "w") as f:
+        f.write(json.dumps(out_object))
+        f.close()
+
+def fold_new_cases_to_total(acc):
+    for geo_id in acc:
+        acc[geo_id][0] += acc[geo_id][1]
+        acc[geo_id][1] = 0
+
 def output_daily_slices(cases, out_dir):
     # Dict by date, then by geo ID, then an array of [total, new].
     new_cases_by_date_and_geo_id = {}
@@ -137,8 +160,15 @@ def output_daily_slices(cases, out_dir):
 
     # We now have all the new cases. Now we need to accumulate and output
     # daily slices.
+    # Dict by geo_id where keys are [total, new]
+    acc = {}
     for date in sorted(cases_by_date.keys()):
-        out_file = os.path.join(out_dir, date + ".json")
+        for geo_id in new_cases_by_date_and_geo_id[date]:
+            if geo_id not in acc:
+                acc[geo_id] = [0, 0]
+            acc[geo_id][1] += new_cases_by_date_and_geo_id[date][geo_id]
+        write_daily_slice_from_accumulator(out_dir, date, acc)
+        fold_new_cases_to_total(acc)
 
 def output_country_slices(cases, out_dir):
     pass
