@@ -1,4 +1,5 @@
 import json
+import os
 
 from tools import country_converter
 from tools import data_util
@@ -36,12 +37,15 @@ def get_geo_id(case):
     lng = case["location"]["geometry"]["longitude"]
     return normalize_latlng(lat) + "|" + normalize_latlng(lng)
 
-def load_case_data(file_path):
+def load_case_data(file_path, max_cases_to_load=0):
     lines = []
     with open(file_path) as f:
         # The data isn't actually valid JSON, but processing each line
         # individually is easier on the RAM
-        lines = f.readlines()
+        if max_cases_to_load > 0:
+            lines = f.readlines()[0:max_cases_to_load]
+        else:
+            lines = f.readlines()
         f.close()
     cases = []
     for l in lines:
@@ -111,6 +115,8 @@ def prune_cases(cases):
     return pruned_cases
 
 def output_daily_slices(cases, out_dir):
+    # Dict by date, then by geo ID, then an array of [total, new].
+    new_cases_by_date_and_geo_id = {}
     cases_by_date = {}
     for c in cases:
         date = c["date"]
@@ -118,8 +124,21 @@ def output_daily_slices(cases, out_dir):
             cases_by_date[date] = []
         cases_by_date[date].append(c)
 
-    for date in cases_by_date:
+    for date in sorted(cases_by_date.keys()):
+        if date not in new_cases_by_date_and_geo_id:
+            new_cases_by_date_and_geo_id[date] = {}
         cur_cases = cases_by_date[date]
+        print(date)
+        for c in cur_cases:
+            geo_id = c["geo_id"]
+            if geo_id not in new_cases_by_date_and_geo_id[date]:
+                new_cases_by_date_and_geo_id[date][geo_id] = 0
+            new_cases_by_date_and_geo_id[date][geo_id] += 1
+
+    # We now have all the new cases. Now we need to accumulate and output
+    # daily slices.
+    for date in sorted(cases_by_date.keys()):
+        out_file = os.path.join(out_dir, date + ".json")
 
 def output_country_slices(cases, out_dir):
     pass
