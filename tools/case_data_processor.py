@@ -22,6 +22,9 @@ def normalize_geo_id(in_geo_id):
     return normalize_latlng(lat) + "|" + normalize_latlng(lng)
 
 def normalize_latlng(latlng):
+    latlng = str(latlng)
+    if "." not in latlng:
+        latlng += ".0"
     (int_part, dec_part) = str(latlng).split(".")
     if len(dec_part) == LAT_LNG_DECIMAL_PLACES:
         return str(latlng)
@@ -37,19 +40,11 @@ def get_geo_id(case):
     lng = case["location"]["geometry"]["longitude"]
     return normalize_latlng(lat) + "|" + normalize_latlng(lng)
 
-def load_case_data(file_path, max_cases_to_load=0):
+def load_case_data(file_path):
     lines = []
     with open(file_path) as f:
-        # The data isn't actually valid JSON, but processing each line
-        # individually is easier on the RAM
-        if max_cases_to_load > 0:
-            lines = f.readlines()[0:max_cases_to_load]
-        else:
-            lines = f.readlines()
+        cases = json.loads(f.read())
         f.close()
-    cases = []
-    for l in lines:
-        cases.append(json.loads(l.strip()))
     return cases
 
 def add_or_replace_if_more_precise(data, geo_id, loc_info):
@@ -68,16 +63,18 @@ def extract_location_info(cases, out_path):
     with open(out_path) as f:
         lines = f.readlines()
         f.close()
+    print("Reading " + str(len(lines)) + " of existing location data...")
     for l in lines:
         (geo_id, loc_info) = l.strip().split(":", 1)
         geo_id = normalize_geo_id(geo_id)
         geo_id_to_location_info[geo_id] = loc_info
+    print("Processing " + str(len(cases)) + " cases...")
     for c in cases:
         geo_id = get_geo_id(c)
         loc = c["location"]
         info = []
         if "country" not in loc:
-            print("Warning, no country: " + str(c))
+            print("Warning, no country")
             continue
         country_code = country_converter.code_from_name(loc["country"])
         if not country_code:
@@ -151,7 +148,7 @@ def output_daily_slices(cases, out_dir):
         if date not in new_cases_by_date_and_geo_id:
             new_cases_by_date_and_geo_id[date] = {}
         cur_cases = cases_by_date[date]
-        print(date)
+        #print(date)
         for c in cur_cases:
             geo_id = c["geo_id"]
             if geo_id not in new_cases_by_date_and_geo_id[date]:

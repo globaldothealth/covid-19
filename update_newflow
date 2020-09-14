@@ -16,7 +16,8 @@ if __name__ == "__main__":
         os.system("tar xzf cases.tar.gz")
 
     print("Loading cases...")
-    cases = processor.load_case_data(CASES_FILE_NAME, 1000)
+    cases = processor.load_case_data(CASES_FILE_NAME)
+    print("Loaded " + str(len(cases)) + " cases")
     print("Extracting location data...")
     processor.extract_location_info(cases, LOCATION_INFO_FILE_NAME)
     os.system("./sanitize_location_info")
