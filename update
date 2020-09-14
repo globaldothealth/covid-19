@@ -23,6 +23,7 @@ def update():
     os.system("sed -i 's/GB32/GB\\n32/' location_info.data")
     os.system("sed -i 's/PE32/PE\\n32/' location_info.data")
     os.system("sed -i 's/PE18/PE\\n18/' location_info.data")
+    os.system("./sanitize_location_info")
     # Add any new daily file.
     os.system("git add d/*.json")
 
