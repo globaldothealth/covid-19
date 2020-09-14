@@ -7,6 +7,11 @@ def get_case_count(j):
     obj = json.loads(j)
     if "date" in obj:
         obj = obj["features"]
+        new_cases = 0
+        for f in obj:
+            if "properties" in f and "new" in f["properties"]:
+                new_cases += f["properties"]["new"]
+        return new_cases
     return len(obj)
 
 def print_case_count_for_file(p):
