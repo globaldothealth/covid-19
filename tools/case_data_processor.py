@@ -76,10 +76,13 @@ def extract_location_info(cases, out_path):
         loc = c["location"]
         info = []
         if "country" not in loc:
-            cases_without_country += 1
-            if not example_countryless_case:
-                example_countryless_case = c
-            continue
+            if "administrativeAreaLevel1" in loc and loc["administrativeAreaLevel1"].lower() == "taiwan":
+                loc["country"] = "Taiwan"
+            else:
+                cases_without_country += 1
+                if not example_countryless_case:
+                    example_countryless_case = c
+                continue
         country_code = country_converter.code_from_name(loc["country"])
         if not country_code:
             continue
