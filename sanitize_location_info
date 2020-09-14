@@ -1,0 +1,30 @@
+#!/usr/bin/python3
+
+FILE_NAME = "location_info.data"
+LATLNG_DECIMAL_SIZE = 4
+
+def sort_by_lat(line):
+    return float(line.split("|")[0])
+
+def normalize_latlng(l):
+    if "." not in l:
+        l = l + ".0"
+    decimal = l.split(".")[1]
+    diff = LATLNG_DECIMAL_SIZE - len(decimal)
+    return l + ("0" * diff)
+
+def sanitize_line(in_line):
+    (latlng, info) = in_line.split(":", 1)
+    (lat, lng) = latlng.split("|")
+    return normalize_latlng(lat) + "|" + normalize_latlng(lng) + ":" + info
+
+if __name__ == "__main__":
+    sanitized_lines = []
+    with open(FILE_NAME) as f:
+        sanitized_lines = sorted([sanitize_line(l) for l in f.readlines()],
+                                 key=sort_by_lat)
+        f.close()
+    print("Read and sorted " + str(len(sanitized_lines)) + " lines")
+    with open(FILE_NAME, "w") as f:
+        f.write("".join(sanitized_lines))
+        f.close()
