@@ -162,6 +162,8 @@ def output_daily_slices(cases, out_dir):
         #print(date)
         for c in cur_cases:
             geo_id = c["geo_id"]
+            if not geo_id:
+                continue
             if geo_id not in new_cases_by_date_and_geo_id[date]:
                 new_cases_by_date_and_geo_id[date][geo_id] = 0
             new_cases_by_date_and_geo_id[date][geo_id] += 1
