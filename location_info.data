@@ -1449,6 +1449,7 @@
 -7.5464|-78.4597:SAYAPULLO|GRAN CHIMU|PE
 -7.5088|-77.0047:HUICUNGO|Mariscal Caceres|PE
 -7.5073|-77.9687:SITACOCHA|CAJABAMBA|PE
+-7.4995|112.4262:Jawa Timur|Mojokerto|Mojokerto|ID
 -7.4795|-78.8182:CASCAS|GRAN CHIMU|PE
 -7.4294|-76.6617:CAMPANILLA|Mariscal Caceres|PE
 -7.4273|-79.5037:SAN PEDRO DE LLOC|Pacasmayo|PE
@@ -3985,6 +3986,7 @@
 22.2387|84.8116:Bari block|Odisha|IN
 22.2769|-83.7593:San Luis|Pinar del Río|CU
 22.2774|114.1652:Wan Chai|Hong Kong|CN
+22.2783|114.1586:Hong Kong|CN
 22.2826|114.1881:Tin Hau|Hong Kong|CN
 22.2842|112.6714:Jiangmen City|Guangdong|CN
 22.2859|114.2069:Quarry Bay|Hong Kong|CN
@@ -4851,6 +4853,7 @@
 26.2059|85.4979:Bochahan|Bihar|IN
 26.2090|87.0070:Chhatapur|Bihar|IN
 26.2097|118.7675:Minqing County, Fuzhou City|Fujian|CN
+26.2122|127.6788:沖縄県|沖縄県|那覇市|JP
 26.2191|81.2450:Rae Bareli|Uttar Pradesh|IN
 26.2201|78.1762:Gwalior|Madhya Pradesh|IN
 26.2215|84.3588:Siwan|Bihar|IN
@@ -4891,11 +4894,13 @@
 26.3261|92.8302:|Assam|IN
 26.3296|84.9598:Dilwarpur|Bihar|IN
 26.3304|84.6671:Sidhwalia|Bihar|IN
+26.3341|127.8055:沖縄県|沖縄県|沖縄市|JP
 26.3378|85.8201:Jale|Bihar|IN
 26.3495|92.6846:Nagaon|Assam|IN
 26.3604|84.2984:Hathua|Bihar|IN
 26.3669|84.5398:Mauze Kahla|Bihar|IN
 26.3679|87.4383:Kursakanta|Bihar|IN
+26.3692|127.7702:沖縄県|沖縄県|嘉手納町|JP
 26.3772|86.0229:Rahika|Bihar|IN
 26.3812|87.5217:Sikti|Bihar|IN
 26.3818|84.5867:Barauli|Bihar|IN
@@ -5645,6 +5650,7 @@
 31.3908|-97.7994:Coryell|Texas|US
 31.3946|-94.1700:San Augustine|Texas|US
 31.3993|-85.9890:Coffee|Alabama|US
+31.4000|130.5166:鹿児島県|鹿児島県|鹿児島市|JP
 31.4046|-100.4624:Tom Green|Texas|US
 31.4093|-88.2069:Washington|Alabama|US
 31.4304|-85.6110:Dale|Alabama|US
@@ -5753,6 +5759,7 @@
 31.9103|47.0351:|Maysan|IQ
 31.9128|-89.9172:Simpson|Mississippi|US
 31.9138|-108.7152:Hidalgo|New Mexico|US
+31.9166|131.4166:宮崎県|宮崎県|宮崎市|JP
 31.9205|117.1894:Luyang District, Hefei City|Anhui|CN
 31.9229|-83.7681:Crisp|Georgia|US
 31.9237|77.2500:|Himachal Pradesh|IN
@@ -5901,6 +5908,7 @@
 32.7021|-82.6617:Johnson|Georgia|US
 32.7027|74.8787:Jammu|Jammu and Kashmir|IN
 32.7085|-93.3312:Webster|Louisiana|US
+32.7087|131.3035:宮崎県|宮崎県|高千穂町|JP
 32.7139|-83.9806:Crawford|Georgia|US
 32.7253|-90.9739:Issaquena|Mississippi|US
 32.7266|109.9065:Baihe County, Ankang City|Shaanxi|CN
@@ -5933,11 +5941,13 @@
 32.7776|-97.8050:Parker|Texas|US
 32.7789|-90.3966:Yazoo|Mississippi|US
 32.7798|114.9369:Xincai County, Zhumadian City|Henan|CN
+32.7833|129.8666:長崎県|長崎県|長崎市|JP
 32.7855|-91.4612:West Carroll|Louisiana|US
 32.7872|-95.3824:Wood|Texas|US
 32.7922|-103.4124:Lea|New Mexico|US
 32.7925|-81.9604:Jenkins|Georgia|US
 32.7987|-94.3566:Marion|Texas|US
+32.8000|130.7000:熊本県|熊本県|JP
 32.8029|-83.1714:Wilkinson|Georgia|US
 32.8090|-83.7049:Bibb|Georgia|US
 32.8109|108.8847:Hanbin District, Ankang City|Shaanxi|CN
@@ -5964,6 +5974,7 @@
 32.9369|-86.2485:Coosa|Alabama|US
 32.9671|-82.7936:Washington|Georgia|US
 32.9720|-94.9779:Camp|Texas|US
+32.9806|132.5996:愛媛県|愛媛県|愛南町|JP
 32.9853|132.5860:Ainan|Ehime|JP
 32.9884|-81.3532:Allendale|South Carolina|US
 32.9902|119.4564:|Jiangsu|CN
@@ -5993,6 +6004,7 @@
 33.1130|-94.7326:Morris|Texas|US
 33.1235|-90.0892:Holmes|Mississippi|US
 33.1235|-96.0855:Hunt|Texas|US
+33.1258|131.8047:大分県|大分県|臼杵市|JP
 33.1283|-90.5225:Humphreys|Mississippi|US
 33.1303|-107.1926:Sierra|New Mexico|US
 33.1446|75.5447:Doda|Jammu and Kashmir|IN
@@ -6015,12 +6027,14 @@
 33.1915|-91.7698:Ashley|Arkansas|US
 33.2022|-79.9465:Berkeley|South Carolina|US
 33.2052|-97.1169:Denton|Texas|US
+33.2122|130.5022:福岡県|福岡県|筑後市|JP
 33.2123|-93.2264:Columbia|Arkansas|US
 33.2134|-94.9680:Titus|Texas|US
 33.2150|-109.2405:Greenlee|Arizona|US
 33.2157|-97.6546:Wise|Texas|US
 33.2193|-81.0566:Bamberg|South Carolina|US
 33.2288|-82.6130:Glascock|Georgia|US
+33.2333|131.6066:大分県|大分県|大分市|JP
 33.2338|-98.1728:Jack|Texas|US
 33.2397|131.6091:Oita|Oita|JP
 33.2412|-93.6068:Lafayette|Arkansas|US
@@ -6028,6 +6042,7 @@
 33.2506|44.4828:Rusafa, Baghdad||IQ
 33.2631|-84.2801:Spalding|Georgia|US
 33.2646|-91.2954:Chicot|Arkansas|US
+33.2666|130.3000:佐賀県|佐賀県|佐賀市|JP
 33.2668|-81.4358:Barnwell|South Carolina|US
 33.2688|-86.6623:Shelby|Alabama|US
 33.2698|-85.8584:Clay|Alabama|US
@@ -6035,6 +6050,7 @@
 33.2809|-88.0882:Pickens|Alabama|US
 33.2831|-83.9544:Butts|Georgia|US
 33.2839|-90.9420:Washington|Mississippi|US
+33.2847|131.4911:大分県|大分県|別府市|JP
 33.2873|-87.5256:Tuscaloosa|Alabama|US
 33.2953|-85.4571:Randolph|Alabama|US
 33.2969|-85.1289:Heard|Georgia|US
@@ -6043,6 +6059,7 @@
 33.3154|-83.6884:Jasper|Georgia|US
 33.3162|75.7651:Kishtwar|Jammu and Kashmir|IN
 33.3206|-83.3755:Putnam|Georgia|US
+33.3211|130.9413:大分県|大分県|日田市|JP
 33.3270|44.3881:|Baghdad|IQ
 33.3460|-89.2481:Choctaw|Mississippi|US
 33.3484|-112.4918:Maricopa|Arizona|US
@@ -6070,6 +6087,7 @@
 33.4856|48.4040:|Lorestan|IR
 33.4942|-89.6173:Montgomery|Mississippi|US
 33.5024|133.9071:Aki|Kochi|JP
+33.5025|133.9072:高知県|高知県|安芸市|JP
 33.5234|120.1736:Yancheng City|Jiangsu|CN
 33.5333|-7.5833:Casablanca|Casablanca-Settat|MA
 33.5419|-84.3559:Clayton|Georgia|US
@@ -6081,9 +6099,11 @@
 33.5560|-92.4997:Calhoun|Arkansas|US
 33.5596|133.5291:Kochi|Kochi|JP
 33.5654|-82.8814:Taliaferro|Georgia|US
+33.5666|133.5333:高知県|高知県|高知市|JP
 33.5769|-83.1714:Greene|Georgia|US
 33.5814|-85.0798:Carroll|Georgia|US
 33.5884|-92.8780:Ouachita|Arkansas|US
+33.5902|130.4019:福岡県|福岡県|JP
 33.5904|-91.7178:Drew|Arkansas|US
 33.5923|-83.4913:Morgan|Georgia|US
 33.5956|-96.1075:Fannin|Texas|US
@@ -6094,6 +6114,7 @@
 33.6101|-101.8205:Lubbock|Texas|US
 33.6130|-89.2839:Webster|Mississippi|US
 33.6143|-101.3000:Crosby|Texas|US
+33.6149|130.4706:福岡県|福岡県|粕屋町|JP
 33.6157|-98.6875:Archer|Texas|US
 33.6162|-100.7789:Dickens|Texas|US
 33.6164|-99.2135:Baylor|Texas|US
@@ -6103,6 +6124,7 @@
 33.6274|-96.6775:Grayson|Texas|US
 33.6398|-97.2124:Cooke|Texas|US
 33.6451|75.0177:Kulgam|Jammu and Kashmir|IN
+33.6458|130.6913:福岡県|福岡県|飯塚市|JP
 33.6493|109.9016:Shangluo City|Shaanxi|CN
 33.6515|-84.0220:Rockdale|Georgia|US
 33.6536|-88.7778:Clay|Mississippi|US
@@ -6146,12 +6168,15 @@
 33.8000|2.8651:Laghouat|Laghouat|DZ
 33.8019|-110.8133:Gila|Arizona|US
 33.8027|-87.3003:Walker|Alabama|US
+33.8055|130.5405:福岡県|福岡県|宗像市|JP
 33.8301|-91.2550:Desha|Arkansas|US
+33.8333|132.7666:愛媛県|愛媛県|松山市|JP
 33.8375|-83.4368:Oconee|Georgia|US
 33.8609|117.2092:Suzhou City|Anhui|CN
 33.8735|74.8994:Pulwama|Jammu and Kashmir|IN
 33.8786|-83.0828:Oglethorpe|Georgia|US
 33.8833|130.8752:Kitakyshu|Fukuoka|JP
+33.8833|130.8833:福岡県|福岡県|JP
 33.8837|132.7937:Matsuyama|Ehime|JP
 33.8869|35.5131:Beirut|Beirut|LB
 33.8894|115.3716:Luyi County, Zhoukou City|Henan|CN
@@ -6177,6 +6202,7 @@
 33.9579|130.9413:Shimonoseki|Yamaguchi|JP
 33.9604|-84.0214:Gwinnett|Georgia|US
 33.9647|-96.2590:Bryan|Oklahoma|US
+33.9666|133.2833:愛媛県|愛媛県|新居浜市|JP
 33.9674|116.3187:Yongcheng City, Shangqiu City|Henan|CN
 33.9704|-92.6517:Dallas|Arkansas|US
 33.9731|-99.7768:Foard|Texas|US
@@ -6194,8 +6220,10 @@
 34.0236|-79.7019:Florence|South Carolina|US
 34.0281|-95.5477:Choctaw|Oklahoma|US
 34.0282|-89.7076:Yalobusha|Mississippi|US
+34.0333|134.4333:徳島県|徳島県|徳島市|JP
 34.0351|135.1499:Yuasa-cho|Wakayama Prefecture|JP
 34.0365|108.9274:Chang'an District, Xi'an City|Shaanxi|CN
+34.0396|135.1675:和歌山県|和歌山県|湯浅町|JP
 34.0413|74.7263:Budgam|Jammu and Kashmir|IN
 34.0457|-86.0405:Etowah|Alabama|US
 34.0459|135.1910:Yuasa (Saiseikai Arida Hospital), Arida District|Wakayama Prefecture|JP
@@ -6220,9 +6248,11 @@
 34.1113|-97.8318:Jefferson|Oklahoma|US
 34.1130|-82.8394:Elbert|Georgia|US
 34.1166|-94.7722:McCurtain|Oklahoma|US
+34.1277|134.4996:徳島県|徳島県|藍住町|JP
 34.1292|-83.2122:Madison|Georgia|US
 34.1302|-86.8689:Cullman|Alabama|US
 34.1370|-87.8870:Marion|Alabama|US
+34.1377|130.9916:山口県|山口県|下関市|JP
 34.1379|-83.5681:Jackson|Georgia|US
 34.1503|-87.3733:Winston|Alabama|US
 34.1527|-82.1272:Greenwood|South Carolina|US
@@ -6230,6 +6260,7 @@
 34.1617|9.5772:||TN
 34.1625|-93.6579:Pike|Arkansas|US
 34.1639|-80.2569:Lee|South Carolina|US
+34.1780|131.4738:山口県|山口県|山口市|JP
 34.1781|-85.6064:Cherokee|Alabama|US
 34.1924|74.5268:Khanyar|Jammu and Kashmir|IN
 34.2017|131.5732:|Yamaguchi|JP
@@ -6241,6 +6272,7 @@
 34.2260|-89.0364:Pontotoc|Mississippi|US
 34.2277|-90.6042:Coahoma|Mississippi|US
 34.2332|135.0168:Wakayama City|Wakayama Prefecture|JP
+34.2333|135.1666:和歌山県|和歌山県|和歌山市|JP
 34.2373|-84.8389:Bartow|Georgia|US
 34.2439|-84.4743:Cherokee|Georgia|US
 34.2482|108.9538:Beilin District, Xi'an City|Shaanxi|CN
@@ -6257,6 +6289,7 @@
 34.2863|-81.5994:Newberry|South Carolina|US
 34.2885|-98.3705:Cotton|Oklahoma|US
 34.2894|-99.7463:Hardeman|Texas|US
+34.2894|133.7977:香川県|香川県|丸亀市|JP
 34.2897|115.6977:Shangqiu City|Henan|CN
 34.2902|-92.4232:Grant|Arkansas|US
 34.2915|-91.3728:Arkansas|Arkansas|US
@@ -6292,30 +6325,41 @@
 34.3737|-96.0380:Atoka|Oklahoma|US
 34.3753|-83.2316:Franklin|Georgia|US
 34.3824|107.2001:Baoji City|Shaanxi|CN
+34.3852|132.4552:広島県|広島県|JP
 34.3901|-79.3774:Dillon|South Carolina|US
 34.3929|-81.1196:Fairfield|South Carolina|US
 34.4016|105.6275:Qinzhou District, Tianshui City|Gansu|CN
 34.4064|107.6779:Qishan County, Baoji City|Shaanxi|CN
+34.4066|135.3275:大阪府|大阪府|泉佐野市|JP
+34.4088|133.2050:広島県|広島県|尾道市|JP
 34.4150|106.1453:Maiji District, Tianshui City|Gansu|CN
 34.4164|-95.3760:Pushmataha|Oklahoma|US
 34.4327|-90.8480:Phillips|Arkansas|US
+34.4352|135.2445:大阪府|大阪府|田尻町|JP
+34.4377|135.3586:大阪府|大阪府|貝塚市|JP
 34.4424|-87.8429:Franklin|Alabama|US
 34.4424|-84.1696:Dawson|Georgia|US
 34.4447|-119.0911:Ventura|California|US
 34.4550|-86.8548:Morgan|Alabama|US
 34.4570|46.6323:|Kermanshah|IR
+34.4583|135.5641:大阪府|大阪府|河内長野市|JP
 34.4595|-85.8078:DeKalb|Alabama|US
+34.4602|135.3711:大阪府|大阪府|岸和田市|JP
 34.4659|-84.4641:Pickens|Georgia|US
 34.4720|-85.3454:Chattooga|Georgia|US
 34.4812|-97.0683:Murray|Oklahoma|US
 34.4824|-82.0049:Laurens|South Carolina|US
 34.4825|-94.2273:Polk|Arkansas|US
+34.4836|135.4236:大阪府|大阪府|和泉市|JP
 34.4856|-97.8514:Stephens|Oklahoma|US
 34.4916|-89.0078:Union|Mississippi|US
 34.5000|77.5000:Chuchot|Ladakh|IN
+34.5044|135.4102:大阪府|大阪府|泉大津市|JP
 34.5049|-84.8730:Gordon|Georgia|US
 34.5090|109.0626:Gaoling County, Xi'an City|Shaanxi|CN
+34.5091|135.7925:奈良県|奈良県|橿原市|JP
 34.5102|136.3764:|Mie|JP
+34.5148|133.5585:岡山県|岡山県|里庄町|JP
 34.5183|-82.6396:Anderson|South Carolina|US
 34.5204|-87.3107:Lawrence|Alabama|US
 34.5227|-77.9035:Pender|North Carolina|US
@@ -6331,10 +6375,15 @@
 34.5370|-93.6582:Montgomery|Arkansas|US
 34.5515|-83.2941:Stephens|Georgia|US
 34.5516|76.1306:Kargil|Ladakh|IN
+34.5577|135.6061:大阪府|大阪府|羽曳野市|JP
+34.5666|135.7666:奈良県|奈良県|三宅町|JP
+34.5666|135.4833:大阪府|大阪府|JP
 34.5729|-84.0043:Lumpkin|Georgia|US
 34.5742|-103.3469:Curry|New Mexico|US
+34.5747|135.5975:大阪府|大阪府|藤井寺市|JP
 34.5769|-93.1492:Garland|Arkansas|US
 34.5770|49.9311:|Markazi|IR
+34.5780|135.5516:大阪府|大阪府|松原市|JP
 34.5878|-99.4114:Jackson|Oklahoma|US
 34.5884|-96.2980:Coal|Oklahoma|US
 34.5991|-79.6756:Marlboro|South Carolina|US
@@ -6343,6 +6392,7 @@
 34.6130|-78.5618:Bladen|North Carolina|US
 34.6181|-88.5199:Prentiss|Mississippi|US
 34.6217|135.5076:|Osaka|JP
+34.6269|135.6008:大阪府|大阪府|八尾市|JP
 34.6293|113.4680:Zhengzhou City|Henan|CN
 34.6333|-83.5309:Habersham|Georgia|US
 34.6400|50.8764:Qom|Qom|IR
@@ -6353,48 +6403,82 @@
 34.6492|-92.6758:Saline|Arkansas|US
 34.6497|105.7378:Tianshui City|Gansu|CN
 34.6497|-90.3748:Tunica|Mississippi|US
+34.6500|133.9166:岡山県|岡山県|JP
 34.6513|-89.9449:Tate|Mississippi|US
 34.6533|-120.0188:Santa Barbara|California|US
 34.6597|-98.4720:Comanche|Oklahoma|US
 34.6611|109.2917:Yanliang District, Xi'an City|Shaanxi|CN
+34.6616|136.0157:奈良県|奈良県|山添村|JP
 34.6667|3.2500:Djelfa|Djelfa|DZ
+34.6794|135.6008:大阪府|大阪府|東大阪市|JP
 34.6816|-91.2054:Monroe|Arkansas|US
 34.6827|-80.7051:Lancaster|South Carolina|US
+34.6833|135.7833:奈良県|奈良県|奈良市|JP
 34.6884|-81.6173:Union|South Carolina|US
 34.6894|135.1957:Kobe|Hyogo|JP
+34.6908|135.1830:兵庫県|兵庫県|JP
+34.6913|135.1830:兵庫県|兵庫県|JP
 34.6925|-81.1583:Chester|South Carolina|US
 34.6932|-84.4580:Gilmer|Georgia|US
+34.6936|135.5019:大阪府|大阪府|JP
 34.6951|50.9825:|Qom|IR
 34.6985|-87.8017:Colbert|Alabama|US
+34.7000|136.5000:三重県|三重県|津市|JP
 34.7042|-97.3081:Garvin|Oklahoma|US
 34.7107|117.5912:Yicheng District, Zaozhuang City|Shandong|CN
+34.7119|135.6233:大阪府|大阪府|大東市|JP
+34.7166|137.7333:静岡県|静岡県|JP
 34.7167|-106.8104:Valencia|New Mexico|US
 34.7261|-77.4291:Onslow|North Carolina|US
+34.7269|135.3044:兵庫県|兵庫県|芦屋市|JP
 34.7296|-96.6834:Pontotoc|Oklahoma|US
 34.7332|116.1108:Shan County, Heze City|Shandong|CN
+34.7333|135.3333:兵庫県|兵庫県|西宮市|JP
+34.7333|135.5833:大阪府|大阪府|門真市|JP
+34.7333|135.4000:兵庫県|兵庫県|尼崎市|JP
 34.7338|-85.3017:Walker|Georgia|US
+34.7375|135.5641:大阪府|大阪府|守口市|JP
 34.7376|135.3417:Nishinomiya|Hyogo|JP
 34.7397|106.1281:Qingshui County, Tianshui City|Gansu|CN
 34.7402|-88.2392:Tishomingo|Mississippi|US
 34.7440|-99.8474:Harmon|Oklahoma|US
 34.7523|-83.0674:Oconee|South Carolina|US
 34.7539|-91.8874:Lonoke|Arkansas|US
+34.7569|134.8413:兵庫県|兵庫県|加古川市|JP
 34.7622|-89.5030:Marshall|Mississippi|US
 34.7633|-86.5507:Madison|Alabama|US
+34.7661|135.6280:大阪府|大阪府|寝屋川市|JP
+34.7666|135.5166:大阪府|大阪府|吹田市|JP
+34.7686|136.1300:三重県|三重県|伊賀市|JP
 34.7687|-88.9099:Tippah|Mississippi|US
 34.7705|-92.3136:Pulaski|Arkansas|US
+34.7772|135.5622:大阪府|大阪府|摂津市|JP
 34.7814|-85.9975:Jackson|Alabama|US
+34.7833|135.4666:大阪府|大阪府|豊中市|JP
+34.7841|135.4008:兵庫県|兵庫県|伊丹市|JP
 34.7850|-90.7838:Lee|Arkansas|US
 34.7887|108.3897:Xianyang City|Shaanxi|CN
 34.7890|-84.7499:Murray|Georgia|US
+34.7927|136.8880:愛知県|愛知県|美浜町|JP
+34.8000|135.3602:兵庫県|兵庫県|宝塚市|JP
 34.8099|-84.9609:Whitfield|Georgia|US
 34.8119|-86.9831:Limestone|Alabama|US
+34.8144|135.7677:京都府|京都府|京田辺市|JP
+34.8163|135.5686:大阪府|大阪府|茨木市|JP
+34.8166|134.6833:兵庫県|兵庫県|姫路市|JP
+34.8166|135.6500:大阪府|大阪府|枚方市|JP
+34.8166|135.4333:大阪府|大阪府|池田市|JP
 34.8168|-89.1895:Benton|Mississippi|US
+34.8269|135.4705:大阪府|大阪府|箕面市|JP
 34.8300|-83.9897:Union|Georgia|US
+34.8333|137.2166:愛知県|愛知県|蒲郡市|JP
+34.8333|137.3833:愛知県|愛知県|豊川市|JP
 34.8362|-91.5516:Prairie|Arkansas|US
 34.8386|-79.4758:Scotland|North Carolina|US
 34.8406|-116.1775:San Bernardino|California|US
+34.8443|136.9069:愛知県|愛知県|武豊町|JP
 34.8500|5.7333:Biskra|Biskra|DZ
+34.8500|135.6166:大阪府|大阪府|高槻市|JP
 34.8549|-85.5049:Dade|Georgia|US
 34.8559|-94.0632:Scott|Arkansas|US
 34.8632|-104.7907:Guadalupe|New Mexico|US
@@ -6408,28 +6492,37 @@
 34.8837|111.2388:Pinglu County, Yuncheng City|Shanxi|CN
 34.8839|-83.4030:Rabun|Georgia|US
 34.8881|-82.7279:Pickens|South Carolina|US
+34.8894|135.2252:兵庫県|兵庫県|三田市|JP
 34.8933|-76.5412:Carteret|North Carolina|US
 34.8950|-82.3730:Greenville|South Carolina|US
 34.8985|-94.7039:Le Flore|Oklahoma|US
 34.8987|-85.1376:Catoosa|Georgia|US
+34.9000|136.9333:愛知県|愛知県|半田市|JP
+34.9000|135.6905:京都府|京都府|大山崎町|JP
 34.9017|-87.6562:Lauderdale|Alabama|US
 34.9113|-107.9989:Cibola|New Mexico|US
 34.9137|-83.7411:Towns|Georgia|US
 34.9165|117.3919:Zaozhuang City|Shandong|CN
 34.9167|-98.9772:Kiowa|Oklahoma|US
 34.9207|-95.7513:Pittsburg|Oklahoma|US
+34.9266|135.6955:京都府|京都府|長岡京市|JP
+34.9277|134.8419:兵庫県|兵庫県|加西市|JP
 34.9296|-81.9923:Spartanburg|South Carolina|US
 34.9345|-77.9314:Duplin|North Carolina|US
 34.9354|-99.5606:Greer|Oklahoma|US
 34.9459|-92.9437:Perry|Arkansas|US
+34.9500|137.1666:愛知県|愛知県|岡崎市|JP
+34.9502|134.7602:兵庫県|兵庫県|福崎町|JP
 34.9555|109.8585:Weinan City|Shaanxi|CN
 34.9649|-100.2700:Collingsworth|Texas|US
 34.9651|-101.3575:Armstrong|Texas|US
 34.9652|-102.6054:Deaf Smith|Texas|US
 34.9652|-100.8140:Donley|Texas|US
 34.9659|-101.8971:Randall|Texas|US
+34.9666|136.6166:三重県|三重県|四日市市|JP
 34.9728|-81.1809:York|South Carolina|US
 34.9740|-80.0995:Anson|North Carolina|US
+34.9755|138.3825:静岡県|静岡県|JP
 34.9756|138.3828:Shizuoka City|Shizuoka|JP
 34.9882|-78.3691:Sampson|North Carolina|US
 34.9896|-80.5296:Union|North Carolina|US
@@ -6437,7 +6530,9 @@
 35.0029|-93.4117:Yell|Arkansas|US
 35.0042|-79.7449:Richmond|North Carolina|US
 35.0112|-97.4457:McClain|Oklahoma|US
+35.0116|135.7680:京都府|京都府|JP
 35.0117|135.7682:Kyoto|Kyoto|JP
+35.0166|135.8500:滋賀県|滋賀県|大津市|JP
 35.0168|-97.8834:Grady|Oklahoma|US
 35.0189|-79.2365:Hoke|North Carolina|US
 35.0220|-90.7483:St. Francis|Arkansas|US
@@ -6454,10 +6549,19 @@
 35.0553|137.1074:Mikawa|Aichi Prefecture|JP
 35.0570|-83.7435:Clay|North Carolina|US
 35.0602|117.1352:Tengzhou City, Zaozhuang City|Shandong|CN
+35.0622|136.6838:三重県|三重県|桑名市|JP
+35.0675|136.0258:滋賀県|滋賀県|野洲市|JP
+35.0830|136.9830:愛知県|愛知県|JP
+35.0833|137.1566:愛知県|愛知県|豊田市|JP
+35.0897|137.0744:愛知県|愛知県|みよし市|JP
 35.0999|112.3926:Jiyuan City|Henan|CN
 35.1040|-103.5482:Quay|New Mexico|US
 35.1060|135.7298:Kyoto|Kyoto Prefecture|JP
 35.1067|104.6236:Longxi County, Dingxi City|Gansu|CN
+35.1072|135.4700:京都府|京都府|南丹市|JP
+35.1127|136.2077:滋賀県|滋賀県|東近江市|JP
+35.1166|136.0666:滋賀県|滋賀県|近江八幡市|JP
+35.1166|136.9333:愛知県|愛知県|JP
 35.1183|-77.0840:Craven|North Carolina|US
 35.1189|113.1311:Jiaozuo City|Henan|CN
 35.1219|118.5051:Hedong District, Linyi City|Shandong|CN
@@ -6480,8 +6584,10 @@
 35.1736|-98.3753:Caddo|Oklahoma|US
 35.1747|-88.5648:McNairy|Tennessee|US
 35.1767|-85.1665:Hamilton|Tennessee|US
+35.1772|135.0358:兵庫県|兵庫県|丹波市|JP
 35.1795|140.1962:Katsuura|Chiba Prefecture|JP
 35.1833|136.9000:Nagoya City|Aichi Prefecture|JP
+35.1841|137.0486:愛知県|愛知県|長久手市|JP
 35.1865|-89.8969:Shelby|Tennessee|US
 35.1881|111.0727:Yuncheng City|Shanxi|CN
 35.1890|-91.2439:Woodruff|Arkansas|US
@@ -6491,6 +6597,7 @@
 35.1962|-89.4140:Fayette|Tennessee|US
 35.1966|129.1641:Haeundae|Busan|KR
 35.1973|-88.1859:Hardin|Tennessee|US
+35.2000|136.8500:愛知県|愛知県|清須市|JP
 35.2020|106.5993:Huating County, Pingliang City|Gansu|CN
 35.2022|-87.0399:Giles|Tennessee|US
 35.2026|129.0816:|Busan|KR
@@ -6501,7 +6608,9 @@
 35.2082|105.1839:Tongwei County, Dingxi City|Gansu|CN
 35.2125|-90.3084:Crittenden|Arkansas|US
 35.2141|-93.7195:Logan|Arkansas|US
+35.2142|136.9116:愛知県|愛知県|JP
 35.2166|136.1381:|Shiga|JP
+35.2166|137.0833:愛知県|愛知県|瀬戸市|JP
 35.2168|-87.3979:Lawrence|Tennessee|US
 35.2172|114.7549:Changyuan City, Xinxiang City|Henan|CN
 35.2189|136.9997:Owariasahi City|Aichi Prefecture|JP
@@ -6509,11 +6618,15 @@
 35.2387|-87.7864:Wayne|Tennessee|US
 35.2403|-77.6425:Lenoir|North Carolina|US
 35.2447|-80.8318:Mecklenburg|North Carolina|US
+35.2500|139.6666:神奈川県|神奈川県|横須賀市|JP
+35.2500|136.9666:愛知県|愛知県|春日井市|JP
+35.2500|136.7833:愛知県|愛知県|稲沢市|JP
 35.2505|106.0543:Zhuanglang County, Pingliang City|Gansu|CN
 35.2550|135.4426:|Kyoto Prefecture|JP
 35.2569|-91.7491:White|Arkansas|US
 35.2621|-92.7051:Conway|Arkansas|US
 35.2646|108.8832:|Shaanxi|CN
+35.2647|139.1522:神奈川県|神奈川県|小田原市|JP
 35.2655|114.0840:Xinxiang City|Henan|CN
 35.2686|-99.6813:Beckham|Oklahoma|US
 35.2739|116.0288:Juye County, Heze City|Shandong|CN
@@ -6529,22 +6642,32 @@
 35.3077|106.6421:Pingliang City|Gansu|CN
 35.3089|-79.4847:Moore|North Carolina|US
 35.3124|118.2809:Linyi City|Shandong|CN
+35.3158|139.5502:神奈川県|神奈川県|鎌倉市|JP
 35.3165|-80.2509:Stanly|North Carolina|US
+35.3230|139.3422:神奈川県|神奈川県|平塚市|JP
 35.3316|-79.9042:Montgomery|North Carolina|US
+35.3333|136.8666:愛知県|愛知県|江南市|JP
+35.3338|139.4047:神奈川県|神奈川県|茅ケ崎市|JP
 35.3355|-81.5520:Cleveland|North Carolina|US
 35.3379|-82.4767:Henderson|North Carolina|US
+35.3391|139.4913:神奈川県|神奈川県|藤沢市|JP
 35.3433|-118.7278:Kern|California|US
+35.3500|136.7666:愛知県|愛知県|一宮市|JP
 35.3507|-83.8337:Graham|North Carolina|US
+35.3594|136.6127:岐阜県|岐阜県|大垣市|JP
 35.3644|-78.0003:Wayne|North Carolina|US
 35.3667|1.3166:Tiaret|Tiaret|DZ
 35.3673|-78.8724:Harnett|North Carolina|US
 35.3698|-85.4102:Sequatchie|Tennessee|US
 35.3724|-95.6660:McIntosh|Oklahoma|US
 35.3746|116.7332:Jining City|Shandong|CN
+35.3761|139.9169:千葉県|千葉県|木更津市|JP
+35.3833|136.9500:愛知県|愛知県|犬山市|JP
 35.3843|-85.7214:Grundy|Tennessee|US
 35.3878|-80.5527:Cabarrus|North Carolina|US
 35.3882|-120.4039:San Luis Obispo|California|US
 35.3947|-109.4892:Apache|Arizona|US
+35.3988|136.8486:岐阜県|岐阜県|各務原市|JP
 35.3998|-110.3219:Navajo|Arizona|US
 35.4000|0.1333:Mascara|Mascara|DZ
 35.4000|8.1167:Tebessa|Tebessa|DZ
@@ -6555,12 +6678,17 @@
 35.4037|-101.3543:Carson|Texas|US
 35.4043|-102.6028:Oldham|Texas|US
 35.4156|139.3390:|Kanagawa Prefecture|JP
+35.4166|136.7666:岐阜県|岐阜県|岐阜市|JP
 35.4167|7.1333:Khenchela|Khenchela|DZ
 35.4202|-76.1518:Hyde|North Carolina|US
 35.4208|112.3487:Yangcheng County, Jincheng City|Shanxi|CN
 35.4253|-88.6096:Chester|Tennessee|US
+35.4258|137.0611:岐阜県|岐阜県|可児市|JP
 35.4281|-84.6152:McMinn|Tennessee|US
+35.4333|139.6333:神奈川県|神奈川県|JP
+35.4333|139.3666:神奈川県|神奈川県|厚木市|JP
 35.4455|-84.2490:Monroe|Tennessee|US
+35.4475|139.6423:神奈川県|神奈川県|JP
 35.4487|-93.0321:Pope|Arkansas|US
 35.4509|139.6651:Yokohama Port|Kanagawa Prefecture|JP
 35.4580|-86.7642:Marshall|Tennessee|US
@@ -6573,10 +6701,12 @@
 35.4762|-79.1757:Lee|North Carolina|US
 35.4795|54.6613:|Semnan|IR
 35.4801|-104.8164:San Miguel|New Mexico|US
+35.4833|136.9000:岐阜県|岐阜県|関市|JP
 35.4851|-81.2174:Lincoln|North Carolina|US
 35.4853|-76.8433:Beaufort|North Carolina|US
 35.4854|-77.6758:Greene|North Carolina|US
 35.4867|-83.4875:Swain|North Carolina|US
+35.4904|137.0656:岐阜県|岐阜県|川辺町|JP
 35.4909|-86.0731:Coffee|Tennessee|US
 35.4927|111.6319:Jiang County, Yuncheng City|Shanxi|CN
 35.4945|-94.7546:Sequoyah|Oklahoma|US
@@ -6588,7 +6718,9 @@
 35.5115|140.1992:|Chiba Prefecture|JP
 35.5120|-93.8930:Franklin|Arkansas|US
 35.5142|129.4247:Dong|Ulsan|KR
+35.5147|137.8219:長野県|長野県|飯田市|JP
 35.5156|-84.8148:Meigs|Tennessee|US
+35.5166|139.7000:神奈川県|神奈川県|JP
 35.5175|-78.3662:Johnston|North Carolina|US
 35.5285|-87.4902:Lewis|Tennessee|US
 35.5319|129.1935:Ulju|Ulsan|KR
@@ -6602,6 +6734,7 @@
 35.5533|139.7811:Haneda Airport|Tokyo|JP
 35.5568|51.8769:|Tehran|IR
 35.5659|108.1031:Ningxian County, Qingyang City|Gansu|CN
+35.5666|139.3666:神奈川県|神奈川県|JP
 35.5667|139.3667:Sagamihara City|Kanagawa Prefecture|JP
 35.5672|139.6694:Ota-ku|Tokyo|JP
 35.5676|-93.4604:Johnson|Arkansas|US
@@ -6618,7 +6751,9 @@
 35.5954|-77.3735:Pitt|North Carolina|US
 35.5980|-91.2149:Jackson|Arkansas|US
 35.5994|-85.2061:Bledsoe|Tennessee|US
+35.6000|140.1000:千葉県|千葉県|JP
 35.6005|-88.1104:Decatur|Tennessee|US
+35.6027|140.4136:千葉県|千葉県|山武市|JP
 35.6041|140.0213:Chiba City|Chiba Prefecture|JP
 35.6054|-84.9308:Rhea|Tennessee|US
 35.6078|1.8111:Tissemsilt|Tissemsilt|DZ
@@ -6636,16 +6771,24 @@
 35.6385|-99.0017:Custer|Oklahoma|US
 35.6400|-80.5245:Rowan|North Carolina|US
 35.6466|-95.9643:Okmulgee|Oklahoma|US
+35.6536|139.9016:千葉県|千葉県|浦安市|JP
 35.6558|-88.3860:Henderson|Tennessee|US
 35.6621|-81.2133:Catawba|North Carolina|US
 35.6652|-75.7177:Dare|North Carolina|US
+35.6658|140.3183:千葉県|千葉県|八街市|JP
+35.6700|140.1683:千葉県|千葉県|四街道市|JP
 35.6728|-85.7797:Warren|Tennessee|US
 35.6774|-82.0482:McDowell|North Carolina|US
+35.6800|139.7700:東京都|東京都|中央区|JP
+35.6808|140.0266:千葉県|千葉県|習志野市|JP
 35.6871|-99.6967:Roger Mills|Oklahoma|US
 35.6886|-106.8688:Sandoval|New Mexico|US
 35.6894|-83.9285:Blount|Tennessee|US
+35.6922|138.6852:山梨県|山梨県|山梨市|JP
 35.6945|139.9824:Funabashi|Chiba Prefecture|JP
+35.6947|139.9825:千葉県|千葉県|船橋市|JP
 35.6969|-0.6331:Oran|Oran|DZ
+35.6982|139.6269:東京都|東京都|杉並区|JP
 35.6986|-85.4522:Van Buren|Tennessee|US
 35.6987|127.1553:|North Jeolla|KR
 35.7019|4.5472:M'sila|M'sila|DZ
@@ -6653,32 +6796,49 @@
 35.7039|-79.2554:Chatham|North Carolina|US
 35.7047|-113.7578:Mohave|Arizona|US
 35.7063|-77.9180:Wilson|North Carolina|US
+35.7077|140.5644:千葉県|千葉県|匝瑳市|JP
 35.7098|116.4944:Wenshang County, Jining City|Shandong|CN
 35.7102|-79.8057:Randolph|North Carolina|US
 35.7114|139.4468:|Tokyo|JP
 35.7216|46.9609:|Kordestan|IR
+35.7219|139.9311:千葉県|千葉県|市川市|JP
 35.7231|114.3093:Hebi City|Henan|CN
+35.7238|140.2238:千葉県|千葉県|佐倉市|JP
 35.7270|139.9459:Ichikawa|Chiba Prefecture|JP
 35.7333|0.5500:Relizane|Relizane|DZ
 35.7394|-84.3115:Loudon|Tennessee|US
 35.7424|-91.5700:Independence|Arkansas|US
 35.7458|112.3645:Qinshui County, Jincheng City|Shanxi|CN
+35.7458|139.6197:東京都|東京都|練馬区|JP
 35.7499|-81.7076:Burke|North Carolina|US
 35.7589|-89.6302:Lauderdale|Tennessee|US
+35.7591|139.8017:東京都|東京都|足立区|JP
 35.7627|-90.0519:Mississippi|Arkansas|US
 35.7653|140.3856:Narita Airport|Tokyo|JP
 35.7807|137.0564:|Gifu|JP
 35.7808|-83.5224:Sevier|Tennessee|US
 35.7813|128.5800:|Daegu|KR
+35.7813|139.6058:埼玉県|埼玉県|和光市|JP
+35.7833|140.3166:千葉県|千葉県|成田市|JP
+35.7877|139.9030:千葉県|千葉県|松戸市|JP
 35.7888|-78.6525:Wake|North Carolina|US
 35.7912|-80.2126:Davidson|North Carolina|US
+35.7933|139.5652:埼玉県|埼玉県|新座市|JP
+35.7994|139.4688:埼玉県|埼玉県|所沢市|JP
 35.8061|-87.4764:Hickman|Tennessee|US
+35.8077|139.7241:埼玉県|埼玉県|川口市|JP
 35.8083|115.2794:Puyang City|Henan|CN
 35.8095|-80.8743:Iredell|North Carolina|US
 35.8099|-86.0574:Cannon|Tennessee|US
+35.8175|139.6777:埼玉県|埼玉県|戸田市|JP
 35.8183|-89.1492:Crockett|Tennessee|US
+35.8227|139.8391:埼玉県|埼玉県|八潮市|JP
 35.8249|74.9806:|Gilgit-Baltistan|PK
+35.8255|139.8055:埼玉県|埼玉県|草加市|JP
 35.8302|-90.6324:Craighead|Arkansas|US
+35.8322|140.1458:千葉県|千葉県|印西市|JP
+35.8358|139.3911:埼玉県|埼玉県|入間市|JP
+35.8366|139.5802:埼玉県|埼玉県|志木市|JP
 35.8376|-100.2704:Hemphill|Texas|US
 35.8377|-101.8930:Moore|Texas|US
 35.8381|-76.5730:Washington|North Carolina|US
@@ -6687,25 +6847,35 @@
 35.8401|-102.6029:Hartley|Texas|US
 35.8401|-101.3547:Hutchinson|Texas|US
 35.8433|-77.1086:Martin|North Carolina|US
+35.8450|140.6617:千葉県|千葉県|東庄町|JP
 35.8459|-86.4107:Rutherford|Tennessee|US
 35.8492|-84.5246:Roane|Tennessee|US
+35.8530|139.4122:埼玉県|埼玉県|狭山市|JP
 35.8540|-82.7135:Madison|North Carolina|US
+35.8544|139.9688:千葉県|千葉県|柏市|JP
+35.8561|139.9025:千葉県|千葉県|流山市|JP
 35.8575|-103.8221:Harding|New Mexico|US
+35.8616|139.6452:埼玉県|埼玉県|JP
 35.8625|-92.1568:Stone|Arkansas|US
 35.8663|-106.3135:Los Alamos|New Mexico|US
 35.8715|-76.1706:Tyrrell|North Carolina|US
 35.8752|-98.4331:Blaine|Oklahoma|US
 35.8775|7.1136:Oum El Bouaghi|Oum El Bouaghi|DZ
 35.8789|114.3525:Anyang City|Henan|CN
+35.8794|139.5197:埼玉県|埼玉県|ふじみ野市|JP
 35.8849|-94.6586:Adair|Oklahoma|US
 35.8900|-5.3178:|Ceuta|ES
 35.8910|-86.8928:Williamson|Tennessee|US
+35.8911|139.7908:埼玉県|埼玉県|越谷市|JP
 35.8941|117.6048:Xintai City, Tai'an City|Shandong|CN
+35.8977|140.4991:千葉県|千葉県|香取市|JP
 35.9008|-82.3124:Yancey|North Carolina|US
 35.9023|-96.3709:Creek|Oklahoma|US
+35.9033|136.1691:福井県|福井県|越前市|JP
 35.9069|-94.9998:Cherokee|Oklahoma|US
 35.9084|118.5969:Yishui County, Linyi City|Shandong|CN
 35.9109|-92.6994:Searcy|Arkansas|US
+35.9113|140.0502:茨城県|茨城県|取手市|JP
 35.9123|-77.5944:Edgecombe|North Carolina|US
 35.9190|-97.4435:Logan|Oklahoma|US
 35.9195|-93.2161:Newton|Arkansas|US
@@ -6716,27 +6886,41 @@
 35.9293|-85.4559:White|Tennessee|US
 35.9310|-80.5450:Davie|North Carolina|US
 35.9333|0.0833:Mostaganem|Mostaganem|DZ
+35.9333|139.4833:埼玉県|埼玉県|川越市|JP
 35.9453|-97.9419:Kingfisher|Oklahoma|US
 35.9491|50.8178:|Alborz|IR
+35.9513|139.9755:茨城県|茨城県|守谷市|JP
 35.9520|-81.5480:Caldwell|North Carolina|US
 35.9527|-84.9984:Cumberland|Tennessee|US
 35.9557|106.1836:Guyuan City|Ningxia|CN
+35.9566|136.1844:福井県|福井県|鯖江市|JP
+35.9572|139.4030:埼玉県|埼玉県|坂戸市|JP
 35.9602|-95.5191:Wagoner|Oklahoma|US
 35.9622|116.3359:Dongping County, Tai'an City|Shandong|CN
+35.9630|140.0372:茨城県|茨城県|つくばみらい市|JP
 35.9647|103.7711:Qilihe District, Lanzhou City|Gansu|CN
 35.9658|-77.9842:Nash|North Carolina|US
 35.9737|-88.4519:Carroll|Tennessee|US
+35.9752|139.7525:埼玉県|埼玉県|春日部市|JP
 35.9762|-85.8369:DeKalb|Tennessee|US
 35.9768|-94.2180:Washington|Arkansas|US
+35.9775|139.5933:埼玉県|埼玉県|上尾市|JP
 35.9833|126.7167:Gunsan||KR
+35.9833|140.1500:茨城県|茨城県|牛久市|JP
 35.9877|-99.0073:Dewey|Oklahoma|US
+35.9941|139.6622:埼玉県|埼玉県|蓮田市|JP
 35.9944|-88.9336:Gibson|Tennessee|US
 35.9951|-83.9464:Knox|Tennessee|US
 35.9974|139.3476:|Saitama|JP
 36.0009|117.0385:Tai'an City|Shandong|CN
+36.0027|139.5583:埼玉県|埼玉県|桶川市|JP
+36.0033|139.2888:埼玉県|埼玉県|ときがわ町|JP
 36.0104|-93.7252:Madison|Arkansas|US
 36.0106|-82.1582:Mitchell|North Carolina|US
 36.0110|-104.9498:Mora|New Mexico|US
+36.0134|133.0296:島根県|島根県|知夫村|JP
+36.0188|139.6769:埼玉県|埼玉県|白岡市|JP
+36.0333|140.0666:茨城県|茨城県|つくば市|JP
 36.0364|-78.8761:Durham|North Carolina|US
 36.0396|-87.7799:Humphreys|Tennessee|US
 36.0407|107.6714:Qingcheng County, Qingyang City|Gansu|CN
@@ -6745,6 +6929,8 @@
 36.0482|-83.4515:Jefferson|Tennessee|US
 36.0593|-89.4154:Dyer|Tennessee|US
 36.0609|-79.1217:Orange|North Carolina|US
+36.0641|136.2197:福井県|福井県|福井市|JP
+36.0666|140.2000:茨城県|茨城県|土浦市|JP
 36.0667|4.7667:Bordj Bou-Arreridj|Bordj Bou-Arreridj|DZ
 36.0688|-76.9655:Bertie|North Carolina|US
 36.0711|-88.0685:Benton|Tennessee|US
@@ -6767,17 +6953,21 @@
 36.1325|-84.6488:Morgan|Tennessee|US
 36.1360|138.0463:|Nagano|JP
 36.1365|-5.3492:||GI
+36.1388|139.4558:埼玉県|埼玉県|行田市|JP
 36.1401|-85.5065:Putnam|Tennessee|US
 36.1467|-87.3589:Dickson|Tennessee|US
+36.1472|139.3886:埼玉県|埼玉県|熊谷市|JP
 36.1527|110.7157:Ji County, Linfen City|Shanxi|CN
 36.1550|-86.2978:Wilson|Tennessee|US
 36.1622|-80.6624:Yadkin|North Carolina|US
 36.1626|-91.4782:Sharp|Arkansas|US
+36.1656|138.6869:群馬県|群馬県|南牧村|JP
 36.1701|-86.7865:Davidson|Tennessee|US
 36.1747|-82.8469:Greene|Tennessee|US
 36.1785|-76.4060:Perquimans|North Carolina|US
 36.1833|5.4000:Setif|Setif|DZ
 36.1870|120.4195:Licang District, Qingdao City|Shandong|CN
+36.1975|139.2813:埼玉県|埼玉県|深谷市|JP
 36.2084|-81.1623:Wilkes|North Carolina|US
 36.2131|-89.7874:Pemiscot|Missouri|US
 36.2139|117.1946:Taishan District, Tai'an City|Shandong|CN
@@ -6789,6 +6979,11 @@
 36.2203|-118.8020:Tulare|California|US
 36.2283|111.3768:Linfen City|Shanxi|CN
 36.2310|-81.7003:Watauga|North Carolina|US
+36.2333|140.2833:茨城県|茨城県|小美玉市|JP
+36.2380|137.9719:長野県|長野県|松本市|JP
+36.2450|139.5422:群馬県|群馬県|館林市|JP
+36.2470|139.4048:群馬県|群馬県|大泉町|JP
+36.2500|138.1000:長野県|長野県|上田市|JP
 36.2536|-85.9541:Smith|Tennessee|US
 36.2567|-77.6556:Halifax|North Carolina|US
 36.2614|-87.0890:Cheatham|Tennessee|US
@@ -6810,12 +7005,15 @@
 36.2878|-92.3378:Baxter|Arkansas|US
 36.2887|-87.7188:Houston|Tennessee|US
 36.2897|-82.1259:Carter|Tennessee|US
+36.2916|139.3758:群馬県|群馬県|太田市|JP
 36.2947|-82.4945:Washington|Tennessee|US
 36.2990|-88.7199:Weakley|Tennessee|US
 36.3018|-95.2318:Mayes|Oklahoma|US
 36.3034|-78.6518:Granville|North Carolina|US
 36.3085|-93.0937:Boone|Arkansas|US
 36.3115|-98.5347:Major|Oklahoma|US
+36.3147|139.8002:栃木県|栃木県|小山市|JP
+36.3166|139.0000:群馬県|群馬県|高崎市|JP
 36.3174|128.7493:|North Gyeongsang|KR
 36.3174|-96.7033:Pawnee|Oklahoma|US
 36.3188|127.3786:|Daejeon|KR
@@ -6823,6 +7021,7 @@
 36.3364|-94.2568:Benton|Arkansas|US
 36.3367|112.7377:Tunliu District, Changzhi City|Shanxi|CN
 36.3380|-76.1557:Camden|North Carolina|US
+36.3402|139.4497:栃木県|栃木県|足利市|JP
 36.3404|-93.5427:Carroll|Arkansas|US
 36.3412|-85.2899:Overton|Tennessee|US
 36.3416|-91.0246:Randolph|Arkansas|US
@@ -6834,6 +7033,7 @@
 36.3608|-76.9810:Hertford|North Carolina|US
 36.3612|-75.9588:Currituck|North Carolina|US
 36.3638|-85.6724:Jackson|Tennessee|US
+36.3666|139.1166:群馬県|群馬県|前橋市|JP
 36.3683|-90.4148:Clay|Arkansas|US
 36.3688|-78.4067:Vance|North Carolina|US
 36.3700|-95.6041:Rogers|Oklahoma|US
@@ -6843,11 +7043,14 @@
 36.3800|3.9014:Bouira|Bouira|DZ
 36.3813|-84.9287:Fentress|Tennessee|US
 36.3818|-91.8173:Fulton|Arkansas|US
+36.3833|139.0666:群馬県|群馬県|前橋市|JP
+36.3864|138.5922:長野県|長野県|軽井沢町|JP
 36.3895|-97.2293:Noble|Oklahoma|US
 36.3899|-78.9722:Person|North Carolina|US
 36.3903|-86.1609:Trousdale|Tennessee|US
 36.3931|-79.3335:Caswell|North Carolina|US
 36.3959|-79.7750:Rockingham|North Carolina|US
+36.3963|140.5344:茨城県|茨城県|ひたちなか市|JP
 36.3973|-78.1065:Warren|North Carolina|US
 36.4018|-80.2389:Stokes|North Carolina|US
 36.4036|-84.1511:Campbell|Tennessee|US
@@ -6886,6 +7089,7 @@
 36.5107|-106.6932:Rio Arriba|New Mexico|US
 36.5111|-117.4112:Inyo|California|US
 36.5124|-82.3041:Sullivan|Tennessee|US
+36.5166|139.8166:栃木県|栃木県|鹿沼市|JP
 36.5173|127.2474:Areum-dong|Sejong|KR
 36.5245|-86.8735:Robertson|Tennessee|US
 36.5268|126.8305:|South Chungcheong|KR
@@ -6893,12 +7097,15 @@
 36.5276|48.3582:|Zanjan|IR
 36.5316|-86.0078:Macon|Tennessee|US
 36.5477|127.2392:|Sejong|KR
+36.5500|139.8833:栃木県|栃木県|宇都宮市|JP
 36.5515|-85.5393:Clay|Tennessee|US
 36.5524|-89.2014:Fulton|Kentucky|US
 36.5532|119.0713:Weifang City|Shandong|CN
 36.5538|114.5421:Handan City|Hebei|CN
 36.5561|-85.0776:Pickett|Tennessee|US
 36.5649|104.1535:Baiyin District, Baiyin City|Gansu|CN
+36.5666|136.6500:石川県|石川県|金沢市|JP
+36.5672|139.7450:栃木県|栃木県|鹿沼市|JP
 36.5767|116.9669:Shizhong District, Jinan City|Shandong|CN
 36.5801|-105.6310:Taos|New Mexico|US
 36.5802|-79.4040:Danville|Virginia|US
@@ -6916,6 +7123,8 @@
 36.6209|-88.2732:Calloway|Kentucky|US
 36.6287|-94.3487:McDonald|Missouri|US
 36.6289|-96.3964:Osage|Oklahoma|US
+36.6333|136.6500:石川県|石川県|金沢市|JP
+36.6486|138.1927:長野県|長野県|長野市|JP
 36.6492|-92.4446:Ozark|Missouri|US
 36.6532|117.0907:Lixia District, Jinan City|Shandong|CN
 36.6546|-90.8599:Ripley|Missouri|US
@@ -6933,6 +7142,7 @@
 36.6854|-79.8763:Henry|Virginia|US
 36.6871|-91.4034:Oregon|Missouri|US
 36.6946|-77.5341:Emporia|Virginia|US
+36.7000|137.2200:富山県|富山県|富山市|JP
 36.7016|-76.6360:Suffolk|Virginia|US
 36.7025|127.8187:|North Chungcheong|KR
 36.7059|-83.1261:Lee|Virginia|US
@@ -7026,6 +7236,7 @@
 37.0180|-7.9308:|Algarve|PT
 37.0191|-78.6631:Charlotte|Virginia|US
 37.0208|-88.0789:Lyon|Kentucky|US
+37.0333|140.8833:福島県|福島県|いわき市|JP
 37.0351|-76.3588:Hampton|Virginia|US
 37.0535|-88.7045:McCracken|Kentucky|US
 37.0548|105.4777:Zhongwei City|Ningxia|CN
@@ -7053,6 +7264,7 @@
 37.1313|-81.1360:Bland|Virginia|US
 37.1364|128.9905:Taebaek|Gangwon|KR
 37.1394|140.9856:|Togichi|JP
+37.1400|140.4483:福島県|福島県|石川町|JP
 37.1412|112.2527:Pingyao County, Jinzhong City|Shanxi|CN
 37.1426|-76.3580:Poquoson|Virginia|US
 37.1436|-78.0507:Nottoway|Virginia|US
@@ -7123,6 +7335,7 @@
 37.3116|-76.7695:James City|Virginia|US
 37.3123|-80.7064:Giles|Virginia|US
 37.3153|-104.0376:Las Animas|Colorado|US
+37.3166|138.8000:新潟県|新潟県|小千谷市|JP
 37.3173|-91.9656:Texas|Missouri|US
 37.3194|-102.5603:Baca|Colorado|US
 37.3245|-90.0273:Bollinger|Missouri|US
@@ -7145,6 +7358,7 @@
 37.3800|-81.6508:McDowell|West Virginia|US
 37.3849|-89.6844:Cape Girardeau|Missouri|US
 37.3860|-5.9830:Seville|Andalusia|ES
+37.4000|140.3833:福島県|福島県|郡山市|JP
 37.4002|-79.1989:Lynchburg|Virginia|US
 37.4044|57.0354:|North Khorasan|IR
 37.4048|-81.1102:Mercer|West Virginia|US
@@ -7156,6 +7370,7 @@
 37.4282|-83.6881:Owsley|Kentucky|US
 37.4318|-93.8503:Dade|Missouri|US
 37.4330|122.1156:Huancui District, Weihai City|Shandong|CN
+37.4333|138.8333:新潟県|新潟県|長岡市|JP
 37.4374|-100.9865:|Satakunta Hospital District|FI
 37.4406|106.4984:Wuzhong City|Ningxia|CN
 37.4416|-76.3410:Mathews|Virginia|US
@@ -7231,6 +7446,7 @@
 37.6590|-92.5888:Laclede|Missouri|US
 37.6617|-87.9430:Union|Kentucky|US
 37.6663|139.0402:Kamo|Niigata|JP
+37.6666|139.0333:新潟県|新潟県|加茂市|JP
 37.6667|21.5000:Ilia Prefecture|Peloponnese, Western Greece and the Ionian Islands|GR
 37.6676|117.1328:Leling City, Dezhou City|Shandong|CN
 37.6695|-106.9282:Mineral|Colorado|US
@@ -7264,6 +7480,7 @@
 37.7533|-88.5412:Saline|Illinois|US
 37.7560|-85.1741:Washington|Kentucky|US
 37.7583|-77.4946:Hanover|Virginia|US
+37.7608|140.4733:福島県|福島県|福島市|JP
 37.7625|-107.6763:San Juan|Colorado|US
 37.7636|115.8236:Hengshui City|Hebei|CN
 37.7643|-88.2295:Gallatin|Illinois|US
@@ -7310,6 +7527,7 @@
 37.8909|-90.1950:Ste. Genevieve|Missouri|US
 37.8920|-76.4195:Northumberland|Virginia|US
 37.9014|-103.7173:Otero|Colorado|US
+37.9161|139.0197:新潟県|新潟県|JP
 37.9162|139.0364:Niigata|Niigata|JP
 37.9192|-121.9290:Contra Costa|California|US
 37.9247|-83.2556:Morgan|Kentucky|US
@@ -7413,6 +7631,7 @@
 38.2682|140.8694:Sendai|Miyagi|JP
 38.2682|-77.1585:King George|Virginia|US
 38.2683|-121.9357:Solano|California|US
+38.2683|140.8694:宮城県|宮城県|JP
 38.2685|116.7593:Cangzhou City|Hebei|CN
 38.2759|-90.1776:Monroe|Illinois|US
 38.2881|-86.4452:Crawford|Indiana|US
@@ -7421,6 +7640,7 @@
 38.2962|-84.5817:Scott|Kentucky|US
 38.2962|-80.7976:Nicholas|West Virginia|US
 38.2978|-77.4922:Fredericksburg|Virginia|US
+38.2995|141.0623:宮城県|宮城県|七ケ浜町|JP
 38.2998|-88.9240:Jefferson|Illinois|US
 38.3006|-76.6063:St. Mary's|Maryland|US
 38.3029|-96.5956:Chase|Kansas|US
@@ -7434,6 +7654,7 @@
 38.3382|-112.1250:Piute|Utah|US
 38.3386|-81.5286:Kanawha|West Virginia|US
 38.3462|-98.1999:Rice|Kansas|US
+38.3500|140.9666:宮城県|宮城県|利府町|JP
 38.3531|-89.4098:Washington|Illinois|US
 38.3566|-113.2342:Beaver|Utah|US
 38.3580|-79.5612:Highland|Virginia|US
@@ -7496,6 +7717,7 @@
 38.5433|-82.9216:Greenup|Kentucky|US
 38.5638|-94.8383:Miami|Kansas|US
 38.5644|-95.2864:Franklin|Kansas|US
+38.5772|140.9555:宮城県|宮城県|大崎市|JP
 38.5947|-83.8215:Mason|Kentucky|US
 38.5968|-119.8224:Alpine|California|US
 38.5974|-82.5347:Lawrence|Ohio|US
@@ -7711,6 +7933,7 @@
 39.3723|-111.5759:Sanpete|Utah|US
 39.3793|-96.3456:Pottawatomie|Kansas|US
 39.3815|-94.7707:Platte|Missouri|US
+39.3858|140.0488:秋田県|秋田県|由利本荘市|JP
 39.3913|-88.8061:Shelby|Illinois|US
 39.3933|-98.2091:Mitchell|Kansas|US
 39.3956|-87.1172:Clay|Indiana|US
@@ -7800,6 +8023,8 @@
 39.7021|-112.7809:Juab|Utah|US
 39.7158|-75.1400:Gloucester|New Jersey|US
 39.7165|-90.2026:Morgan|Illinois|US
+39.7186|140.1025:秋田県|秋田県|秋田市|JP
+39.7197|140.1025:秋田県|秋田県|秋田市|JP
 39.7228|118.3354:Tangshan City|Hebei|CN
 39.7298|-81.0846:Monroe|Ohio|US
 39.7351|-82.2380:Perry|Ohio|US
@@ -8004,6 +8229,7 @@
 40.5066|-98.9488:Kearney|Nebraska|US
 40.5072|-89.5140:Tazewell|Illinois|US
 40.5116|-99.4146:Phelps|Nebraska|US
+40.5122|141.4883:青森県|青森県|八戸市|JP
 40.5148|-99.8302:Gosper|Nebraska|US
 40.5159|-85.6547:Grant|Indiana|US
 40.5192|15.8903:Potenza|Basilicata|IT
@@ -8096,6 +8322,7 @@
 40.8148|-81.3644:Stark|Ohio|US
 40.8167|-79.4629:Armstrong|Pennsylvania|US
 40.8191|-90.9249:Henderson|Illinois|US
+40.8222|140.7475:青森県|青森県|青森市|JP
 40.8291|-85.4882:Huntington|Indiana|US
 40.8293|-81.8884:Wayne|Ohio|US
 40.8434|-83.3073:Wyandot|Ohio|US
@@ -8292,6 +8519,7 @@
 41.5897|-120.7245:Modoc|California|US
 41.5908|-88.4287:Kendall|Illinois|US
 41.5920|-122.5407:Siskiyou|California|US
+41.5928|140.3638:北海道|北海道|知内町|JP
 41.5958|21.6927:||MK
 41.5976|-85.8588:Elkhart|Indiana|US
 41.5990|140.3407:Shiriuchi|Hokkaido|JP
@@ -8310,6 +8538,7 @@
 41.6594|-108.8828:Sweetwater|Wyoming|US
 41.6711|-71.5764:Kent|Rhode Island|US
 41.6717|-91.5875:Johnson|Iowa|US
+41.6803|140.4348:北海道|北海道|木古内町|JP
 41.6833|-95.8156:Harrison|Iowa|US
 41.6838|-94.5011:Guthrie|Iowa|US
 41.6845|-94.9058:Audubon|Iowa|US
@@ -8341,6 +8570,7 @@
 41.7676|-4.7805:|Castilla y Leon|ES
 41.7723|-91.1325:Cedar|Iowa|US
 41.7726|-77.2543:Tioga|Pennsylvania|US
+41.7733|140.7261:北海道|北海道|函館市|JP
 41.7887|-76.5157:Bradford|Pennsylvania|US
 41.7923|-71.1087:Bristol|Massachusetts|US
 41.7938|-73.2451:Litchfield|Connecticut|US
@@ -8385,6 +8615,7 @@
 41.9384|-88.4286:Kane|Illinois|US
 41.9407|-70.8080:Plymouth|Massachusetts|US
 41.9545|-86.4131:Berrien|Michigan|US
+41.9546|140.6931:北海道|北海道|七飯町|JP
 41.9616|125.9505:Tonghua City|Jilin|CN
 41.9703|114.1498:Huade County, Ulanqab City|Inner Mongolia|CN
 41.9925|-80.0330:Erie|Pennsylvania|US
@@ -8424,6 +8655,7 @@
 42.1949|-112.5408:Oneida|Idaho|US
 42.1984|-74.9671:Delaware|New York|US
 42.2092|139.9074:Yakumo|Hokkaido|JP
+42.2092|140.2037:北海道|北海道|八雲町|JP
 42.2093|-97.1193:Wayne|Nebraska|US
 42.2208|-103.0879:Box Butte|Nebraska|US
 42.2277|-79.3669:Chautauqua|New York|US
@@ -8466,6 +8698,7 @@
 42.3838|-93.7020:Hamilton|Iowa|US
 42.3850|118.6330:Songshan District, Chifeng City|Inner Mongolia|CN
 42.3852|-94.6405:Calhoun|Iowa|US
+42.3854|139.8333:北海道|北海道|せたな町|JP
 42.3862|-95.1055:Sac|Iowa|US
 42.3870|-95.5136:Ida|Iowa|US
 42.3898|-96.0459:Woodbury|Iowa|US
@@ -8511,6 +8744,7 @@
 42.6006|-73.9772:Albany|New York|US
 42.6030|-83.9130:Livingston|Michigan|US
 42.6196|20.5750:Klina||XK
+42.6333|141.6000:北海道|北海道|苫小牧市|JP
 42.6349|-75.0315:Otsego|New York|US
 42.6351|-77.1037:Yates|New York|US
 42.6376|-97.8918:Knox|Nebraska|US
@@ -8557,6 +8791,7 @@
 42.7880|11.2420:Grosseto|Toscana|IT
 42.7925|-120.3850:Lake|Oregon|US
 42.8118|125.3049:Liaoyuan City|Jilin|CN
+42.8166|141.6500:北海道|北海道|千歳市|JP
 42.8167|-74.0528:Schenectady|New York|US
 42.8174|141.2409:Chitose|Hokkaido|JP
 42.8311|-96.6558:Union|South Dakota|US
@@ -8564,10 +8799,12 @@
 42.8515|-77.3087:Ontario|New York|US
 42.8552|-113.6357:Minidoka|Idaho|US
 42.8580|125.1521:Longshan District, Liaoyuan City|Jilin|CN
+42.8625|140.7037:北海道|北海道|倶知安町|JP
 42.8627|-91.8441:Fayette|Iowa|US
 42.8667|25.3333:Gabrovo||BG
 42.8672|-90.7063:Grant|Wisconsin|US
 42.8799|-99.7134:Keya Paha|Nebraska|US
+42.8800|142.5719:北海道|北海道|日高町|JP
 42.8890|13.5556:Ascoli Piceno|Marche|IT
 42.8997|-98.7649:Boyd|Nebraska|US
 42.9012|-74.4401:Montgomery|New York|US
@@ -8588,6 +8825,7 @@
 42.9658|119.2411:Wengniute Banner, Chifeng City|Inner Mongolia|CN
 42.9693|-114.8108:Gooding|Idaho|US
 42.9727|-105.5082:Converse|Wyoming|US
+42.9833|144.3833:北海道|北海道|釧路市|JP
 42.9836|-81.2497:London|Ontario|CA
 42.9850|-71.1288:Rockingham|New Hampshire|US
 42.9855|141.5631:Kitahiroshima|Hokkaido|JP
@@ -8596,12 +8834,14 @@
 42.9891|-97.8859:Bon Homme|South Dakota|US
 42.9896|-2.6189:|Basque Country|ES
 43.0000|68.5000:|Shymkent|KZ
+43.0000|142.0000:北海道|北海道|夕張市|JP
 43.0005|-90.1347:Iowa|Wisconsin|US
 43.0012|-114.1359:Lincoln|Idaho|US
 43.0023|-78.1914:Genesee|New York|US
 43.0049|-76.1997:Onondaga|New York|US
 43.0049|-87.9673:Milwaukee|Wisconsin|US
 43.0092|-97.3947:Yankton|South Dakota|US
+43.0120|142.8660:北海道|北海道|清水町|JP
 43.0183|-88.3043:Waukesha|Wisconsin|US
 43.0205|-88.7753:Jefferson|Wisconsin|US
 43.0224|-83.7059:Genesee|Michigan|US
@@ -8611,6 +8851,7 @@
 43.0428|46.8726:Dagestan|North Caucasian|RU
 43.0447|-2.6169:|Pais Vasco|ES
 43.0450|-79.3104:Niagara|Ontario|CA
+43.0500|141.3500:北海道|北海道|JP
 43.0510|129.4579:Yanji City, Yanbian Prefecture|Jilin|CN
 43.0544|0.1638:Hautes-Pyrenees|Occitanie|FR
 43.0561|-104.4759:Niobrara|Wyoming|US
@@ -8629,6 +8870,7 @@
 43.0905|-83.2215:Lapeer|Michigan|US
 43.0925|44.2629:North Ossetia-Alania|North Caucasian|RU
 43.1003|13.5776:Fermo|Marche|IT
+43.1038|141.5361:北海道|北海道|江別市|JP
 43.1050|2.4054:Aude|Occitanie|FR
 43.1054|141.5319:Ebetsu|Hokkaido|JP
 43.1090|-73.8665:Saratoga|New York|US
@@ -8640,8 +8882,10 @@
 43.1549|-77.0298:Wayne|New York|US
 43.1696|44.8041:Ingushetia|North Caucasian|RU
 43.1741|-124.0595:Coos|Oregon|US
+43.1783|141.3066:北海道|北海道|石狩市|JP
 43.1854|124.3406:Tiexi District, Siping City|Jilin|CN
 43.1863|143.5339:Kushiro City|Hokkaido|JP
+43.1902|140.9941:北海道|北海道|小樽市|JP
 43.1904|13.2400:Macerata|Marche|IT
 43.1929|11.4568:Siena|Toscana|IT
 43.1934|-100.7196:Todd|South Dakota|US
@@ -8676,6 +8920,7 @@
 43.3115|-73.4304:Washington|New York|US
 43.3167|-79.8000:Burlington|Ontario|CA
 43.3237|145.5819:Nemuro City|Hokkaido|JP
+43.3300|145.5830:北海道|北海道|根室市|JP
 43.3343|-84.0513:Saginaw|Michigan|US
 43.3345|-97.7554:Hutchinson|South Dakota|US
 43.3375|-102.5555:Oglala Lakota|South Dakota|US
@@ -8705,6 +8950,7 @@
 43.4086|-113.9753:Blaine|Idaho|US
 43.4115|142.3833:Nakafurano|Hokkaido|JP
 43.4158|-88.7093:Dodge|Wisconsin|US
+43.4170|142.4265:北海道|北海道|中富良野町|JP
 43.4186|-80.4728:Kitchener|Ontario|CA
 43.4203|-74.9615:Herkimer|New York|US
 43.4241|-82.8206:Sanilac|Michigan|US
@@ -8725,9 +8971,11 @@
 43.5104|-79.8894:Halton|Ontario|CA
 43.5164|-71.4168:Belknap|New Hampshire|US
 43.5355|11.8578:Arezzo|Toscana|IT
+43.5431|142.6459:北海道|北海道|美瑛町|JP
 43.5433|142.3359:Biei Town|Hokkaido|JP
 43.5435|5.0860:Bouches-du-Rhone|Provence-Alpes-Cote d'Azur|FR
 43.5544|-85.8007:Newaygo|Michigan|US
+43.5577|141.9105:北海道|北海道|滝川市|JP
 43.5617|-73.8434:Warren|New York|US
 43.5723|124.4702:Siping City|Jilin|CN
 43.5772|-73.0374:Rutland|Vermont|US
@@ -8774,6 +9022,7 @@
 43.7178|142.0403:Fukagawa|Hokkaido|JP
 43.7193|-108.4423:Hot Springs|Wyoming|US
 43.7210|-87.9458:Sheboygan|Wisconsin|US
+43.7233|142.0536:北海道|北海道|深川市|JP
 43.7253|-79.3870:Toronto|Ontario|CA
 43.7259|-113.1735:Butte|Idaho|US
 43.7304|87.7853:Urumqi City|Xinjiang|CN
@@ -8784,6 +9033,7 @@
 43.7622|-79.8137:Peel|Ontario|CA
 43.7635|118.0971:Linxi County, Chifeng City|Inner Mongolia|CN
 43.7655|-0.7102:Mayotte|Mayotte|FR
+43.7666|142.3666:北海道|北海道|旭川市|JP
 43.7712|41.7551:Karachay-Cherkessia|North Caucasian|RU
 43.7715|142.3810:Asahikawa City|Hokkaido|JP
 43.7814|-111.6538:Madison|Idaho|US
@@ -8793,6 +9043,7 @@
 43.7866|2.1654:Tarn|Occitanie|FR
 43.8003|-89.0468:Green Lake|Wisconsin|US
 43.8030|143.8919:Kitami City|Hokkaido|JP
+43.8080|143.8941:北海道|北海道|北見市|JP
 43.8191|-89.4007:Marquette|Wisconsin|US
 43.8208|-112.3132:Jefferson|Idaho|US
 43.8296|125.2592:Sunac City, Shangcheng, Changchun City|Jilin|CN
@@ -9474,6 +9725,7 @@
 47.4113|8.1591:|Aargau|CH
 47.4132|9.7438:Dornbirn|Vorarlberg|AT
 47.4178|8.6560:|Zurich|CH
+47.4256|8.6510:Zurich|CH
 47.4265|9.3736:18+|Sankt Gallen|CH
 47.4276|4.7712:Cote-d'Or|Bourgogne-Franche-Comte|FR
 47.4449|13.9015:Grobming|Styria|AT
