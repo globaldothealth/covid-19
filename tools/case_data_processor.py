@@ -69,12 +69,16 @@ def extract_location_info(cases, out_path):
         geo_id = normalize_geo_id(geo_id)
         geo_id_to_location_info[geo_id] = loc_info
     print("Processing " + str(len(cases)) + " cases...")
+    cases_without_country = 0
+    example_countryless_case = None
     for c in cases:
         geo_id = get_geo_id(c)
         loc = c["location"]
         info = []
         if "country" not in loc:
-            print("Warning, no country")
+            cases_without_country += 1
+            if not example_countryless_case:
+                example_countryless_case = c
             continue
         country_code = country_converter.code_from_name(loc["country"])
         if not country_code:
@@ -87,6 +91,10 @@ def extract_location_info(cases, out_path):
             geo_id_to_location_info, geo_id, "|".join(info))
 
     output = []
+    if cases_without_country > 0:
+        print("Warning, " + str(cases_without_country) + " "
+              "cases didn't have a country. Here is an example:")
+        print(example_countryless_case)
     for geo_id in geo_id_to_location_info:
         output.append(geo_id + ":" + geo_id_to_location_info[geo_id])
 
