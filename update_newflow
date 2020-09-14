@@ -23,17 +23,17 @@ if __name__ == "__main__":
         os.system("tar xzf cases.tar.gz")
 
     print("Loading cases...")
-    cases = processor.load_case_data(CASES_FILE_NAME)
-    print("Loaded " + str(len(cases)) + " cases")
+    CASES = processor.load_case_data(CASES_FILE_NAME)
+    print("Loaded " + str(len(CASES)) + " cases")
     print("Extracting location data...")
-    processor.extract_location_info(cases, LOCATION_INFO_FILE_NAME)
+    processor.extract_location_info(CASES, LOCATION_INFO_FILE_NAME)
     os.system("./sanitize_location_info")
 
     print("Pruning data...")
-    pruned_cases = processor.prune_cases(cases)
+    PRUNED_CASES = processor.prune_cases(CASES)
 
     os.system("rm " + os.path.join(SELF_DIR, "d") + "/*")
-    processor.output_daily_slices(pruned_cases,
+    processor.output_daily_slices(PRUNED_CASES,
                                   os.path.join(SELF_DIR, "d"),)
     # os.system("rm " + os.path.join(SELF_DIR, "c") + "/*")
     # processor.output_country_slices(pruned_cases,
