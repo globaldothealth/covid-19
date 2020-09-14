@@ -1,0 +1,37 @@
+#!/usr/bin/python3
+
+import os
+
+from tools import case_data_processor as processor
+
+CASES_FILE_NAME = "cases.json"
+LOCATION_INFO_FILE_NAME = "location_info.data"
+SELF_DIR = os.path.dirname(os.path.realpath(__file__))
+
+if __name__ == "__main__":
+    if os.path.exists(CASES_FILE_NAME):
+        print(CASES_FILE_NAME + " exists, not re-downloading.")
+    else:
+        os.system("wget 'https://github.com/globaldothealth/list/raw/main/data/cases.tar.gz'")
+        os.system("tar xzf cases.tar.gz")
+
+    print("Loading cases...")
+    cases = processor.load_case_data(CASES_FILE_NAME, 1000)
+    print("Extracting location data...")
+    processor.extract_location_info(cases, LOCATION_INFO_FILE_NAME)
+    # Sort the location info data
+    bup = LOCATION_INFO_FILE_NAME + ".bup"
+    os.system(
+        "mv " + LOCATION_INFO_FILE_NAME + " " + bup)
+    os.system("sort " + bup + " > " + LOCATION_INFO_FILE_NAME)
+
+    print("Pruning data...")
+    pruned_cases = processor.prune_cases(cases)
+
+    os.system("rm " + os.path.join(SELF_DIR, "d") + "/*")
+    processor.output_daily_slices(pruned_cases,
+                                  os.path.join(SELF_DIR, "d"),)
+    # os.system("rm " + os.path.join(SELF_DIR, "c") + "/*")
+    # processor.output_country_slices(pruned_cases,
+                                    # os.path.join(SELF_DIR, "c"))
+    # print(pruned_cases)
