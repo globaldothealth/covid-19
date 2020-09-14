@@ -4,6 +4,13 @@ import os
 
 from tools import case_data_processor as processor
 
+# Note that this is hard-coded to the exported version from 2020-08-19 because
+# the version after that only includes new data. When the strategy to merge the
+# new and old data has been decided, we can start importing data from the head
+# of the tree again.
+SRC_URL = "https://github.com/globaldothealth/list/raw/14d1f99394842794d7184e3423eaa18e68b275d7/data/cases.tar.gz"
+# SRC_URL = "https://github.com/globaldothealth/list/raw/main/data/cases.tar.gz"
+
 CASES_FILE_NAME = "cases.json"
 LOCATION_INFO_FILE_NAME = "location_info.data"
 SELF_DIR = os.path.dirname(os.path.realpath(__file__))
@@ -12,7 +19,7 @@ if __name__ == "__main__":
     if os.path.exists(CASES_FILE_NAME):
         print(CASES_FILE_NAME + " exists, not re-downloading.")
     else:
-        os.system("wget 'https://github.com/globaldothealth/list/raw/main/data/cases.tar.gz'")
+        os.system("wget '" + SRC_URL + "'")
         os.system("tar xzf cases.tar.gz")
 
     print("Loading cases...")
