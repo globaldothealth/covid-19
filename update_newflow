@@ -19,11 +19,7 @@ if __name__ == "__main__":
     cases = processor.load_case_data(CASES_FILE_NAME, 1000)
     print("Extracting location data...")
     processor.extract_location_info(cases, LOCATION_INFO_FILE_NAME)
-    # Sort the location info data
-    bup = LOCATION_INFO_FILE_NAME + ".bup"
-    os.system(
-        "mv " + LOCATION_INFO_FILE_NAME + " " + bup)
-    os.system("sort " + bup + " > " + LOCATION_INFO_FILE_NAME)
+    os.system("./sanitize_location_info")
 
     print("Pruning data...")
     pruned_cases = processor.prune_cases(cases)
