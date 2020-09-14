@@ -1,0 +1,25 @@
+#!/usr/bin/python3
+
+import json
+import sys
+
+def get_case_count(j):
+    obj = json.loads(j)
+    if "date" in obj:
+        obj = obj["features"]
+    return len(obj)
+
+def print_case_count_for_file(p):
+    with open(p) as f:
+        contents = f.read()
+        f.close()
+    count = get_case_count(contents)
+    print("File '" + p + "' contains " + str(count) + " cases")
+    return count
+
+if __name__ == "__main__":
+    acc = 0
+    for f in sys.argv[1:]:
+        acc += print_case_count_for_file(f)
+    if len(sys.argv) > 2:
+        print("Total: " + str(acc) + " cases")
