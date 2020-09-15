@@ -46,7 +46,7 @@ def should_ignore_country(name):
     return name in IGNORED_COUNTRY_NAMES
 
 def code_from_name(name):
-    code = data_util.country_code_from_name(name)
+    code = country_code_from_name(name)
     if code:
         return code
     return code_for_nonstandard_country_name(name)
