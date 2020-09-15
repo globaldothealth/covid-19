@@ -7,6 +7,13 @@ from tools import data_util, generate_full_data
 
 SELF_DIR = os.path.dirname(os.path.realpath(__file__))
 
+def check_for_common_repo():
+    if not os.path.exists("../common"):
+        print("Please clone the 'common' repo as a sibling of this one:")
+        print("cd .. && git clone git@github.com:ghdsi/common.git")
+        return False
+    return True
+
 def clean():
     for daily in glob.glob("d/*.json"):
         os.remove(daily)
@@ -28,5 +35,6 @@ def update():
     os.system("git add d/*.json")
 
 if __name__ == "__main__":
-    clean()
-    update()
+    if check_for_common_repo():
+        clean()
+        update()

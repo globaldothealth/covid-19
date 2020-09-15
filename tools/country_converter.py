@@ -1,11 +1,46 @@
 from tools import data_util
 
+# The file that contains mappings from country names to ISO codes.
+COUNTRY_DATA_FILE = "../common/countries.data"
+
+COUNTRIES_ISO_TO_NAME = {}
+COUNTRIES_NAME_TO_ISO = {}
+
 IGNORED_COUNTRY_NAMES = [
     "Cruise Ship",
     "Diamond Princess",
     "MS Zaandam",
     "Others",
 ]
+
+def initialize_country_names_and_codes():
+    global COUNTRIES_ISO_TO_NAME
+    global COUNTRIES_NAME_TO_ISO
+    if len(COUNTRIES_ISO_TO_NAME) > 1:
+        return
+    COUNTRIES_ISO_TO_NAME = {}
+    with open(COUNTRY_DATA_FILE) as f:
+        data = f.read().strip()
+        f.close()
+    pairs = data.split('\n')
+    for p in pairs:
+        (continent, code, name, population, _) = p.split(":")
+        COUNTRIES_ISO_TO_NAME[code] = name
+        COUNTRIES_NAME_TO_ISO[name.lower()] = code
+
+def get_all_countries():
+    """Returns a dictionary of country ISO codes to their name."""
+    return COUNTRIES_ISO_TO_NAME
+    if len(COUNTRIES_ISO_TO_NAME) > 0:
+        return COUNTRIES_ISO_TO_NAME
+
+
+def country_code_from_name(name):
+    # Are we being passed something that's already a code?
+    if len(name) == 2 and name == name.upper():
+        return name
+    if name.lower() in COUNTRIES_NAME_TO_ISO:
+        return COUNTRIES_NAME_TO_ISO[name.lower()]
 
 def should_ignore_country(name):
     return name in IGNORED_COUNTRY_NAMES
@@ -81,3 +116,7 @@ def code_for_nonstandard_country_name(name):
     if ("West Bank" in name and "Gaza" in name) or "Palestin" in name:
         return "PS"
     return None
+
+# Fetch country names and codes at module initialization time to avoid doing it
+# repeatedly.
+initialize_country_names_and_codes()

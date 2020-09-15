@@ -2,11 +2,9 @@ import os
 import pandas
 
 from tools import calculate_data_freshness_per_country
+from tools import country_converter
 from tools import generate_full_data
 from tools import jhu_global_data
-
-# The file that contains mappings from country names to ISO codes.
-COUNTRY_DATA_FILE = "../common/countries.data"
 
 # The directories (inside app/) where JSON files for country-specific and
 # day-specific data are expected to reside.
@@ -14,41 +12,6 @@ COUNTRIES_DIR = "app/countries"
 DAILIES_DIR = "app/dailies"
 
 self_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), "..")
-
-COUNTRIES_ISO_TO_NAME = {}
-COUNTRIES_NAME_TO_ISO = {}
-
-
-def initialize_country_names_and_codes():
-    global COUNTRIES_ISO_TO_NAME
-    global COUNTRIES_NAME_TO_ISO
-    if len(COUNTRIES_ISO_TO_NAME) > 1:
-        return
-    COUNTRIES_ISO_TO_NAME = {}
-    with open(COUNTRY_DATA_FILE) as f:
-        data = f.read().strip()
-        f.close()
-    pairs = data.split('\n')
-    for p in pairs:
-        (continent, code, name, population, _) = p.split(":")
-        COUNTRIES_ISO_TO_NAME[code] = name
-        COUNTRIES_NAME_TO_ISO[name.lower()] = code
-
-
-def get_all_countries():
-    """Returns a dictionary of country ISO codes to their name."""
-    return COUNTRIES_ISO_TO_NAME
-    if len(COUNTRIES_ISO_TO_NAME) > 0:
-        return COUNTRIES_ISO_TO_NAME
-
-
-def country_code_from_name(name):
-    # Are we being passed something that's already a code?
-    if len(name) == 2 and name == name.upper():
-        return name
-    if name.lower() in COUNTRIES_NAME_TO_ISO:
-        return COUNTRIES_NAME_TO_ISO[name.lower()]
-
 
 def build_case_count_table_from_line_list(in_data):
     """
@@ -113,7 +76,7 @@ def compile_location_info(in_data, out_file,
             if name == "nan":
                 code = ""
             else:
-                code = country_code_from_name(name)
+                code = country_converter.country_code_from_name(name)
             # Some special cases.
             if code == "" and item[keys[1]] == "Taiwan":
                 code = "TW"
@@ -129,7 +92,3 @@ def compile_location_info(in_data, out_file,
     with open(out_file, "w") as f:
         f.write("\n".join(output))
         f.close()
-
-# Fetch country names and codes at module initialization time to avoid doing it
-# repeatedly.
-initialize_country_names_and_codes()
