@@ -4,6 +4,7 @@ import json
 import os
 import multiprocessing
 
+from tools import country_converter
 from tools import data_util
 
 def normalize_date(date):
@@ -123,7 +124,7 @@ def slice_by_country_and_export(data_frame, out_dir, overwrite=True, quiet=False
         os.mkdir(out_dir)
     for g in groups:
         (country, frame) = g
-        code = data_util.country_code_from_name(country.lower())
+        code = country_converter.country_code_from_name(country.lower())
         write_single_country_data(code, frame, out_dir, overwrite)
 
 
