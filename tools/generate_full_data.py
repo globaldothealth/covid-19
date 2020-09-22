@@ -4,7 +4,6 @@ Pull data from latestdata.csv, and JHU repo for US
 split into daily slices.
 """
 
-import argparse
 import os
 import re
 import sys
@@ -23,32 +22,6 @@ from tools import split
 JHU_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv"
 
 LATEST_DATA_URL = "https://raw.githubusercontent.com/beoutbreakprepared/nCoV2019/master/latest_data/latestdata.tar.gz"
-
-
-parser = argparse.ArgumentParser(description="Generate data for the frontend")
-
-parser.add_argument("out_dir", type=str, default=".", help="path to dailies directory")
-
-parser.add_argument("-l", "--latest", type=str, default=False,
-    help="path to read latestdata.csv locally, fetch from github otherwise"
-)
-
-parser.add_argument("-f", "--full", type=str, default=False,
-    help="option to save full-data"
-)
-
-parser.add_argument("-j", "--jhu", type=str, default=False,
-    help="Option to save jhu data (before formating)"
-)
-
-parser.add_argument("-t", "--timeit", action="store_const", const=True,
-    help="option to print execution time"
-)
-
-parser.add_argument("--input_jhu", default="", type=str,
-    help="read from local jhu file"
-)
-
 
 def generate_geo_ids(df, lat_field_name, lng_field_name, quiet=False):
     if not quiet:
@@ -228,16 +201,3 @@ def generate_data(dailies_out_dir, countries_out_dir, jhu=False, input_jhu="",
               "location_info.data")
     os.remove("location_info_world.data")
     os.remove("location_info_us.data")
-
-
-if __name__ == "__main__":
-    args = parser.parse_args()
-
-    if args.timeit:
-        import time
-        t0 = time.time()
-
-    generate_data(args.out_dir, args.jhu, args.input_jhu, args.full)
-
-    if args.timeit:
-        print(round(time.time() - t0, 2), "seconds")
