@@ -4,7 +4,8 @@ import json
 import os
 import multiprocessing
 
-from tools import country_converter
+import country_converter
+
 from tools import data_util
 
 def normalize_date(date):

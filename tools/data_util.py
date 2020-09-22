@@ -1,8 +1,9 @@
 import os
 import pandas
 
+import country_converter
+
 from tools import calculate_data_freshness_per_country
-from tools import country_converter
 from tools import generate_full_data
 from tools import jhu_global_data
 

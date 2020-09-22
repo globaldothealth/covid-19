@@ -5,9 +5,9 @@ import csv
 import sys
 import json
 
+import country_converter
 import requests
 
-from tools import country_converter
 from tools import data_util
 
 def get_aggregate_data(outfile):
