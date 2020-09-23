@@ -19,9 +19,12 @@ from tools import data_util
 from tools import functions
 from tools import split
 
-JHU_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv"
+JHU_URL = ("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/"
+           "csse_covid_19_data/csse_covid_19_time_series/"
+           "time_series_covid19_confirmed_US.csv")
 
-LATEST_DATA_URL = "https://raw.githubusercontent.com/beoutbreakprepared/nCoV2019/master/latest_data/latestdata.tar.gz"
+LATEST_DATA_URL = ("https://raw.githubusercontent.com/beoutbreakprepared/"
+                   "nCoV2019/master/latest_data/latestdata.tar.gz")
 
 def generate_geo_ids(df, lat_field_name, lng_field_name, quiet=False):
     if not quiet:
