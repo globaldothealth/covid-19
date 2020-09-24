@@ -125,7 +125,7 @@ def slice_by_country_and_export(data_frame, out_dir, overwrite=True, quiet=False
         os.mkdir(out_dir)
     for g in groups:
         (country, frame) = g
-        code = country_converter.country_code_from_name(country.lower())
+        code = country_converter.code_from_name(country.lower())
         write_single_country_data(code, frame, out_dir, overwrite)
 
 
