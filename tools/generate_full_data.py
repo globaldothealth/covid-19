@@ -15,6 +15,8 @@ import pandas as pd
 pd.options.mode.chained_assignment = None
 import requests
 
+import location_info_extractor
+
 from tools import data_util
 from tools import functions
 from tools import split
@@ -96,9 +98,9 @@ def prepare_latest_data(countries_out_dir, overwrite=True, quiet=False):
     # the geo_id.
     if not quiet:
         print("Extracting location info...")
-    data_util.compile_location_info(df.to_dict("records"),
-                                    "location_info_world.data",
-                                    quiet=quiet)
+    location_info_extractor.compile_location_info(df.to_dict("records"),
+                                                  "location_info_world.data",
+                                                  quiet=quiet)
     df = df.rename(columns={"date_confirmation": "date"})
     df = df.drop(["city", "province", "latitude", "longitude"], axis=1)
     if not quiet:
@@ -140,7 +142,7 @@ def prepare_jhu_data(outfile, read_from_file, quiet=False):
 
     generate_geo_ids(df, "Lat", "Long_", quiet=quiet)
 
-    data_util.compile_location_info(df.to_dict("records"),
+    location_info_extractor.compile_location_info(df.to_dict("records"),
         "location_info_us.data",
         keys=["Country_Region", "Province_State", "Admin2"],
         quiet=quiet)
