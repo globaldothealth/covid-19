@@ -1,9 +1,8 @@
 import json
 import os
 
+import country_converter
 import geo_util
-
-from tools import country_converter
 from tools import data_util
 
 LAT_LNG_DECIMAL_PLACES = 4

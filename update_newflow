@@ -3,8 +3,6 @@
 import os
 import sys
 
-from tools import case_data_processor as processor
-
 # Note that this is hard-coded to the exported version from 2020-08-19 because
 # the version after that only includes new data. When the strategy to merge the
 # new and old data has been decided, we can start importing data from the head
@@ -51,6 +49,7 @@ def update():
 
 if __name__ == "__main__":
     if check_for_common_repo():
+        print("Importing common tools")
         sys.path.insert(0, "../common/tools")
-        from tools import geo_util
+        from tools import case_data_processor as processor
         update()
