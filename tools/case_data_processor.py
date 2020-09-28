@@ -1,6 +1,8 @@
 import json
 import os
 
+import geo_util
+
 from tools import country_converter
 from tools import data_util
 
@@ -19,26 +21,15 @@ def get_confirm_date(case):
 
 def normalize_geo_id(in_geo_id):
     (lat, lng) = [float(l) for l in in_geo_id.split("|")]
-    return normalize_latlng(lat) + "|" + normalize_latlng(lng)
-
-def normalize_latlng(latlng):
-    latlng = str(latlng)
-    if "." not in latlng:
-        latlng += ".0"
-    (int_part, dec_part) = str(latlng).split(".")
-    if len(dec_part) == LAT_LNG_DECIMAL_PLACES:
-        return str(latlng)
-    if len(dec_part) > LAT_LNG_DECIMAL_PLACES:
-        return int_part + "." + dec_part[:LAT_LNG_DECIMAL_PLACES]
-    dec_part = dec_part + "0" * (LAT_LNG_DECIMAL_PLACES - len(dec_part))
-    return int_part + "." + dec_part
+    return geo_util.make_geoid(lat, lng)
 
 def get_geo_id(case):
     if "location" not in case or "geometry" not in case["location"]:
         return None
     lat = case["location"]["geometry"]["latitude"]
     lng = case["location"]["geometry"]["longitude"]
-    return normalize_latlng(lat) + "|" + normalize_latlng(lng)
+    return geo_util.make_geoid(lat, lng)
+    # return normalize_latlng(lat) + "|" + normalize_latlng(lng)
 
 def load_case_data(file_path):
     lines = []

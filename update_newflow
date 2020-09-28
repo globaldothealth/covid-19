@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import os
+import sys
 
 from tools import case_data_processor as processor
 
@@ -15,7 +16,14 @@ CASES_FILE_NAME = "cases.json"
 LOCATION_INFO_FILE_NAME = "location_info.data"
 SELF_DIR = os.path.dirname(os.path.realpath(__file__))
 
-if __name__ == "__main__":
+def check_for_common_repo():
+    if not os.path.exists("../common"):
+        print("Please clone the 'common' repo as a sibling of this one:")
+        print("cd .. && git clone git@github.com:globaldothealth/common.git")
+        return False
+    return True
+
+def update():
     if os.path.exists(CASES_FILE_NAME):
         print(CASES_FILE_NAME + " exists, not re-downloading.")
     else:
@@ -23,20 +31,26 @@ if __name__ == "__main__":
         os.system("tar xzf cases.tar.gz")
 
     print("Loading cases...")
-    CASES = processor.load_case_data(CASES_FILE_NAME)
-    print("Loaded " + str(len(CASES)) + " cases")
+    cases = processor.load_case_data(CASES_FILE_NAME)
+    print("Loaded " + str(len(cases)) + " cases")
     print("Extracting location data...")
-    processor.extract_location_info(CASES, LOCATION_INFO_FILE_NAME)
+    processor.extract_location_info(cases, LOCATION_INFO_FILE_NAME)
     os.system("./sanitize_location_info")
 
     print("Pruning data...")
-    PRUNED_CASES = processor.prune_cases(CASES)
+    pruned_cases = processor.prune_cases(cases)
 
     os.system("rm " + os.path.join(SELF_DIR, "d") + "/*")
-    processor.output_daily_slices(PRUNED_CASES,
+    processor.output_daily_slices(pruned_cases,
                                   os.path.join(SELF_DIR, "d"),)
     # TODO: Also output country slices.
     # os.system("rm " + os.path.join(SELF_DIR, "c") + "/*")
     # processor.output_country_slices(pruned_cases,
                                     # os.path.join(SELF_DIR, "c"))
     # print(pruned_cases)
+
+if __name__ == "__main__":
+    if check_for_common_repo():
+        sys.path.insert(0, "../common/tools")
+        from tools import geo_util
+        update()
