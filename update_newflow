@@ -38,7 +38,6 @@ def update():
     print("Pruning data...")
     pruned_cases = processor.prune_cases(cases)
 
-    os.system("rm " + os.path.join(SELF_DIR, "d") + "/*")
     processor.output_daily_slices(pruned_cases,
                                   os.path.join(SELF_DIR, "d"),)
     # TODO: Also output country slices.
@@ -52,4 +51,6 @@ if __name__ == "__main__":
         print("Importing common tools")
         sys.path.insert(0, "../common/tools")
         from tools import case_data_processor as processor
+        import util
+        util.clean()
         update()
