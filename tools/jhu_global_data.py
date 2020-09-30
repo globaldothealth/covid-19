@@ -18,7 +18,8 @@ def get_aggregate_data(outfile):
 
     # Keep fetching data while there's more. Sometimes, depending on the time
     # of day, the data for the previous day isn't available yet. We don't give
-    # up until we've had at least one successful fetch.
+    # up until we've had at least one successful fetch and then an unsuccessful
+    # fetch.
     days_ago = 1
     now = datetime.now()
     while days_ago <= max_days + 1:
@@ -34,7 +35,7 @@ def get_aggregate_data(outfile):
         days_ago += 1
 
     with open(outfile, 'w') as f:
-        json.dump(data, f)
+        json.dump(data, f, sort_keys=True)
         f.close()
     return True
 
