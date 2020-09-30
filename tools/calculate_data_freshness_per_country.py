@@ -27,7 +27,7 @@ def get_freshness(out_path):
         country_to_freshness_date[code] = latest_date
 
     with open(out_path, "w") as f:
-        f.write(json.dumps(country_to_freshness_date), sort_keys=True)
+        f.write(json.dumps(country_to_freshness_date, sort_keys=True))
         f.close()
 
     return True
