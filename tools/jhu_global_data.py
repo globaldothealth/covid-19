@@ -28,6 +28,10 @@ def get_aggregate_data(outfile):
         if not len(current_data):
             if one_successful_fetch:
                 # This is the end, my only friend
+                print("We are fetching data into the past until we get a '404',"
+                      "indicating that this is as far back as the data goes. "
+                      "A '404' error is thus expected towards the end of this "
+                      "fetching process.")
                 break
 
         one_successful_fetch = True
