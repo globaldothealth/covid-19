@@ -3,12 +3,10 @@
 import os
 import sys
 
-# Note that this is hard-coded to the exported version from 2020-08-19 because
-# the version after that only includes new data. When the strategy to merge the
-# new and old data has been decided, we can start importing data from the head
-# of the tree again.
+# TODO: There's a bug in month/day order in the newer data dumps. Let's get one
+# from the history for now.
 SRC_URL = "https://github.com/globaldothealth/list/raw/14d1f99394842794d7184e3423eaa18e68b275d7/data/cases.tar.gz"
-# SRC_URL = "https://github.com/globaldothealth/list/raw/main/data/cases.tar.gz"
+#SRC_URL = "https://github.com/globaldothealth/list/raw/main/data/cases.tar.gz"
 
 CASES_FILE_NAME = "cases.json"
 LOCATION_INFO_FILE_NAME = "location_info.data"
@@ -33,7 +31,7 @@ def update():
     print("Loaded " + str(len(cases)) + " cases")
     print("Extracting location data...")
     processor.extract_location_info(cases, LOCATION_INFO_FILE_NAME)
-    os.system("./sanitize_location_info")
+    os.system("../common/tools/sanitize_location_info")
 
     print("Pruning data...")
     pruned_cases = processor.prune_cases(cases)
@@ -51,6 +49,6 @@ if __name__ == "__main__":
         print("Importing common tools")
         sys.path.insert(0, "../common/tools")
         from tools import case_data_processor as processor
-        import util
-        util.clean()
+        import geo_util
+        geo_util.clean()
         update()
