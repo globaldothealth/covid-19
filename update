@@ -31,5 +31,6 @@ if __name__ == "__main__":
     if check_for_common_repo():
         sys.path.insert(0, "../common/tools")
         from tools import data_util, generate_full_data
+        import geo_util
         geo_util.clean()
         update()
