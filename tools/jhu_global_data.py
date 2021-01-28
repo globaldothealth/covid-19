@@ -77,7 +77,7 @@ def fetch_one_day(date):
         for i in range(len(keys)):
             key = keys[i]
             if key in row and row[key] != "":
-                data[code][i] += int(row[key].replace(",", ""))
+                data[code][i] += int(float(row[key].replace(",", "")))
     for code in data:
         entry = {"cum_conf": data[code][0], "deaths": data[code][1], "code": code}
         features.append(entry)
